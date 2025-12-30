@@ -1,0 +1,9 @@
+
+_backups/
+
+site/
+
+# Bibliografía convertida pesada (no se versiona)
+**/* conv.html
+# artifacts generados (no versionar)
+*conv.html

@@ -1,0 +1,27 @@
+# 01 — Cerveza
+
+Listado de fuentes en PDF.
+
+- [Michael Jackson — El libro de la cerveza (01)](<01_Michael Jackson-El-libro-De-La-Cerveza-1.pdf>)
+- [Michael Jackson — El libro de la cerveza (02)](<02_Michael Jackson-El-libro-De-La-Cerveza-1.pdf>)
+- [Beer for all seasons (OCR)](<Beer-for-all-seasons-a-through-the-year-guide-to-what-to-drink-and-when-to-drink-it-OCR.pdf>)
+- [Beer Pairing — The Essential Guide](<Beer-Pairing-The-Essential-Guide-from-the-Pairing-Pros.pdf>)
+- [Cómo hacer cerveza — John Palmer](<Como-Hacer-Cerveza-John-Palmer.pdf>)
+- [Contaminantes microbianos en cervezas artesanales (Patagonia Andina)](<Contaminantes microbianos en cervezas artesanales embotelladas de la Patagonia andina argentina.pdf>)
+- [Designing Great Beers (Español)](<Designing-Great-Beers-Espanol.pdf>)
+- [Extreme Brewing](<Extreme-Brewing-00.pdf>)
+- [For the Love of Hops — Stan Hieronymus (OCR)](<For the love of Hops-Stan Hieronymus_01_OCR.pdf>)
+- [La Cerveza, Poesía Líquida — Steve Huxley](<La-Cerveza-Poesia-Liquida-Steve-Huxley.pdf>)
+- [Leva CONICET](<leva conicet.pdf>)
+- [Malt](<Malt PDF.pdf>)
+- [Brewing Microbiology / Microbial Ecology (Caister, 2017)](<Microbial_Ecology-Caister_Academic_Press(2017).pdf>)
+- [Microbiología](<Microbiologia.pdf>)
+- [Quality management — Mary Pellettieri (2015)](<Pellettieri, Mary-Quality management _ essential planning for breweries-Brewers Publications (2015).pdf>)
+- [Radical Brewing — Mosher & Jackson (2004)](<Randy Mosher_Michael Jackson-Radical Brewing-Brewers_Publications _(2004).pdf>)
+- [Reacciones químicas en la cerveza](<Reaccione Quimicas en la Cerveza.pdf>)
+- [Tasting Beer — Randy Mosher (Español)](<Tasting-Beer-Randy-Mosher-ESPANOL.pdf>)
+- [The Brewmaster’s Bible — Stephen Snyder](<The Brewmasters Bible - Stephen Snyder.pdf>)
+- [The New IPA — Scientific Guide (traducido)](<THE NEW IPA SCIENTIFIC GUIDE-CON PORTADA.pdf>)
+- [The chemistry of beer](<The_chemistry_of_beer.pdf>)
+- [Water — Palmer (ES)](<Water-a-Comprehensive-Guide-Fo-Palmer-en-Es.pdf>)
+- [Yeast — The Practical Guide (traducido)](<Yeast-The-Practical-Guide-to-Beer-Fermentation-TRADUCIDO-AL-ESPANOL.pdf>)
