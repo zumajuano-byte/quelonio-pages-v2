@@ -1,67 +1,67 @@
-﻿# Sistema tampÃ³n carbonato (el â€œresorteâ€ del pH)
+﻿# Sistema tampón carbonato (el “resorte” del pH)
 
-## 1) QuÃ© es y por quÃ© importa
-El sistema tampÃ³n carbonato es el principal responsable de que el agua:
+## 1) Qué es y por qué importa
+El sistema tampón carbonato es el principal responsable de que el agua:
 - **resista** el ajuste de pH
-- se comporte distinto segÃºn su composiciÃ³n
-- obligue a pensar en alcalinidad, no solo en â€œpH de la canillaâ€
+- se comporte distinto según su composición
+- obligue a pensar en alcalinidad, no solo en pH de la canilla
 
 ---
 
-## 2) Especies quÃ­micas principales
+## 2) Especies químicas principales
 El sistema carbonato incluye:
-- Ã¡cido carbÃ³nico (Hâ‚‚COâ‚ƒ)
-- bicarbonato (HCOâ‚ƒâ»)
-- carbonato (COâ‚ƒÂ²â»)
+- ácido carbónico (H2CO3)
+- bicarbonato (HCO3-)
+- carbonato (CO3^2-)
 
-La proporciÃ³n depende del pH.
+La proporción depende del pH.
 
-ConexiÃ³n directa con el COâ‚‚ disuelto:
-COâ‚‚ + Hâ‚‚O â‡Œ Hâ‚‚COâ‚ƒ â‡Œ Hâº + HCOâ‚ƒâ»
+Conexión directa con el CO2 disuelto:
+CO2 + H2O ⇌ H2CO3 ⇌ H+ + HCO3 ⇌ 2H+ + CO3^2-
 
 ---
 
 ## 3) Zona relevante para cerveza
-El mash ocurre tÃ­picamente entre pH 5.2â€“5.6. 
+El mash ocurre típicamente entre pH 5.2–5.6.
 En este rango:
-- predomina HCOâ‚ƒâ» (bicarbonato)
-- pequeÃ±as variaciones (en alcalinidad y Ca) generan impactos grandes en pH de mash y comportamiento del proceso
+- predomina HCO3- (bicarbonato)
+- pequeñas variaciones (en alcalinidad y Ca) generan impactos grandes en pH de mash y comportamiento del proceso
 
 ---
 
-## 4) CÃ³mo se conecta con â€œalcalinidad residual (RA)â€
-El concepto operativo Ãºtil es la **alcalinidad residual (RA)**: alcalinidad que â€œquedaâ€ luego del efecto de Ca y Mg.
+## 4) Cómo se conecta con alcalinidad residual (RA)
+El concepto operativo útil es la **alcalinidad residual (RA)**: alcalinidad que queda luego del efecto de Ca y Mg.
 
-FÃ³rmula prÃ¡ctica (ppm como CaCOâ‚ƒ):
-RA = Alcalinidad âˆ’ [(Ca/1.4) + (Mg/1.7)]
+Fórmula práctica (ppm como CaCO3):
+RA = Alcalinidad - [(Ca/1.4) + (Mg/1.7)]
 
-InterpretaciÃ³n directa:
-- RA positiva â†’ empuja pH del mash hacia arriba
-- RA negativa â†’ empuja pH del mash hacia abajo
+Interpretación directa:
+- RA positiva -> empuja pH del mash hacia arriba
+- RA negativa -> empuja pH del mash hacia abajo
 
-Para el detalle completo de â€œpH vs alcalinidadâ€: [20_pH_vs_Alcalinidad](20_pH_vs_Alcalinidad.md)
-
----
-
-## 5) Implicancia clave: por quÃ© el calcio ayuda
-Kolbach mostrÃ³ que podÃ©s manipular pH del mash hacia valores â€œnormalesâ€ (o menores) mediante adiciÃ³n de sales de calcio y magnesio (entre otras palancas). 
-En la prÃ¡ctica, el calcio actÃºa como palanca estructural (ver 40): [40_Rol_del_Calcio](40_Rol_del_Calcio.md)
+Para el detalle completo de pH vs alcalinidad: [20_pH_vs_Alcalinidad](20_pH_vs_Alcalinidad.md)
 
 ---
 
-## 6) â€œGateâ€ prÃ¡ctico en sparge (evitar astringencia / extracciÃ³n fea)
-Un problema tÃ­pico es que, hacia el final del lavado, el pH puede subir y arrastrar compuestos que arruinan sabor.
+## 5) Implicancia clave: por qué el calcio ayuda
+Kolbach mostró que podés manipular pH del mash hacia valores “normales” (o menores) mediante adición de sales de calcio y magnesio (entre otras palancas).
+En la práctica, el calcio actúa como palanca estructural (ver 40): [40_Rol_del_Calcio](40_Rol_del_Calcio.md)
+
+---
+
+## 6) Gate práctico en sparge (evitar astringencia / extracción fea)
+Un problema típico es que, hacia el final del lavado, el pH puede subir y arrastrar compuestos que arruinan sabor.
 
 Guardrail operativo:
 - detener el lavado si el pH sube a ~5.8 (o si la densidad del drenaje cae demasiado)
-- mejor soluciÃ³n: **acidificar el agua de sparge** para mantener el sistema en rango objetivo y evitar que el pH del mash suba por arriba de 5.8
+- mejor solución: **acidificar el agua de sparge** para mantener el sistema en rango objetivo y evitar que el pH del mash suba por arriba de 5.8
 
 ---
 
-## 7) QuÃ© registrar (mÃ­nimo)
-- alcalinidad (ppm como CaCOâ‚ƒ) y Ca/Mg
-- RA estimada (aunque sea â€œaproxâ€)
-- adiciones (sales/Ã¡cidos)
+## 7) Qué registrar (mínimo)
+- alcalinidad (ppm como CaCO3) y Ca/Mg
+- RA estimada (aunque sea aprox.)
+- adiciones (sales/ácidos)
 - pH real del mash (medido a temperatura ambiente)
-- pH en sparge / runnings (si medÃ­s), o el criterio de corte (pH o gravedad)
+- pH en sparge / runnings (si medís), o el criterio de corte (pH o gravedad)
 

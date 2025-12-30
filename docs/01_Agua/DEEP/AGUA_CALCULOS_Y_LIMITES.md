@@ -3,10 +3,16 @@ status: stable
 operational_level: P0
 last_reviewed: 2025-12-22
 owner: Juan
-source: internal
+source: source: internal (operativo; canon en REGLAS_INDEX + reglas R-xxxx)
 ---
 
 # Agua — Cálculos y límites operativos (v0.1)
+
+> **Autoridad / Canon**
+> - Este documento es **P0 operativo**: describe *inputs, outputs y procedimiento*.
+> - Los rangos y decisiones **NO son canon** salvo que estén definidos como **Reglas (R-xxxx)** con `FuenteID` + `Evidencia`.
+> - El **canon** vive en: `99_Indice_y_Mapas/REGLAS_INDEX.md` + reglas dentro de cada tema.
+> - Si un rango aparece acá como DEFAULT, se considera **provisional** hasta que exista su Regla (R-xxxx) citada.
 
 Objetivo: que el asistente pueda:
 - traducir un perfil de agua a acciones (sales/acidos)
@@ -102,3 +108,26 @@ Este bloque es para que el asistente produzca un “plan de agua”.
 - Edición/Año:
 - Sección/pág:
 - Nota: rangos recomendados, efectos sensoriales, metodologías de ajuste.
+
+---
+
+## 7) Canon relacionado (links a reglas)
+> Esta sección existe para que el asistente “salte” al canon sin ambigüedad.
+
+### Desinfectantes (cloro / cloramina) — canon ya implementado
+- R-0029 → [ver](../Agua_Parte4_DEEP/150_Desinfectantes_Cloro_Cloramina.md#r-0029)
+- R-0030 → [ver](../Agua_Parte4_DEEP/150_Desinfectantes_Cloro_Cloramina.md#r-0030)
+- R-0031 → [ver](../Agua_Parte4_DEEP/150_Desinfectantes_Cloro_Cloramina.md#r-0031)
+- R-0032 → [ver](../Agua_Parte4_DEEP/150_Desinfectantes_Cloro_Cloramina.md#r-0032)
+- R-0033 → [ver](../Agua_Parte4_DEEP/150_Desinfectantes_Cloro_Cloramina.md#r-0033)
+- R-0034 → [ver](../Agua_Parte4_DEEP/150_Desinfectantes_Cloro_Cloramina.md#r-0034)
+- R-0035 → [ver](../Agua_Parte4_DEEP/150_Desinfectantes_Cloro_Cloramina.md#r-0035)
+- R-0036 → [ver](../Agua_Parte4_DEEP/150_Desinfectantes_Cloro_Cloramina.md#r-0036)
+- R-0037 → [ver](../Agua_Parte4_DEEP/150_Desinfectantes_Cloro_Cloramina.md#r-0037)
+- R-0038 → [ver](../Agua_Parte4_DEEP/150_Desinfectantes_Cloro_Cloramina.md#r-0038)
+- R-0039 → [ver](../Agua_Parte4_DEEP/150_Desinfectantes_Cloro_Cloramina.md#r-0039)
+- R-0040 → [ver](../Agua_Parte4_DEEP/150_Desinfectantes_Cloro_Cloramina.md#r-0040)
+
+### Rangos por estilo / targets de sales / pH — (pendiente de canonizar)
+- (PENDIENTE) Perfiles IPA / Cl vs SO4 → canonizar en `Agua_Parte2_DEEP/70_Perfiles_Agua_para_IPA.md`
+- (PENDIENTE) pH mash (alto/bajo) → canonizar en `Agua_Parte2_DEEP/50_pH_en_el_Mash.md` o `Agua_Parte1_DEEP/20_pH_vs_Alcalinidad.md`
