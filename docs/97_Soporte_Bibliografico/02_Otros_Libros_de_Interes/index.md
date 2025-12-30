@@ -1,6 +1,6 @@
 # 02 — Otros libros de interés
 
-- [Código alimentario](<Codigoalimenticio.pdf>)
+- [Código alimentario](<codigoalimenticio.pdf>)
 - [Fundamentos de diseño gráfico](<Fundamentos_diseno_grafico.pdf>)
 - [Gestión logística](<gestion_logistica.pdf>)
 - [Guía Cerveza 2016](<Guia_Cerveza_2016.pdf>)
