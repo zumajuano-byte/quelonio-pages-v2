@@ -1,0 +1,2048 @@
+
+<!doctype html>
+<html lang="es" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Biblioteca operativa y técnica para diseño, producción y QA/QC (Quelonio Brew).">
+      
+      
+      
+        <link rel="canonical" href="https://zumajuano-byte.github.io/quelonio-pages/09_Empaque_Estabilidad/DEEP/10_Priming_y_carbonatacion_en_botella/">
+      
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.0">
+    
+    
+      
+        <title>10 — Priming y carbonatación en botella (gates, cálculo y fallas) - Quelonio — Biblia Cervecera</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.618322db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#10-priming-y-carbonatacion-en-botella-gates-calculo-y-fallas" class="md-skip">
+          Saltar a contenido
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Cabecera">
+    <a href="../../.." title="Quelonio — Biblia Cervecera" class="md-header__button md-logo" aria-label="Quelonio — Biblia Cervecera" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Quelonio — Biblia Cervecera
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              10 — Priming y carbonatación en botella (gates, cálculo y fallas)
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Búsqueda" placeholder="Búsqueda" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Buscar">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Limpiar" aria-label="Limpiar" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicializando búsqueda
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/zumajuano-byte/quelonio-pages" title="Ir al repositorio" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    zumajuano-byte/quelonio-pages
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navegación" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="Quelonio — Biblia Cervecera" class="md-nav__button md-logo" aria-label="Quelonio — Biblia Cervecera" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Quelonio — Biblia Cervecera
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/zumajuano-byte/quelonio-pages" title="Ir al repositorio" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    zumajuano-byte/quelonio-pages
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Inicio
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    OS Boot
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    OS Boot
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../99_Indice_y_Mapas/START_HERE/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    START HERE
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../99_Indice_y_Mapas/LAUNCHER/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    LAUNCHER
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../99_Indice_y_Mapas/SESSIONS_LOG/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    SESSIONS LOG
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../99_Indice_y_Mapas/CONTRATO_ESTRUCTURA/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Contrato de estructura
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_5" id="__nav_2_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Proyectos (estado vivo)
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Proyectos (estado vivo)
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../99_Indice_y_Mapas/PROYECTO_BIBLIA/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Biblia (Pages)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../99_Indice_y_Mapas/PROYECTO_WEB_API/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Web + API (MVP)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../99_Indice_y_Mapas/PROYECTO_LATAS/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Latas (Branding)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../99_Indice_y_Mapas/ASISTENTE_V1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Asistente v1
+  
+
+    
+  </span>
+  
+  
+    
+  
+  
+    <span class="md-status md-status--stable"></span>
+  
+
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_6" id="__nav_2_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Plantillas
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Plantillas
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../99_Indice_y_Mapas/PLANTILLAS/SPEC_v1_0/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    SPEC v1.0
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../99_Indice_y_Mapas/Home/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home interno
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../99_Indice_y_Mapas/Mapa_General_Quelonio/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Mapa general
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../00_Glosario/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Glosario
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Módulos
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Módulos
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../01_Agua/01_Agua/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Agua
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../02_Malta/02_Malta/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Malta
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../03_Levadura/03_Levadura/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Levadura
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../04_Lupulo/04_Lupulo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Lúpulo
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../05_Sistemas_IPA_Moderna/05_Sistemas_IPA_Moderna/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    IPA Moderna
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../06_Procesos_QA_QC/06_Procesos_QA_QC/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Procesos QA/QC
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_7" id="__nav_4_7_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Fermentación y maduración
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_7">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Fermentación y maduración
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../07_Fermentacion_Maduracion/07_Fermentacion_Maduracion/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../07_Fermentacion_Maduracion/Conceptos_base/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Conceptos base
+  
+
+    
+  </span>
+  
+  
+    
+  
+  
+    <span class="md-status md-status--draft"></span>
+  
+
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../07_Fermentacion_Maduracion/Control_de_fermentacion/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Control de fermentación
+  
+
+    
+  </span>
+  
+  
+    
+  
+  
+    <span class="md-status md-status--active"></span>
+  
+
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_8" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_8" id="__nav_4_8_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Recetas y formulación
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_8">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Recetas y formulación
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../08_Recetas_Formulacion/08_Recetas_Formulacion/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../08_Recetas_Formulacion/Calculos_rapidos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cálculos rápidos
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../09_Empaque_Estabilidad/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Empaque y estabilidad
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../10_Limpieza_Sanitizacion/10_Limpieza_Sanitizacion/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Limpieza y sanitización
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../11_Sensorial/11_Sensorial/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Sensorial
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Verdad de negocio
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Verdad de negocio
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../98_Verdad_Negocio/98_Verdad_Negocio/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../98_Verdad_Negocio/01_Economia_Unitaria/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Economía unitaria
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../98_Verdad_Negocio/02_Operaciones/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Operaciones
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../98_Verdad_Negocio/03_Specs_Recetas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Specs recetas
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../98_Verdad_Negocio/04_QAQC/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    QA/QC
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../98_Verdad_Negocio/05_Branding_Comms/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Branding & comms
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../97_Soporte_Bibliografico/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Soporte bibliográfico
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Tabla de contenidos">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Tabla de contenidos
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#objetivo-en-simple" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Objetivo (en simple)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#navegacion-rapida" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Navegación rápida
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1-gate-previo-listo-para-embotellar-obligatorio" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1) Gate previo “listo para embotellar” (obligatorio)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-levadura-para-carbonatar-minimo-viable" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2) Levadura para carbonatar: “mínimo viable”
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-elegir-el-objetivo-de-co2-regla-por-estilo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3) Elegir el objetivo de CO₂ (regla por estilo)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-calculo-de-priming-paso-a-paso-sin-magia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4) Cálculo de priming (paso a paso, sin magia)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4) Cálculo de priming (paso a paso, sin magia)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#41-co2-residual-aproximado-segun-temperatura" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.1 CO₂ residual aproximado según temperatura
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#42-formula-simple-suficiente-para-operar" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.2 Fórmula simple (suficiente para operar)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#43-ejemplo-rapido" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.3 Ejemplo rápido
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-metodo-de-trabajo-para-que-salga-siempre-igual" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5) Método de trabajo (para que salga siempre igual)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5) Método de trabajo (para que salga siempre igual)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#51-preparar-el-jarabe-de-priming" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.1 Preparar el “jarabe” de priming
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#52-mezclar-sin-meter-aire" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.2 Mezclar sin meter aire
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#53-llenado-y-cierre" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.3 Llenado y cierre
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-acondicionamiento-donde-y-cuanto-tiempo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6) Acondicionamiento (dónde y cuánto tiempo)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-fallas-tipicas-diagnostico-rapido" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7) Fallas típicas (diagnóstico rápido)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="7) Fallas típicas (diagnóstico rápido)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#71-falta-de-carbonatacion" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7.1 Falta de carbonatación
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#72-sobrecabonatacion-riesgo-seguridad" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7.2 Sobrecabonatación (riesgo seguridad)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#8-registro-minimo-para-que-el-sistema-aprenda" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8) Registro mínimo (para que el sistema aprenda)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#puentes-no-duplicar" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Puentes (no duplicar)
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<h1 id="10-priming-y-carbonatacion-en-botella-gates-calculo-y-fallas">10 — Priming y carbonatación en botella (gates, cálculo y fallas)<a class="headerlink" href="#10-priming-y-carbonatacion-en-botella-gates-calculo-y-fallas" title="Permanent link">&para;</a></h1>
+<h2 id="objetivo-en-simple">Objetivo (en simple)<a class="headerlink" href="#objetivo-en-simple" title="Permanent link">&para;</a></h2>
+<p>Estandarizar el embotellado con priming para lograr:
+- carbonatación consistente,
+- seguridad (evitar sobrecarbonatación),
+- y buena estabilidad (no arruinar el lote por oxígeno o sanitización mal aplicada).</p>
+<hr />
+<h2 id="navegacion-rapida">Navegación rápida<a class="headerlink" href="#navegacion-rapida" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Entrada desde 07 (antes de envasar): <a href="../../../07_Fermentacion_Maduracion/DEEP/30_Transferencias_cold_crash_y_salida/">07/30 — Transferencias y salida</a></li>
+<li>Preparación para envasar: <a href="../05_Preparacion_para_envasar/">05 — Preparación para envasar</a></li>
+<li>Oxígeno (purga/llenado): <a href="../20_Control_oxigeno_DO_TPO/">20 — Control de oxígeno (DO/TPO)</a></li>
+<li>Almacenamiento: <a href="../30_Luz_temperatura_almacenamiento/">30 — Luz/temperatura/almacenamiento</a></li>
+<li>Fallas y diagnóstico: <a href="../40_Shelflife_y_troubleshooting_empaque/">40 — Shelf-life y troubleshooting</a></li>
+<li>Registro por lote: <a href="../TP_Log_Envasado_y_Estabilidad/">TP — Log de envasado y estabilidad</a></li>
+</ul>
+<hr />
+<h2 id="1-gate-previo-listo-para-embotellar-obligatorio">1) Gate previo “listo para embotellar” (obligatorio)<a class="headerlink" href="#1-gate-previo-listo-para-embotellar-obligatorio" title="Permanent link">&para;</a></h2>
+<p>No embotellar si no se cumple:
+- Densidad estable (2 lecturas separadas 24–48 h).
+- Sin diacetilo evidente (ideal: prueba forzada o criterio sensorial firme).
+- Claridad/turbidez aceptada según estilo (decisión explícita).
+- Plan de manejo de oxígeno definido (aunque sea “práctico”).</p>
+<blockquote>
+<p>Nota: el acondicionamiento en botella suma carbonatación y también “tiempo de balance”; y la vida útil depende mucho de cuánto oxígeno metés en la etapa final.</p>
+</blockquote>
+<hr />
+<h2 id="2-levadura-para-carbonatar-minimo-viable">2) Levadura para carbonatar: “mínimo viable”<a class="headerlink" href="#2-levadura-para-carbonatar-minimo-viable" title="Permanent link">&para;</a></h2>
+<p>En general, <strong>no hace falta mucha levadura</strong> para carbonatar: con levadura saludable y temperatura estable alcanza.<br />
+Regla práctica: se usa del orden de <strong>1 millón de células por mL</strong> para carbonatar; más que eso, con el tiempo puede subir el riesgo de sabores por autólisis.</p>
+<p>Cuándo sí pensar en agregar levadura fresca:
+- si la cerveza estuvo mucho tiempo parada antes de embotellar, o
+- si clarificaste fuerte y quedó “pelada” de levadura,
+- o si es cerveza de alta graduación.</p>
+<hr />
+<h2 id="3-elegir-el-objetivo-de-co2-regla-por-estilo">3) Elegir el objetivo de CO₂ (regla por estilo)<a class="headerlink" href="#3-elegir-el-objetivo-de-co2-regla-por-estilo" title="Permanent link">&para;</a></h2>
+<p>Guía simple (rangos):
+- Ales “normales” (APA/Amber/Porter): 2.1–2.5 vol
+- Lagers: 2.3–2.7 vol
+- Stout / estilos más “cremosos”: 1.8–2.3 vol
+- Wheat / Belgian más gasificadas: 2.7–3.4 vol</p>
+<blockquote>
+<p>Si no querés complicarte: elegí 2.4 vol como estándar general y ajustamos con tus notas de cata.</p>
+</blockquote>
+<hr />
+<h2 id="4-calculo-de-priming-paso-a-paso-sin-magia">4) Cálculo de priming (paso a paso, sin magia)<a class="headerlink" href="#4-calculo-de-priming-paso-a-paso-sin-magia" title="Permanent link">&para;</a></h2>
+<p>Necesitás 3 datos:
+1) <strong>Litros reales</strong> a embotellar
+2) <strong>Temperatura de la cerveza al embotellar</strong> (idealmente la <em>más alta</em> que tuvo en los últimos días, porque a mayor temperatura queda menos CO₂ residual)
+3) <strong>Objetivo de CO₂</strong> (volúmenes)</p>
+<h3 id="41-co2-residual-aproximado-segun-temperatura">4.1 CO₂ residual aproximado según temperatura<a class="headerlink" href="#41-co2-residual-aproximado-segun-temperatura" title="Permanent link">&para;</a></h3>
+<p>(para no perder tiempo; valores típicos)
+- 10°C → ~1.2 vol
+- 15°C → ~1.0 vol
+- 20°C → ~0.85 vol
+- 25°C → ~0.75 vol</p>
+<h3 id="42-formula-simple-suficiente-para-operar">4.2 Fórmula simple (suficiente para operar)<a class="headerlink" href="#42-formula-simple-suficiente-para-operar" title="Permanent link">&para;</a></h3>
+<p>1) Calculá: <strong>CO₂ a agregar = objetivo − residual</strong>
+2) Elegí azúcar:</p>
+<ul>
+<li>
+<p><strong>Dextrosa (glucosa / “azúcar de maíz”)</strong>:<br />
+<code>gramos = litros × CO₂_a_agregar × 4.0</code></p>
+</li>
+<li>
+<p><strong>Sacarosa (azúcar común)</strong>:<br />
+<code>gramos = litros × CO₂_a_agregar × 3.8</code></p>
+</li>
+<li>
+<p><strong>DME (extracto seco)</strong> (menos exacto):<br />
+<code>gramos = litros × CO₂_a_agregar × 5.5</code> (aprox.)</p>
+</li>
+</ul>
+<h3 id="43-ejemplo-rapido">4.3 Ejemplo rápido<a class="headerlink" href="#43-ejemplo-rapido" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Volumen: 19 L  </li>
+<li>Temp: 20°C → residual 0.85 vol  </li>
+<li>Objetivo: 2.4 vol  </li>
+<li>A agregar: 2.4 − 0.85 = 1.55 vol  </li>
+<li>Dextrosa: 19 × 1.55 × 4.0 = <strong>~118 g</strong></li>
+</ul>
+<hr />
+<h2 id="5-metodo-de-trabajo-para-que-salga-siempre-igual">5) Método de trabajo (para que salga siempre igual)<a class="headerlink" href="#5-metodo-de-trabajo-para-que-salga-siempre-igual" title="Permanent link">&para;</a></h2>
+<h3 id="51-preparar-el-jarabe-de-priming">5.1 Preparar el “jarabe” de priming<a class="headerlink" href="#51-preparar-el-jarabe-de-priming" title="Permanent link">&para;</a></h3>
+<p>1) Pesar el azúcar.
+2) Disolver en poca agua, hervir 5 minutos.
+3) Enfriar tapado.</p>
+<h3 id="52-mezclar-sin-meter-aire">5.2 Mezclar sin meter aire<a class="headerlink" href="#52-mezclar-sin-meter-aire" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Poner el jarabe en el balde/recipiente de embotellado.</li>
+<li>Trasvasar la cerveza <strong>encima</strong> del jarabe, suave, sin salpicar.</li>
+<li>Evitar “revolver con cuchara” como si fuera sopa.</li>
+</ul>
+<p>Oxígeno: en embotellado, lo que más te mata la estabilidad es <strong>salpicado + envase abierto mucho tiempo</strong>. Apoyate en el estándar del Bloque 20.</p>
+<h3 id="53-llenado-y-cierre">5.3 Llenado y cierre<a class="headerlink" href="#53-llenado-y-cierre" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Llenar parejo, headspace razonable y <strong>cerrar sin demoras</strong>.</li>
+<li>Si tu sanitización es química: <strong>medir concentración</strong>, no “a ojo”; excesos pueden afectar la levadura y la carbonatación.</li>
+</ul>
+<hr />
+<h2 id="6-acondicionamiento-donde-y-cuanto-tiempo">6) Acondicionamiento (dónde y cuánto tiempo)<a class="headerlink" href="#6-acondicionamiento-donde-y-cuanto-tiempo" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Guardar botellas en lugar oscuro y templado.</li>
+<li>Base operativa: <strong>~2 semanas</strong> para carbonatar (puede ser más si la cerveza es fuerte o si está frío).</li>
+<li>Después, mover a guarda más fría/estable si tu objetivo es shelf-life. (Ver Bloque 30).</li>
+</ul>
+<p>Tip simple: dejá 1 botella “testigo” (PET si tenés) para ir apretando y saber cómo viene la presión.</p>
+<hr />
+<h2 id="7-fallas-tipicas-diagnostico-rapido">7) Fallas típicas (diagnóstico rápido)<a class="headerlink" href="#7-fallas-tipicas-diagnostico-rapido" title="Permanent link">&para;</a></h2>
+<h3 id="71-falta-de-carbonatacion">7.1 Falta de carbonatación<a class="headerlink" href="#71-falta-de-carbonatacion" title="Permanent link">&para;</a></h3>
+<p>Causas frecuentes:
+- temperatura de acondicionamiento baja o variable,
+- poco tiempo,
+- levadura débil,
+- cálculo mal hecho (especialmente si ignoraste temperatura/CO₂ residual),
+- sanitizante demasiado fuerte/residuo que dañó levadura.</p>
+<p>Acciones:
+- subir a temperatura templada estable y esperar 7–10 días más,
+- revisar cierres (chapita mal cerrada = fuga),
+- comparar cálculo vs temperatura real.</p>
+<h3 id="72-sobrecabonatacion-riesgo-seguridad">7.2 Sobrecabonatación (riesgo seguridad)<a class="headerlink" href="#72-sobrecabonatacion-riesgo-seguridad" title="Permanent link">&para;</a></h3>
+<p>Causas frecuentes:
+- exceso de azúcar,
+- cerveza no terminó de fermentar,
+- contaminación que sigue comiendo azúcares y genera gas.</p>
+<p>Acciones inmediatas:
+- enfriar el lote (baja presión),
+- aislar cajas,
+- abrir con cuidado muestras controladas,
+- activar investigación (ver Bloque 40).</p>
+<hr />
+<h2 id="8-registro-minimo-para-que-el-sistema-aprenda">8) Registro mínimo (para que el sistema aprenda)<a class="headerlink" href="#8-registro-minimo-para-que-el-sistema-aprenda" title="Permanent link">&para;</a></h2>
+<p>Anotar por lote:
+- temperatura de cerveza al embotellar,
+- azúcar usada (tipo + gramos),
+- litros reales,
+- temperatura y lugar de acondicionamiento,
+- días hasta carbonatación,
+- resultado sensorial a 7/14/30 días.</p>
+<p>➡️ Registrar acá: <a href="../TP_Log_Envasado_y_Estabilidad/">TP — Log de envasado y estabilidad</a></p>
+<hr />
+<h2 id="puentes-no-duplicar">Puentes (no duplicar)<a class="headerlink" href="#puentes-no-duplicar" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Oxígeno/DO/TPO: <a href="../20_Control_oxigeno_DO_TPO/">20 — Control de oxígeno</a></li>
+<li>Almacenamiento: <a href="../30_Luz_temperatura_almacenamiento/">30 — Luz/temperatura/almacenamiento</a></li>
+<li>Fallas (matriz síntoma→causa→acción): <a href="../40_Shelflife_y_troubleshooting_empaque/">40 — Troubleshooting</a></li>
+<li>Nota base: <a href="../../Oxidacion_y_DO/">Oxidación y DO</a></li>
+</ul>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../..", "features": [], "search": "../../../assets/javascripts/workers/search.7a47a382.min.js", "tags": null, "translations": {"clipboard.copied": "Copiado al portapapeles", "clipboard.copy": "Copiar al portapapeles", "search.result.more.one": "1 m\u00e1s en esta p\u00e1gina", "search.result.more.other": "# m\u00e1s en esta p\u00e1gina", "search.result.none": "No se encontraron documentos", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Teclee para comenzar b\u00fasqueda", "search.result.term.missing": "Falta", "select.version": "Seleccionar versi\u00f3n"}, "version": null}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.e71a0d61.min.js"></script>
+      
+    
+  </body>
+</html>

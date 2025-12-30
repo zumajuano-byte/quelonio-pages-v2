@@ -1,0 +1,2241 @@
+
+<!doctype html>
+<html lang="es" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Biblioteca operativa y técnica para diseño, producción y QA/QC (Quelonio Brew).">
+      
+      
+      
+        <link rel="canonical" href="https://zumajuano-byte.github.io/quelonio-pages/07_Fermentacion_Maduracion/DEEP/40_Troubleshooting_proceso/">
+      
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.0">
+    
+    
+      
+        <title>40 Troubleshooting proceso - Quelonio — Biblia Cervecera</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.618322db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#40-troubleshooting-de-proceso-sintomas-gates-causas-acciones" class="md-skip">
+          Saltar a contenido
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Cabecera">
+    <a href="../../.." title="Quelonio — Biblia Cervecera" class="md-header__button md-logo" aria-label="Quelonio — Biblia Cervecera" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Quelonio — Biblia Cervecera
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              40 Troubleshooting proceso
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Búsqueda" placeholder="Búsqueda" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Buscar">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Limpiar" aria-label="Limpiar" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicializando búsqueda
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/zumajuano-byte/quelonio-pages" title="Ir al repositorio" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    zumajuano-byte/quelonio-pages
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navegación" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="Quelonio — Biblia Cervecera" class="md-nav__button md-logo" aria-label="Quelonio — Biblia Cervecera" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Quelonio — Biblia Cervecera
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/zumajuano-byte/quelonio-pages" title="Ir al repositorio" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    zumajuano-byte/quelonio-pages
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Inicio
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    OS Boot
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    OS Boot
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../99_Indice_y_Mapas/START_HERE/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    START HERE
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../99_Indice_y_Mapas/LAUNCHER/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    LAUNCHER
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../99_Indice_y_Mapas/SESSIONS_LOG/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    SESSIONS LOG
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../99_Indice_y_Mapas/CONTRATO_ESTRUCTURA/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Contrato de estructura
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_5" id="__nav_2_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Proyectos (estado vivo)
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Proyectos (estado vivo)
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../99_Indice_y_Mapas/PROYECTO_BIBLIA/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Biblia (Pages)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../99_Indice_y_Mapas/PROYECTO_WEB_API/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Web + API (MVP)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../99_Indice_y_Mapas/PROYECTO_LATAS/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Latas (Branding)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../99_Indice_y_Mapas/ASISTENTE_V1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Asistente v1
+  
+
+    
+  </span>
+  
+  
+    
+  
+  
+    <span class="md-status md-status--stable"></span>
+  
+
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_6" id="__nav_2_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Plantillas
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Plantillas
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../99_Indice_y_Mapas/PLANTILLAS/SPEC_v1_0/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    SPEC v1.0
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../99_Indice_y_Mapas/Home/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home interno
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../99_Indice_y_Mapas/Mapa_General_Quelonio/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Mapa general
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../00_Glosario/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Glosario
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Módulos
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Módulos
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../01_Agua/01_Agua/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Agua
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../02_Malta/02_Malta/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Malta
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../03_Levadura/03_Levadura/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Levadura
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../04_Lupulo/04_Lupulo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Lúpulo
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../05_Sistemas_IPA_Moderna/05_Sistemas_IPA_Moderna/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    IPA Moderna
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../06_Procesos_QA_QC/06_Procesos_QA_QC/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Procesos QA/QC
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_7" id="__nav_4_7_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Fermentación y maduración
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_7">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Fermentación y maduración
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../07_Fermentacion_Maduracion/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Conceptos_base/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Conceptos base
+  
+
+    
+  </span>
+  
+  
+    
+  
+  
+    <span class="md-status md-status--draft"></span>
+  
+
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Control_de_fermentacion/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Control de fermentación
+  
+
+    
+  </span>
+  
+  
+    
+  
+  
+    <span class="md-status md-status--active"></span>
+  
+
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_8" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_8" id="__nav_4_8_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Recetas y formulación
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_8">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Recetas y formulación
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../08_Recetas_Formulacion/08_Recetas_Formulacion/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../08_Recetas_Formulacion/Calculos_rapidos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cálculos rápidos
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../09_Empaque_Estabilidad/09_Empaque_Estabilidad/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Empaque y estabilidad
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../10_Limpieza_Sanitizacion/10_Limpieza_Sanitizacion/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Limpieza y sanitización
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../11_Sensorial/11_Sensorial/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Sensorial
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Verdad de negocio
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Verdad de negocio
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../98_Verdad_Negocio/98_Verdad_Negocio/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../98_Verdad_Negocio/01_Economia_Unitaria/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Economía unitaria
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../98_Verdad_Negocio/02_Operaciones/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Operaciones
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../98_Verdad_Negocio/03_Specs_Recetas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Specs recetas
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../98_Verdad_Negocio/04_QAQC/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    QA/QC
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../98_Verdad_Negocio/05_Branding_Comms/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Branding & comms
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../97_Soporte_Bibliografico/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Soporte bibliográfico
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Tabla de contenidos">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Tabla de contenidos
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#objetivo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Objetivo
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#0-triage-rapido-5-minutos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        0) Triage rápido (5 minutos)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1-ono-arranca-o-arranque-muy-lento" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1) �?oNo arranca�?� o arranque muy lento
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1) �?oNo arranca�?� o arranque muy lento">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#sintomas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Síntomas
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#gate" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Gate
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#causas-proceso" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Causas (proceso)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#acciones-seguras" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Acciones (seguras)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-overshoot-termico-pico-de-temperatura-en-fase-activa" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2) Overshoot térmico (pico de temperatura en fase activa)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2) Overshoot térmico (pico de temperatura en fase activa)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#sintomas_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Síntomas
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#riesgo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Riesgo
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#acciones" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Acciones
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-fermentacion-lenta-caida-de-densidad-se-oaplana" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3) Fermentación lenta (caída de densidad se �?oaplana�?�)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3) Fermentación lenta (caída de densidad se �?oaplana�?�)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#gate_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Gate
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#causas-proceso_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Causas (proceso)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#acciones_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Acciones
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-ostuck-o-fg-alta-no-llega-al-objetivo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4) �?oStuck�?� o FG alta (no llega al objetivo)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4) �?oStuck�?� o FG alta (no llega al objetivo)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#gate_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Gate
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#causas-proceso_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Causas (proceso)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#acciones_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Acciones
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-gate-de-diacetilo-falla-manteca-precursor" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5) Gate de diacetilo falla (manteca / precursor)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5) Gate de diacetilo falla (manteca / precursor)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#sintomas_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Síntomas
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#causas-proceso_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Causas (proceso)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#acciones_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Acciones
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-despues-de-transferir-aparece-opapelcarton-o-envejecimiento-acelerado" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6) Después de transferir aparece �?opapel/cartón�?� o envejecimiento acelerado
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="6) Después de transferir aparece �?opapel/cartón�?� o envejecimiento acelerado">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#sintomas_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Síntomas
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#causas-proceso_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Causas (proceso)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#acciones_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Acciones
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-cold-crash-no-clarifica-como-se-espera" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7) Cold crash no clarifica como se espera
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="7) Cold crash no clarifica como se espera">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#gate_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Gate
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#causas-proceso_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Causas (proceso)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#acciones_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Acciones
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#8-checklist-de-prevencion-sistema" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8) Checklist de prevención (sistema)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#puentes-no-duplicar" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Puentes (no duplicar)
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<hr />
+<p>status: active
+scope: proceso
+type: troubleshooting
+sources:
+  - "White &amp; Zainasheff �?" Yeast (monitoreo; temperatura; diacetilo/precursor; transferencias y riesgo por oxígeno)"
+  - "Palmer �?" How to Brew (impacto de temperatura: ésteres/fuseles/diacetilo; cold crash y estabilidad coloidal)"</p>
+<hr />
+<h1 id="40-troubleshooting-de-proceso-sintomas-gates-causas-acciones">40 �?" Troubleshooting de Proceso (síntomas �?' gates �?' causas �?' acciones)<a class="headerlink" href="#40-troubleshooting-de-proceso-sintomas-gates-causas-acciones" title="Permanent link">&para;</a></h1>
+<h2 id="objetivo">Objetivo<a class="headerlink" href="#objetivo" title="Permanent link">&para;</a></h2>
+<p>Resolver desvíos operativos de fermentación/maduración con un flujo consistente:
+1) Confirmar datos
+2) Evaluar gates
+3) Diagnosticar causas probables (proceso)
+4) Ejecutar acciones seguras
+5) Registrar para prevenir recurrencia</p>
+<hr />
+<h2 id="0-triage-rapido-5-minutos">0) Triage rápido (5 minutos)<a class="headerlink" href="#0-triage-rapido-5-minutos" title="Permanent link">&para;</a></h2>
+<p><strong>Confirmar antes de tocar nada:</strong>
+- Temperatura real (sonda y ubicación)
+- Densidad (instrumento correcto + corrección por temperatura)
+- Tiempo desde inoculación
+- Si hubo cambios de setpoint o fallas del equipo
+- Si hubo transferencias / purgas / movimientos recientes
+- Nota sensorial rápida (manteca/solvente/frutado/sulfuro)</p>
+<hr />
+<h2 id="1-ono-arranca-o-arranque-muy-lento">1) �?oNo arranca�?� o arranque muy lento<a class="headerlink" href="#1-ono-arranca-o-arranque-muy-lento" title="Permanent link">&para;</a></h2>
+<h3 id="sintomas">Síntomas<a class="headerlink" href="#sintomas" title="Permanent link">&para;</a></h3>
+<ul>
+<li>0�?"24h sin caída de densidad o sin señales.</li>
+</ul>
+<h3 id="gate">Gate<a class="headerlink" href="#gate" title="Permanent link">&para;</a></h3>
+<ul>
+<li>¿Temperatura real está dentro del rango de la cepa?</li>
+<li>¿Hay overshoot (pico) o está demasiado fría?</li>
+</ul>
+<h3 id="causas-proceso">Causas (proceso)<a class="headerlink" href="#causas-proceso" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Setpoint inicial mal elegido / control térmico deficiente</li>
+<li>Mosto demasiado frío al inocular</li>
+<li>Pérdida de control (sonda mal ubicada)</li>
+</ul>
+<h3 id="acciones-seguras">Acciones (seguras)<a class="headerlink" href="#acciones-seguras" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Ajustar setpoint gradualmente al rango correcto.</li>
+<li>No hacer cambios bruscos.</li>
+<li>Registrar el perfil térmico real para corregir capacidad de enfriamiento.</li>
+</ul>
+<hr />
+<h2 id="2-overshoot-termico-pico-de-temperatura-en-fase-activa">2) Overshoot térmico (pico de temperatura en fase activa)<a class="headerlink" href="#2-overshoot-termico-pico-de-temperatura-en-fase-activa" title="Permanent link">&para;</a></h2>
+<h3 id="sintomas_1">Síntomas<a class="headerlink" href="#sintomas_1" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Temperatura real supera setpoint en 24�?"72h iniciales.</li>
+</ul>
+<h3 id="riesgo">Riesgo<a class="headerlink" href="#riesgo" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Mayor probabilidad de perfil no deseado: ésteres/fuseles y riesgo de diacetilo si el cierre luego se corta.  </li>
+</ul>
+<h3 id="acciones">Acciones<a class="headerlink" href="#acciones" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Bajar setpoint de forma controlada (evitar �?oshock�?�).</li>
+<li>Recalibrar ubicación/aislación de sonda.</li>
+<li>Para próximos lotes: setpoint inicial más conservador + capacidad real de enfriamiento.</li>
+</ul>
+<hr />
+<h2 id="3-fermentacion-lenta-caida-de-densidad-se-oaplana">3) Fermentación lenta (caída de densidad se �?oaplana�?�)<a class="headerlink" href="#3-fermentacion-lenta-caida-de-densidad-se-oaplana" title="Permanent link">&para;</a></h2>
+<h3 id="gate_1">Gate<a class="headerlink" href="#gate_1" title="Permanent link">&para;</a></h3>
+<ul>
+<li>¿Temperatura se mantiene estable o fluctúa?</li>
+<li>¿Hay rampa final aplicada demasiado temprano o demasiado tarde?</li>
+</ul>
+<h3 id="causas-proceso_1">Causas (proceso)<a class="headerlink" href="#causas-proceso_1" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Oscilación térmica / setpoint inadecuado</li>
+<li>Enfriamiento accidental (ambiente, chiller, sonda)</li>
+</ul>
+<h3 id="acciones_1">Acciones<a class="headerlink" href="#acciones_1" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Estabilizar temperatura dentro del rango.</li>
+<li>Si está en fase final: rampa moderada de cierre (sin excederse).</li>
+<li>Registrar el momento exacto donde se aplanó la curva.</li>
+</ul>
+<hr />
+<h2 id="4-ostuck-o-fg-alta-no-llega-al-objetivo">4) �?oStuck�?� o FG alta (no llega al objetivo)<a class="headerlink" href="#4-ostuck-o-fg-alta-no-llega-al-objetivo" title="Permanent link">&para;</a></h2>
+<h3 id="gate_2">Gate<a class="headerlink" href="#gate_2" title="Permanent link">&para;</a></h3>
+<ul>
+<li>¿Densidad estable por 48h?</li>
+<li>¿Se aplicó cierre/maduración suficiente?</li>
+</ul>
+<h3 id="causas-proceso_2">Causas (proceso)<a class="headerlink" href="#causas-proceso_2" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Cortaste temperatura demasiado pronto</li>
+<li>Crash / transferencia temprano</li>
+<li>Secuencia de rampas incorrecta</li>
+</ul>
+<h3 id="acciones_2">Acciones<a class="headerlink" href="#acciones_2" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Subir temperatura gradualmente hacia el extremo alto del rango de cepa (cierre).</li>
+<li>Evitar transferencias hasta estabilizar.</li>
+<li>Documentar: densidad, temperatura real y tiempos.</li>
+</ul>
+<hr />
+<h2 id="5-gate-de-diacetilo-falla-manteca-precursor">5) Gate de diacetilo falla (manteca / precursor)<a class="headerlink" href="#5-gate-de-diacetilo-falla-manteca-precursor" title="Permanent link">&para;</a></h2>
+<h3 id="sintomas_2">Síntomas<a class="headerlink" href="#sintomas_2" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Manteca perceptible o test de diacetilo positivo.</li>
+</ul>
+<h3 id="causas-proceso_3">Causas (proceso)<a class="headerlink" href="#causas-proceso_3" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Enfriaste o separaste de levadura demasiado pronto</li>
+<li>No hubo descanso/rampa final</li>
+</ul>
+<h3 id="acciones_3">Acciones<a class="headerlink" href="#acciones_3" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Volver a condiciones de maduración (temperatura de cierre) y esperar limpieza.</li>
+<li>No cold crash / no transferir hasta pasar gate.</li>
+</ul>
+<hr />
+<h2 id="6-despues-de-transferir-aparece-opapelcarton-o-envejecimiento-acelerado">6) Después de transferir aparece �?opapel/cartón�?� o envejecimiento acelerado<a class="headerlink" href="#6-despues-de-transferir-aparece-opapelcarton-o-envejecimiento-acelerado" title="Permanent link">&para;</a></h2>
+<h3 id="sintomas_3">Síntomas<a class="headerlink" href="#sintomas_3" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Perfil oxidado, decaimiento rápido, apagado aromático.</li>
+</ul>
+<h3 id="causas-proceso_4">Causas (proceso)<a class="headerlink" href="#causas-proceso_4" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Ingreso de oxígeno en transferencia (mangueras con aire, salpicado, headspace, purga insuficiente)</li>
+</ul>
+<h3 id="acciones_4">Acciones<a class="headerlink" href="#acciones_4" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Tratarlo como evento de proceso: revisar purgas, procedimiento de llenado, headspace.</li>
+<li>Establecer gate de �?otransferencia controlada�?� (checklist obligatorio).</li>
+</ul>
+<hr />
+<h2 id="7-cold-crash-no-clarifica-como-se-espera">7) Cold crash no clarifica como se espera<a class="headerlink" href="#7-cold-crash-no-clarifica-como-se-espera" title="Permanent link">&para;</a></h2>
+<h3 id="gate_3">Gate<a class="headerlink" href="#gate_3" title="Permanent link">&para;</a></h3>
+<ul>
+<li>¿Estaba realmente cerrado el lote antes de crash?</li>
+<li>¿Tiempo/temperatura de crash fueron suficientes?</li>
+</ul>
+<h3 id="causas-proceso_5">Causas (proceso)<a class="headerlink" href="#causas-proceso_5" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Crash demasiado corto o no lo suficientemente frío</li>
+<li>Lote no cerrado (azúcar residual / fermentación incompleta)</li>
+<li>Objetivo de claridad no definido por estilo</li>
+</ul>
+<h3 id="acciones_5">Acciones<a class="headerlink" href="#acciones_5" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Aumentar tiempo en frío (con registro).</li>
+<li>Confirmar densidad estable antes del crash.</li>
+<li>Si aplica al estilo/proceso: plan de clarificación (ver puente a 03_Levadura/Bloque 05).</li>
+</ul>
+<hr />
+<h2 id="8-checklist-de-prevencion-sistema">8) Checklist de prevención (sistema)<a class="headerlink" href="#8-checklist-de-prevencion-sistema" title="Permanent link">&para;</a></h2>
+<ul>
+<li>[ ] Registrar temperatura real (no solo setpoint)</li>
+<li>[ ] Registrar densidad (serie)</li>
+<li>[ ] Definir gates: inicio / fase final / cierre / frío / salida a empaque</li>
+<li>[ ] No transferir ni crash antes del gate de cierre</li>
+<li>[ ] Transferencias con control de oxígeno (procedimiento y checklist)</li>
+<li>[ ] Cold crash con objetivo claro (claridad/estabilidad), y tiempo suficiente</li>
+</ul>
+<h2 id="puentes-no-duplicar">Puentes (no duplicar)<a class="headerlink" href="#puentes-no-duplicar" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Pitch rate, oxígeno, repitch, floculación: ver 03_Levadura (Fermentación_DEEP).</li>
+<li>Empaque/estabilidad (DO en envase, purgas específicas, shelf-life): ver 09_Empaque_Estabilidad.</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../..", "features": [], "search": "../../../assets/javascripts/workers/search.7a47a382.min.js", "tags": null, "translations": {"clipboard.copied": "Copiado al portapapeles", "clipboard.copy": "Copiar al portapapeles", "search.result.more.one": "1 m\u00e1s en esta p\u00e1gina", "search.result.more.other": "# m\u00e1s en esta p\u00e1gina", "search.result.none": "No se encontraron documentos", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Teclee para comenzar b\u00fasqueda", "search.result.term.missing": "Falta", "select.version": "Seleccionar versi\u00f3n"}, "version": null}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.e71a0d61.min.js"></script>
+      
+    
+  </body>
+</html>

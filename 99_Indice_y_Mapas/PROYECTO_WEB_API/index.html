@@ -1,0 +1,2619 @@
+
+<!doctype html>
+<html lang="es" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Biblioteca operativa y técnica para diseño, producción y QA/QC (Quelonio Brew).">
+      
+      
+      
+        <link rel="canonical" href="https://zumajuano-byte.github.io/quelonio-pages/99_Indice_y_Mapas/PROYECTO_WEB_API/">
+      
+      
+        <link rel="prev" href="../PROYECTO_BIBLIA/">
+      
+      
+        <link rel="next" href="../PROYECTO_LATAS/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.0">
+    
+    
+      
+        <title>Web + API (MVP) - Quelonio — Biblia Cervecera</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.618322db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#proyecto_web_api-quelonio-saas-web-app-api-db" class="md-skip">
+          Saltar a contenido
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Cabecera">
+    <a href="../.." title="Quelonio — Biblia Cervecera" class="md-header__button md-logo" aria-label="Quelonio — Biblia Cervecera" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Quelonio — Biblia Cervecera
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Web + API (MVP)
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Búsqueda" placeholder="Búsqueda" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Buscar">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Limpiar" aria-label="Limpiar" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicializando búsqueda
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/zumajuano-byte/quelonio-pages" title="Ir al repositorio" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    zumajuano-byte/quelonio-pages
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navegación" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Quelonio — Biblia Cervecera" class="md-nav__button md-logo" aria-label="Quelonio — Biblia Cervecera" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Quelonio — Biblia Cervecera
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/zumajuano-byte/quelonio-pages" title="Ir al repositorio" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    zumajuano-byte/quelonio-pages
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Inicio
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    OS Boot
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    OS Boot
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../START_HERE/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    START HERE
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../LAUNCHER/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    LAUNCHER
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../SESSIONS_LOG/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    SESSIONS LOG
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CONTRATO_ESTRUCTURA/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Contrato de estructura
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_5" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2_5" id="__nav_2_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Proyectos (estado vivo)
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_5_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Proyectos (estado vivo)
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../PROYECTO_BIBLIA/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Biblia (Pages)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Web + API (MVP)
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Web + API (MVP)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Tabla de contenidos">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Tabla de contenidos
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#0-objetivo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        0) Objetivo
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1-repos-ubicaciones" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1) Repos / Ubicaciones
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-estado-tecnico-actual-checkpoint-real" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2) Estado técnico actual (CHECKPOINT REAL)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2) Estado técnico actual (CHECKPOINT REAL)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#21-node-npm" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.1 Node / NPM
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#22-nextjs" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.2 Next.js
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#23-postgresql-local-windows" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.3 PostgreSQL (Local Windows)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#24-prisma" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.4 Prisma
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#25-multi-tenant-estado-funcional" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.5 Multi-tenant (estado funcional)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-decisiones-aprendizajes-del-sprint-lo-importante" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3) Decisiones / aprendizajes del Sprint (lo importante)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3) Decisiones / aprendizajes del Sprint (lo importante)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#31-tenant-enforcement-paso-clave" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.1 Tenant enforcement (paso clave)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#32-org-activa-cookie-vs-header" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.2 Org activa (cookie) vs header
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#33-variables-de-entorno-pitfall-detectado" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.3 Variables de entorno (pitfall detectado)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#34-politica-de-stock-estricta-decision" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.4 Política de stock “estricta” (decisión)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-endpoints-actuales-resumen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4) Endpoints actuales (resumen)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4) Endpoints actuales (resumen)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#health-debug" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Health / debug
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bootstrap-orgs-memberships" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Bootstrap / orgs / memberships
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tenant-context" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tenant context
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#catalogo-inventario" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Catálogo / inventario
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ventas-modelo-contable" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ventas (modelo contable)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ventas-operacion-1-click" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ventas (operación “1-click”)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#reportes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Reportes
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-ui-dev-console-lo-que-existe-hoy" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5) UI (Dev Console) — lo que existe hoy
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-smoke-tests-utiles-powershell" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6) Smoke tests útiles (PowerShell)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="6) Smoke tests útiles (PowerShell)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#61-helpers-scriptsdevps1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.1 Helpers (scripts/dev.ps1)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#62-stock-strict-test-rapido" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.2 Stock strict (test rápido)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#entrada-2025-12-26-validacion-uireports-seed-data-idempotencia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Entrada 2025-12-26 — Validación UI+Reports + Seed Data + Idempotencia
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#entrada-2025-12-29-pos-operativo-venta-real-redirect-a-dashboard" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Entrada 2025-12-29 — POS operativo + venta real + redirect a Dashboard
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../PROYECTO_LATAS/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Latas (Branding)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ASISTENTE_V1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Asistente v1
+  
+
+    
+  </span>
+  
+  
+    
+  
+  
+    <span class="md-status md-status--stable"></span>
+  
+
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_6" id="__nav_2_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Plantillas
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Plantillas
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../PLANTILLAS/SPEC_v1_0/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    SPEC v1.0
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Home/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home interno
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Mapa_General_Quelonio/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Mapa general
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../00_Glosario/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Glosario
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Módulos
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Módulos
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../01_Agua/01_Agua/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Agua
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../02_Malta/02_Malta/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Malta
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../03_Levadura/03_Levadura/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Levadura
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../04_Lupulo/04_Lupulo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Lúpulo
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../05_Sistemas_IPA_Moderna/05_Sistemas_IPA_Moderna/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    IPA Moderna
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../06_Procesos_QA_QC/06_Procesos_QA_QC/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Procesos QA/QC
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_7" id="__nav_4_7_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Fermentación y maduración
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_7">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Fermentación y maduración
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../07_Fermentacion_Maduracion/07_Fermentacion_Maduracion/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../07_Fermentacion_Maduracion/Conceptos_base/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Conceptos base
+  
+
+    
+  </span>
+  
+  
+    
+  
+  
+    <span class="md-status md-status--draft"></span>
+  
+
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../07_Fermentacion_Maduracion/Control_de_fermentacion/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Control de fermentación
+  
+
+    
+  </span>
+  
+  
+    
+  
+  
+    <span class="md-status md-status--active"></span>
+  
+
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_8" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_8" id="__nav_4_8_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Recetas y formulación
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_8">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Recetas y formulación
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../08_Recetas_Formulacion/08_Recetas_Formulacion/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../08_Recetas_Formulacion/Calculos_rapidos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cálculos rápidos
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../09_Empaque_Estabilidad/09_Empaque_Estabilidad/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Empaque y estabilidad
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../10_Limpieza_Sanitizacion/10_Limpieza_Sanitizacion/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Limpieza y sanitización
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../11_Sensorial/11_Sensorial/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Sensorial
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Verdad de negocio
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Verdad de negocio
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../98_Verdad_Negocio/98_Verdad_Negocio/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../98_Verdad_Negocio/01_Economia_Unitaria/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Economía unitaria
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../98_Verdad_Negocio/02_Operaciones/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Operaciones
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../98_Verdad_Negocio/03_Specs_Recetas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Specs recetas
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../98_Verdad_Negocio/04_QAQC/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    QA/QC
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../98_Verdad_Negocio/05_Branding_Comms/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Branding & comms
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../97_Soporte_Bibliografico/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Soporte bibliográfico
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Tabla de contenidos">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Tabla de contenidos
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#0-objetivo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        0) Objetivo
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1-repos-ubicaciones" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1) Repos / Ubicaciones
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-estado-tecnico-actual-checkpoint-real" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2) Estado técnico actual (CHECKPOINT REAL)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2) Estado técnico actual (CHECKPOINT REAL)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#21-node-npm" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.1 Node / NPM
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#22-nextjs" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.2 Next.js
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#23-postgresql-local-windows" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.3 PostgreSQL (Local Windows)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#24-prisma" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.4 Prisma
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#25-multi-tenant-estado-funcional" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.5 Multi-tenant (estado funcional)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-decisiones-aprendizajes-del-sprint-lo-importante" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3) Decisiones / aprendizajes del Sprint (lo importante)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3) Decisiones / aprendizajes del Sprint (lo importante)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#31-tenant-enforcement-paso-clave" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.1 Tenant enforcement (paso clave)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#32-org-activa-cookie-vs-header" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.2 Org activa (cookie) vs header
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#33-variables-de-entorno-pitfall-detectado" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.3 Variables de entorno (pitfall detectado)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#34-politica-de-stock-estricta-decision" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.4 Política de stock “estricta” (decisión)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-endpoints-actuales-resumen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4) Endpoints actuales (resumen)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4) Endpoints actuales (resumen)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#health-debug" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Health / debug
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bootstrap-orgs-memberships" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Bootstrap / orgs / memberships
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tenant-context" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tenant context
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#catalogo-inventario" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Catálogo / inventario
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ventas-modelo-contable" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ventas (modelo contable)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ventas-operacion-1-click" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ventas (operación “1-click”)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#reportes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Reportes
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-ui-dev-console-lo-que-existe-hoy" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5) UI (Dev Console) — lo que existe hoy
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-smoke-tests-utiles-powershell" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6) Smoke tests útiles (PowerShell)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="6) Smoke tests útiles (PowerShell)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#61-helpers-scriptsdevps1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.1 Helpers (scripts/dev.ps1)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#62-stock-strict-test-rapido" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.2 Stock strict (test rápido)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#entrada-2025-12-26-validacion-uireports-seed-data-idempotencia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Entrada 2025-12-26 — Validación UI+Reports + Seed Data + Idempotencia
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#entrada-2025-12-29-pos-operativo-venta-real-redirect-a-dashboard" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Entrada 2025-12-29 — POS operativo + venta real + redirect a Dashboard
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<h1 id="proyecto_web_api-quelonio-saas-web-app-api-db">PROYECTO_WEB_API — Quelonio SaaS (Web App + API + DB)<a class="headerlink" href="#proyecto_web_api-quelonio-saas-web-app-api-db" title="Permanent link">&para;</a></h1>
+<p><strong>Última actualización:</strong> 2025-12-29 (AR)
+<strong>Estado:</strong> Sprint 1.5/2 — Vertical slice multi-tenant + Inventario/Ventas (API) operativo<br />
+<strong>Regla de trabajo:</strong> micro-pasos (1 paso por vez). Si un paso requiere admin, se aclara explícitamente.</p>
+<hr />
+<h2 id="0-objetivo">0) Objetivo<a class="headerlink" href="#0-objetivo" title="Permanent link">&para;</a></h2>
+<p>Construir un <strong>MVP tipo SaaS</strong> para operación cervecera:
+- Recetas, lotes, stock, ventas, finanzas
+- Base para incorporar un <strong>asistente IA</strong> que responda en base a la Biblia (Quelonio Pages)</p>
+<p>Principio de producto:
+- <strong>Excel</strong> = modelo / plantilla / análisis (import-export, simulaciones).
+- <strong>SaaS</strong> = operación diaria / “source of truth” (multiusuario, trazabilidad, consistencia).</p>
+<p>Arquitectura (MVP):
+- <strong>Next.js (App Router) + TypeScript</strong>
+- <strong>PostgreSQL</strong>
+- <strong>Prisma</strong>
+- Endpoints API dentro de Next (<code>app/api/*</code>)</p>
+<hr />
+<h2 id="1-repos-ubicaciones">1) Repos / Ubicaciones<a class="headerlink" href="#1-repos-ubicaciones" title="Permanent link">&para;</a></h2>
+<ul>
+<li><strong>Repo Web App:</strong> <code>C:\Users\flore\Documents\quelonio-saas</code></li>
+<li><strong>Repo Biblia / Docs (GitHub Pages):</strong> <code>C:\Users\flore\Documents\quelonio-pages</code></li>
+<li>Plantilla oficial: <a href="../PLANTILLAS/SPEC_v1_0/">SPEC v1.0</a></li>
+</ul>
+<p>Este archivo vive en <strong>quelonio-pages</strong> para que el “asistente” y el “método” queden publicados y versionados.</p>
+<hr />
+<h2 id="2-estado-tecnico-actual-checkpoint-real">2) Estado técnico actual (CHECKPOINT REAL)<a class="headerlink" href="#2-estado-tecnico-actual-checkpoint-real" title="Permanent link">&para;</a></h2>
+<h3 id="21-node-npm">2.1 Node / NPM<a class="headerlink" href="#21-node-npm" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Node: <strong>v20.19.0</strong></li>
+<li>npm: <strong>10.8.2</strong></li>
+</ul>
+<h3 id="22-nextjs">2.2 Next.js<a class="headerlink" href="#22-nextjs" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Next: <strong>16.1.0</strong></li>
+<li>Dev: <code>npm run dev</code> (usa <code>next dev --webpack</code>)</li>
+<li>URL: <code>http://localhost:3000</code></li>
+</ul>
+<p>Notas:
+- Si reiniciás <code>npm run dev</code> y el puerto está ocupado, es porque <strong>hay otro Next corriendo</strong>.
+- Si ves: <code>Unable to acquire lock ... .next\dev\lock</code>, terminá el proceso anterior (o cerrá la terminal que lo estaba ejecutando) y volvé a correr dev.</p>
+<h3 id="23-postgresql-local-windows">2.3 PostgreSQL (Local Windows)<a class="headerlink" href="#23-postgresql-local-windows" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Servicio: <code>postgresql-x64-18</code> <strong>Running</strong></li>
+<li>Puerto: <code>localhost:5432</code></li>
+<li>Base: <code>quelonio_saas</code></li>
+<li>Usuario app: <code>quelonio</code></li>
+<li>Password: <code>1204</code> (temporal; cambiar más adelante)</li>
+</ul>
+<h3 id="24-prisma">2.4 Prisma<a class="headerlink" href="#24-prisma" title="Permanent link">&para;</a></h3>
+<ul>
+<li><code>npx prisma validate</code> OK</li>
+<li><code>npx prisma generate</code> OK</li>
+<li>Migraciones: OK (sin pendientes)</li>
+<li>Migración creada para Recipes: <code>prisma/migrations/20251222214518_add_recipe/</code></li>
+</ul>
+<p>Nota importante (scripts Node):
+- En este setup Prisma usa <strong>adapter PG</strong>. Si hacés scripts con <code>new PrismaClient()</code> “pelado”, puede fallar.
+- Recomendación: en scripts, <strong>importar el prisma centralizado</strong> desde <code>lib/prisma.ts</code> (el mismo que usa la app).</p>
+<h3 id="25-multi-tenant-estado-funcional">2.5 Multi-tenant (estado funcional)<a class="headerlink" href="#25-multi-tenant-estado-funcional" title="Permanent link">&para;</a></h3>
+<p>Vertical slice multi-tenant operativo:
+- Organizations + Memberships (relación usuario↔org)
+- Tenant enforcement por Membership (no confiar solo en headers)
+- Cookie de “active org” (<code>POST /api/active-org</code>) recomendada
+- Fallback <code>X-Org-Id</code> para smoke tests</p>
+<hr />
+<h2 id="3-decisiones-aprendizajes-del-sprint-lo-importante">3) Decisiones / aprendizajes del Sprint (lo importante)<a class="headerlink" href="#3-decisiones-aprendizajes-del-sprint-lo-importante" title="Permanent link">&para;</a></h2>
+<h3 id="31-tenant-enforcement-paso-clave">3.1 Tenant enforcement (paso clave)<a class="headerlink" href="#31-tenant-enforcement-paso-clave" title="Permanent link">&para;</a></h3>
+<p>Antes: “confiar” en <code>X-Org-Id</code> (header libre) = fácil de romper.</p>
+<p>Ahora: <strong>enforcement por Membership</strong>:
+- Valida que el “usuario dev actual” exista.
+- Valida que ese usuario tenga <strong>Membership</strong> en la Organization activa.
+- Resultado: separación real por tenant (base de un SaaS).</p>
+<h3 id="32-org-activa-cookie-vs-header">3.2 Org activa (cookie) vs header<a class="headerlink" href="#32-org-activa-cookie-vs-header" title="Permanent link">&para;</a></h3>
+<p>Caminos (en orden recomendado):</p>
+<p>1) <strong>Cookie (recomendado)</strong>: <code>POST /api/active-org</code> setea la org activa (persistida en cookie del navegador / session).
+2) <strong>Header (temporal)</strong>: <code>X-Org-Id</code> se mantiene como fallback para smoke tests rápidos.</p>
+<h3 id="33-variables-de-entorno-pitfall-detectado">3.3 Variables de entorno (pitfall detectado)<a class="headerlink" href="#33-variables-de-entorno-pitfall-detectado" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Si aparece error: <code>Dev user not found: &lt;email&gt;</code></li>
+<li>Revisar <code>.env</code> → <code>DEV_USER_EMAIL=...</code></li>
+<li>Debe coincidir con un <code>User.email</code> existente en DB.</li>
+<li>Si bootstrap usa <code>owner@quelonio.local</code>, lo más seguro es:<ul>
+<li><code>DEV_USER_EMAIL=owner@quelonio.local</code></li>
+</ul>
+</li>
+</ul>
+<h3 id="34-politica-de-stock-estricta-decision">3.4 Política de stock “estricta” (decisión)<a class="headerlink" href="#34-politica-de-stock-estricta-decision" title="Permanent link">&para;</a></h3>
+<p><strong>Regla estricta MVP:</strong> no permitir que <strong>ningún movimiento que reste stock</strong> deje stock negativo.
+- Aplica a:
+  - <code>OUT</code> (ventas, consumo, merma)
+  - <code>ADJUST</code> negativo (correcciones hacia abajo)
+- Permite:
+  - <code>IN</code>
+  - <code>ADJUST</code> positivo</p>
+<p>Resultado:
+- Evita stock negativo “silencioso”.
+- Obliga a cargar primero el stock real (o un ajuste positivo) antes de vender/consumir.</p>
+<hr />
+<h2 id="4-endpoints-actuales-resumen">4) Endpoints actuales (resumen)<a class="headerlink" href="#4-endpoints-actuales-resumen" title="Permanent link">&para;</a></h2>
+<p>Base: <code>http://localhost:3000</code></p>
+<h3 id="health-debug">Health / debug<a class="headerlink" href="#health-debug" title="Permanent link">&para;</a></h3>
+<ul>
+<li><code>GET /api/health</code></li>
+<li><code>GET /api/debug/users</code></li>
+</ul>
+<h3 id="bootstrap-orgs-memberships">Bootstrap / orgs / memberships<a class="headerlink" href="#bootstrap-orgs-memberships" title="Permanent link">&para;</a></h3>
+<ul>
+<li><code>POST /api/bootstrap</code> (idempotente por email)</li>
+<li><code>GET /api/organizations</code></li>
+<li><code>POST /api/organizations</code></li>
+<li><code>GET /api/memberships</code></li>
+<li><code>GET /api/memberships?orgId=&lt;ORG_ID&gt;</code></li>
+</ul>
+<h3 id="tenant-context">Tenant context<a class="headerlink" href="#tenant-context" title="Permanent link">&para;</a></h3>
+<ul>
+<li><code>POST /api/active-org</code> (set cookie org activa)</li>
+</ul>
+<h3 id="catalogo-inventario">Catálogo / inventario<a class="headerlink" href="#catalogo-inventario" title="Permanent link">&para;</a></h3>
+<ul>
+<li><code>GET /api/items</code> (incluye <code>stockQty</code> agregado)</li>
+<li><code>POST /api/items</code> (idempotente por (orgId, name))</li>
+<li><code>GET /api/stock-moves</code></li>
+<li><code>POST /api/stock-moves</code> (<strong>strict no negativos</strong>; idempotente por (orgId, clientRef))</li>
+</ul>
+<h3 id="ventas-modelo-contable">Ventas (modelo contable)<a class="headerlink" href="#ventas-modelo-contable" title="Permanent link">&para;</a></h3>
+<ul>
+<li><code>GET /api/invoices</code></li>
+<li><code>POST /api/invoices</code> (idempotente por (orgId, number))</li>
+<li><code>POST /api/payments</code> (idempotente opcional por (orgId, clientRef); actualiza status invoice según balance)</li>
+</ul>
+<h3 id="ventas-operacion-1-click">Ventas (operación “1-click”)<a class="headerlink" href="#ventas-operacion-1-click" title="Permanent link">&para;</a></h3>
+<ul>
+<li><code>POST /api/sales</code></li>
+<li>Transacción: invoice + (payment opcional) + stock-moves OUT por línea</li>
+<li>Idempotencia: por (orgId, number) (y clientRefs derivadas)</li>
+<li>Strict: si no hay stock suficiente, falla sin crear invoice/pago/moves</li>
+</ul>
+<h3 id="reportes">Reportes<a class="headerlink" href="#reportes" title="Permanent link">&para;</a></h3>
+<ul>
+<li><code>GET /api/reports/sales-summary?from=YYYY-MM-DD&amp;to=YYYY-MM-DD</code></li>
+<li><code>GET /api/reports/inventory-summary?from=YYYY-MM-DD&amp;to=YYYY-MM-DD</code></li>
+</ul>
+<hr />
+<h2 id="5-ui-dev-console-lo-que-existe-hoy">5) UI (Dev Console) — lo que existe hoy<a class="headerlink" href="#5-ui-dev-console-lo-que-existe-hoy" title="Permanent link">&para;</a></h2>
+<p>Página: <code>GET /</code> (http://localhost:3000)</p>
+<p>Incluye (mínimo para validar APIs):
+- Selector de Organization activa (persistida en <code>localStorage</code>)
+- Crear Organization
+- Ejecutar Bootstrap y auto-seleccionar la org creada
+- Recipes CRUD (scoping por org activa)</p>
+<p>Nota: UI final de ventas/stock todavía no; se opera por API + scripts.</p>
+<hr />
+<h2 id="6-smoke-tests-utiles-powershell">6) Smoke tests útiles (PowerShell)<a class="headerlink" href="#6-smoke-tests-utiles-powershell" title="Permanent link">&para;</a></h2>
+<h3 id="61-helpers-scriptsdevps1">6.1 Helpers (<code>scripts/dev.ps1</code>)<a class="headerlink" href="#61-helpers-scriptsdevps1" title="Permanent link">&para;</a></h3>
+<p>Este repo usa helpers tipo:
+- <code>Set-Org</code>
+- <code>QGet</code>, <code>QPost</code>, <code>QDel</code>
+- <code>QSmoke</code></p>
+<p>Regla: si un test requiere cookie/session, usar <code>Set-Org</code> primero.</p>
+<hr />
+<h3 id="62-stock-strict-test-rapido">6.2 Stock strict (test rápido)<a class="headerlink" href="#62-stock-strict-test-rapido" title="Permanent link">&para;</a></h3>
+<p>1) Consultar inventario:
+```powershell
+$repI = QGet "/api/reports/inventory-summary"
+$repI.items | ? { $_.name -like "<em>APA</em>" } | ConvertTo-Json -Depth 10
+Esperado:</p>
+<p>Primera llamada: ok=true + invoice + payment + moves</p>
+<p>Segunda llamada: idempotentHit=true (sin duplicar side-effects)</p>
+<p>Caso stock insuficiente:</p>
+<p>Debe devolver 400 con error="Insufficient stock" y detalle itemId/currentStock/attemptedOut/projectedStock</p>
+<p>No debe crear invoice nueva (verificar count antes/después)</p>
+<p>6.4 Concurrencia (nota práctica PowerShell)</p>
+<p>ForEach-Object -Parallel requiere PowerShell 7+.</p>
+<p>Start-Job no “hereda” funciones como QPost (a menos que lo incluyas explícitamente o serialices invocaciones).</p>
+<p>Conclusión: el test “parallel” desde PS puede dar errores de tooling; para stress real:</p>
+<p>usar un script Node (fetch) o herramienta como k6/hey,</p>
+<p>o elevar PS a 7 y usar Invoke-RestMethod con manejo explícito de cookies.</p>
+<p>7) Regla adicional: encoding UTF-8 (Next)</p>
+<p>Se detectó un fallo de compilación:</p>
+<p>stream did not contain valid UTF-8 leyendo app/api/.../route.ts</p>
+<p>Lección:</p>
+<p>Asegurar que los .ts/.tsx queden en UTF-8 (preferible UTF-8 sin BOM).</p>
+<p>Si aparece el error: re-escribir el archivo como UTF-8 desde PowerShell o VS Code (Save with Encoding).</p>
+<p>8) Mapa de producto (visión simple)</p>
+<p>Orden lógico de módulos (uno alimenta al siguiente):</p>
+<p>Recetas (spec) ✅</p>
+<p>Lotes (producción real) ⏭️</p>
+<p>Inventario (movimientos) ✅ (MVP strict)</p>
+<p>Ventas + Cobros ✅ (API: invoices/payments + /api/sales)</p>
+<p>Compras + Pagos ⏭️</p>
+<p>Costos + Rentabilidad ⏭️</p>
+<p>QA/QC ⏭️</p>
+<p>Dashboard ⏭️</p>
+<p>9) Próximo objetivo inmediato (Sprint 2)</p>
+<p>Dashboard UI mínimo + “Venta rápida” desde UI consumiendo:</p>
+<p>GET /api/reports/sales-summary</p>
+<p>GET /api/reports/inventory-summary</p>
+<p>POST /api/sales</p>
+<p>Entregables mínimos:</p>
+<p>Pantalla “Dashboard” (KPIs + top items/stock)</p>
+<p>Form “Venta rápida” (selección item + qty + price + cobro)</p>
+<p>Validaciones UX: cuando stock insuficiente, mostrar error claro</p>
+<p>10) Método operativo (micro-pasos)</p>
+<p>Regla: 1 comando / 1 cambio por vez.
+Vos pegás output, yo doy el siguiente paso.</p>
+<p>Cuando hay servidores corriendo:</p>
+<p>Abrí otra terminal (VS Code: Terminal → New Terminal).</p>
+<p>No hace falta cortar el server para ejecutar comandos.</p>
+<p>11) Prompt de reinicio (para retomar en un chat nuevo)</p>
+<p>Pegá esto tal cual:</p>
+<p>PROMPT CHECKPOINT — Quelonio SaaS (Web/API)</p>
+<p>Contexto:</p>
+<p>Repo app: C:\Users\flore\Documents\quelonio-saas</p>
+<p>Repo docs: C:\Users\flore\Documents\quelonio-pages</p>
+<p>Stack: Next 16.1 + TS + Prisma + PostgreSQL local</p>
+<p>Multi-tenant: Organizations + Memberships + Active-Org cookie</p>
+<p>Inventario: items + stock-moves con política strict no-negativos</p>
+<p>Ventas: invoices/payments + endpoint /api/sales (transacción + idempotencia por number)</p>
+<p>Regla: micro-pasos (1 paso por vez)</p>
+<p>Qué quiero ahora:</p>
+<p>Dashboard UI mínimo + Venta rápida desde UI</p>
+<p>Consumir GET /api/reports/sales-summary y GET /api/reports/inventory-summary</p>
+<p>Vista dashboard (KPIs + stock)</p>
+<p>Form venta rápida llamando POST /api/sales</p>
+<p>Restricciones:</p>
+<p>No avances con 10 pasos juntos.</p>
+<p>Si un paso requiere Admin, avisar explícitamente.</p>
+<p>Si hay que tocar archivos, decime ruta + contenido exacto.</p>
+<h2 id="entrada-2025-12-26-validacion-uireports-seed-data-idempotencia">Entrada 2025-12-26 — Validación UI+Reports + Seed Data + Idempotencia<a class="headerlink" href="#entrada-2025-12-26-validacion-uireports-seed-data-idempotencia" title="Permanent link">&para;</a></h2>
+<p><strong>Objetivo</strong>
+- Encender Dashboard con datos reales y validar idempotencia end-to-end.</p>
+<p><strong>Acciones</strong>
+- Se creó org: <code>cmjitsnkd0000ognk0woc5sjc</code>
+- Se creó item <code>APA Test</code> (<code>cmjnhq3ir0000wwnk3bu9qh0t</code>, category=BEER)
+- Stock IN: <code>POST /api/stock-moves</code> (shape correcto: itemId/type/qty) con <code>clientRef=seed-in-001</code>, <code>qty=24</code> (OK)
+- Venta: <code>POST /api/sales</code> con <code>number=INV-SEED-20251226-202219</code> (OK, invoice PAID)
+- Repeat misma venta: <code>POST /api/sales</code> con mismo <code>number</code> devolvió <code>idempotentHit=true</code> (sin duplicar side-effects)</p>
+<p><strong>Resultados</strong>
+- Reporte inventario: itemsCount=1, totalStockMoves=2, stock BEER=23, topConsumed=1 u.
+- Reporte ventas: invoicesCount=1, openInvoicesCount=0.
+- Idempotencia <code>/api/sales</code> confirmada en repetición (idempotentHit=true).</p>
+<p><strong>Próximo paso</strong>
+- Dashboard: refresco automático post-venta + UI “Venta rápida” completa (UX: errores 400 con details, y banner idempotente).</p>
+<h2 id="entrada-2025-12-29-pos-operativo-venta-real-redirect-a-dashboard">Entrada 2025-12-29 — POS operativo + venta real + redirect a Dashboard<a class="headerlink" href="#entrada-2025-12-29-pos-operativo-venta-real-redirect-a-dashboard" title="Permanent link">&para;</a></h2>
+<p>Objetivo
+- Completar el flujo “operación 1-click”: POS → POST /api/sales → impacto en KPIs del Dashboard.</p>
+<p>Acciones
+- Se corrigió el payload del POS para ventas: <code>lines[0].description</code> (requerido por el backend).
+- Se validó venta real desde UI POS (precio unitario editable).
+- Se implementó redirección automática: luego de “Venta OK…”, espera 1s y navega a <code>/dashboard</code>.
+- Resultado visible: POS muestra “Venta OK: INV-POS-...”, redirige al Dashboard y los KPIs reflejan la operación.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": [], "search": "../../assets/javascripts/workers/search.7a47a382.min.js", "tags": null, "translations": {"clipboard.copied": "Copiado al portapapeles", "clipboard.copy": "Copiar al portapapeles", "search.result.more.one": "1 m\u00e1s en esta p\u00e1gina", "search.result.more.other": "# m\u00e1s en esta p\u00e1gina", "search.result.none": "No se encontraron documentos", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Teclee para comenzar b\u00fasqueda", "search.result.term.missing": "Falta", "select.version": "Seleccionar versi\u00f3n"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.e71a0d61.min.js"></script>
+      
+    
+  </body>
+</html>

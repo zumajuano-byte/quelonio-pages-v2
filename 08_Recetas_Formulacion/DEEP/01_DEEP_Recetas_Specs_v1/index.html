@@ -1,0 +1,2028 @@
+
+<!doctype html>
+<html lang="es" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Biblioteca operativa y técnica para diseño, producción y QA/QC (Quelonio Brew).">
+      
+      
+      
+        <link rel="canonical" href="https://zumajuano-byte.github.io/quelonio-pages/08_Recetas_Formulacion/DEEP/01_DEEP_Recetas_Specs_v1/">
+      
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.0">
+    
+    
+      
+        <title>DEEP v1 — Recetas y Specs (definición vigente + tolerancias + versionado) - Quelonio — Biblia Cervecera</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.618322db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#deep-v1-recetas-y-specs-definicion-vigente-tolerancias-versionado" class="md-skip">
+          Saltar a contenido
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Cabecera">
+    <a href="../../.." title="Quelonio — Biblia Cervecera" class="md-header__button md-logo" aria-label="Quelonio — Biblia Cervecera" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Quelonio — Biblia Cervecera
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              DEEP v1 — Recetas y Specs (definición vigente + tolerancias + versionado)
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Búsqueda" placeholder="Búsqueda" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Buscar">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Limpiar" aria-label="Limpiar" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicializando búsqueda
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/zumajuano-byte/quelonio-pages" title="Ir al repositorio" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    zumajuano-byte/quelonio-pages
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navegación" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="Quelonio — Biblia Cervecera" class="md-nav__button md-logo" aria-label="Quelonio — Biblia Cervecera" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Quelonio — Biblia Cervecera
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/zumajuano-byte/quelonio-pages" title="Ir al repositorio" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    zumajuano-byte/quelonio-pages
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Inicio
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    OS Boot
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    OS Boot
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../99_Indice_y_Mapas/START_HERE/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    START HERE
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../99_Indice_y_Mapas/LAUNCHER/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    LAUNCHER
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../99_Indice_y_Mapas/SESSIONS_LOG/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    SESSIONS LOG
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../99_Indice_y_Mapas/CONTRATO_ESTRUCTURA/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Contrato de estructura
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_5" id="__nav_2_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Proyectos (estado vivo)
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Proyectos (estado vivo)
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../99_Indice_y_Mapas/PROYECTO_BIBLIA/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Biblia (Pages)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../99_Indice_y_Mapas/PROYECTO_WEB_API/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Web + API (MVP)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../99_Indice_y_Mapas/PROYECTO_LATAS/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Latas (Branding)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../99_Indice_y_Mapas/ASISTENTE_V1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Asistente v1
+  
+
+    
+  </span>
+  
+  
+    
+  
+  
+    <span class="md-status md-status--stable"></span>
+  
+
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_6" id="__nav_2_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Plantillas
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Plantillas
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../99_Indice_y_Mapas/PLANTILLAS/SPEC_v1_0/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    SPEC v1.0
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../99_Indice_y_Mapas/Home/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home interno
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../99_Indice_y_Mapas/Mapa_General_Quelonio/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Mapa general
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../00_Glosario/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Glosario
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Módulos
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Módulos
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../01_Agua/01_Agua/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Agua
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../02_Malta/02_Malta/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Malta
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../03_Levadura/03_Levadura/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Levadura
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../04_Lupulo/04_Lupulo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Lúpulo
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../05_Sistemas_IPA_Moderna/05_Sistemas_IPA_Moderna/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    IPA Moderna
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../06_Procesos_QA_QC/06_Procesos_QA_QC/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Procesos QA/QC
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_7" id="__nav_4_7_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Fermentación y maduración
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_7">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Fermentación y maduración
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../07_Fermentacion_Maduracion/07_Fermentacion_Maduracion/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../07_Fermentacion_Maduracion/Conceptos_base/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Conceptos base
+  
+
+    
+  </span>
+  
+  
+    
+  
+  
+    <span class="md-status md-status--draft"></span>
+  
+
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../07_Fermentacion_Maduracion/Control_de_fermentacion/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Control de fermentación
+  
+
+    
+  </span>
+  
+  
+    
+  
+  
+    <span class="md-status md-status--active"></span>
+  
+
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_8" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_8" id="__nav_4_8_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Recetas y formulación
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_8">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Recetas y formulación
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../08_Recetas_Formulacion/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Calculos_rapidos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cálculos rápidos
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../09_Empaque_Estabilidad/09_Empaque_Estabilidad/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Empaque y estabilidad
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../10_Limpieza_Sanitizacion/10_Limpieza_Sanitizacion/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Limpieza y sanitización
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../11_Sensorial/11_Sensorial/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Sensorial
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Verdad de negocio
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Verdad de negocio
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../98_Verdad_Negocio/98_Verdad_Negocio/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../98_Verdad_Negocio/01_Economia_Unitaria/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Economía unitaria
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../98_Verdad_Negocio/02_Operaciones/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Operaciones
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../98_Verdad_Negocio/03_Specs_Recetas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Specs recetas
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../98_Verdad_Negocio/04_QAQC/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    QA/QC
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../98_Verdad_Negocio/05_Branding_Comms/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Branding & comms
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../97_Soporte_Bibliografico/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Soporte bibliográfico
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Tabla de contenidos">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Tabla de contenidos
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#0-objetivo-operativo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        0) Objetivo operativo
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1-entidades-minimas-y-relacion" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1) Entidades (mínimas) y relación
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-sop-crear-un-spec-campos-obligatorios" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2) SOP — Crear un Spec (campos obligatorios)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2) SOP — Crear un Spec (campos obligatorios)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#21-identidad-y-versionado" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.1 Identidad y versionado
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#22-targets-los-numeros-que-mandan" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.2 Targets (los números que mandan)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#23-materias-primas-con-trazabilidad-minima" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.3 Materias primas (con trazabilidad mínima)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#24-proceso-objetivo-resumen-ejecutivo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.4 Proceso objetivo (resumen ejecutivo)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#25-qc-y-gates-minimos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.5 QC y gates (mínimos)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-tolerancias-iniciales-placeholder" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3) Tolerancias iniciales (placeholder)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-reglas-de-versionado-simple-y-anti-caos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4) Reglas de versionado (simple y anti-caos)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4) Reglas de versionado (simple y anti-caos)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#41-cuando-es-cambio-menor-v10-v11" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.1 Cuándo es cambio menor (v1.0 → v1.1)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#42-cuando-es-cambio-mayor-v1x-v20" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.2 Cuándo es cambio mayor (v1.x → v2.0)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#43-regla-de-oro" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.3 Regla de oro
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-spec-sheet-referencia-a-template" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5) “Spec Sheet” (referencia a template)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#templates" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Templates
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-matriz-de-afirmaciones-para-anclaje-bibliografico-posterior" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6) Matriz de afirmaciones (para anclaje bibliográfico posterior)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#feedback-desde-sensorial-cierra-el-loop" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Feedback desde Sensorial (cierra el loop)
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<h1 id="deep-v1-recetas-y-specs-definicion-vigente-tolerancias-versionado">DEEP v1 — Recetas y Specs (definición vigente + tolerancias + versionado)<a class="headerlink" href="#deep-v1-recetas-y-specs-definicion-vigente-tolerancias-versionado" title="Permanent link">&para;</a></h1>
+<blockquote>
+<p>Marco de verdad:
+- (BIBLIO) = respaldado por bibliografía (a completar cuando esté citado).
+- (HEURÍSTICA OPERATIVA | PENDIENTE_BIBLIO) = práctica operativa útil, aún no anclada a tu bibliografía.</p>
+</blockquote>
+<h2 id="0-objetivo-operativo">0) Objetivo operativo<a class="headerlink" href="#0-objetivo-operativo" title="Permanent link">&para;</a></h2>
+<p>Que cada cerveza tenga una “definición vigente” que permita:
+- Repetibilidad (mismo resultado con mismo proceso)
+- Trazabilidad (qué cambió y cuándo)
+- QC y liberación (criterios claros)
+- Mejora continua (feedback al spec sin caos)</p>
+<p>(HEURÍSTICA OPERATIVA | PENDIENTE_BIBLIO)</p>
+<hr />
+<h2 id="1-entidades-minimas-y-relacion">1) Entidades (mínimas) y relación<a class="headerlink" href="#1-entidades-minimas-y-relacion" title="Permanent link">&para;</a></h2>
+<ul>
+<li><strong>Receta</strong>: fórmula + proceso objetivo (lo planificado).</li>
+<li><strong>Spec</strong>: receta “congelada” con targets, tolerancias y gates (lo vigente).</li>
+<li><strong>Lote</strong>: ejecución real de un spec (lo producido).</li>
+<li><strong>Registro QC</strong>: mediciones y decisiones por etapa (lo medido/decidido).</li>
+</ul>
+<p>(HEURÍSTICA OPERATIVA | PENDIENTE_BIBLIO)</p>
+<hr />
+<h2 id="2-sop-crear-un-spec-campos-obligatorios">2) SOP — Crear un Spec (campos obligatorios)<a class="headerlink" href="#2-sop-crear-un-spec-campos-obligatorios" title="Permanent link">&para;</a></h2>
+<p>Un Spec “liberable” debe tener como mínimo:</p>
+<h3 id="21-identidad-y-versionado">2.1 Identidad y versionado<a class="headerlink" href="#21-identidad-y-versionado" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Producto / Estilo</li>
+<li>Versión (vX.Y)</li>
+<li>Estado: Draft / Vigente / Deprecado</li>
+<li>Fecha de vigencia</li>
+<li>Responsable</li>
+</ul>
+<p>(HEURÍSTICA OPERATIVA | PENDIENTE_BIBLIO)</p>
+<h3 id="22-targets-los-numeros-que-mandan">2.2 Targets (los números que mandan)<a class="headerlink" href="#22-targets-los-numeros-que-mandan" title="Permanent link">&para;</a></h3>
+<ul>
+<li>OG (objetivo)</li>
+<li>FG (objetivo)</li>
+<li>ABV (objetivo)</li>
+<li>IBU (objetivo, si aplica)</li>
+<li>Color/SRM (objetivo, si aplica)</li>
+<li>CO2 (objetivo)</li>
+<li>pH (si medís): mash / FV / final</li>
+<li>Temperaturas clave: fermentación (perfil) + envasado (rango)</li>
+</ul>
+<p>(HEURÍSTICA OPERATIVA | PENDIENTE_BIBLIO)</p>
+<h3 id="23-materias-primas-con-trazabilidad-minima">2.3 Materias primas (con trazabilidad mínima)<a class="headerlink" href="#23-materias-primas-con-trazabilidad-minima" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Maltas: tipo + % o kg + proveedor (lote si se puede)</li>
+<li>Lúpulos: variedad + forma + timing + g/L (lote si se puede)</li>
+<li>Levadura: cepa + forma (seca/líquida) + lote/fecha (si se puede)</li>
+<li>Agua: perfil objetivo + sales/ajustes (si aplica)</li>
+</ul>
+<p>(HEURÍSTICA OPERATIVA | PENDIENTE_BIBLIO)</p>
+<h3 id="24-proceso-objetivo-resumen-ejecutivo">2.4 Proceso objetivo (resumen ejecutivo)<a class="headerlink" href="#24-proceso-objetivo-resumen-ejecutivo" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Mash: esquema (T/tiempos) + pH objetivo (si aplica)</li>
+<li>Hervor: duración</li>
+<li>Whirlpool/hopstand: T/tiempo (si aplica)</li>
+<li>Enfriado: objetivo de T al inocular</li>
+<li>Fermentación: perfil de T por días + presión si aplica</li>
+<li>Dry hop: dosis + timing + T + tiempo de contacto (si aplica)</li>
+<li>Maduración/cold crash: objetivo + duración (si aplica)</li>
+<li>Empaque: método + rango de T + criterio anti-oxidación mínimo</li>
+</ul>
+<p>(HEURÍSTICA OPERATIVA | PENDIENTE_BIBLIO)</p>
+<h3 id="25-qc-y-gates-minimos">2.5 QC y gates (mínimos)<a class="headerlink" href="#25-qc-y-gates-minimos" title="Permanent link">&para;</a></h3>
+<p>Definir qué se mide y qué condición habilita pasar de etapa:
+- Gate A (post-inoculación): OG registrada + T registrada
+- Gate B (fin fermentación): FG estable (2 lecturas 24–48h) + sensorial rápido OK
+- Gate C (pre-empaque): sensorial OK + plan de empaque definido + trazabilidad lista
+- Gate D (liberación): criterios de liberación cumplidos</p>
+<p>(HEURÍSTICA OPERATIVA | PENDIENTE_BIBLIO)</p>
+<hr />
+<h2 id="3-tolerancias-iniciales-placeholder">3) Tolerancias iniciales (placeholder)<a class="headerlink" href="#3-tolerancias-iniciales-placeholder" title="Permanent link">&para;</a></h2>
+<blockquote>
+<p>Estas tolerancias se completan con datos reales de tus lotes y/o bibliografía.
+Mientras tanto, quedan como HEURÍSTICA OPERATIVA y se validan por medición.</p>
+</blockquote>
+<ul>
+<li>OG: ± ___</li>
+<li>FG: ± ___</li>
+<li>ABV: ± ___</li>
+<li>CO2: ± ___</li>
+<li>pH final: ± ___ (si aplica)</li>
+</ul>
+<p>(HEURÍSTICA OPERATIVA | PENDIENTE_BIBLIO)</p>
+<hr />
+<h2 id="4-reglas-de-versionado-simple-y-anti-caos">4) Reglas de versionado (simple y anti-caos)<a class="headerlink" href="#4-reglas-de-versionado-simple-y-anti-caos" title="Permanent link">&para;</a></h2>
+<h3 id="41-cuando-es-cambio-menor-v10-v11">4.1 Cuándo es cambio menor (v1.0 → v1.1)<a class="headerlink" href="#41-cuando-es-cambio-menor-v10-v11" title="Permanent link">&para;</a></h3>
+<p>Ejemplos:
+- Ajuste pequeño de timing (sin cambiar identidad sensorial esperada)
+- Cambio de proveedor/lote manteniendo especificación equivalente
+- Ajuste menor de dry hop (misma intención sensorial)</p>
+<p>(HEURÍSTICA OPERATIVA | PENDIENTE_BIBLIO)</p>
+<h3 id="42-cuando-es-cambio-mayor-v1x-v20">4.2 Cuándo es cambio mayor (v1.x → v2.0)<a class="headerlink" href="#42-cuando-es-cambio-mayor-v1x-v20" title="Permanent link">&para;</a></h3>
+<p>Ejemplos:
+- Cambio de levadura (cepa distinta)
+- Cambio de grist base (pilsen↔pale en proporciones relevantes)
+- Cambio fuerte de carga/estrategia de lúpulo (aroma/bitterness)
+- Cambio de proceso crítico (fermentación, presión, empaque)</p>
+<p>(HEURÍSTICA OPERATIVA | PENDIENTE_BIBLIO)</p>
+<h3 id="43-regla-de-oro">4.3 Regla de oro<a class="headerlink" href="#43-regla-de-oro" title="Permanent link">&para;</a></h3>
+<p>Si el consumidor “percibiría otra cerveza”, es versión mayor.
+(HEURÍSTICA OPERATIVA | PENDIENTE_BIBLIO)</p>
+<hr />
+<h2 id="5-spec-sheet-referencia-a-template">5) “Spec Sheet” (referencia a template)<a class="headerlink" href="#5-spec-sheet-referencia-a-template" title="Permanent link">&para;</a></h2>
+<p>Usar la plantilla canónica:
+- <code>docs/00_Templates/TP_SpecSheet_Cerveza.md</code></p>
+<h2 id="templates">Templates<a class="headerlink" href="#templates" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="../TP_Ticket_Mejora_Receta_Spec/">TP — Ticket de mejora (Receta/Spec)</a></li>
+</ul>
+<p>(HEURÍSTICA OPERATIVA | PENDIENTE_BIBLIO)</p>
+<hr />
+<h2 id="6-matriz-de-afirmaciones-para-anclaje-bibliografico-posterior">6) Matriz de afirmaciones (para anclaje bibliográfico posterior)<a class="headerlink" href="#6-matriz-de-afirmaciones-para-anclaje-bibliografico-posterior" title="Permanent link">&para;</a></h2>
+<blockquote>
+<p>Completar en pasada 2 con: libro → capítulo → sección/página.</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>Afirmación / decisión operativa</th>
+<th>Tag</th>
+<th>Fuente</th>
+<th>Métrica/validación</th>
+<th>Estado</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Tener spec vigente con targets y gates mejora repetibilidad y liberación</td>
+<td>HEURÍSTICA</td>
+<td>PENDIENTE_BIBLIO</td>
+<td>% lotes dentro de tolerancia + retrabajos</td>
+<td>por citar</td>
+</tr>
+<tr>
+<td>FG estable (2 lecturas) como condición mínima de fin de fermentación</td>
+<td>HEURÍSTICA</td>
+<td>PENDIENTE_BIBLIO</td>
+<td>evitar sobre/infra carbonatación + defectos</td>
+<td>por citar</td>
+</tr>
+<tr>
+<td>Versionado simple evita “receta ambigua” y facilita trazabilidad</td>
+<td>HEURÍSTICA</td>
+<td>PENDIENTE_BIBLIO</td>
+<td>auditoría de cambios + consistencia</td>
+<td>por citar</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="feedback-desde-sensorial-cierra-el-loop">Feedback desde Sensorial (cierra el loop)<a class="headerlink" href="#feedback-desde-sensorial-cierra-el-loop" title="Permanent link">&para;</a></h2>
+<p>Las recetas y specs se ajustan con evidencia. El método oficial para transformar cata en cambios es:</p>
+<p>➡️ <a href="../../../11_Sensorial/DEEP/20_Pasar_Sensorial_a_Spec_y_Receta/">11/DEEP/20 — Pasar sensorial a Spec y Receta</a></p>
+<p>Registro de cata:
+➡️ <a href="../../../11_Sensorial/DEEP/TP_Log_Cata_y_Defectos/">11/DEEP/TP — Log de Cata y Defectos</a></p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../..", "features": [], "search": "../../../assets/javascripts/workers/search.7a47a382.min.js", "tags": null, "translations": {"clipboard.copied": "Copiado al portapapeles", "clipboard.copy": "Copiar al portapapeles", "search.result.more.one": "1 m\u00e1s en esta p\u00e1gina", "search.result.more.other": "# m\u00e1s en esta p\u00e1gina", "search.result.none": "No se encontraron documentos", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Teclee para comenzar b\u00fasqueda", "search.result.term.missing": "Falta", "select.version": "Seleccionar versi\u00f3n"}, "version": null}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.e71a0d61.min.js"></script>
+      
+    
+  </body>
+</html>
