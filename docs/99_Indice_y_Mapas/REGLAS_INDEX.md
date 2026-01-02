@@ -103,3 +103,5 @@ Este archivo es el **índice maestro** de reglas `R-XXXX` y su trazabilidad.
 - [R-0085 — Alfa vs beta amilasa definen perfil de azúcares](../02_Malta/Malta_Parte2_DEEP/20_Enzimas_Amilasas_y_Proteasas.md#r-0085)
 - [R-0086 — DP como criterio de capacidad de conversión del grist](../02_Malta/Malta_Parte2_DEEP/30_Diastatic_Power_y_Limites.md#r-0086)
 - [R-0087 — Fermentables vs no fermentables como decisión de diseño](../02_Malta/Malta_Parte2_DEEP/40_Temperatura_Tiempo_y_Fermentabilidad.md#r-0087)
+
+- [Puente pH (Malta ↔ Agua):](../02_Malta/Malta_Parte2_DEEP/50_Interaccion_Malta_Agua_pH.md)

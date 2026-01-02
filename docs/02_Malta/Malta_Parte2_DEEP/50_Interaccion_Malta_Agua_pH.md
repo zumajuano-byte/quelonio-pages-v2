@@ -28,3 +28,38 @@ Hay una advertencia operacional: en sparge, cortar o corregir si el pH se acerca
 
 Siguiente: [Errores comunes y tradeoffs](60_Errores_Comunes_y_Tradeoffs.md)
 
+# Puente operativo (V2)
+
+## Propósito
+Conectar el **motor bioquímico de Malta** (modificación/enzimas/DP/fermentabilidad) con el **control de pH** del mash (Agua), sin duplicar contenido ni inventar evidencia.
+
+## Decisiones que habilita (en práctica)
+- Ajustar el pH del mash para operar el sistema enzimático (perfil de azúcares → cuerpo/sequedad).
+- Diagnosticar desvíos de conversión/eficiencia distinguiendo: **molienda / COA / enzimas / pH**.
+
+## Qué medir (mínimo)
+- pH del mash (medición real, no estimada).
+- Temperatura al medir (registrar).
+- Si hay corrección: tipo de corrección y dosis.
+
+## Ruta de diagnóstico (orden recomendado)
+1) **Medición pH**: confirmar lectura (instrumento calibrado).
+2) **COA / lote**: comparar lote actual vs anterior (extracto, DP, proteína, etc.).
+3) **Molienda**: revisar síntomas de over/under milling.
+4) **Sistema enzimático**: revisar DP/enzimas como capacidad de conversión del grist.
+5) Recién después: cambios de receta.
+
+## Puentes internos (no duplicar)
+- Agua (pH objetivo y control): `01_Agua/...` (ver reglas del módulo Agua).
+- Malta Parte 2 (enzimas/DP/fermentabilidad): `Malta_Parte2_DEEP/20_Enzimas_Amilasas_y_Proteasas.md` y `Malta_Parte2_DEEP/30_Diastatic_Power_y_Limites.md`
+- COA (predicción de performance): `Malta_Parte1_DEEP/40_COA_y_Control_de_Calidad.md`
+
+## Checklist mínimo (registro)
+- [ ] pH mash medido y registrado
+- [ ] lote/proveedor de malta registrado + COA guardado
+- [ ] setting de molienda documentado
+- [ ] síntoma observado (conversión, eficiencia, filtración, cuerpo/sequedad)
+- [ ] acción tomada (si hubo) + resultado
+
+## Notas de evidencia
+- Este archivo es un **puente**: las reglas de pH viven en Agua (B022) y las reglas de malta (B004) viven en sus archivos dueños.
