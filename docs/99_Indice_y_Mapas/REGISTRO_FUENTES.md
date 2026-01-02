@@ -18,7 +18,7 @@ Una regla solo es válida si cita: `FuenteID + ubicación exacta + cita textual 
 | B001 | Cómo hacer cerveza — John Palmer | 97_Soporte_Bibliografico/01_cerveza/Como-Hacer-Cerveza-John-Palmer.pdf | ES | Proceso base + diseño general | PENDIENTE |
 | B002 | Designing Great Beers (Español) | 97_Soporte_Bibliografico/01_cerveza/Designing-Great-Beers-Espanol.pdf | ES | Diseño por estilo + targets | PENDIENTE |
 | B003 | Yeast — The Practical Guide (traducido) | 97_Soporte_Bibliografico/01_cerveza/Yeast-The-Practical-Guide-to-Beer-Fermentation-TRADUCIDO-AL-ESPANOL.pdf | ES | Levadura + fermentación aplicada | PENDIENTE |
-| B004 | Malt | 97_Soporte_Bibliografico/01_cerveza/Malt PDF.pdf | ? | Malta + contribución sensorial/proceso | PENDIENTE |
+| B004 | Malt (John Mallett) — extracto/compilado tipo Bookey | 97_Soporte_Bibliografico/01_cerveza/Malt PDF.pdf | EN | Malta + contribución sensorial/proceso + COA + molienda | EN PROCESO |
 | B005 | For the Love of Hops — Stan Hieronymus (OCR) | 97_Soporte_Bibliografico/01_cerveza/For the love of Hops-Stan Hieronymus_01_OCR.pdf | OCR | Lúpulo: amargor/aroma/proceso | PENDIENTE |
 | B006 | The New IPA — Scientific Guide (traducido) | 97_Soporte_Bibliografico/01_cerveza/THE NEW IPA SCIENTIFIC GUIDE-CON PORTADA.pdf | ES | IPA moderna + estabilidad | PENDIENTE |
 | B007 | Quality management — Mary Pellettieri (2015) | 97_Soporte_Bibliografico/01_cerveza/Pellettieri...Brewers Publications (2015).pdf | EN | Sistema QA/QC | PENDIENTE |

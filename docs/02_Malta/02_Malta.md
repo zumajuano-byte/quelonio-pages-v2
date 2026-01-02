@@ -1,6 +1,28 @@
 # Malta
 
 Este módulo ordena todo lo que viene “antes del agua caliente”: qué aporta cada malta, cómo se transforma, cómo se controla, y cómo evitar errores típicos (molienda, conversión, lautering).
+Fuente base del módulo (para reglas): B004 — Malt (extracto/compilado tipo Bookey). Validar con fuente primaria si una regla es crítica.
+
+## Mapa operativo del módulo (V2)
+
+**Qué decide este módulo (en la práctica):**
+- Qué malta elegir (base/especial) para lograr: extracto, color, dulzor/sequedad, cuerpo/mouthfeel, estabilidad.
+- Qué mirar en el **COA** para anticipar rendimiento, filtración/lauter y consistencia de lote.
+- Cómo preparar la malta (almacenamiento/handling/molienda) para evitar pérdidas de extracto, problemas de flujo y riesgos por polvo.
+
+**Dónde está cada cosa (índices):**
+- Parte 1 (fundamentos + COA + molienda + sensorial): [Malta Parte 1 — Índice](Malta_Parte1_DEEP/00_INDEX.md)
+- Parte 2 (modificación/enzimas/DP/fermentabilidad/pH): [Malta Parte 2 — Índice](Malta_Parte2_DEEP/00_INDEX.md)
+- Parte 3 (kilning/color/caramelo vs tostado): [Malta Parte 3 — Índice](Malta_Parte3_DEEP/00_INDEX.md)
+- Parte 4 (tradeoffs de diseño + estabilidad): [Malta Parte 4 — Índice](Malta_Parte4_DEEP/00_INDEX.md)
+- Parte 5 (plantillas y casos de grist): [Malta Parte 5 — Índice](Malta_Parte5_DEEP/00_INDEX.md)
+
+**Reglas clave (se completan con anchors R-0065+):**
+- COA: `Malta_Parte1_DEEP/40_COA_y_Control_de_Calidad.md`
+- Molienda/handling: `Malta_Parte1_DEEP/50_Molienda_y_Preparacion.md`
+- Química/enzimas/DP: `Malta_Parte1_DEEP/20_Quimica_de_Malta_para_Cerveceros.md` y `Malta_Parte2_DEEP/30_Diastatic_Power_y_Limites.md`
+- Familias / maltas especiales: `Malta_Parte1_DEEP/30_Familias_de_Maltas_y_Aporte_Sensorial.md`
+
 
 ---
 

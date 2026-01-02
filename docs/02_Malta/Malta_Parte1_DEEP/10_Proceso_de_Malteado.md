@@ -36,3 +36,19 @@ En kilning aparecen reacciones de pardeamiento relevantes para aroma/sabor (ver 
 - “Qué tan modificada” está la malta afecta: molienda, conversión y lautering.
 - El kilning define gran parte del aporte sensorial y color.
 
+## Reglas (B004)
+
+<a id="r-0065"></a>
+### R-0065 — Entender el propósito del malteado como “transformación funcional” del grano
+
+- FuenteID: B004
+- Evidencia: "Malting is described as a process that alters the natural functions of barley seeds"
+- Ubicación: B004 p35
+
+**Regla (operativa):**
+- Tratar “malteado” como la explicación raíz de por qué cambia el comportamiento de la malta en brewhouse (extracto, filtración, fermentabilidad).
+- Cuando cambie el proveedor/lote, asumir posible cambio de comportamiento por diferencias de malteado y validar con COA.
+
+**Aplicación / límites:**
+- Aplica siempre que ajustes receta o proceso por variación de performance.
+- No reemplaza mediciones: se usa para decidir **qué mirar** (COA / molienda / mash).

@@ -59,3 +59,26 @@ Este archivo es el **índice maestro** de reglas `R-XXXX` y su trazabilidad.
 - [R-0062 — Depósitos en líneas; limpieza ácida](../01_Agua/Agua_Parte1_DEEP/40_Rol_del_Calcio.md#r-0062)
 - [R-0063 — Beerstone es duro/resistente](../01_Agua/Agua_Parte1_DEEP/40_Rol_del_Calcio.md#r-0063)
 - [R-0064 — Depósito en superficies calientes](../01_Agua/Agua_Parte1_DEEP/40_Rol_del_Calcio.md#r-0064)
+
+## Malta
+
+- Ubicación: [02_Malta.md](../02_Malta/02_Malta.md)
+- Fuente: B004
+
+#### Malta — Malteado y química (B004)
+- [R-0065 — Entender el propósito del malteado como “transformación funcional” del grano](../02_Malta/Malta_Parte1_DEEP/10_Proceso_de_Malteado.md#r-0065)
+- [R-0066 — Considerar beta glucanos/hemicelulosa como “palancas” de filtración (vía malteado)](../02_Malta/Malta_Parte1_DEEP/20_Quimica_de_Malta_para_Cerveceros.md#r-0066)
+- [R-0067 — Usar “Diastatic Power” como criterio de aptitud de conversión](../02_Malta/Malta_Parte1_DEEP/20_Quimica_de_Malta_para_Cerveceros.md#r-0067)
+
+#### Malta — COA / Calidad (B004)
+- [R-0068 — Tratar el COA como herramienta de predicción de performance del brewhouse](../02_Malta/Malta_Parte1_DEEP/40_COA_y_Control_de_Calidad.md#r-0068)
+- [R-0069 — No leer el COA como lista de números aislados: buscar interrelaciones](../02_Malta/Malta_Parte1_DEEP/40_COA_y_Control_de_Calidad.md#r-0069)
+
+#### Malta — Molienda y handling (B004)
+- [R-0070 — Definir el objetivo de molienda: exponer endospermo con mínima destrucción de cáscara](../02_Malta/Malta_Parte1_DEEP/50_Molienda_y_Preparacion.md#r-0070)
+- [R-0071 — Evitar extremos: over-milling vs under-milling tienen fallas distintas (flujo vs extracto)](../02_Malta/Malta_Parte1_DEEP/50_Molienda_y_Preparacion.md#r-0071)
+- [R-0072 — Considerar wet milling cuando el polvo sea un riesgo o limitante (y para mejorar husk/porosidad)](../02_Malta/Malta_Parte1_DEEP/50_Molienda_y_Preparacion.md#r-0072)
+- [R-0073 — Diseñar/usar silos/bins pensando en flujo y limpieza del sistema (calidad + seguridad)](../02_Malta/Malta_Parte1_DEEP/50_Molienda_y_Preparacion.md#r-0073)
+
+#### Malta — Familias / maltas especiales (B004)
+- [R-0074 — Usar maltas especiales para agregar complejidad más allá de la base](../02_Malta/Malta_Parte1_DEEP/30_Familias_de_Maltas_y_Aporte_Sensorial.md#r-0074)
