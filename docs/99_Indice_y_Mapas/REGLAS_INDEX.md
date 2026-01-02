@@ -105,3 +105,15 @@ Este archivo es el **índice maestro** de reglas `R-XXXX` y su trazabilidad.
 - [R-0087 — Fermentables vs no fermentables como decisión de diseño](../02_Malta/Malta_Parte2_DEEP/40_Temperatura_Tiempo_y_Fermentabilidad.md#r-0087)
 
 - [Puente pH (Malta ↔ Agua):](../02_Malta/Malta_Parte2_DEEP/50_Interaccion_Malta_Agua_pH.md)
+
+### Levadura
+
+| R-0090 | Levadura: cepa/estado como decisión principal | [Motor del sabor](../03_Levadura/Levadura_Parte1_DEEP/10_La_Levadura_como_Motor_del_Sabor.md#r-0090) |
+| R-0091 | Levadura: medir inoculación/viabilidad para consistencia | [Errores estructurales](../03_Levadura/Levadura_Parte1_DEEP/60_Errores_Estructurales_Comunes.md#r-0091) |
+| R-0092 | Parte fría: fermentación fría mejora estabilidad/shelf life | [Parte fría](../03_Levadura/Levadura_Parte1_DEEP/20_Fermentacion_como_Parte_Fria.md#r-0092) |
+| R-0093 | Control térmico sostenido durante fermentación | [Parte fría](../03_Levadura/Levadura_Parte1_DEEP/20_Fermentacion_como_Parte_Fria.md#r-0093) |
+| R-0094 | Oxígeno al inicio (excepción alta densidad) | [Necesidades básicas](../03_Levadura/Levadura_Parte1_DEEP/40_Necesidades_Basicas.md#r-0094) |
+| R-0095 | Nutrientes/minerales (zinc) como soporte | [Necesidades básicas](../03_Levadura/Levadura_Parte1_DEEP/40_Necesidades_Basicas.md#r-0095) |
+| R-0096 | Gestión por generaciones/log mínimo | [Sistema vivo](../03_Levadura/Levadura_Parte1_DEEP/50_Levadura_como_Sistema_Vivo.md#r-0096) |
+
+
