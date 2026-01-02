@@ -116,4 +116,17 @@ Este archivo es el **índice maestro** de reglas `R-XXXX` y su trazabilidad.
 | R-0095 | Nutrientes/minerales (zinc) como soporte | [Necesidades básicas](../03_Levadura/Levadura_Parte1_DEEP/40_Necesidades_Basicas.md#r-0095) |
 | R-0096 | Gestión por generaciones/log mínimo | [Sistema vivo](../03_Levadura/Levadura_Parte1_DEEP/50_Levadura_como_Sistema_Vivo.md#r-0096) |
 
+- [R-0097 — Membrana: “válvula” del sistema (permeabilidad)](../03_Levadura/Levadura_Parte2_DEEP/10_Estructura_Celular.md#r-0097)
+- [R-0098 — Esteroles: infraestructura (salud y resiliencia)](../03_Levadura/Levadura_Parte2_DEEP/10_Estructura_Celular.md#r-0098)
+- [R-0099 — Maltotriosa: define seco vs lleno (depende de cepa)](../03_Levadura/Levadura_Parte2_DEEP/20_Metabolismo_de_Azucares.md#r-0099)
+- [R-0100 — Dextrinas: no se fermentan (techo de atenuación real)](../03_Levadura/Levadura_Parte2_DEEP/20_Metabolismo_de_Azucares.md#r-0100)
+- [R-0101 — Etanol: anaeróbico (O₂ solo al inicio)](../03_Levadura/Levadura_Parte2_DEEP/30_Produccion_de_Alcohol_y_CO2.md#r-0101)
+- [R-0102 — Piruvato: salen subproductos (gestionables)](../03_Levadura/Levadura_Parte2_DEEP/30_Produccion_de_Alcohol_y_CO2.md#r-0102)
+- [R-0103 — Ésteres: 3 perillas (Temp/Pitch/O₂)](../03_Levadura/Levadura_Parte2_DEEP/40_Esteres_y_Alcoholes_Superiores.md#r-0103)
+- [R-0104 — Oxígeno ↓ ésteres (acetil-CoA/esteroles)](../03_Levadura/Levadura_Parte2_DEEP/40_Esteres_y_Alcoholes_Superiores.md#r-0104)
+- [R-0105 — Mosto alto en glucosa → ↑ ésteres](../03_Levadura/Levadura_Parte2_DEEP/40_Esteres_y_Alcoholes_Superiores.md#r-0105)
+- [R-0106 — Floculación: propiedad de proceso](../03_Levadura/Levadura_Parte2_DEEP/50_Floculacion_y_Sedimentacion.md#r-0106)
+- [R-0107 — Muy floculantes: ↓ atenuación + ↑ diacetilo/ésteres](../03_Levadura/Levadura_Parte2_DEEP/50_Floculacion_y_Sedimentacion.md#r-0107)
+- [R-0108 — Ésteres: mayor impacto sensorial](../03_Levadura/Levadura_Parte2_DEEP/40_Esteres_y_Alcoholes_Superiores.md#r-0108)
+
 
