@@ -7,3 +7,7 @@ site/
 **/* conv.html
 # artifacts generados (no versionar)
 *conv.html
+*.bak
+*.bak2
+*.bak*
+*.zip

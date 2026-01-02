@@ -1,60 +1,60 @@
-﻿# Naturaleza quÃ­mica del agua cervecera
+# Naturaleza química del agua cervecera
 
-## 1) El agua no es solo Hâ‚‚O
-En cervecerÃ­a, el agua es un **medio reactivo**, no un solvente neutro:
+## 1) El agua no es solo H₂O
+En cervecería, el agua es un **medio reactivo**, no un solvente neutro:
 - transporta iones
-- participa en equilibrios Ã¡cido-base
-- condiciona reacciones (mash/hervor/fermentaciÃ³n)
-- impacta la percepciÃ³n sensorial
+- participa en equilibrios ácido-base
+- condiciona reacciones (mash/hervor/fermentación)
+- impacta la percepción sensorial
 
-El concepto clave es que el agua **resiste cambios de pH** segÃºn su composiciÃ³n (especialmente por bicarbonatos).
+El concepto clave es que el agua **resiste cambios de pH** según su composición (especialmente por bicarbonatos).
 
 ---
 
-## 2) COâ‚‚ disuelto: â€œacidez naturalâ€ y punto de partida del tampÃ³n
-El agua en contacto con la atmÃ³sfera disuelve COâ‚‚:
+## 2) CO₂ disuelto: “acidez natural” y punto de partida del tampón
+El agua en contacto con la atmósfera disuelve CO₂:
 
-COâ‚‚ + Hâ‚‚O â‡Œ Hâ‚‚COâ‚ƒ â‡Œ Hâº + HCOâ‚ƒâ»
+CO₂ + H₂O ⇌ H₂CO₃ ⇌ H⁺ + HCO₃⁻
 
 Esto implica:
-- pH ligeramente Ã¡cido en agua â€œpuraâ€
-- presencia inevitable de bicarbonatos (segÃºn fuente)
-- inicio del sistema tampÃ³n carbonato (ver 30)
+- pH ligeramente ácido en agua “pura”
+- presencia inevitable de bicarbonatos (según fuente)
+- inicio del sistema tampón carbonato (ver 30)
 
 ---
 
-## 3) Agua como sistema dinÃ¡mico (por quÃ© cambia durante el proceso)
+## 3) Agua como sistema dinámico (por qué cambia durante el proceso)
 El comportamiento del agua cambia al:
 - calentar
 - mezclar con malta
-- agregar sales o Ã¡cidos
+- agregar sales o ácidos
 
-Por eso **no se puede tratar el agua aisladamente** del proceso: se diseÃ±a en funciÃ³n del mash, el lavado (sparge) y el perfil de cerveza objetivo.
+Por eso **no se puede tratar el agua aisladamente** del proceso: se diseña en función del mash, el lavado (sparge) y el perfil de cerveza objetivo.
 
 ---
 
-## 4) Regla prÃ¡ctica: pH se mide, alcalinidad se diseÃ±a
-En el mash, lo que te â€œpeleaâ€ el ajuste de pH es la **alcalinidad** (dominada por HCOâ‚ƒâ»). 
+## 4) Regla práctica: pH se mide, alcalinidad se diseña
+En el mash, lo que te “pelea” el ajuste de pH es la **alcalinidad** (dominada por HCO₃⁻). 
 Para operar esto sin magia:
 
 - entender pH vs alcalinidad: [20_pH_vs_Alcalinidad](20_pH_vs_Alcalinidad.md)
 - entender el rol del calcio como palanca estructural: [40_Rol_del_Calcio](40_Rol_del_Calcio.md)
-- entender el tampÃ³n carbonato: [30_Sistema_Tampon_Carbonato](30_Sistema_Tampon_Carbonato.md)
+- entender el tampón carbonato: [30_Sistema_Tampon_Carbonato](30_Sistema_Tampon_Carbonato.md)
 
 ---
 
-## 5) Targets operativos mÃ­nimos (para â€œordenar el restoâ€)
-- **pH de mash objetivo** tÃ­picamente en el rango 5.2â€“5.6 medido a 20Â°C/68Â°F (ambiente).
-- **MediciÃ³n de pH**: se estandariza a temperatura ambiente (la comparaciÃ³n histÃ³rica y prÃ¡ctica en cerveza se hace asÃ­).
+## 5) Targets operativos mínimos (para “ordenar el resto”)
+- **pH de mash objetivo** típicamente en el rango 5.2–5.6 medido a 20°C/68°F (ambiente).
+- **Medición de pH**: se estandariza a temperatura ambiente (la comparación histórica y práctica en cerveza se hace así).
 
-> Nota: si medÃ­s caliente, vas a comparar â€œmanzanas con naranjasâ€. MedÃ­ siempre a temperatura ambiente.
+> Nota: si medís caliente, vas a comparar “manzanas con naranjas”. Medí siempre a temperatura ambiente.
 
 ---
 
-## 6) QuÃ© registrar (mÃ­nimo, desde el dÃ­a 1)
+## 6) Qué registrar (mínimo, desde el día 1)
 - fuente de agua (red/pozo/osmosis + mezcla)
-- alcalinidad (ppm como CaCOâ‚ƒ) y Ca/Mg si tenÃ©s reporte
-- adiciones (sales/Ã¡cidos)
+- alcalinidad (ppm como CaCO₃) y Ca/Mg si tenés reporte
+- adiciones (sales/ácidos)
 - pH real del mash (temperatura ambiente)
 - resultado sensorial (para cerrar loop con receta)
 

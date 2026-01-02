@@ -4,6 +4,13 @@ Este módulo define el “piso químico” del proceso. Si el agua está bien di
 
 ---
 
+## Cómo usar este módulo (sin perder tiempo)
+- Si estás resolviendo un problema puntual: usá la **Ruta rápida**.
+- Si estás construyendo base sólida: entrá por los **Índices de Partes** y avanzá en orden.
+- Este módulo se completa con **reglas** que salen de bibliografía (FuenteID + ubicación + cita), integradas en los archivos “dueños” del tema.
+
+---
+
 ## Ruta rápida (MVP Agua — lo mínimo para no sufrir)
 1) **Cloro / Cloraminas** (si esto falla, arruina la cerveza aunque todo lo demás esté bien):
    - [Agua Parte 1 — 15_Cloro_y_Cloraminas](Agua_Parte1_DEEP/15_Cloro_y_Cloraminas.md)

@@ -1,4 +1,4 @@
-﻿---
+---
 status: canonical
 entrypoint: true
 ---

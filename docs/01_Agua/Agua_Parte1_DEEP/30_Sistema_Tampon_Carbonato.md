@@ -1,4 +1,4 @@
-﻿# Sistema tampón carbonato (el “resorte” del pH)
+# Sistema tampón carbonato (el “resorte” del pH)
 
 ## 1) Qué es y por qué importa
 El sistema tampón carbonato es el principal responsable de que el agua:

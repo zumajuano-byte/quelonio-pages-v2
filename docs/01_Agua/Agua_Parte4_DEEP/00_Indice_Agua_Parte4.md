@@ -1,4 +1,4 @@
-﻿# Ãndice â€” Agua Parte 4 (DEEP)
+# Índice — Agua Parte 4 (DEEP)
 
 - [120_Lectura_Cervecera_Informe_Agua](120_Lectura_Cervecera_Informe_Agua.md)
 - [130_Alcalinidad_Com_CaCO3_y_mEq](130_Alcalinidad_Com_CaCO3_y_mEq.md)
