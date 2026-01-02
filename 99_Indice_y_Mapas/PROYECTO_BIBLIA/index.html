@@ -605,10 +605,10 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#a-mojibake-encoding-raro-en-md-a-a-a-etc" class="md-nav__link">
+  <a href="#a-mojibake-encoding-raro-en-md-tokens-como-u00c3-u00c2-u00e2-ufffd" class="md-nav__link">
     <span class="md-ellipsis">
       
-        A) Mojibake / encoding raro en .md (Ã â€” Â, etc.)
+        A) Mojibake / encoding raro en .md (tokens como \u00C3, \u00C2, \u00E2, \uFFFD)
       
     </span>
   </a>
@@ -1892,10 +1892,10 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#a-mojibake-encoding-raro-en-md-a-a-a-etc" class="md-nav__link">
+  <a href="#a-mojibake-encoding-raro-en-md-tokens-como-u00c3-u00c2-u00e2-ufffd" class="md-nav__link">
     <span class="md-ellipsis">
       
-        A) Mojibake / encoding raro en .md (Ã â€” Â, etc.)
+        A) Mojibake / encoding raro en .md (tokens como \u00C3, \u00C2, \u00E2, \uFFFD)
       
     </span>
   </a>
@@ -2041,9 +2041,9 @@ Regla: al cerrar una sesión de Biblia, <strong>se reemplaza este archivo comple
 - Windows: vigilar LF/CRLF (ver Runbook).</p>
 <hr />
 <h2 id="runbook-limpieza-tecnica-atajos">Runbook — “limpieza técnica” (atajos)<a class="headerlink" href="#runbook-limpieza-tecnica-atajos" title="Permanent link">&para;</a></h2>
-<h3 id="a-mojibake-encoding-raro-en-md-a-a-a-etc">A) Mojibake / encoding raro en .md (Ã â€” Â, etc.)<a class="headerlink" href="#a-mojibake-encoding-raro-en-md-a-a-a-etc" title="Permanent link">&para;</a></h3>
+<h3 id="a-mojibake-encoding-raro-en-md-tokens-como-u00c3-u00c2-u00e2-ufffd">A) Mojibake / encoding raro en .md (tokens como \u00C3, \u00C2, \u00E2, \uFFFD)<a class="headerlink" href="#a-mojibake-encoding-raro-en-md-tokens-como-u00c3-u00c2-u00e2-ufffd" title="Permanent link">&para;</a></h3>
 <p>1) Detectar:
-   - <code>Select-String -Path .\docs\...\**\*.md -Pattern 'Ã|â€”|Â|�' -AllMatches</code>
+   - <code>Select-String -Path .\docs\...\**\*.md -Pattern '\u00C3|\u00E2|\u00C2|\uFFFD' -AllMatches</code>
 2) Fix (re-interpretar ISO-8859-1 → UTF-8) sobre lista <code>$files</code>:
    - <code>$latin1 = [System.Text.Encoding]::GetEncoding(28591)</code>
    - <code>$utf8   = [System.Text.Encoding]::UTF8</code>
