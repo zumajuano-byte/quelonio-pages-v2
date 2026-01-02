@@ -15,6 +15,17 @@ Elegir cepa (y diseñar su fermentación) como una decisión sistémica:
 - Qué trade-offs aceptás (limpieza vs carácter, velocidad vs control, floculación vs estabilidad).
 - Qué setpoints son coherentes con esa elección (pitch/O2/temperatura/nutrientes).
 - Cómo validar la elección con un caso aplicado y un checklist.
+## Reglas operativas (B003)
+- [R-0127](10_Marco_Decision_Seleccion_Cepa.md#r-0127) — Elegí por carácter, no sólo por estilo/región
+- [R-0128](10_Marco_Decision_Seleccion_Cepa.md#r-0128) — La cepa determina floculación (impacta operación/resultado)
+- [R-0129](10_Marco_Decision_Seleccion_Cepa.md#r-0129) — Cepas rápidas: plan explícito para evitar diacetilo
+- [R-0130](10_Marco_Decision_Seleccion_Cepa.md#r-0130) — La temperatura real manda la selección
+- [R-0131](10_Marco_Decision_Seleccion_Cepa.md#r-0131) — Pitch rate es parte de la decisión sensorial
+- [R-0132](10_Marco_Decision_Seleccion_Cepa.md#r-0132) — Limpieza/sanitización entre batches (repetibilidad)
+- [R-0133](60_Checklist_Seleccion_Cepa.md#r-0133) — En cono: descartes y cosecha con criterio
+- [R-0134](60_Checklist_Seleccion_Cepa.md#r-0134) — Selección limpia si hay cultivo/propagación
+- [R-0135](60_Checklist_Seleccion_Cepa.md#r-0135) — Salida = setpoints coherentes (no sólo cepa)
+- [R-0136](60_Checklist_Seleccion_Cepa.md#r-0136) — Validación con caso + checklist
 
 ---
 
