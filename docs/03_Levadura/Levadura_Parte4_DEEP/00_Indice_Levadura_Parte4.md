@@ -45,6 +45,22 @@ Aquí se gana (o se pierde) consistencia de lote a lote cuando reusás levadura.
 
 ---
 
+## Reglas operativas (Parte 4)
+Estas reglas viven en los archivos dueños (Checklist / Cosecha):
+
+- [R-0117 — No cerrar sin limpieza confirmada](60_Checklist_Post_Fermentacion.md#r-0117)
+- [R-0118 — Floculación completa antes de acciones finales](60_Checklist_Post_Fermentacion.md#r-0118)
+- [R-0119 — Cosecha limpia y en ventana óptima](60_Checklist_Post_Fermentacion.md#r-0119)
+- [R-0120 — Si no medís, registrá criterio (viabilidad/vitalidad)](60_Checklist_Post_Fermentacion.md#r-0120)
+- [R-0121 — Generación registrada obligatoria](60_Checklist_Post_Fermentacion.md#r-0121)
+- [R-0122 — Almacenamiento frío y limpio (guardrail)](60_Checklist_Post_Fermentacion.md#r-0122)
+- [R-0123 — Reutilizar levadura es gestión biológica](60_Checklist_Post_Fermentacion.md#r-0123)
+- [R-0124 — Trazabilidad final obligatoria](60_Checklist_Post_Fermentacion.md#r-0124)
+- [R-0125 — Minimizar oxígeno en slurry](30_Cosecha_y_Reutilizacion.md#r-0125)
+- [R-0126 — Ventana óptima: planificar antes](30_Cosecha_y_Reutilizacion.md#r-0126)
+
+---
+
 ## Checklist (para cerrar un lote y definir repitch)
 - [60 — Checklist: Post-fermentación](60_Checklist_Post_Fermentacion.md)
 

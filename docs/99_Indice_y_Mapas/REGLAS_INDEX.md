@@ -136,5 +136,15 @@ Este archivo es el **índice maestro** de reglas `R-XXXX` y su trazabilidad.
 - [R-0114 — No crash/transfer prematuro](../03_Levadura/Levadura_Parte3_DEEP/60_Checklist_Control_Fermentacion.md#r-0114)
 - [R-0115 — Guardar curva real (densidad+T°)](../03_Levadura/Levadura_Parte3_DEEP/60_Checklist_Control_Fermentacion.md#r-0115)
 - [R-0116 — Si no calculás, registrá criterio (TP Log)](../03_Levadura/Levadura_Parte3_DEEP/TP_Log_Pitch_O2_Temp_Nutrientes.md#r-0116)
+- [R-0117 — No cerrar sin limpieza confirmada](../03_Levadura/Levadura_Parte4_DEEP/60_Checklist_Post_Fermentacion.md#r-0117)
+- [R-0118 — Floculación completa antes de acciones finales](../03_Levadura/Levadura_Parte4_DEEP/60_Checklist_Post_Fermentacion.md#r-0118)
+- [R-0119 — Cosecha limpia y en ventana óptima](../03_Levadura/Levadura_Parte4_DEEP/60_Checklist_Post_Fermentacion.md#r-0119)
+- [R-0120 — Si no medís, registrá criterio (viabilidad/vitalidad)](../03_Levadura/Levadura_Parte4_DEEP/60_Checklist_Post_Fermentacion.md#r-0120)
+- [R-0121 — Generación registrada obligatoria](../03_Levadura/Levadura_Parte4_DEEP/60_Checklist_Post_Fermentacion.md#r-0121)
+- [R-0122 — Almacenamiento frío y limpio](../03_Levadura/Levadura_Parte4_DEEP/60_Checklist_Post_Fermentacion.md#r-0122)
+- [R-0123 — Reutilizar levadura es gestión biológica](../03_Levadura/Levadura_Parte4_DEEP/60_Checklist_Post_Fermentacion.md#r-0123)
+- [R-0124 — Trazabilidad final obligatoria](../03_Levadura/Levadura_Parte4_DEEP/60_Checklist_Post_Fermentacion.md#r-0124)
+- [R-0125 — Minimizar oxígeno en slurry](../03_Levadura/Levadura_Parte4_DEEP/30_Cosecha_y_Reutilizacion.md#r-0125)
+- [R-0126 — Ventana óptima: planificar antes](../03_Levadura/Levadura_Parte4_DEEP/30_Cosecha_y_Reutilizacion.md#r-0126)
 
 
