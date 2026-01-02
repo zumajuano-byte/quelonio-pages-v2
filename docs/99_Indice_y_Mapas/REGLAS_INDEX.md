@@ -82,3 +82,24 @@ Este archivo es el **índice maestro** de reglas `R-XXXX` y su trazabilidad.
 
 #### Malta — Familias / maltas especiales (B004)
 - [R-0074 — Usar maltas especiales para agregar complejidad más allá de la base](../02_Malta/Malta_Parte1_DEEP/30_Familias_de_Maltas_y_Aporte_Sensorial.md#r-0074)
+
+#### Malta — Malteado y química (B004)
+- [R-0075 — Modelar el malteado como 3 etapas fijas: steeping → germination → kilning](../02_Malta/Malta_Parte1_DEEP/10_Proceso_de_Malteado.md#r-0075)
+- [R-0076 — Tratar el kernel como “fábrica”: transforma carbohidratos, proteínas y lípidos](../02_Malta/Malta_Parte1_DEEP/20_Quimica_de_Malta_para_Cerveceros.md#r-0076)
+- [R-0077 — La modificación en germinación es secuencial: el endospermo se degrada “de un extremo al otro”](../02_Malta/Malta_Parte1_DEEP/20_Quimica_de_Malta_para_Cerveceros.md#r-0077)
+
+#### Malta — Familias / maltas especiales (B004)
+- [R-0078 — Definir “high-dried malts” por proceso: menor temperatura → color y sabores más livianos](../02_Malta/Malta_Parte1_DEEP/30_Familias_de_Maltas_y_Aporte_Sensorial.md#r-0078)
+- [R-0079 — Definir “roasted malts” por proceso: tostado directo en drum roaster → notas chocolate/café](../02_Malta/Malta_Parte1_DEEP/30_Familias_de_Maltas_y_Aporte_Sensorial.md#r-0079)
+
+#### Malta — Molienda y handling (B004)
+- [R-0080 — Wet milling reduce el riesgo de explosiones por polvo, pero exige manejo cuidadoso agua↔grano](../02_Malta/Malta_Parte1_DEEP/50_Molienda_y_Preparacion.md#r-0080)
+
+### Malta — Parte 2: Modificación / enzimas / DP (B004)
+- [R-0081 — Leer la “modificación” como proceso secuencial dentro del grano](../02_Malta/Malta_Parte2_DEEP/10_Modificacion_de_la_Malta.md#r-0081)
+- [R-0082 — Degradación de beta-glucanos/hemicelulosa como requisito de proceso](../02_Malta/Malta_Parte2_DEEP/10_Modificacion_de_la_Malta.md#r-0082)
+- [R-0083 — Sub vs sobre-modificada: diagnóstico por efectos](../02_Malta/Malta_Parte2_DEEP/10_Modificacion_de_la_Malta.md#r-0083)
+- [R-0084 — Enzimas: catalizadores específicos como drivers](../02_Malta/Malta_Parte2_DEEP/20_Enzimas_Amilasas_y_Proteasas.md#r-0084)
+- [R-0085 — Alfa vs beta amilasa definen perfil de azúcares](../02_Malta/Malta_Parte2_DEEP/20_Enzimas_Amilasas_y_Proteasas.md#r-0085)
+- [R-0086 — DP como criterio de capacidad de conversión del grist](../02_Malta/Malta_Parte2_DEEP/30_Diastatic_Power_y_Limites.md#r-0086)
+- [R-0087 — Fermentables vs no fermentables como decisión de diseño](../02_Malta/Malta_Parte2_DEEP/40_Temperatura_Tiempo_y_Fermentabilidad.md#r-0087)

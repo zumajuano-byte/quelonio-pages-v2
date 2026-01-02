@@ -46,3 +46,33 @@ Traducción práctica:
 **Aplicación / límites:**
 - Aplica en diseño de receta.
 - No define % ni selección específica (este extracto no trae rangos).
+
+<a id="r-0078"></a>
+### R-0078 — Definir “high-dried malts” por proceso: menor temperatura → color y sabores más livianos
+
+- FuenteID: B004
+- Evidencia: "High-dried malts are characterized by lower temperatures... resulting in lighter colors and flavors."
+- Ubicación: B004 p165
+
+**Regla (operativa):**
+- Clasificar high-dried como herramienta para sumar carácter sin “oscurecer” demasiado.
+- Documentar “objetivo sensorial” al elegirlas (qué nota buscás).
+
+**Aplicación / límites:**
+- Aplica en diseño de grist cuando querés complejidad con perfil más limpio/ligero.
+- No define porcentajes; eso va en Parte 5 (casos).
+
+<a id="r-0079"></a>
+### R-0079 — Definir “roasted malts” por proceso: tostado directo en drum roaster → notas chocolate/café
+
+- FuenteID: B004
+- Evidencia: "Roasted malts require direct high-temperature roasting... develop flavors like chocolate and coffee."
+- Ubicación: B004 p165
+
+**Regla (operativa):**
+- Usar roasted como palanca específica para notas tostadas (chocolate/café), no como “colorante”.
+- Si el objetivo es solo color, priorizar alternativas de “color sin ruido” (Parte 4) y justificar.
+
+**Aplicación / límites:**
+- Aplica cuando el objetivo sensorial incluye tostado.
+- No define intensidades ni límites; requiere validación sensorial/estilo.

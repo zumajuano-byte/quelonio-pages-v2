@@ -61,3 +61,33 @@ Traducción práctica:
 - Aplica en diseño de grist y diagnóstico de conversión.
 - No define rangos/umbrales (en este extracto no hay límites numéricos).
 - Soporte: definición de DP.
+
+<a id="r-0076"></a>
+### R-0076 — Tratar el kernel como “fábrica”: transforma carbohidratos, proteínas y lípidos vía acción enzimática
+
+- FuenteID: B004
+- Evidencia: "The barley kernel acts as a miniature factory, transforming carbohydrates, proteins, and lipids"
+- Ubicación: B004 p35
+
+**Regla (operativa):**
+- Cuando cambie cuerpo/espuma/estabilidad, no pensar solo en “azúcares”: revisar también proteínas y lípidos (vía malteado + manejo).
+- Usar esta regla como checklist conceptual antes de tocar receta.
+
+**Aplicación / límites:**
+- Aplica en diagnóstico sensorial/estabilidad y consistencia lote a lote.
+- No define valores objetivo; solo ordena qué variables mirar.
+
+<a id="r-0077"></a>
+### R-0077 — La modificación en germinación es secuencial: el endospermo se degrada “de un extremo al otro”
+
+- FuenteID: B004
+- Evidencia: "This enzymatic activity is sequential, progressing from one end of the endosperm to the other"
+- Ubicación: B004 p35
+
+**Regla (operativa):**
+- Interpretar “modificación” como proceso direccional y progresivo (útil para entender variaciones de conversión/filtración).
+- Si hay señales de sub-modificación, priorizar revisar COA/atributos de modificación antes de cambiar molienda.
+
+**Aplicación / límites:**
+- Aplica en diagnóstico de conversión y lautering.
+- No reemplaza ensayos; guía el orden de revisión.

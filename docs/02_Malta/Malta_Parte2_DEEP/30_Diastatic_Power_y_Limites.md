@@ -28,3 +28,34 @@ En vez de fijar umbrales universales (que varían por maltster y sistema), usá 
 
 Siguiente: [Temperatura, tiempo y fermentabilidad](40_Temperatura_Tiempo_y_Fermentabilidad.md)
 
+## Reglas (B004)
+
+<a id="r-0086"></a>
+### R-0086 — Usar Diastatic Power (DP) como criterio de “capacidad de conversión” del grist
+
+- FuenteID: B004
+- Evidencia: "diastatic power... a measure of a malt's ability to convert starch to sugar"
+- Ubicación: B004 p38
+
+**Regla (operativa):**
+- Si el grist incluye proporciones altas de insumos con baja actividad enzimática, asegurar que el total del grist conserve capacidad de conversión (DP suficiente en las bases).
+- Ante problemas de conversión, revisar DP/enzimas antes de “corregir” con azúcar o cambios agresivos.
+
+**Aplicación / límites:**
+- Aplica especialmente en grists con adjuntos o maltas con bajo poder diastático.
+- B004 aquí define concepto; números objetivo dependen de tu estándar interno/fuente complementaria.
+
+<a id="r-0086"></a>
+### R-0086 — Usar Diastatic Power (DP) como criterio de “capacidad de conversión” del grist
+
+- FuenteID: B004
+- Evidencia: "diastatic power... a measure of a malt's ability to convert starch to sugar"
+- Ubicación: B004 p38
+
+**Regla (operativa):**
+- Si el grist incluye proporciones altas de insumos con baja actividad enzimática, asegurar que el total del grist conserve capacidad de conversión (DP suficiente en las bases).
+- Ante problemas de conversión, revisar DP/enzimas antes de “corregir” con azúcar o cambios agresivos.
+
+**Aplicación / límites:**
+- Aplica especialmente en grists con adjuntos o maltas con bajo poder diastático.
+- B004 aquí define concepto; números objetivo dependen de tu estándar interno/fuente complementaria.

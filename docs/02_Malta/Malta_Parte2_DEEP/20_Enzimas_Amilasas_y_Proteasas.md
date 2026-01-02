@@ -29,3 +29,64 @@ Las proteínas no son “solo problema”: participan en estabilidad de espuma y
 
 Siguiente: [Diastatic Power y límites](30_Diastatic_Power_y_Limites.md)
 
+## Reglas (B004)
+
+<a id="r-0084"></a>
+### R-0084 — Tratar enzimas como “drivers” de modificación: son específicas y actúan durante germinación
+
+- FuenteID: B004
+- Evidencia: "Enzymes are detailed as proteins that catalyze biological reactions... with high specificity."
+- Ubicación: B004 p35
+
+**Regla (operativa):**
+- En problemas de conversión o perfil de azúcares, pensar primero en “capacidad enzimática del sistema” (maltas base + proceso) antes de tocar lúpulo/levadura.
+- Documentar comportamiento por lote: misma receta, distinto lote, distinto resultado.
+
+**Aplicación / límites:**
+- Aplica en lectura conceptual y troubleshooting.
+- No sustituye DP u otros indicadores cuando existan.
+
+<a id="r-0085"></a>
+### R-0085 — Entender que alfa y beta amilasa impactan el perfil de azúcares y por ende cuerpo/dulzor
+
+- FuenteID: B004
+- Evidencia: "alpha and beta amylases... influencing the sugar profile created during mashing"
+- Ubicación: B004 p38
+
+**Regla (operativa):**
+- Si buscás más cuerpo/dulzor residual, cuidá el perfil de azúcares (no solo OG/FG).
+- Si buscás sequedad, evitar decisiones que empujen un perfil demasiado dextrinizado.
+
+**Aplicación / límites:**
+- Aplica como principio de diseño y diagnóstico.
+- Los “diales” concretos (tiempo/temperatura/pH) se documentan donde tengas evidencia explícita.
+
+<a id="r-0084"></a>
+### R-0084 — Tratar enzimas como “drivers” de modificación: son específicas y actúan durante germinación
+
+- FuenteID: B004
+- Evidencia: "Enzymes are detailed as proteins that catalyze biological reactions... with high specificity."
+- Ubicación: B004 p35
+
+**Regla (operativa):**
+- En problemas de conversión o perfil de azúcares, pensar primero en “capacidad enzimática del sistema” (maltas base + proceso) antes de tocar lúpulo/levadura.
+- Documentar comportamiento por lote: misma receta, distinto lote, distinto resultado.
+
+**Aplicación / límites:**
+- Aplica en lectura conceptual y troubleshooting.
+- No sustituye DP u otros indicadores cuando existan.
+
+<a id="r-0085"></a>
+### R-0085 — Entender que alfa y beta amilasa impactan el perfil de azúcares y por ende cuerpo/dulzor
+
+- FuenteID: B004
+- Evidencia: "alpha and beta amylases... influencing the sugar profile created during mashing"
+- Ubicación: B004 p38
+
+**Regla (operativa):**
+- Si buscás más cuerpo/dulzor residual, cuidá el perfil de azúcares (no solo OG/FG).
+- Si buscás sequedad, evitar decisiones que empujen un perfil demasiado dextrinizado.
+
+**Aplicación / límites:**
+- Aplica como principio de diseño y diagnóstico.
+- Los “diales” concretos (tiempo/temperatura/pH) se documentan donde tengas evidencia explícita.

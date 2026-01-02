@@ -84,3 +84,18 @@ TP:
 **Aplicación / límites:**
 - Aplica si manejás bins/silos o tolvas (aunque sean chicas).
 - Si usás bolsas/bolsones: aplicar el espíritu (flujo/limpieza), aunque el hardware sea distinto.
+
+<a id="r-0080"></a>
+### R-0080 — Wet milling reduce el riesgo de explosiones por polvo, pero exige manejo cuidadoso agua↔grano
+
+- FuenteID: B004
+- Evidencia: "reduces the risk of dust-related explosions... requires careful management of water and grain interplay."
+- Ubicación: B004 p67
+
+**Regla (operativa):**
+- Si el polvo es un riesgo/limitante, considerar wet milling como mitigación.
+- Implementarlo solo si podés controlar consistentemente el contacto agua-grano.
+
+**Aplicación / límites:**
+- Aplica cuando hay riesgo por polvo o necesidad de mejorar porosidad del lecho.
+- No es “upgrade universal”: depende de equipo y control operativo.

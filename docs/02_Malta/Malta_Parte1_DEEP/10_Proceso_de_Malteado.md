@@ -52,3 +52,19 @@ En kilning aparecen reacciones de pardeamiento relevantes para aroma/sabor (ver 
 **Aplicación / límites:**
 - Aplica siempre que ajustes receta o proceso por variación de performance.
 - No reemplaza mediciones: se usa para decidir **qué mirar** (COA / molienda / mash).
+
+
+<a id="r-0075"></a>
+### R-0075 — Modelar el malteado como 3 etapas fijas: steeping → germination → kilning
+
+- FuenteID: B004
+- Evidencia: "The primary steps of the malting process are steeping, germination, and kilning"
+- Ubicación: B004 p162
+
+**Regla (operativa):**
+- Cuando diagnostiques “malta rara”, ordená el análisis por etapa (remojo, germinación, secado/horneado).
+- Usá este modelo para conversar con el maltster (preguntas por etapa).
+
+**Aplicación / límites:**
+- Aplica para diagnóstico y comunicación técnica.
+- No reemplaza COA ni mediciones del brewhouse.

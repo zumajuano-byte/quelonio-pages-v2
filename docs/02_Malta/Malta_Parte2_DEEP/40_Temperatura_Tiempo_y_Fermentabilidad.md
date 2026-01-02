@@ -23,3 +23,34 @@ Un encuadre general del proceso ubica la conversión en mash en el rango 60–70
 
 Siguiente: [Interacción Malta–Agua–pH](50_Interaccion_Malta_Agua_pH.md)
 
+## Reglas (B004)
+
+<a id="r-0087"></a>
+### R-0087 — Diseñar fermentabilidad separando “fermentables vs no fermentables” como decisión intencional
+
+- FuenteID: B004
+- Evidencia: "Carbohydrates... are categorized into fermentable and non-fermentable types."
+- Ubicación: B004 p36
+
+**Regla (operativa):**
+- Definir si tu objetivo es “atenuación alta (seco)” o “cuerpo (más no fermentables)” antes de ajustar receta.
+- Cuando el resultado no coincide (demasiado seco o demasiado dulce), revisar primero el sistema malta/enzimas/perfil de azúcares.
+
+**Aplicación / límites:**
+- Aplica como marco de decisión.
+- No fija diales de proceso; esos van con evidencia específica (pH/temperatura/tiempo) cuando la incorpores.
+
+<a id="r-0087"></a>
+### R-0087 — Diseñar fermentabilidad separando “fermentables vs no fermentables” como decisión intencional
+
+- FuenteID: B004
+- Evidencia: "Carbohydrates... are categorized into fermentable and non-fermentable types."
+- Ubicación: B004 p36
+
+**Regla (operativa):**
+- Definir si tu objetivo es “atenuación alta (seco)” o “cuerpo (más no fermentables)” antes de ajustar receta.
+- Cuando el resultado no coincide (demasiado seco o demasiado dulce), revisar primero el sistema malta/enzimas/perfil de azúcares.
+
+**Aplicación / límites:**
+- Aplica como marco de decisión.
+- No fija diales de proceso; esos van con evidencia específica (pH/temperatura/tiempo) cuando la incorpores.

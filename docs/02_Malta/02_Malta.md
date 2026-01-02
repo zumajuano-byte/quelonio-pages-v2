@@ -23,6 +23,14 @@ Fuente base del módulo (para reglas): B004 — Malt (extracto/compilado tipo Bo
 - Química/enzimas/DP: `Malta_Parte1_DEEP/20_Quimica_de_Malta_para_Cerveceros.md` y `Malta_Parte2_DEEP/30_Diastatic_Power_y_Limites.md`
 - Familias / maltas especiales: `Malta_Parte1_DEEP/30_Familias_de_Maltas_y_Aporte_Sensorial.md`
 
+## Estado del módulo
+
+- **Parte 1:** FUNDAMENTOS COMPLETOS (operable para producción).
+- **Parte 2:** EN PROCESO (modificación / enzimas / DP / fermentabilidad / puentes a pH).
+
+Siguiente foco recomendado (sin fragmentar el contexto):
+- Consolidar reglas “core” de B004 en Parte 2 (modificación + enzimas + DP), y dejar pH como puente documentado a Agua (B022) hasta tener evidencia específica de malta.
+
 
 ---
 
@@ -52,3 +60,4 @@ Fuente base del módulo (para reglas): B004 — Malt (extracto/compilado tipo Bo
 - [Malta Parte3 DEEP](Malta_Parte3_DEEP/00_Indice_Malta_Parte3.md)
 - [Malta Parte4 DEEP](Malta_Parte4_DEEP/00_Indice_Malta_Parte4.md)
 - [Malta Parte5 DEEP](Malta_Parte5_DEEP/00_Indice_Malta_Parte5.md)
+

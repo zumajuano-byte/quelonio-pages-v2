@@ -44,3 +44,94 @@ Si tu operación apunta a consistencia, lo más importante es **alinear**:
 
 Siguiente: [Enzimas: amilasas y proteasas](20_Enzimas_Amilasas_y_Proteasas.md)
 
+## Reglas (B004)
+
+<a id="r-0081"></a>
+### R-0081 — Leer la “modificación” como proceso secuencial dentro del grano (no como evento instantáneo)
+
+- FuenteID: B004
+- Evidencia: "This enzymatic activity is sequential, progressing from one end of the endosperm to the other"
+- Ubicación: B004 p35
+
+**Regla (operativa):**
+- Cuando tengas variabilidad de extracción/conversión, pensar “modificación” como gradiente dentro del kernel (no binario).
+- Si algo no cierra (extracto, filtración), correlacionar con COA + molienda antes de tocar receta.
+
+**Aplicación / límites:**
+- Aplica para interpretar performance lote a lote.
+- No reemplaza mediciones: obliga a documentar el comportamiento del lote.
+
+<a id="r-0082"></a>
+### R-0082 — Considerar la degradación de beta-glucanos/hemicelulosa como requisito para disponibilidad y proceso
+
+- FuenteID: B004
+- Evidencia: "beta glucans and hemicellulose... are degraded during the malting process"
+- Ubicación: B004 p36–p37
+
+**Regla (operativa):**
+- Si hay señales de lautering pesado o mosto “gomoso”, revisar variables vinculadas a modificación/estructura (y tu molienda).
+- Tratar la estructura de pared celular como parte del “riesgo de proceso”, no solo del rendimiento.
+
+**Aplicación / límites:**
+- Aplica cuando el problema es flujo/filtración además de extracto.
+- No define parámetros numéricos (B004 acá es conceptual).
+
+<a id="r-0083"></a>
+### R-0083 — Definir “sub/ sobre-modificada” por sus efectos: extracción/fermentación vs cuerpo/espuma
+
+- FuenteID: B004
+- Evidencia: "Under-modified malt... challenges in extraction and fermentation. Over-modified... affect beer body and foam quality."
+- Ubicación: B004 p151
+
+**Regla (operativa):**
+- Si el síntoma es baja extracción + fermentación “trabada”, sospechar sub-modificación (antes de “culpar” receta).
+- Si el síntoma es pérdida de cuerpo/espuma y beer “fina”, sospechar sobre-modificación (y ajustar estrategia de grist/proceso).
+
+**Aplicación / límites:**
+- Aplica como diagnóstico inicial (hipótesis).
+- Requiere confirmación por COA/registro + prueba controlada.
+
+<a id="r-0081"></a>
+### R-0081 — Leer la “modificación” como proceso secuencial dentro del grano (no como evento instantáneo)
+
+- FuenteID: B004
+- Evidencia: "This enzymatic activity is sequential, progressing from one end of the endosperm to the other"
+- Ubicación: B004 p35
+
+**Regla (operativa):**
+- Cuando tengas variabilidad de extracción/conversión, pensar “modificación” como gradiente dentro del kernel (no binario).
+- Si algo no cierra (extracto, filtración), correlacionar con COA + molienda antes de tocar receta.
+
+**Aplicación / límites:**
+- Aplica para interpretar performance lote a lote.
+- No reemplaza mediciones: obliga a documentar el comportamiento del lote.
+
+<a id="r-0082"></a>
+### R-0082 — Considerar la degradación de beta-glucanos/hemicelulosa como requisito para disponibilidad y proceso
+
+- FuenteID: B004
+- Evidencia: "beta glucans and hemicellulose... are degraded during the malting process"
+- Ubicación: B004 p36–p37
+
+**Regla (operativa):**
+- Si hay señales de lautering pesado o mosto “gomoso”, revisar variables vinculadas a modificación/estructura (y tu molienda).
+- Tratar la estructura de pared celular como parte del “riesgo de proceso”, no solo del rendimiento.
+
+**Aplicación / límites:**
+- Aplica cuando el problema es flujo/filtración además de extracto.
+- No define parámetros numéricos (B004 acá es conceptual).
+
+<a id="r-0083"></a>
+### R-0083 — Definir “sub/ sobre-modificada” por sus efectos: extracción/fermentación vs cuerpo/espuma
+
+- FuenteID: B004
+- Evidencia: "Under-modified malt... challenges in extraction and fermentation. Over-modified... affect beer body and foam quality."
+- Ubicación: B004 p151
+
+**Regla (operativa):**
+- Si el síntoma es baja extracción + fermentación “trabada”, sospechar sub-modificación (antes de “culpar” receta).
+- Si el síntoma es pérdida de cuerpo/espuma y beer “fina”, sospechar sobre-modificación (y ajustar estrategia de grist/proceso).
+
+**Aplicación / límites:**
+- Aplica como diagnóstico inicial (hipótesis).
+- Requiere confirmación por COA/registro + prueba controlada.
