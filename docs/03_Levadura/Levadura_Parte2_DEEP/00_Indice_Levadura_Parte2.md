@@ -22,3 +22,4 @@ Es la base para entender atenuación, producción de alcohol, ésteres y off-fla
 - [R-0106 — Floculación: propiedad de proceso](50_Floculacion_y_Sedimentacion.md#r-0106)
 - [R-0107 — Muy floculantes: ↓ atenuación + ↑ diacetilo/ésteres](50_Floculacion_y_Sedimentacion.md#r-0107)
 - [R-0108 — Ésteres: mayor impacto sensorial](40_Esteres_y_Alcoholes_Superiores.md#r-0108)
+- [60 — Interacción Metabolismo ↔ Receta (Marco de decisión)](60_Interaccion_Metabolismo_y_Receta.md)
