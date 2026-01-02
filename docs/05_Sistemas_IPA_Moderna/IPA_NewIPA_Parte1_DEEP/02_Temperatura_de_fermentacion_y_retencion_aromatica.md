@@ -1,38 +1,38 @@
-﻿# Temperatura de fermentaciÃ³n y retenciÃ³n aromÃ¡tica
+# Temperatura de fermentación y retención aromática
 
-## Problema tÃ­pico
-â€œDryhopeo, huele increÃ­bleâ€¦ pero al final se me apagaâ€.
+## Problema típico
+“Dryhopeo, huele increíble… pero al final se me apaga”.
 En IPA moderna, mucho aroma se pierde por:
-- COâ‚‚ scrub (arrastre)
+- CO₂ scrub (arrastre)
 - actividad de levadura
 - timing de adiciones
 - temperatura/tiempo de contacto
 
 ---
 
-## ObservaciÃ³n prÃ¡ctica (estilo comercial)
+## Observación práctica (estilo comercial)
 Se describe un enfoque donde:
-- antes del dry hop se baja levadura (â€œsoft crashâ€),
+- antes del dry hop se baja levadura (“soft crash”),
 - se cosecha,
-- y se dryhopea **despuÃ©s de la fermentaciÃ³n**, por sospecha de que levadura activa puede â€œquitarâ€ aromÃ¡ticos.
+- y se dryhopea **después de la fermentación**, por sospecha de que levadura activa puede “quitar” aromáticos.
 
-Esto no es dogma: es una heurÃ­stica para reducir pÃ©rdidas y aumentar repetibilidad.
+Esto no es dogma: es una heurística para reducir pérdidas y aumentar repetibilidad.
 
 ---
 
 ## Reglas operativas (sencillas)
-1) **SeparÃ¡** â€œfermentaciÃ³nâ€ de â€œextracciÃ³n de lÃºpuloâ€ cuando tu objetivo es aroma estable.
-2) Si dryhopeÃ¡s muy temprano:
- - ganÃ¡s biotransformaciÃ³n potencial,
- - pero aumentÃ¡s riesgo de pÃ©rdidas por actividad/arrastre.
-3) Si dryhopeÃ¡s post-fermentaciÃ³n:
- - ganÃ¡s control y retenciÃ³n,
- - pero podÃ©s perder algo de biotransformaciÃ³n (que igual se puede diseÃ±ar con timing por etapas en Parte 2).
+1) **Separá** “fermentación” de “extracción de lúpulo” cuando tu objetivo es aroma estable.
+2) Si dryhopeás muy temprano:
+ - ganás biotransformación potencial,
+ - pero aumentás riesgo de pérdidas por actividad/arrastre.
+3) Si dryhopeás post-fermentación:
+ - ganás control y retención,
+ - pero podés perder algo de biotransformación (que igual se puede diseñar con timing por etapas en Parte 2).
 
 ---
 
 ## Checklist
-- [ ] Â¿Tu objetivo principal es â€œaromaâ€ o â€œbiotransformaciÃ³nâ€?
-- [ ] Si es aroma: planificÃ¡ un **soft crash** previo y dry hop post-fermentaciÃ³n como baseline.
-- [ ] RegistrÃ¡: temperatura, densidad al dry hop, tiempo de contacto, mÃ©todo de mezcla.
+- [ ] ¿Tu objetivo principal es “aroma” o “biotransformación”?
+- [ ] Si es aroma: planificá un **soft crash** previo y dry hop post-fermentación como baseline.
+- [ ] Registrá: temperatura, densidad al dry hop, tiempo de contacto, método de mezcla.
 

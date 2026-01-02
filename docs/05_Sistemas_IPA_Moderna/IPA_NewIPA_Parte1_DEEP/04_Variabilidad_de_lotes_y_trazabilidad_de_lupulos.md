@@ -1,8 +1,8 @@
-﻿# Variabilidad de lotes y trazabilidad de lÃºpulos
+# Variabilidad de lotes y trazabilidad de lúpulos
 
 ## Problema real
-â€œMisma receta, mismo procesoâ€¦ distinto aromaâ€.
-En IPA moderna esto es normal si no controlÃ¡s:
+“Misma receta, mismo proceso… distinto aroma”.
+En IPA moderna esto es normal si no controlás:
 - lote/cosecha,
 - fecha de pick (madurez),
 - almacenamiento,
@@ -10,13 +10,13 @@ En IPA moderna esto es normal si no controlÃ¡s:
 
 ---
 
-## Evidencia prÃ¡ctica: cosecha cambia quÃ­mica y sensorial
-Se describe un aÃ±o con variaciones fuertes de alfa Ã¡cidos (ej. Willamette 7â€“9% vs normal 4â€“5%), y cÃ³mo cosecha/madurez afectan aceites y percepciÃ³n.
+## Evidencia práctica: cosecha cambia química y sensorial
+Se describe un año con variaciones fuertes de alfa ácidos (ej. Willamette 7–9% vs normal 4–5%), y cómo cosecha/madurez afectan aceites y percepción.
 
 ---
 
-## Trazabilidad mÃ­nima que te salva la vida
-Para cada lÃºpulo:
+## Trazabilidad mínima que te salva la vida
+Para cada lúpulo:
 - Variedad
 - Crop year
 - Proveedor
@@ -25,12 +25,12 @@ Para cada lÃºpulo:
 - Condiciones de almacenamiento
 - Fecha de apertura/uso
 
-En la prÃ¡ctica cervecera se usan muestras por lote (â€œbrewersâ€™ cutsâ€) para evaluaciÃ³n de calidad.
+En la práctica cervecera se usan muestras por lote (“brewers’ cuts”) para evaluación de calidad.
 
 ---
 
 ## Checklist
-- [ ] Â¿Tu receta depende de 1 lÃºpulo â€œestrellaâ€? Entonces trazabilidad es obligatoria.
-- [ ] RegistrÃ¡ lotes en el log del batch.
-- [ ] Cuando cambie lote, hacÃ© mini prueba sensorial (aunque sea rÃ¡pida) antes de escalar.
+- [ ] ¿Tu receta depende de 1 lúpulo “estrella”? Entonces trazabilidad es obligatoria.
+- [ ] Registrá lotes en el log del batch.
+- [ ] Cuando cambie lote, hacé mini prueba sensorial (aunque sea rápida) antes de escalar.
 

@@ -1,31 +1,31 @@
-﻿# Polifenoles, mirceno y â€œhop biteâ€ en cervezas turbias
+# Polifenoles, mirceno y “hop bite” en cervezas turbias
 
-## TraducciÃ³n al llano
-- **Haze** no es solo â€œproteÃ­na + levaduraâ€: tambiÃ©n entra extracciÃ³n de polifenoles.
-- El â€œhop bite / rasposoâ€ suele ser un mix de: polifenoles + extracciÃ³n + pH + carga de lÃºpulo + oxidaciÃ³n.
+## Traducción al llano
+- **Haze** no es solo “proteína + levadura”: también entra extracción de polifenoles.
+- El “hop bite / rasposo” suele ser un mix de: polifenoles + extracción + pH + carga de lúpulo + oxidación.
 
 ---
 
 ## Punto clave sobre perfiles de sabor
-Se menciona que un lÃºpulo como Citra, muy cargado de alcoholes monoterpÃ©nicos frutales, puede percibirse â€œverde/cebollaâ€ en dry hop grande post-fermentaciÃ³n, y se asocia con su riqueza en mirceno.
+Se menciona que un lúpulo como Citra, muy cargado de alcoholes monoterpénicos frutales, puede percibirse “verde/cebolla” en dry hop grande post-fermentación, y se asocia con su riqueza en mirceno.
 
 ---
 
-## Por quÃ© late hopping puede â€œgustar mÃ¡sâ€ que solo dry hop
-Se reporta que cervezas con lupulado tardÃ­o obtuvieron puntajes mÃ¡s altos frutales/cÃ­tricos que cervezas solo dry hop, y se sugiere que late hopping permite generar/transformar compuestos oxigenados en sustancias que impactan aroma/sabor.
+## Por qué late hopping puede “gustar más” que solo dry hop
+Se reporta que cervezas con lupulado tardío obtuvieron puntajes más altos frutales/cítricos que cervezas solo dry hop, y se sugiere que late hopping permite generar/transformar compuestos oxigenados en sustancias que impactan aroma/sabor.
 
 ---
 
-## Fracciones de aceite: dÃ³nde mirar (sin volverte quÃ­mico)
-- Hidrocarburos: 40â€“80% del aceite total, muy volÃ¡tiles (difÃ­ciles de retener).
-- FracciÃ³n oxigenada: menor, pero mÃ¡s â€œfrutalâ€ y mÃ¡s soluble, y puede explicar parte grande del sabor percibido.
+## Fracciones de aceite: dónde mirar (sin volverte químico)
+- Hidrocarburos: 40–80% del aceite total, muy volátiles (difíciles de retener).
+- Fracción oxigenada: menor, pero más “frutal” y más soluble, y puede explicar parte grande del sabor percibido.
 
-**DecisiÃ³n prÃ¡ctica:** no dosifiques solo por â€œaceite totalâ€; mirÃ¡ (si podÃ©s) **composiciÃ³n** y resultados sensoriales.
+**Decisión práctica:** no dosifiques solo por “aceite total”; mirá (si podés) **composición** y resultados sensoriales.
 
 ---
 
-## Checklist anti â€œhop biteâ€
-- [ ] DefinÃ­ lÃ­mite de carga total de dry hop (por estilo y sistema).
-- [ ] Si aparece â€œraspaâ€: bajÃ¡ contacto, bajÃ¡ carga, o divide en etapas (Parte 2/3).
-- [ ] RevisÃ¡ pH y oxÃ­geno (Parte 5 lo ata con shelf life).
+## Checklist anti “hop bite”
+- [ ] Definí límite de carga total de dry hop (por estilo y sistema).
+- [ ] Si aparece “raspa”: bajá contacto, bajá carga, o divide en etapas (Parte 2/3).
+- [ ] Revisá pH y oxígeno (Parte 5 lo ata con shelf life).
 

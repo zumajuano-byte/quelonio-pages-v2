@@ -62,9 +62,9 @@ Notas:
 
 ## Runbook — “limpieza técnica” (atajos)
 
-### A) Mojibake / encoding raro en .md (Ã â€” Â, etc.)
+### A) Mojibake / encoding raro en .md (tokens como \u00C3, \u00C2, \u00E2, \uFFFD)
 1) Detectar:
-   - `Select-String -Path .\docs\...\**\*.md -Pattern 'Ã|â€”|Â|�' -AllMatches`
+   - `Select-String -Path .\docs\...\**\*.md -Pattern '\u00C3|\u00E2|\u00C2|\uFFFD' -AllMatches`
 2) Fix (re-interpretar ISO-8859-1 → UTF-8) sobre lista `$files`:
    - `$latin1 = [System.Text.Encoding]::GetEncoding(28591)`
    - `$utf8   = [System.Text.Encoding]::UTF8`

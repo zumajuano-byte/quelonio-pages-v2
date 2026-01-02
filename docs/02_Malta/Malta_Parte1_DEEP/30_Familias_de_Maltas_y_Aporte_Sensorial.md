@@ -1,20 +1,20 @@
-﻿# Familias de maltas y aporte sensorial (por quÃ© saben como saben)
+# Familias de maltas y aporte sensorial (por qué saben como saben)
 
 ## 1) Idea central
 Durante el secado/curado (kilning) se construyen perfiles:
 - pan / galleta / miel
 - caramelo
-- tostado / cafÃ© / cacao
+- tostado / café / cacao
 
 Esto se explica en gran parte por reacciones de pardeamiento.
 
 ---
 
-## 2) Maillard (fundamento Ãºtil, no â€œmarketingâ€)
-La reacciÃ³n de Maillard ocurre entre aminas (aminoÃ¡cidos/proteÃ­nas) y carbonilos (de carbohidratos), generando melanoidinas y compuestos de aroma.
+## 2) Maillard (fundamento útil, no “marketing”)
+La reacción de Maillard ocurre entre aminas (aminoácidos/proteínas) y carbonilos (de carbohidratos), generando melanoidinas y compuestos de aroma.
 
-TraducciÃ³n prÃ¡ctica:
-- mÃ¡s intensidad de kilning/curado â†’ mÃ¡s aporte de compuestos de pardeamiento â†’ mÃ¡s color y notas â€œmaltaâ€/tostado.
+Traducción práctica:
+- más intensidad de kilning/curado → más aporte de compuestos de pardeamiento → más color y notas “malta”/tostado.
 
 ---
 
@@ -25,8 +25,8 @@ TraducciÃ³n prÃ¡ctica:
 
 ---
 
-## 4) Cierre (quÃ© anotar en receta/spec)
-- quÃ© familia de malta usaste y por quÃ©
-- quÃ© atributo buscabas (cuerpo/color/aroma)
+## 4) Cierre (qué anotar en receta/spec)
+- qué familia de malta usaste y por qué
+- qué atributo buscabas (cuerpo/color/aroma)
 - feedback sensorial post-lote (puente a 11 Sensorial)
 

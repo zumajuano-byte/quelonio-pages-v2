@@ -1,44 +1,44 @@
-﻿# Checklist de diseÃ±o y producciÃ³n â€” IPA Moderna
+# Checklist de diseño y producción — IPA Moderna
 
 ## Objetivo
-Tener un â€œgateâ€ mÃ­nimo para que IPA moderna salga consistente: aroma, amargor suave, textura, estabilidad.
+Tener un “gate” mínimo para que IPA moderna salga consistente: aroma, amargor suave, textura, estabilidad.
 
 ---
 
-## Hot-side (hervor/whirlpool) â€” control de amargor vs aroma
-- Se describe un enfoque de **adiciones en capas** en whirlpool (esperar 5â€“7 min para la segunda), buscando reducir amargor y mejorar retenciÃ³n/complejidad aromÃ¡tica.
-- Truco para bajar isomerizaciÃ³n de grandes whirlpool: **diluir con agua frÃ­a filtrada** para bajar rÃ¡pido temperatura (alta densidad â†’ apagar â†’ agregar agua frÃ­a en whirlpool).
+## Hot-side (hervor/whirlpool) — control de amargor vs aroma
+- Se describe un enfoque de **adiciones en capas** en whirlpool (esperar 5–7 min para la segunda), buscando reducir amargor y mejorar retención/complejidad aromática.
+- Truco para bajar isomerización de grandes whirlpool: **diluir con agua fría filtrada** para bajar rápido temperatura (alta densidad → apagar → agregar agua fría en whirlpool).
 
 ---
 
-## QuÃ­mica mÃ­nima (para no auto-sabotearte)
-La isomerizaciÃ³n depende de:
+## Química mínima (para no auto-sabotearte)
+La isomerización depende de:
 - tiempo/temperatura,
-- pH del mosto (5.0â€“5.6 aumenta rendimiento),
-- minerales: calcio o magnesio aumentan tasa de isomerizaciÃ³n.
+- pH del mosto (5.0–5.6 aumenta rendimiento),
+- minerales: calcio o magnesio aumentan tasa de isomerización.
 
-**ImplicaciÃ³n:** si querÃ©s â€œamargor suaveâ€, cuidÃ¡ pH/minerales y no solo â€œIBU teÃ³ricoâ€.
-
----
-
-## Cold-side (dry hop) â€” extracciÃ³n eficiente sin castigo
-- Contacto prolongado no garantiza mÃ¡s extracciÃ³n; para ciertos compuestos, 24 h puede alcanzar y tiempos largos pueden incluso revertir.
-- Si usÃ¡s Cryo: se recomienda reemplazar 30â€“50% de la carga de dry hop con Cryo y el resto pellets tradicionales.
+**Implicación:** si querés “amargor suave”, cuidá pH/minerales y no solo “IBU teórico”.
 
 ---
 
-## Checklist operativo (mÃ­nimo)
-### DiseÃ±o
-- [ ] Objetivo sensorial definido: Â¿tropical / cÃ­trico / resinoso?
+## Cold-side (dry hop) — extracción eficiente sin castigo
+- Contacto prolongado no garantiza más extracción; para ciertos compuestos, 24 h puede alcanzar y tiempos largos pueden incluso revertir.
+- Si usás Cryo: se recomienda reemplazar 30–50% de la carga de dry hop con Cryo y el resto pellets tradicionales.
+
+---
+
+## Checklist operativo (mínimo)
+### Diseño
+- [ ] Objetivo sensorial definido: ¿tropical / cítrico / resinoso?
 - [ ] Si tropical: plan de tioles (4MMP + LGC).
-- [ ] Plan de whirlpool: temperatura, tiempo, y si vas a â€œcapasâ€.
+- [ ] Plan de whirlpool: temperatura, tiempo, y si vas a “capas”.
 
 ### Proceso
-- [ ] Registro completo de lotes de lÃºpulo.
-- [ ] Plan de dry hop: etapa(s), temperatura, contacto efectivo, mÃ©todo de mezcla.
-- [ ] Control bÃ¡sico de pH/agua (con tu mÃ³dulo 01_Agua).
+- [ ] Registro completo de lotes de lúpulo.
+- [ ] Plan de dry hop: etapa(s), temperatura, contacto efectivo, método de mezcla.
+- [ ] Control básico de pH/agua (con tu módulo 01_Agua).
 
-### VerificaciÃ³n
-- [ ] Mini-panel: aroma (intensidad + descriptor), hop bite, astringencia, oxidaciÃ³n (color/aroma).
-- [ ] Ajuste: una variable por batch (si querÃ©s aprender rÃ¡pido).
+### Verificación
+- [ ] Mini-panel: aroma (intensidad + descriptor), hop bite, astringencia, oxidación (color/aroma).
+- [ ] Ajuste: una variable por batch (si querés aprender rápido).
 

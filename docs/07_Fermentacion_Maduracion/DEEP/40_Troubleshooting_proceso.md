@@ -3,11 +3,11 @@ status: active
 scope: proceso
 type: troubleshooting
 sources:
-  - "White & Zainasheff �?" Yeast (monitoreo; temperatura; diacetilo/precursor; transferencias y riesgo por oxígeno)"
-  - "Palmer �?" How to Brew (impacto de temperatura: ésteres/fuseles/diacetilo; cold crash y estabilidad coloidal)"
+  - "White & Zainasheff — Yeast (monitoreo; temperatura; diacetilo/precursor; transferencias y riesgo por oxígeno)"
+  - "Palmer — How to Brew (impacto de temperatura: ésteres/fuseles/diacetilo; cold crash y estabilidad coloidal)"
 ---
 
-# 40 �?" Troubleshooting de Proceso (síntomas �?' gates �?' causas �?' acciones)
+# 40 — Troubleshooting de Proceso (síntomas → gates → causas → acciones)
 
 ## Objetivo
 Resolver desvíos operativos de fermentación/maduración con un flujo consistente:
@@ -30,9 +30,9 @@ Resolver desvíos operativos de fermentación/maduración con un flujo consisten
 
 ---
 
-## 1) �?oNo arranca�?� o arranque muy lento
+## 1) “No arranca” o arranque muy lento
 ### Síntomas
-- 0�?"24h sin caída de densidad o sin señales.
+- 0–24h sin caída de densidad o sin señales.
 
 ### Gate
 - ¿Temperatura real está dentro del rango de la cepa?
@@ -52,19 +52,19 @@ Resolver desvíos operativos de fermentación/maduración con un flujo consisten
 
 ## 2) Overshoot térmico (pico de temperatura en fase activa)
 ### Síntomas
-- Temperatura real supera setpoint en 24�?"72h iniciales.
+- Temperatura real supera setpoint en 24–72h iniciales.
 
 ### Riesgo
 - Mayor probabilidad de perfil no deseado: ésteres/fuseles y riesgo de diacetilo si el cierre luego se corta.  
 
 ### Acciones
-- Bajar setpoint de forma controlada (evitar �?oshock�?�).
+- Bajar setpoint de forma controlada (evitar “shock”).
 - Recalibrar ubicación/aislación de sonda.
 - Para próximos lotes: setpoint inicial más conservador + capacidad real de enfriamiento.
 
 ---
 
-## 3) Fermentación lenta (caída de densidad se �?oaplana�?�)
+## 3) Fermentación lenta (caída de densidad se “aplana”)
 ### Gate
 - ¿Temperatura se mantiene estable o fluctúa?
 - ¿Hay rampa final aplicada demasiado temprano o demasiado tarde?
@@ -80,7 +80,7 @@ Resolver desvíos operativos de fermentación/maduración con un flujo consisten
 
 ---
 
-## 4) �?oStuck�?� o FG alta (no llega al objetivo)
+## 4) “Stuck” o FG alta (no llega al objetivo)
 ### Gate
 - ¿Densidad estable por 48h?
 - ¿Se aplicó cierre/maduración suficiente?
@@ -111,7 +111,7 @@ Resolver desvíos operativos de fermentación/maduración con un flujo consisten
 
 ---
 
-## 6) Después de transferir aparece �?opapel/cartón�?� o envejecimiento acelerado
+## 6) Después de transferir aparece “papel/cartón” o envejecimiento acelerado
 ### Síntomas
 - Perfil oxidado, decaimiento rápido, apagado aromático.
 
@@ -120,7 +120,7 @@ Resolver desvíos operativos de fermentación/maduración con un flujo consisten
 
 ### Acciones
 - Tratarlo como evento de proceso: revisar purgas, procedimiento de llenado, headspace.
-- Establecer gate de �?otransferencia controlada�?� (checklist obligatorio).
+- Establecer gate de “transferencia controlada” (checklist obligatorio).
 
 ---
 

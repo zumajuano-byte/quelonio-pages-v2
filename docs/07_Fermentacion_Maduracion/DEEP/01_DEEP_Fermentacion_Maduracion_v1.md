@@ -1,4 +1,4 @@
-﻿# DEEP v1 �?" Fermentación y maduración (SOP + rutina + gates + decisiones)
+﻿# DEEP v1 — Fermentación y maduración (SOP + rutina + gates + decisiones)
 
 > Marco de verdad:
 > - (BIBLIO) = respaldado por bibliografía (a completar cuando esté citado).
@@ -20,7 +20,7 @@ Ejecutar el Spec de forma repetible, con control de variables críticas y decisi
 
 ---
 
-## 2) SOP �?" Inicio (Día 0: inoculación)
+## 2) SOP — Inicio (Día 0: inoculación)
 Checklist mínimo:
 - Mosto enfriado a objetivo de inoculación (según Spec) (HEURÍSTICA OPERATIVA | BIBLIO_PEND)
 - Registrar OG y temperatura (Gate A) (HEURÍSTICA OPERATIVA | BIBLIO_PEND)
@@ -34,13 +34,13 @@ Salida del día 0:
 ---
 
 ## 3) Rutina diaria mínima (10 minutos)
-### Días 1�?"3 (arranque y control)
+### Días 1–3 (arranque y control)
 - Registrar: temp real (mañana/tarde) (HEURÍSTICA OPERATIVA | BIBLIO_PEND)
 - Observar: actividad (krausen/airlock/PSI si aplica) (HEURÍSTICA OPERATIVA | BIBLIO_PEND)
 - Si tenés medición de densidad sin riesgo: 1 lectura/día desde día 2 (HEURÍSTICA OPERATIVA | BIBLIO_PEND)
-- Nota sensorial rápida: azufre / solvente / �?overde�?� (HEURÍSTICA OPERATIVA | BIBLIO_PEND)
+- Nota sensorial rápida: azufre / solvente / “verde” (HEURÍSTICA OPERATIVA | BIBLIO_PEND)
 
-### Días 4�?"fin (cierre)
+### Días 4”fin (cierre)
 - Registrar densidad hasta estabilizar (HEURÍSTICA OPERATIVA | BIBLIO_PEND)
 - Nota sensorial rápida: diacetilo / acetaldehído / oxidación (HEURÍSTICA OPERATIVA | BIBLIO_PEND)
 
@@ -51,15 +51,15 @@ Salida del día 0:
 
 ### 4.1 No arranca / va muy lento
 Checklist:
-- ¿Temp real es menor a la objetivo? �?' subir 1�?"2 °C y esperar 12�?"24h (HEURÍSTICA OPERATIVA | BIBLIO_PEND)
-- ¿Pitch dudoso (viejo/bajo)? �?' priorizar temperatura y tiempo; evitar aireación tardía (HEURÍSTICA OPERATIVA | BIBLIO_PEND)
+- ¿Temp real es menor a la objetivo? → subir 1–2 °C y esperar 12–24h (HEURÍSTICA OPERATIVA | BIBLIO_PEND)
+- ¿Pitch dudoso (viejo/bajo)? → priorizar temperatura y tiempo; evitar aireación tardía (HEURÍSTICA OPERATIVA | BIBLIO_PEND)
 
 ### 4.2 Va demasiado rápido / demasiado caliente
-- Bajar setpoint 1�?"2 °C y sostener 24h (HEURÍSTICA OPERATIVA | BIBLIO_PEND)
-- Evitar �?oshock�?� (bajar grande de golpe) (HEURÍSTICA OPERATIVA | BIBLIO_PEND)
+- Bajar setpoint 1–2 °C y sostener 24h (HEURÍSTICA OPERATIVA | BIBLIO_PEND)
+- Evitar “shock” (bajar grande de golpe) (HEURÍSTICA OPERATIVA | BIBLIO_PEND)
 
 ### 4.3 Diacetilo (manteca/caramelo)
-- �?oDescanso�?�: subir 1�?"2 °C por 24�?"48h (HEURÍSTICA OPERATIVA | BIBLIO_PEND)
+- “Descanso”: subir 1–2 °C por 24–48h (HEURÍSTICA OPERATIVA | BIBLIO_PEND)
 - No cold crash hasta que el defecto baje (HEURÍSTICA OPERATIVA | BIBLIO_PEND)
 
 ### 4.4 Azufre marcado
@@ -67,15 +67,15 @@ Checklist:
 
 ---
 
-## 5) Gate B �?" Definición operativa de �?ofin de fermentación�?�
+## 5) Gate B — Definición operativa de “fin de fermentación”
 Condiciones mínimas:
-- FG estable: 2 lecturas iguales separadas 24�?"48h (HEURÍSTICA OPERATIVA | BIBLIO_PEND)
+- FG estable: 2 lecturas iguales separadas 24–48h (HEURÍSTICA OPERATIVA | BIBLIO_PEND)
 - Sensorial rápido OK (sin diacetilo marcado fuera de estilo) (HEURÍSTICA OPERATIVA | BIBLIO_PEND)
 - Registro completo del perfil de temperatura aplicado (HEURÍSTICA OPERATIVA | BIBLIO_PEND)
 
 ---
 
-## 6) Dry hop (si aplica) �?" SOP mínimo con foco O2
+## 6) Dry hop (si aplica) — SOP mínimo con foco O2
 Objetivo: minimizar ingreso de oxígeno y variabilidad de contacto.
 
 Checklist:
@@ -91,7 +91,7 @@ Cierre dry hop:
 
 ## 7) Maduración (post-fermentación)
 ### 7.1 Objetivos
-- Redondeo sensorial / reducción de �?overdes�?� (HEURÍSTICA OPERATIVA | BIBLIO_PEND)
+- Redondeo sensorial / reducción de “verdes” (HEURÍSTICA OPERATIVA | BIBLIO_PEND)
 - Clarificación/estabilidad (HEURÍSTICA OPERATIVA | BIBLIO_PEND)
 - Preparación para empaque sin oxidar (HEURÍSTICA OPERATIVA | BIBLIO_PEND)
 
@@ -102,7 +102,7 @@ Cierre dry hop:
 
 ---
 
-## 8) Gate C �?" Pre-empaque (salida de fermentación/maduración)
+## 8) Gate C — Pre-empaque (salida de fermentación/maduración)
 Para habilitar empaque:
 - Gate B cumplido (FG estable + sensorial rápido OK) (HEURÍSTICA OPERATIVA | BIBLIO_PEND)
 - Plan de transferencia definido (ideal: cerrada) (HEURÍSTICA OPERATIVA | BIBLIO_PEND)

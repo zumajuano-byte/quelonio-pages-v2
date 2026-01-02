@@ -1,68 +1,68 @@
-﻿---
+---
 status: draft
 scope: fermentacion
 sources:
-  - "White & Zainasheff â€” Yeast (OxÃ­geno / tasa de inoculaciÃ³n / alta densidad)"
-  - "Palmer â€” How to Brew (OxÃ­geno, fase lag, factores de fermentaciÃ³n)"
+  - "White & Zainasheff — Yeast (Oxígeno / tasa de inoculación / alta densidad)"
+  - "Palmer — How to Brew (Oxígeno, fase lag, factores de fermentación)"
 ---
 
-# FermentaciÃ³n (DEEP) â€” OxigenaciÃ³n y Pitch Rate
+# Fermentación (DEEP) — Oxigenación y Pitch Rate
 
-## 1) Principio operativo: oxÃ­geno = capacidad de crecimiento y membrana
-- En la fase **lag** la levadura usa el oxÃ­geno para sintetizar compuestos clave de membrana (esteroles, etc.), lo que habilita transporte de nutrientes/azÃºcares y reproducciÃ³n.
-- La levadura suele **agotar el oxÃ­geno del mosto rÃ¡pidamente** (en el orden de decenas de minutos post-inoculaciÃ³n).
-- En mosto hervido, el oxÃ­geno es el â€œnutrienteâ€ que tÃ­picamente falta: por eso se recomienda aportarlo **al comienzo**.
+## 1) Principio operativo: oxígeno = capacidad de crecimiento y membrana
+- En la fase **lag** la levadura usa el oxígeno para sintetizar compuestos clave de membrana (esteroles, etc.), lo que habilita transporte de nutrientes/azúcares y reproducción.
+- La levadura suele **agotar el oxígeno del mosto rápidamente** (en el orden de decenas de minutos post-inoculación).
+- En mosto hervido, el oxígeno es el “nutriente” que típicamente falta: por eso se recomienda aportarlo **al comienzo**.
 
-## 2) Regla prÃ¡ctica: oxigenar temprano; evitar oxÃ­geno tardÃ­o (salvo excepciÃ³n)
-- En general, **no conviene agregar oxÃ­geno mÃ¡s tarde**, porque puede alterar el equilibrio de compuestos de aroma/sabor.
+## 2) Regla práctica: oxigenar temprano; evitar oxígeno tardío (salvo excepción)
+- En general, **no conviene agregar oxígeno más tarde**, porque puede alterar el equilibrio de compuestos de aroma/sabor.
 
-### ExcepciÃ³n: cervezas de alta densidad / alto alcohol
-- Para mostos **muy altos** (ej. > 1.092 / 22Â°P), se recomienda oxÃ­geno puro porque el aire no alcanza DO suficiente.
-- En alta densidad, **una segunda dosis de oxÃ­geno entre 12 y 18 horas** puede ayudar a velocidad y atenuaciÃ³n.
+### Excepción: cervezas de alta densidad / alto alcohol
+- Para mostos **muy altos** (ej. > 1.092 / 22°P), se recomienda oxígeno puro porque el aire no alcanza DO suficiente.
+- En alta densidad, **una segunda dosis de oxígeno entre 12 y 18 horas** puede ayudar a velocidad y atenuación.
 
-## 3) Objetivo de oxÃ­geno disuelto (DO) y consecuencia prÃ¡ctica
-- Referencia tÃ­pica: **8â€“10 ppm de DO** como rango recomendado.
-- Aumentar DO hasta el rango recomendado puede mejorar la fermentaciÃ³n (incluso acortando la llegada a densidad terminal).
-- Sub-oxigenaciÃ³n crÃ³nica puede degradar el desempeÃ±o de la levadura en reutilizaciones (mÃ¡s lag, mÃ¡s tiempo total, FG mÃ¡s alta en generaciones).
+## 3) Objetivo de oxígeno disuelto (DO) y consecuencia práctica
+- Referencia típica: **8–10 ppm de DO** como rango recomendado.
+- Aumentar DO hasta el rango recomendado puede mejorar la fermentación (incluso acortando la llegada a densidad terminal).
+- Sub-oxigenación crónica puede degradar el desempeño de la levadura en reutilizaciones (más lag, más tiempo total, FG más alta en generaciones).
 
-## 4) Pitch rate: guÃ­a base y cÃ³mo calcularlo (sin mÃ­stica)
-### 4.1 GuÃ­a de tasas (por grado Plato)
-- Ales: **0.75 millones de cÃ©lulas / mL / Â°P** (muchas ales).
-- Lagers: **1.5 millones de cÃ©lulas / mL / Â°P** (aprox. el doble).
-- Algunas ales britÃ¡nicas y de trigo: pueden ir mÃ¡s bajo (aprox. **0.5â€“0.75**).
-- Estas guÃ­as suelen asumirse para **repitch de levadura cosechada**; con cultivo de laboratorio â€œfrescoâ€ y bien nutrido, puede usarse hasta ~50% menos.
+## 4) Pitch rate: guía base y cómo calcularlo (sin mística)
+### 4.1 Guía de tasas (por grado Plato)
+- Ales: **0.75 millones de células / mL / °P** (muchas ales).
+- Lagers: **1.5 millones de células / mL / °P** (aprox. el doble).
+- Algunas ales británicas y de trigo: pueden ir más bajo (aprox. **0.5–0.75**).
+- Estas guías suelen asumirse para **repitch de levadura cosechada**; con cultivo de laboratorio “fresco” y bien nutrido, puede usarse hasta ~50% menos.
 
-### 4.2 FÃ³rmula de cÃ¡lculo (cÃ©lulas requeridas)
-- CÃ©lulas a inocular = (tasa en millones) Ã— (mL de mosto) Ã— (Â°P)
-- Ejemplo (ale 12Â°P, 20 L): 0.75 Ã— 20.000 Ã— 12 = 180.000.000.000 cÃ©lulas
+### 4.2 Fórmula de cálculo (células requeridas)
+- Células a inocular = (tasa en millones) × (mL de mosto) × (°P)
+- Ejemplo (ale 12°P, 20 L): 0.75 × 20.000 × 12 = 180.000.000.000 células
 
 ## 5) Subpitch vs overpitch (impacto y criterio)
-- Sub-inoculaciÃ³n: puede dar **lag largo** y fermentaciÃ³n lenta, abriendo ventana a bacterias/levadura salvaje.
-- Si hay que elegir, la sobre-inoculaciÃ³n suele ser â€œmÃ¡s toleranteâ€ antes de que aparezcan defectos evidentes.
-- MÃ¡s importante que la â€œprecisiÃ³n perfectaâ€ es la **consistencia**: si una cantidad funciona, repetirla.
+- Sub-inoculación: puede dar **lag largo** y fermentación lenta, abriendo ventana a bacterias/levadura salvaje.
+- Si hay que elegir, la sobre-inoculación suele ser “más tolerante” antes de que aparezcan defectos evidentes.
+- Más importante que la “precisión perfecta” es la **consistencia**: si una cantidad funciona, repetirla.
 
-## 6) CÃ³mo medir la cantidad en la prÃ¡ctica (sin laboratorio sofisticado)
+## 6) Cómo medir la cantidad en la práctica (sin laboratorio sofisticado)
 ### 6.1 Barro (slurry)
-- Barros tÃ­picos: ~1 a 3 billones de cÃ©lulas/mL (depende recolecciÃ³n).
-- MÃ©todo simple: estimar densidad del barro y convertir a volumen/peso; errores pequeÃ±os en densidad impactan fuerte la tasa.
+- Barros típicos: ~1 a 3 billones de células/mL (depende recolección).
+- Método simple: estimar densidad del barro y convertir a volumen/peso; errores pequeños en densidad impactan fuerte la tasa.
 
 ### 6.2 Levadura seca
-- Rango tÃ­pico: ~7 a 20 mil millones de cÃ©lulas/gramo (pero la viabilidad real depende de almacenamiento/rehidrataciÃ³n; puede ser menor).
-- Rehidratar mal puede matar ~la mitad de las cÃ©lulas (riesgo directo de subpitch).
+- Rango típico: ~7 a 20 mil millones de células/gramo (pero la viabilidad real depende de almacenamiento/rehidratación; puede ser menor).
+- Rehidratar mal puede matar ~la mitad de las células (riesgo directo de subpitch).
 
-## 7) SeÃ±ales de proceso que indican problema (para QA/QC)
-- FermentaciÃ³n lenta o incompleta: revisar **pitch rate, aireaciÃ³n, FAN, temperatura y vitalidad** (y luego minerales/nutrientes si corresponde).
+## 7) Señales de proceso que indican problema (para QA/QC)
+- Fermentación lenta o incompleta: revisar **pitch rate, aireación, FAN, temperatura y vitalidad** (y luego minerales/nutrientes si corresponde).
 
 ## Checklist operativo (para pegar en tu parte QA/QC)
-- [ ] Estimar Â°P y volumen (mL)
+- [ ] Estimar °P y volumen (mL)
 - [ ] Definir tasa objetivo (0.75 ale / 1.5 lager por defecto)
-- [ ] Calcular cÃ©lulas requeridas
+- [ ] Calcular células requeridas
 - [ ] Definir fuente de levadura (slurry, seca, cultivo fresco) y ajustar por viabilidad
 - [ ] Oxigenar al inicio (objetivo DO en rango recomendado cuando aplique)
-- [ ] Si alta densidad: considerar O2 puro + segunda dosis 12â€“18h
-- [ ] Registrar: tasa usada, mÃ©todo de oxigenaciÃ³n, DO (si se mide), temp y tiempo a â€œinicio visibleâ€
+- [ ] Si alta densidad: considerar O2 puro + segunda dosis 12–18h
+- [ ] Registrar: tasa usada, método de oxigenación, DO (si se mide), temp y tiempo a “inicio visible”
 
 ## Referencias
-- Yeast â€” tasas 0.75/1.5 y cÃ¡lculo por Â°P; subpitch vs overpitch; mÃ©todos de estimaciÃ³n y densidad del barro; oxÃ­geno al inicio y excepciÃ³n alta densidad (12â€“18h).
-- Palmer â€” rol del oxÃ­geno (esteroles/membrana), fase lag y necesidad de aireaciÃ³n previa.
+- Yeast — tasas 0.75/1.5 y cálculo por °P; subpitch vs overpitch; métodos de estimación y densidad del barro; oxígeno al inicio y excepción alta densidad (12–18h).
+- Palmer — rol del oxígeno (esteroles/membrana), fase lag y necesidad de aireación previa.
 

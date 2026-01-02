@@ -1,12 +1,12 @@
-﻿---
+---
 status: canonical
 type: template
 scope: malta
 ---
 
-# TP â€” Log Malta (COA + recepciÃ³n + molienda)
+# TP — Log Malta (COA + recepción + molienda)
 
-## 1) IdentificaciÃ³n del insumo
+## 1) Identificación del insumo
 | Campo | Valor |
 |---|---|
 | Fecha | |
@@ -15,7 +15,7 @@ scope: malta
 | Tipo | base / specialty / roasted / adjunto |
 | Lote | |
 | Peso recibido (kg) | |
-| CondiciÃ³n de empaque | OK / NO |
+| Condición de empaque | OK / NO |
 | Observaciones (olor, humedad, plagas, roturas) | |
 
 ---
@@ -23,12 +23,12 @@ scope: malta
 ## 2) COA (registrar valores relevantes)
 > Objetivo: usar el COA para anticipar performance en brewhouse.
 
-| Campo (si estÃ¡ disponible) | Valor |
+| Campo (si está disponible) | Valor |
 |---|---:|
 | Humedad (%) | |
 | Extracto / rendimiento | |
 | DP (si aplica) | |
-| ProteÃ­na total (%) | |
+| Proteína total (%) | |
 | Color (EBC/SRM/Lovibond) | |
 | Fecha COA | |
 | Notas | |
@@ -41,7 +41,7 @@ scope: malta
 | Objetivo de cerveza/receta | |
 | % de maltas especiales | |
 | Riesgo de stuck mash | bajo / medio / alto |
-| Â¿Prioridad cÃ¡scara intacta? (lautering) | sÃ­ / no |
+| ¿Prioridad cáscara intacta? (lautering) | sí / no |
 
 ---
 
@@ -50,11 +50,11 @@ scope: malta
 |---|---|
 | Molino | |
 | Setting/Gap | |
-| Tipo | seca / hÃºmeda |
-| Resultado visual: cÃ¡scara mayormente intacta | sÃ­ / no |
-| Resultado visual: exceso de polvo | sÃ­ / no |
-| Resultado visual: granos enteros | sÃ­ / no |
-| AcciÃ³n correctiva (si aplica) | |
+| Tipo | seca / húmeda |
+| Resultado visual: cáscara mayormente intacta | sí / no |
+| Resultado visual: exceso de polvo | sí / no |
+| Resultado visual: granos enteros | sí / no |
+| Acción correctiva (si aplica) | |
 | Comentarios | |
 
 ---
@@ -62,8 +62,8 @@ scope: malta
 ## 5) Resultado observable (post-mash / lauter)
 | Campo | Valor |
 |---|---|
-| ConversiÃ³n | OK / lenta / incompleta |
+| Conversión | OK / lenta / incompleta |
 | Lauter | OK / lento / stuck |
-| Eficiencia (si la medÃ­s) | |
-| Nota final (quÃ© repetir / quÃ© ajustar) | |
+| Eficiencia (si la medís) | |
+| Nota final (qué repetir / qué ajustar) | |
 
