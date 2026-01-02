@@ -89,4 +89,70 @@ Link: [Estrés celular y defectos](50_Estres_Celular_y_Defectos.md)
 - [Estrés celular y defectos](50_Estres_Celular_y_Defectos.md)
 - [Fermentación DEEP (pipeline)](../Fermentacion_DEEP/00_INDEX.md)
 
+---
+
+## Reglas operativas (Parte 3)
+
+<a id="r-0109"></a>
+### R-0109 — Prohibido oxigenar tarde (post-inicio)
+- FuenteID: Q-STD-LEVADURA (Checklist Parte 3)
+- Evidencia: "Confirmar que no hubo oxigenación tardía (prohibido post-inicio)"
+- Ubicación: Parte 3 → Checklist → Ventana crítica 0–48 h
+
+Regla (operativa):
+- Oxígeno solo en la ventana de arranque (pre-pitch/inicio). No “corregir” luego con O2.
+
+<a id="r-0110"></a>
+### R-0110 — Pitch rate siempre con target y plan cerrado
+- FuenteID: Q-STD-LEVADURA (Checklist Parte 3)
+- Evidencia: "Target definido… Células requeridas calculadas… Plan de inoculación cerrado"
+- Ubicación: Parte 3 → Checklist → Pre-pitch → Pitch rate
+
+Regla (operativa):
+- No inocular sin target + cálculo (o criterio explícito). Registrar cantidad real inoculada.
+
+<a id="r-0111"></a>
+### R-0111 — Control térmico real: setpoint ≠ realidad (registrar ambos)
+- FuenteID: Q-STD-LEVADURA (Checklist Parte 3)
+- Evidencia: "Control de picos exo-térmicos… registrar setpoint vs real"
+- Ubicación: Parte 3 → Checklist → Ventana crítica 0–48 h
+
+Regla (operativa):
+- Registrar temperatura real del tanque y setpoint. Prioridad: evitar picos 0–48 h.
+
+<a id="r-0112"></a>
+### R-0112 — Nutrientes no automáticos: decisión sí/no + dosis/timing
+- FuenteID: Q-STD-LEVADURA (Checklist Parte 3)
+- Evidencia: "Evaluación “sí/no” (no automático)… dosis… timing definidos"
+- Ubicación: Parte 3 → Checklist → Pre-pitch → Nutrientes
+
+Regla (operativa):
+- Nutriente es soporte, no parche. Siempre justificar y registrar.
+
+<a id="r-0113"></a>
+### R-0113 — Troubleshooting: primero revisar Pitch/O2/Temp/Nutrientes
+- FuenteID: Q-STD-LEVADURA (Checklist Parte 3)
+- Evidencia: "revisar primero Pitch/O2/Temp/Nutrientes antes de “inventar” correcciones"
+- Ubicación: Parte 3 → Checklist → Ventana crítica 0–48 h
+
+Regla (operativa):
+- Ante desvío, no “mover receta”: auditar las 4 palancas antes.
+
+<a id="r-0114"></a>
+### R-0114 — No crash/transfer prematuro sin confirmar terminación y limpieza
+- FuenteID: Q-STD-LEVADURA (Checklist Parte 3)
+- Evidencia: "No hacer crash/transfer prematuro sin confirmar terminación"
+- Ubicación: Parte 3 → Checklist → Terminación y limpieza
+
+Regla (operativa):
+- Confirmar DF en target + evaluación VDK/diacetilo (según tu práctica) antes de enfriar/transferir.
+
+<a id="r-0115"></a>
+### R-0115 — Guardar la curva real (densidad vs tiempo + temperatura) para reducir variabilidad
+- FuenteID: Q-STD-LEVADURA (Checklist Parte 3)
+- Evidencia: "Guardar “curva real”: densidad vs tiempo + temperatura real"
+- Ubicación: Parte 3 → Checklist → Registro final
+
+Regla (operativa):
+- Sin curva real no hay aprendizaje reproducible. Guardar y comparar vs histórico.
 

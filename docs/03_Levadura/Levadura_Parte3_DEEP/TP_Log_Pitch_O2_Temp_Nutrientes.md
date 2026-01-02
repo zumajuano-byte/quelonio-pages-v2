@@ -161,3 +161,17 @@ El objetivo es reducir variabilidad: mismos inputs, mismo seguimiento, mismas de
 | Condición y almacenamiento (°C / tiempo) |  |
 | Generación próxima |  |
 | Notas de riesgo (deriva/contaminación) |  |
+
+
+---
+
+## Reglas operativas (Template)
+
+<a id="r-0116"></a>
+### R-0116 — Si no calculás, registrá el criterio (trazabilidad obligatoria)
+- FuenteID: Q-STD-LEVADURA (TP Log Parte 3)
+- Evidencia: "Si no calculás, registrar “criterio usado” y dejar trazabilidad."
+- Ubicación: Parte 3 → TP Log → Cálculo de pitch
+
+Regla (operativa):
+- Cuando no haya medición/cálculo, documentar el criterio (mismo slurry, mismo volumen, mismo método) para poder repetir o corregir.

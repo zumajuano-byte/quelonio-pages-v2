@@ -19,6 +19,21 @@ Si esta parte queda sólida, la fermentación deja de ser “arte” y pasa a se
 
 ---
 
+## Reglas operativas (Parte 3)
+Estas reglas viven en los archivos dueños (Checklist / TP Log):
+
+- [R-0109 — Prohibido oxigenar tarde](60_Checklist_Control_Fermentacion.md#r-0109)
+- [R-0110 — Pitch rate con target + plan cerrado](60_Checklist_Control_Fermentacion.md#r-0110)
+- [R-0111 — Temperatura real: registrar setpoint vs real](60_Checklist_Control_Fermentacion.md#r-0111)
+- [R-0112 — Nutrientes: decisión sí/no + dosis/timing](60_Checklist_Control_Fermentacion.md#r-0112)
+- [R-0113 — Troubleshooting: primero Pitch/O2/Temp/Nutrientes](60_Checklist_Control_Fermentacion.md#r-0113)
+- [R-0114 — No crash/transfer prematuro](60_Checklist_Control_Fermentacion.md#r-0114)
+- [R-0115 — Guardar curva real (densidad+T°)](60_Checklist_Control_Fermentacion.md#r-0115)
+- [R-0116 — Si no calculás, registrá criterio (TP Log)](TP_Log_Pitch_O2_Temp_Nutrientes.md#r-0116)
+
+
+---
+
 ## Ruta sugerida (lectura secuencial)
 1. [10 — Pitch Rate y Densidad Celular](10_Pitch_Rate_y_Densidad_Celular.md)
 2. [20 — Oxigenación del Mosto](20_Oxigenacion_del_Mosto.md)

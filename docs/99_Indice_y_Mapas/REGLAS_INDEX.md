@@ -128,5 +128,13 @@ Este archivo es el **índice maestro** de reglas `R-XXXX` y su trazabilidad.
 - [R-0106 — Floculación: propiedad de proceso](../03_Levadura/Levadura_Parte2_DEEP/50_Floculacion_y_Sedimentacion.md#r-0106)
 - [R-0107 — Muy floculantes: ↓ atenuación + ↑ diacetilo/ésteres](../03_Levadura/Levadura_Parte2_DEEP/50_Floculacion_y_Sedimentacion.md#r-0107)
 - [R-0108 — Ésteres: mayor impacto sensorial](../03_Levadura/Levadura_Parte2_DEEP/40_Esteres_y_Alcoholes_Superiores.md#r-0108)
+- [R-0109 — Prohibido oxigenar tarde](../03_Levadura/Levadura_Parte3_DEEP/60_Checklist_Control_Fermentacion.md#r-0109)
+- [R-0110 — Pitch rate con target + plan cerrado](../03_Levadura/Levadura_Parte3_DEEP/60_Checklist_Control_Fermentacion.md#r-0110)
+- [R-0111 — Temperatura real: setpoint vs real](../03_Levadura/Levadura_Parte3_DEEP/60_Checklist_Control_Fermentacion.md#r-0111)
+- [R-0112 — Nutrientes: decisión sí/no + dosis/timing](../03_Levadura/Levadura_Parte3_DEEP/60_Checklist_Control_Fermentacion.md#r-0112)
+- [R-0113 — Troubleshooting: primero Pitch/O2/Temp/Nutrientes](../03_Levadura/Levadura_Parte3_DEEP/60_Checklist_Control_Fermentacion.md#r-0113)
+- [R-0114 — No crash/transfer prematuro](../03_Levadura/Levadura_Parte3_DEEP/60_Checklist_Control_Fermentacion.md#r-0114)
+- [R-0115 — Guardar curva real (densidad+T°)](../03_Levadura/Levadura_Parte3_DEEP/60_Checklist_Control_Fermentacion.md#r-0115)
+- [R-0116 — Si no calculás, registrá criterio (TP Log)](../03_Levadura/Levadura_Parte3_DEEP/TP_Log_Pitch_O2_Temp_Nutrientes.md#r-0116)
 
 
