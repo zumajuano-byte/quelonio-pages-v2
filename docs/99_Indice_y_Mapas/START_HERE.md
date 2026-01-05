@@ -6,7 +6,7 @@ Este archivo define **cómo arrancar una sesión** sin ambigüedad, para evitar 
 
 **Entrada mínima recomendada (proyecto activo):**
 volvemos
-URL: https://zumajuano-byte.github.io/quelonio-pages/
+URL: https://zumajuano-byte.github.io/quelonio-pages-v2/
 
 
 Con eso, el asistente debe:
@@ -18,10 +18,11 @@ Con eso, el asistente debe:
 
 Si el usuario no especifica proyecto, el proyecto activo se determina así:
 
-1) Abrir estos 3 archivos:
+11) Abrir estos 3 archivos:
    - `99_Indice_y_Mapas/PROYECTO_BIBLIA.md`
-   - `99_Indice_y_Mapas/PROYECTO_WEB_API.md`
+   - `99_Indice_y_Mapas/PROYECTO_RAG_APP.md`
    - `99_Indice_y_Mapas/PROYECTO_LATAS.md`
+
 
 2) Elegir como “activo” el que tenga **`last_updated` más reciente** (formato `YYYY-MM-DD`).
 3) Si falta `last_updated` o hay empate, usar **Biblia** como default.
@@ -34,9 +35,9 @@ Para evitar cualquier duda, el usuario puede arrancar así:
 volvemos
 Proyecto — Biblia: [PROYECTO_BIBLIA](PROYECTO_BIBLIA.md)
 
-- **Web + API**
+- **RAG App**
 volvemos
-Proyecto — Web + API: [PROYECTO_WEB_API](PROYECTO_WEB_API.md)
+Proyecto — RAG App: [PROYECTO_RAG_APP](PROYECTO_RAG_APP.md)
 
 
 - **Latas**

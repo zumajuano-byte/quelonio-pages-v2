@@ -35,7 +35,7 @@ Links directos (sin rutas raras):
 Estos archivos son el **único lugar** donde se mantiene el `CURRENT_STATE` de cada proyecto, para que al cerrar y volver solo tengas que copiar/pegar **un archivo**.
 
 - [Biblia (Quelonio Pages) — Estado vivo](PROYECTO_BIBLIA.md)
-- [Web + API (MVP) — Estado vivo](PROYECTO_WEB_API.md)
+- Proyecto — RAG App: [PROYECTO_RAG_APP](PROYECTO_RAG_APP.md)
 - [Latas (Quelonio Brew) — Estado vivo](PROYECTO_LATAS.md)
 
 Regla operativa:
@@ -48,9 +48,8 @@ Regla operativa:
 
 La **Biblia (Quelonio Pages)** es el sistema de referencia vigente para:
 
-### A) Web + API (MVP)
-- Consume definiciones canónicas de: **specs, procesos, QA/QC, nomenclaturas**.
-- Web/API **no inventa** definiciones: si falta una definición, se registra como pendiente y se promueve a Pages.
+- **RAG App**
+- Proyecto — RAG App: [PROYECTO_RAG_APP](PROYECTO_RAG_APP.md)
 
 ### B) Latas (Quelonio Brew)
 - Consume definiciones canónicas de: **branding/comms, mínimos de etiqueta, claims permitidos, estructura de línea**.

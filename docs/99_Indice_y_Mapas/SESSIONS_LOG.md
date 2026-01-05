@@ -9,8 +9,11 @@ El estado vivo está en `PROYECTO_*.md` (uno por proyecto).
 - `99_Indice_y_Mapas/LAUNCHER.md`
 - `99_Indice_y_Mapas/CONTRATO_ESTRUCTURA.md`
 - `99_Indice_y_Mapas/PROYECTO_BIBLIA.md`
-- `99_Indice_y_Mapas/PROYECTO_WEB_API.md`
+- `99_Indice_y_Mapas/PROYECTO_RAG_APP.md`
+- `99_Indice_y_Mapas/CONTRATO_RAG_API.md`
 - `99_Indice_y_Mapas/PROYECTO_LATAS.md`
+- (Legacy) `99_Indice_y_Mapas/PROYECTO_WEB_API.md`
+
 
 ## Reglas globales (resumen)
 
