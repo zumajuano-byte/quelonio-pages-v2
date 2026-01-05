@@ -10,7 +10,7 @@
       
       
       
-        <link rel="canonical" href="https://zumajuano-byte.github.io/quelonio-pages/99_Indice_y_Mapas/SESSIONS_LOG/">
+        <link rel="canonical" href="https://zumajuano-byte.github.io/quelonio-pages/99_Indice_y_Mapas/CONTRATO_RAG_API/">
       
       
       
@@ -23,7 +23,7 @@
     
     
       
-        <title>SESSIONS_LOG — Bitácora global (Quelonio) - Quelonio — Biblia Cervecera</title>
+        <title>CONTRATO — RAG API (MVP) - Quelonio — Biblia Cervecera</title>
       
     
     
@@ -64,7 +64,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#sessions_log-bitacora-global-quelonio" class="md-skip">
+        <a href="#contrato-rag-api-mvp" class="md-skip">
           Saltar a contenido
         </a>
       
@@ -100,7 +100,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              SESSIONS_LOG — Bitácora global (Quelonio)
+              CONTRATO — RAG API (MVP)
             
           </span>
         </div>
@@ -1593,10 +1593,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#archivos-canonicos-os-boot" class="md-nav__link">
+  <a href="#principios" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Archivos canónicos (OS Boot)
+        Principios
       
     </span>
   </a>
@@ -1604,10 +1604,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#reglas-globales-resumen" class="md-nav__link">
+  <a href="#entidades-conceptual" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Reglas globales (resumen)
+        Entidades (conceptual)
       
     </span>
   </a>
@@ -1615,22 +1615,22 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#bitacora-opcional" class="md-nav__link">
+  <a href="#endpoints-propuestos" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Bitácora (opcional)
+        Endpoints (propuestos)
       
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Bitácora (opcional)">
+    <nav class="md-nav" aria-label="Endpoints (propuestos)">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#plantilla" class="md-nav__link">
+  <a href="#get-apihealth" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Plantilla
+        GET /api/health
       
     </span>
   </a>
@@ -1638,10 +1638,21 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#2025-12-22-checkpoint-proyecto_web_api-sprint-1-infra-ok" class="md-nav__link">
+  <a href="#post-apiragingest" class="md-nav__link">
     <span class="md-ellipsis">
       
-        2025-12-22 — Checkpoint PROYECTO_WEB_API (Sprint 1 Infra OK)
+        POST /api/rag/ingest
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#post-apiragquery" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        POST /api/rag/query
       
     </span>
   </a>
@@ -1650,6 +1661,17 @@
         
       </ul>
     </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#criterios-de-aceptacion-mvp" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Criterios de aceptación (MVP)
+      
+    </span>
+  </a>
   
 </li>
       
@@ -1673,55 +1695,50 @@
   
 
 
-<h1 id="sessions_log-bitacora-global-quelonio">SESSIONS_LOG — Bitácora global (Quelonio)<a class="headerlink" href="#sessions_log-bitacora-global-quelonio" title="Permanent link">&para;</a></h1>
-<p>Este archivo <strong>no</strong> es el “estado vivo” de ningún proyecto.<br />
-El estado vivo está en <code>PROYECTO_*.md</code> (uno por proyecto).</p>
-<h2 id="archivos-canonicos-os-boot">Archivos canónicos (OS Boot)<a class="headerlink" href="#archivos-canonicos-os-boot" title="Permanent link">&para;</a></h2>
+<h1 id="contrato-rag-api-mvp">CONTRATO — RAG API (MVP)<a class="headerlink" href="#contrato-rag-api-mvp" title="Permanent link">&para;</a></h1>
+<p>Este contrato define <strong>qué expone la RAG App</strong> y cómo se consume.<br />
+Objetivo: mínimo viable, trazable y con citas.</p>
+<h2 id="principios">Principios<a class="headerlink" href="#principios" title="Permanent link">&para;</a></h2>
 <ul>
-<li><code>99_Indice_y_Mapas/START_HERE.md</code></li>
-<li><code>99_Indice_y_Mapas/LAUNCHER.md</code></li>
-<li><code>99_Indice_y_Mapas/CONTRATO_ESTRUCTURA.md</code></li>
-<li><code>99_Indice_y_Mapas/PROYECTO_BIBLIA.md</code></li>
-<li><code>99_Indice_y_Mapas/PROYECTO_RAG_APP.md</code></li>
-<li><code>99_Indice_y_Mapas/CONTRATO_RAG_API.md</code></li>
-<li><code>99_Indice_y_Mapas/PROYECTO_LATAS.md</code></li>
-<li>(Legacy) <code>99_Indice_y_Mapas/PROYECTO_WEB_API.md</code></li>
+<li>Toda respuesta debe incluir <strong>citas</strong> (fuente + ubicación).</li>
+<li>La RAG <strong>recupera</strong> (no “aprende” permanentemente del material).</li>
+<li>Ingesta controlada: fuentes explícitas, sin mezclar “todo” por defecto.</li>
 </ul>
-<h2 id="reglas-globales-resumen">Reglas globales (resumen)<a class="headerlink" href="#reglas-globales-resumen" title="Permanent link">&para;</a></h2>
+<h2 id="entidades-conceptual">Entidades (conceptual)<a class="headerlink" href="#entidades-conceptual" title="Permanent link">&para;</a></h2>
 <ul>
-<li>La sesión debe operar siempre desde el <strong>CURRENT_STATE del proyecto</strong>.</li>
-<li>Cierre: actualizar <strong>solo</strong> el <code>PROYECTO_*.md</code> del proyecto trabajado (evitar tocar muchos archivos).</li>
-<li>Antes de deploy: <code>mkdocs build --strict</code>.</li>
+<li>Source: origen (Biblia V2 / Drive PDF / carpeta / dataset)</li>
+<li>Document: archivo o página</li>
+<li>Chunk: fragmento indexado</li>
+<li>Citation: referencia (doc + sección/página + snippet)</li>
 </ul>
-<hr />
-<h2 id="bitacora-opcional">Bitácora (opcional)<a class="headerlink" href="#bitacora-opcional" title="Permanent link">&para;</a></h2>
-<blockquote>
-<p>Usar solo si querés histórico transversal.<br />
-Si preferís “cero fricción”, logueá dentro de cada <code>PROYECTO_*.md</code>.</p>
-</blockquote>
-<h3 id="plantilla">Plantilla<a class="headerlink" href="#plantilla" title="Permanent link">&para;</a></h3>
-<p><strong>Fecha:</strong> YYYY-MM-DD<br />
-<strong>Proyecto:</strong> Biblia | Web+API | Latas<br />
-<strong>Qué se hizo (bullet points):</strong>
-- ...
-<strong>Qué quedó abierto:</strong>
-- ...
-<strong>Próximo paso (1):</strong>
-- ...
-<strong>Release:</strong> build --strict OK / deploy OK / commit SHA</p>
-<h3 id="2025-12-22-checkpoint-proyecto_web_api-sprint-1-infra-ok">2025-12-22 — Checkpoint PROYECTO_WEB_API (Sprint 1 Infra OK)<a class="headerlink" href="#2025-12-22-checkpoint-proyecto_web_api-sprint-1-infra-ok" title="Permanent link">&para;</a></h3>
+<h2 id="endpoints-propuestos">Endpoints (propuestos)<a class="headerlink" href="#endpoints-propuestos" title="Permanent link">&para;</a></h2>
+<h3 id="get-apihealth">GET /api/health<a class="headerlink" href="#get-apihealth" title="Permanent link">&para;</a></h3>
+<p><strong>OK</strong> si la app y el storage están disponibles.</p>
+<h3 id="post-apiragingest">POST /api/rag/ingest<a class="headerlink" href="#post-apiragingest" title="Permanent link">&para;</a></h3>
+<p>Ingesta/actualiza una fuente.
+<strong>Body mínimo:</strong>
+- source_id
+- source_type: "pdf_drive" | "biblia_web" | "local"
+- mode: "upsert" | "rebuild"</p>
+<p><strong>Respuesta:</strong>
+- docs_indexed
+- chunks_indexed
+- warnings (si aplica)</p>
+<h3 id="post-apiragquery">POST /api/rag/query<a class="headerlink" href="#post-apiragquery" title="Permanent link">&para;</a></h3>
+<p>Consulta principal.
+<strong>Body mínimo:</strong>
+- query (string)
+- top_k (int)
+- filters (opcional): source_id / doc_id / tags</p>
+<p><strong>Respuesta:</strong>
+- answer (string)
+- citations: lista de <code>{source, document, locator, snippet}</code>
+- retrieval_debug (opcional): scores/metadatos</p>
+<h2 id="criterios-de-aceptacion-mvp">Criterios de aceptación (MVP)<a class="headerlink" href="#criterios-de-aceptacion-mvp" title="Permanent link">&para;</a></h2>
 <ul>
-<li>Repo app: <code>C:\Users\flore\Documents\quelonio-saas</code></li>
-<li>Node v20.19.0 (nvm4w), npm 10.8.2</li>
-<li>Next 16.1.0 OK (cuando corre, sirve en http://localhost:3000)</li>
-<li>PostgreSQL local (service postgresql-x64-18) en 5432</li>
-<li>DB <code>quelonio_saas</code>, user <code>quelonio</code> (CREATEDB), conexión validada</li>
-<li>Prisma validate/generate OK; migrate dev quedó “Already in sync”</li>
-<li>Próximo: crear endpoints en Next App Router:</li>
-<li><code>app/api/health/route.ts</code></li>
-<li><code>lib/prisma.ts</code></li>
-<li>endpoint DB ping / primer modelo</li>
-<li>Nota: warning Next por lockfile extra en <code>C:\Users\flore\package-lock.json</code> (no bloqueante)</li>
+<li>El endpoint <code>/api/rag/query</code> devuelve siempre <code>citations</code> no vacías cuando hay match.</li>
+<li>Si no hay evidencia suficiente: responde “no encontrado” + sugiere qué fuente falta.</li>
+<li>Build/documentación del contrato no rompe <code>mkdocs --strict</code>.</li>
 </ul>
 
 
