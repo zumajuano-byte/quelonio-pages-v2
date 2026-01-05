@@ -1,175 +1,277 @@
-# REGLAS_INDEX — Índice global de reglas (V2)
+﻿# REGLAS_INDEX â€” Ãndice global de reglas (V2)
 
-Este archivo es el **índice maestro** de reglas `R-XXXX` y su trazabilidad.
+Este archivo es el **Ã­ndice maestro** de reglas `R-XXXX` y su trazabilidad.
 
 ## Convenciones (obligatorias)
-- `R-XXXX` es global y único (saltos permitidos, duplicados prohibidos).
+- `R-XXXX` es global y Ãºnico (saltos permitidos, duplicados prohibidos).
 - Cada regla debe existir en **un solo archivo destino**.
-- Cada regla debe tener evidencia: `FuenteID + ubicación exacta + cita textual corta (<=25 palabras)`.
+- Cada regla debe tener evidencia: `FuenteID + ubicaciÃ³n exacta + cita textual corta (<=25 palabras)`.
 
-## Tabla — Índice de reglas
+## Tabla â€” Ãndice de reglas (links)
 
-| R-ID | Módulo | Tema/Bloque | Archivo destino | FuenteID | Ubicación | Estado |
-|---|---|---|---|---|---|---|
-| R-0001 | Agua | Desinfectantes (cloro/cloraminas) | 01_Agua/Agua_Parte4_DEEP/150_Desinfectantes_Cloro_Cloramina.md | B022 | p86–p88 / p418 | MIGRAR |
+| R-ID | MÃ³dulo | Archivo destino |
+|---|---|---|
+| R-0001 | Agua (01) | (pendiente/migrar) |
+| R-0029 | Agua (01) | [../01_Agua/Agua_Parte4_DEEP/150_Desinfectantes_Cloro_Cloramina.md](../01_Agua/Agua_Parte4_DEEP/150_Desinfectantes_Cloro_Cloramina.md) |
+| R-0030 | Agua (01) | [../01_Agua/Agua_Parte4_DEEP/150_Desinfectantes_Cloro_Cloramina.md](../01_Agua/Agua_Parte4_DEEP/150_Desinfectantes_Cloro_Cloramina.md) |
+| R-0031 | Agua (01) | [../01_Agua/Agua_Parte4_DEEP/150_Desinfectantes_Cloro_Cloramina.md](../01_Agua/Agua_Parte4_DEEP/150_Desinfectantes_Cloro_Cloramina.md) |
+| R-0032 | Agua (01) | [../01_Agua/Agua_Parte4_DEEP/150_Desinfectantes_Cloro_Cloramina.md](../01_Agua/Agua_Parte4_DEEP/150_Desinfectantes_Cloro_Cloramina.md) |
+| R-0033 | Agua (01) | [../01_Agua/Agua_Parte4_DEEP/150_Desinfectantes_Cloro_Cloramina.md](../01_Agua/Agua_Parte4_DEEP/150_Desinfectantes_Cloro_Cloramina.md) |
+| R-0034 | Agua (01) | [../01_Agua/Agua_Parte4_DEEP/150_Desinfectantes_Cloro_Cloramina.md](../01_Agua/Agua_Parte4_DEEP/150_Desinfectantes_Cloro_Cloramina.md) |
+| R-0035 | Agua (01) | [../01_Agua/Agua_Parte4_DEEP/150_Desinfectantes_Cloro_Cloramina.md](../01_Agua/Agua_Parte4_DEEP/150_Desinfectantes_Cloro_Cloramina.md) |
+| R-0036 | Agua (01) | [../01_Agua/Agua_Parte4_DEEP/150_Desinfectantes_Cloro_Cloramina.md](../01_Agua/Agua_Parte4_DEEP/150_Desinfectantes_Cloro_Cloramina.md) |
+| R-0037 | Agua (01) | [../01_Agua/Agua_Parte4_DEEP/150_Desinfectantes_Cloro_Cloramina.md](../01_Agua/Agua_Parte4_DEEP/150_Desinfectantes_Cloro_Cloramina.md) |
+| R-0038 | Agua (01) | [../01_Agua/Agua_Parte4_DEEP/150_Desinfectantes_Cloro_Cloramina.md](../01_Agua/Agua_Parte4_DEEP/150_Desinfectantes_Cloro_Cloramina.md) |
+| R-0039 | Agua (01) | [../01_Agua/Agua_Parte4_DEEP/150_Desinfectantes_Cloro_Cloramina.md](../01_Agua/Agua_Parte4_DEEP/150_Desinfectantes_Cloro_Cloramina.md) |
+| R-0040 | Agua (01) | [../01_Agua/Agua_Parte4_DEEP/150_Desinfectantes_Cloro_Cloramina.md](../01_Agua/Agua_Parte4_DEEP/150_Desinfectantes_Cloro_Cloramina.md) |
+| R-0041 | Agua (01) | [../01_Agua/Agua_Parte1_DEEP/20_pH_vs_Alcalinidad.md](../01_Agua/Agua_Parte1_DEEP/20_pH_vs_Alcalinidad.md) |
+| R-0042 | Agua (01) | [../01_Agua/Agua_Parte1_DEEP/20_pH_vs_Alcalinidad.md](../01_Agua/Agua_Parte1_DEEP/20_pH_vs_Alcalinidad.md) |
+| R-0043 | Agua (01) | [../01_Agua/Agua_Parte1_DEEP/20_pH_vs_Alcalinidad.md](../01_Agua/Agua_Parte1_DEEP/20_pH_vs_Alcalinidad.md) |
+| R-0044 | Agua (01) | [../01_Agua/Agua_Parte1_DEEP/20_pH_vs_Alcalinidad.md](../01_Agua/Agua_Parte1_DEEP/20_pH_vs_Alcalinidad.md) |
+| R-0045 | Agua (01) | [../01_Agua/Agua_Parte1_DEEP/20_pH_vs_Alcalinidad.md](../01_Agua/Agua_Parte1_DEEP/20_pH_vs_Alcalinidad.md) |
+| R-0046 | Agua (01) | [../01_Agua/Agua_Parte1_DEEP/20_pH_vs_Alcalinidad.md](../01_Agua/Agua_Parte1_DEEP/20_pH_vs_Alcalinidad.md) |
+| R-0047 | Agua (01) | [../01_Agua/Agua_Parte1_DEEP/20_pH_vs_Alcalinidad.md](../01_Agua/Agua_Parte1_DEEP/20_pH_vs_Alcalinidad.md) |
+| R-0048 | Agua (01) | [../01_Agua/Agua_Parte1_DEEP/20_pH_vs_Alcalinidad.md](../01_Agua/Agua_Parte1_DEEP/20_pH_vs_Alcalinidad.md) |
+| R-0049 | Agua (01) | [../01_Agua/Agua_Parte1_DEEP/20_pH_vs_Alcalinidad.md](../01_Agua/Agua_Parte1_DEEP/20_pH_vs_Alcalinidad.md) |
+| R-0050 | Agua (01) | [../01_Agua/Agua_Parte1_DEEP/20_pH_vs_Alcalinidad.md](../01_Agua/Agua_Parte1_DEEP/20_pH_vs_Alcalinidad.md) |
+| R-0051 | Agua (01) | [../01_Agua/Agua_Parte2_DEEP/70_Perfiles_Agua_para_IPA.md](../01_Agua/Agua_Parte2_DEEP/70_Perfiles_Agua_para_IPA.md) |
+| R-0052 | Agua (01) | [../01_Agua/Agua_Parte2_DEEP/70_Perfiles_Agua_para_IPA.md](../01_Agua/Agua_Parte2_DEEP/70_Perfiles_Agua_para_IPA.md) |
+| R-0053 | Agua (01) | [../01_Agua/Agua_Parte2_DEEP/70_Perfiles_Agua_para_IPA.md](../01_Agua/Agua_Parte2_DEEP/70_Perfiles_Agua_para_IPA.md) |
+| R-0054 | Agua (01) | [../01_Agua/Agua_Parte2_DEEP/70_Perfiles_Agua_para_IPA.md](../01_Agua/Agua_Parte2_DEEP/70_Perfiles_Agua_para_IPA.md) |
+| R-0055 | Agua (01) | [../01_Agua/Agua_Parte2_DEEP/70_Perfiles_Agua_para_IPA.md](../01_Agua/Agua_Parte2_DEEP/70_Perfiles_Agua_para_IPA.md) |
+| R-0056 | Agua (01) | [../01_Agua/Agua_Parte2_DEEP/70_Perfiles_Agua_para_IPA.md](../01_Agua/Agua_Parte2_DEEP/70_Perfiles_Agua_para_IPA.md) |
+| R-0057 | Agua (01) | [../01_Agua/Agua_Parte2_DEEP/70_Perfiles_Agua_para_IPA.md](../01_Agua/Agua_Parte2_DEEP/70_Perfiles_Agua_para_IPA.md) |
+| R-0058 | Agua (01) | [../01_Agua/Agua_Parte2_DEEP/50_pH_en_el_Mash.md](../01_Agua/Agua_Parte2_DEEP/50_pH_en_el_Mash.md) |
+| R-0059 | Agua (01) | [../01_Agua/Agua_Parte2_DEEP/50_pH_en_el_Mash.md](../01_Agua/Agua_Parte2_DEEP/50_pH_en_el_Mash.md) |
+| R-0060 | Agua (01) | [../01_Agua/Agua_Parte2_DEEP/50_pH_en_el_Mash.md](../01_Agua/Agua_Parte2_DEEP/50_pH_en_el_Mash.md) |
+| R-0061 | Agua (01) | [../01_Agua/Agua_Parte2_DEEP/50_pH_en_el_Mash.md](../01_Agua/Agua_Parte2_DEEP/50_pH_en_el_Mash.md) |
+| R-0062 | Agua (01) | [../01_Agua/Agua_Parte2_DEEP/50_pH_en_el_Mash.md](../01_Agua/Agua_Parte2_DEEP/50_pH_en_el_Mash.md) |
+| R-0063 | Agua (01) | [../01_Agua/Agua_Parte2_DEEP/50_pH_en_el_Mash.md](../01_Agua/Agua_Parte2_DEEP/50_pH_en_el_Mash.md) |
+| R-0064 | Agua (01) | [../01_Agua/Agua_Parte2_DEEP/50_pH_en_el_Mash.md](../01_Agua/Agua_Parte2_DEEP/50_pH_en_el_Mash.md) |
+| R-0065 | Agua (01) | [../01_Agua/Agua_Parte2_DEEP/50_pH_en_el_Mash.md](../01_Agua/Agua_Parte2_DEEP/50_pH_en_el_Mash.md) |
+| R-0066 | Agua (01) | [../01_Agua/Agua_Parte2_DEEP/50_pH_en_el_Mash.md](../01_Agua/Agua_Parte2_DEEP/50_pH_en_el_Mash.md) |
+| R-0067 | Agua (01) | [../01_Agua/Agua_Parte2_DEEP/50_pH_en_el_Mash.md](../01_Agua/Agua_Parte2_DEEP/50_pH_en_el_Mash.md) |
+| R-0068 | Agua (01) | [../01_Agua/Agua_Parte2_DEEP/50_pH_en_el_Mash.md](../01_Agua/Agua_Parte2_DEEP/50_pH_en_el_Mash.md) |
+| R-0069 | Agua (01) | [../01_Agua/Agua_Parte2_DEEP/50_pH_en_el_Mash.md](../01_Agua/Agua_Parte2_DEEP/50_pH_en_el_Mash.md) |
+| R-0070 | Agua (01) | [../01_Agua/Agua_Parte2_DEEP/50_pH_en_el_Mash.md](../01_Agua/Agua_Parte2_DEEP/50_pH_en_el_Mash.md) |
+| R-0071 | Agua (01) | [../01_Agua/Agua_Parte2_DEEP/50_pH_en_el_Mash.md](../01_Agua/Agua_Parte2_DEEP/50_pH_en_el_Mash.md) |
+| R-0072 | Agua (01) | [../01_Agua/Agua_Parte2_DEEP/50_pH_en_el_Mash.md](../01_Agua/Agua_Parte2_DEEP/50_pH_en_el_Mash.md) |
+| R-0073 | Agua (01) | [../01_Agua/Agua_Parte2_DEEP/50_pH_en_el_Mash.md](../01_Agua/Agua_Parte2_DEEP/50_pH_en_el_Mash.md) |
+| R-0074 | Malta (02) | [../02_Malta/Malta_Parte1_DEEP/10_Rol_Estructural_de_la_Malta.md](../02_Malta/Malta_Parte1_DEEP/10_Rol_Estructural_de_la_Malta.md) |
+| R-0075 | Malta (02) | [../02_Malta/Malta_Parte1_DEEP/10_Rol_Estructural_de_la_Malta.md](../02_Malta/Malta_Parte1_DEEP/10_Rol_Estructural_de_la_Malta.md) |
+| R-0076 | Malta (02) | [../02_Malta/Malta_Parte1_DEEP/10_Rol_Estructural_de_la_Malta.md](../02_Malta/Malta_Parte1_DEEP/10_Rol_Estructural_de_la_Malta.md) |
+| R-0077 | Malta (02) | [../02_Malta/Malta_Parte2_DEEP/20_Enzimas_Amilasas_y_Proteasas.md](../02_Malta/Malta_Parte2_DEEP/20_Enzimas_Amilasas_y_Proteasas.md) |
+| R-0078 | Malta (02) | [../02_Malta/Malta_Parte2_DEEP/20_Enzimas_Amilasas_y_Proteasas.md](../02_Malta/Malta_Parte2_DEEP/20_Enzimas_Amilasas_y_Proteasas.md) |
+| R-0079 | Malta (02) | [../02_Malta/Malta_Parte2_DEEP/20_Enzimas_Amilasas_y_Proteasas.md](../02_Malta/Malta_Parte2_DEEP/20_Enzimas_Amilasas_y_Proteasas.md) |
+| R-0080 | Malta (02) | [../02_Malta/Malta_Parte3_DEEP/10_Kilning_y_Reacciones_Maillard.md](../02_Malta/Malta_Parte3_DEEP/10_Kilning_y_Reacciones_Maillard.md) |
+| R-0081 | Malta (02) | [../02_Malta/Malta_Parte3_DEEP/10_Kilning_y_Reacciones_Maillard.md](../02_Malta/Malta_Parte3_DEEP/10_Kilning_y_Reacciones_Maillard.md) |
+| R-0082 | Malta (02) | [../02_Malta/Malta_Parte3_DEEP/10_Kilning_y_Reacciones_Maillard.md](../02_Malta/Malta_Parte3_DEEP/10_Kilning_y_Reacciones_Maillard.md) |
+| R-0083 | Malta (02) | [../02_Malta/Malta_Parte1_DEEP/50_Molienda_y_Preparacion.md](../02_Malta/Malta_Parte1_DEEP/50_Molienda_y_Preparacion.md) |
+| R-0084 | Malta (02) | [../02_Malta/Malta_Parte1_DEEP/50_Molienda_y_Preparacion.md](../02_Malta/Malta_Parte1_DEEP/50_Molienda_y_Preparacion.md) |
+| R-0085 | Malta (02) | [../02_Malta/Malta_Parte1_DEEP/50_Molienda_y_Preparacion.md](../02_Malta/Malta_Parte1_DEEP/50_Molienda_y_Preparacion.md) |
+| R-0086 | Malta (02) | [../02_Malta/Malta_Parte1_DEEP/50_Molienda_y_Preparacion.md](../02_Malta/Malta_Parte1_DEEP/50_Molienda_y_Preparacion.md) |
+| R-0087 | Malta (02) | [../02_Malta/Malta_Parte1_DEEP/40_COA_y_Control_de_Calidad.md](../02_Malta/Malta_Parte1_DEEP/40_COA_y_Control_de_Calidad.md) |
+| R-0088 | Malta (02) | [../02_Malta/Malta_Parte1_DEEP/40_COA_y_Control_de_Calidad.md](../02_Malta/Malta_Parte1_DEEP/40_COA_y_Control_de_Calidad.md) |
+| R-0089 | Malta (02) | [../02_Malta/Malta_Parte1_DEEP/40_COA_y_Control_de_Calidad.md](../02_Malta/Malta_Parte1_DEEP/40_COA_y_Control_de_Calidad.md) |
+| R-0090 | Levadura (03) | [../03_Levadura/Levadura_Parte1_DEEP/10_La_Levadura_como_Motor_del_Sabor.md](../03_Levadura/Levadura_Parte1_DEEP/10_La_Levadura_como_Motor_del_Sabor.md) |
+| R-0091 | Levadura (03) | [../03_Levadura/Levadura_Parte1_DEEP/60_Errores_Estructurales_Comunes.md](../03_Levadura/Levadura_Parte1_DEEP/60_Errores_Estructurales_Comunes.md) |
+| R-0092 | Levadura (03) | [../03_Levadura/Levadura_Parte1_DEEP/20_Fermentacion_como_Parte_Fria.md](../03_Levadura/Levadura_Parte1_DEEP/20_Fermentacion_como_Parte_Fria.md) |
+| R-0093 | Levadura (03) | [../03_Levadura/Levadura_Parte1_DEEP/20_Fermentacion_como_Parte_Fria.md](../03_Levadura/Levadura_Parte1_DEEP/20_Fermentacion_como_Parte_Fria.md) |
+| R-0094 | Levadura (03) | [../03_Levadura/Levadura_Parte1_DEEP/40_Necesidades_Basicas.md](../03_Levadura/Levadura_Parte1_DEEP/40_Necesidades_Basicas.md) |
+| R-0095 | Levadura (03) | [../03_Levadura/Levadura_Parte1_DEEP/40_Necesidades_Basicas.md](../03_Levadura/Levadura_Parte1_DEEP/40_Necesidades_Basicas.md) |
+| R-0096 | Levadura (03) | [../03_Levadura/Levadura_Parte1_DEEP/50_Levadura_como_Sistema_Vivo.md](../03_Levadura/Levadura_Parte1_DEEP/50_Levadura_como_Sistema_Vivo.md) |
+| R-0097 | Levadura (03) | [../03_Levadura/Fermentacion_DEEP/02_Oxigenacion_y_pitch_rate.md](../03_Levadura/Fermentacion_DEEP/02_Oxigenacion_y_pitch_rate.md) |
+| R-0098 | Levadura (03) | [../03_Levadura/Fermentacion_DEEP/02_Oxigenacion_y_pitch_rate.md](../03_Levadura/Fermentacion_DEEP/02_Oxigenacion_y_pitch_rate.md) |
+| R-0099 | Levadura (03) | [../03_Levadura/Fermentacion_DEEP/02_Oxigenacion_y_pitch_rate.md](../03_Levadura/Fermentacion_DEEP/02_Oxigenacion_y_pitch_rate.md) |
+| R-0100 | Levadura (03) | [../03_Levadura/Fermentacion_DEEP/03_Curva_termica_diacetilo_y_rampas.md](../03_Levadura/Fermentacion_DEEP/03_Curva_termica_diacetilo_y_rampas.md) |
+| R-0101 | Levadura (03) | [../03_Levadura/Fermentacion_DEEP/03_Curva_termica_diacetilo_y_rampas.md](../03_Levadura/Fermentacion_DEEP/03_Curva_termica_diacetilo_y_rampas.md) |
+| R-0102 | Levadura (03) | [../03_Levadura/Fermentacion_DEEP/03_Curva_termica_diacetilo_y_rampas.md](../03_Levadura/Fermentacion_DEEP/03_Curva_termica_diacetilo_y_rampas.md) |
+| R-0103 | Levadura (03) | [../03_Levadura/Fermentacion_DEEP/05_Floculacion_clarificacion_y_sedimentos.md](../03_Levadura/Fermentacion_DEEP/05_Floculacion_clarificacion_y_sedimentos.md) |
+| R-0104 | Levadura (03) | [../03_Levadura/Fermentacion_DEEP/05_Floculacion_clarificacion_y_sedimentos.md](../03_Levadura/Fermentacion_DEEP/05_Floculacion_clarificacion_y_sedimentos.md) |
+| R-0105 | Levadura (03) | [../03_Levadura/Fermentacion_DEEP/05_Floculacion_clarificacion_y_sedimentos.md](../03_Levadura/Fermentacion_DEEP/05_Floculacion_clarificacion_y_sedimentos.md) |
+| R-0106 | Levadura (03) | [../03_Levadura/Levadura_Parte3_DEEP/50_Estres_Celular_y_Defectos.md](../03_Levadura/Levadura_Parte3_DEEP/50_Estres_Celular_y_Defectos.md) |
+| R-0107 | Levadura (03) | [../03_Levadura/Levadura_Parte3_DEEP/50_Estres_Celular_y_Defectos.md](../03_Levadura/Levadura_Parte3_DEEP/50_Estres_Celular_y_Defectos.md) |
+| R-0108 | Levadura (03) | [../03_Levadura/Levadura_Parte3_DEEP/50_Estres_Celular_y_Defectos.md](../03_Levadura/Levadura_Parte3_DEEP/50_Estres_Celular_y_Defectos.md) |
+| R-0109 | Levadura (03) | [../03_Levadura/Fermentacion_DEEP/07_Troubleshooting_sintomas_causas_acciones.md](../03_Levadura/Fermentacion_DEEP/07_Troubleshooting_sintomas_causas_acciones.md) |
+| R-0110 | Levadura (03) | [../03_Levadura/Fermentacion_DEEP/07_Troubleshooting_sintomas_causas_acciones.md](../03_Levadura/Fermentacion_DEEP/07_Troubleshooting_sintomas_causas_acciones.md) |
+| R-0111 | Levadura (03) | [../03_Levadura/Fermentacion_DEEP/07_Troubleshooting_sintomas_causas_acciones.md](../03_Levadura/Fermentacion_DEEP/07_Troubleshooting_sintomas_causas_acciones.md) |
+| R-0112 | Levadura (03) | [../03_Levadura/Levadura_Parte3_DEEP/50_Estres_Celular_y_Defectos.md](../03_Levadura/Levadura_Parte3_DEEP/50_Estres_Celular_y_Defectos.md) |
+| R-0113 | Levadura (03) | [../03_Levadura/Levadura_Parte3_DEEP/50_Estres_Celular_y_Defectos.md](../03_Levadura/Levadura_Parte3_DEEP/50_Estres_Celular_y_Defectos.md) |
+| R-0114 | Levadura (03) | [../03_Levadura/Levadura_Parte3_DEEP/50_Estres_Celular_y_Defectos.md](../03_Levadura/Levadura_Parte3_DEEP/50_Estres_Celular_y_Defectos.md) |
+| R-0115 | Levadura (03) | [../03_Levadura/Levadura_Parte3_DEEP/40_Nutrientes_y_Minerales.md](../03_Levadura/Levadura_Parte3_DEEP/40_Nutrientes_y_Minerales.md) |
+| R-0116 | Levadura (03) | [../03_Levadura/Levadura_Parte3_DEEP/40_Nutrientes_y_Minerales.md](../03_Levadura/Levadura_Parte3_DEEP/40_Nutrientes_y_Minerales.md) |
+| R-0117 | Levadura (03) | [../03_Levadura/Levadura_Parte3_DEEP/40_Nutrientes_y_Minerales.md](../03_Levadura/Levadura_Parte3_DEEP/40_Nutrientes_y_Minerales.md) |
+| R-0118 | Levadura (03) | [../03_Levadura/Levadura_Parte5_DEEP/10_Marco_Decision_Seleccion_Cepa.md](../03_Levadura/Levadura_Parte5_DEEP/10_Marco_Decision_Seleccion_Cepa.md) |
+| R-0119 | Levadura (03) | [../03_Levadura/Levadura_Parte5_DEEP/10_Marco_Decision_Seleccion_Cepa.md](../03_Levadura/Levadura_Parte5_DEEP/10_Marco_Decision_Seleccion_Cepa.md) |
+| R-0120 | Levadura (03) | [../03_Levadura/Levadura_Parte5_DEEP/10_Marco_Decision_Seleccion_Cepa.md](../03_Levadura/Levadura_Parte5_DEEP/10_Marco_Decision_Seleccion_Cepa.md) |
+| R-0121 | Levadura (03) | [../03_Levadura/Levadura_Parte4_DEEP/00_INDEX.md](../03_Levadura/Levadura_Parte4_DEEP/00_INDEX.md) |
+| R-0122 | Levadura (03) | [../03_Levadura/Levadura_Parte4_DEEP/00_INDEX.md](../03_Levadura/Levadura_Parte4_DEEP/00_INDEX.md) |
+| R-0123 | Levadura (03) | [../03_Levadura/Levadura_Parte4_DEEP/00_INDEX.md](../03_Levadura/Levadura_Parte4_DEEP/00_INDEX.md) |
+| R-0124 | Levadura (03) | [../03_Levadura/Levadura_Parte4_DEEP/00_INDEX.md](../03_Levadura/Levadura_Parte4_DEEP/00_INDEX.md) |
+| R-0125 | Levadura (03) | [../03_Levadura/Levadura_Parte4_DEEP/00_INDEX.md](../03_Levadura/Levadura_Parte4_DEEP/00_INDEX.md) |
+| R-0126 | Levadura (03) | [../03_Levadura/Levadura_Parte4_DEEP/00_INDEX.md](../03_Levadura/Levadura_Parte4_DEEP/00_INDEX.md) |
+| R-0127 | Levadura (03) | [../03_Levadura/Levadura_Parte4_DEEP/00_INDEX.md](../03_Levadura/Levadura_Parte4_DEEP/00_INDEX.md) |
+| R-0128 | Levadura (03) | [../03_Levadura/Levadura_Parte4_DEEP/00_INDEX.md](../03_Levadura/Levadura_Parte4_DEEP/00_INDEX.md) |
+| R-0129 | Levadura (03) | [../03_Levadura/Levadura_Parte4_DEEP/00_INDEX.md](../03_Levadura/Levadura_Parte4_DEEP/00_INDEX.md) |
+| R-0130 | Levadura (03) | [../03_Levadura/Levadura_Parte3_DEEP/60_Checklist_Control_Fermentacion.md](../03_Levadura/Levadura_Parte3_DEEP/60_Checklist_Control_Fermentacion.md) |
+| R-0131 | Levadura (03) | [../03_Levadura/Levadura_Parte3_DEEP/60_Checklist_Control_Fermentacion.md](../03_Levadura/Levadura_Parte3_DEEP/60_Checklist_Control_Fermentacion.md) |
+| R-0132 | Levadura (03) | [../03_Levadura/Levadura_Parte3_DEEP/60_Checklist_Control_Fermentacion.md](../03_Levadura/Levadura_Parte3_DEEP/60_Checklist_Control_Fermentacion.md) |
+| R-0133 | Levadura (03) | [../03_Levadura/Levadura_Parte5_DEEP/00_INDEX.md](../03_Levadura/Levadura_Parte5_DEEP/00_INDEX.md) |
+| R-0134 | Levadura (03) | [../03_Levadura/Levadura_Parte5_DEEP/00_INDEX.md](../03_Levadura/Levadura_Parte5_DEEP/00_INDEX.md) |
+| R-0135 | Levadura (03) | [../03_Levadura/Levadura_Parte5_DEEP/00_INDEX.md](../03_Levadura/Levadura_Parte5_DEEP/00_INDEX.md) |
+| R-0136 | Levadura (03) | [../03_Levadura/Levadura_Parte5_DEEP/00_INDEX.md](../03_Levadura/Levadura_Parte5_DEEP/00_INDEX.md) |
+| R-0137 | Levadura (03) | [../03_Levadura/Levadura_Parte5_DEEP/00_INDEX.md](../03_Levadura/Levadura_Parte5_DEEP/00_INDEX.md) |
+| R-0138 | Levadura (03) | [../03_Levadura/Levadura_Parte5_DEEP/00_INDEX.md](../03_Levadura/Levadura_Parte5_DEEP/00_INDEX.md) |
+| R-0139 | Levadura (03) | [../03_Levadura/Levadura_Parte5_DEEP/00_INDEX.md](../03_Levadura/Levadura_Parte5_DEEP/00_INDEX.md) |
+| R-0140 | Levadura (03) | [../03_Levadura/Levadura_Parte5_DEEP/00_INDEX.md](../03_Levadura/Levadura_Parte5_DEEP/00_INDEX.md) |
+| R-0141 | Levadura (03) | [../03_Levadura/Levadura_Parte5_DEEP/00_INDEX.md](../03_Levadura/Levadura_Parte5_DEEP/00_INDEX.md) |
+| R-0142 | Levadura (03) | [../03_Levadura/Levadura_Parte5_DEEP/00_INDEX.md](../03_Levadura/Levadura_Parte5_DEEP/00_INDEX.md) |
+| R-0143 | Levadura (03) | [../03_Levadura/Levadura_Parte5_DEEP/00_INDEX.md](../03_Levadura/Levadura_Parte5_DEEP/00_INDEX.md) |
+| R-0144 | Levadura (03) | [../03_Levadura/Levadura_Parte5_DEEP/00_INDEX.md](../03_Levadura/Levadura_Parte5_DEEP/00_INDEX.md) |
+| R-0145 | Levadura (03) | [../03_Levadura/Levadura_Parte5_DEEP/00_INDEX.md](../03_Levadura/Levadura_Parte5_DEEP/00_INDEX.md) |
+| R-0146 | Levadura (03) | [../03_Levadura/Levadura_Parte5_DEEP/00_INDEX.md](../03_Levadura/Levadura_Parte5_DEEP/00_INDEX.md) |
+| R-0401 | LÃºpulo (04) | [../04_Lupulo/Lupulo_Parte1_DEEP/20_Amargor_como_Sistema.md](../04_Lupulo/Lupulo_Parte1_DEEP/20_Amargor_como_Sistema.md) |
+| R-0402 | LÃºpulo (04) | [../04_Lupulo/Lupulo_Parte1_DEEP/30_Aroma_y_Complejidad.md](../04_Lupulo/Lupulo_Parte1_DEEP/30_Aroma_y_Complejidad.md) |
+| R-0403 | LÃºpulo (04) | [../04_Lupulo/Lupulo_Parte3_DEEP/40_Dry_Hopping.md](../04_Lupulo/Lupulo_Parte3_DEEP/40_Dry_Hopping.md) |
+| R-0404 | LÃºpulo (04) | [../04_Lupulo/Lupulo_Parte4_DEEP/40_Riesgos_y_Control.md](../04_Lupulo/Lupulo_Parte4_DEEP/40_Riesgos_y_Control.md) |
+| R-0405 | LÃºpulo (04) | [../04_Lupulo/Lupulo_Parte4_DEEP/20_Compuestos_Clave.md](../04_Lupulo/Lupulo_Parte4_DEEP/20_Compuestos_Clave.md) |
+| R-0406 | LÃºpulo (04) | [../04_Lupulo/Lupulo_Parte3_DEEP/30_Whirlpool_y_Hopstand.md](../04_Lupulo/Lupulo_Parte3_DEEP/30_Whirlpool_y_Hopstand.md) |
+| R-0407 | LÃºpulo (04) | [../04_Lupulo/Lupulo_Parte3_DEEP/30_Whirlpool_y_Hopstand.md](../04_Lupulo/Lupulo_Parte3_DEEP/30_Whirlpool_y_Hopstand.md) |
+
+---
+
+## Agua (01)
+- [R-0029 â€” Identificar si el desinfectante es cloro o cloramina con test â€œlibre vs totalâ€](../01_Agua/Agua_Parte4_DEEP/150_Desinfectantes_Cloro_Cloramina.md)
+- [R-0030 â€” DiagnÃ³stico: si â€œtotal > libreâ€ hay cloramina (o mezcla)](../01_Agua/Agua_Parte4_DEEP/150_Desinfectantes_Cloro_Cloramina.md)
+- [R-0031 â€” No confiar solo en mediciÃ³n de â€œcloro libreâ€ si querÃ©s detectar cloramina](../01_Agua/Agua_Parte4_DEEP/150_Desinfectantes_Cloro_Cloramina.md)
+- [R-0032 â€” RemociÃ³n por volatilidad: el cloro se elimina por aireaciÃ³n/calor; la cloramina no](../01_Agua/Agua_Parte4_DEEP/150_Desinfectantes_Cloro_Cloramina.md)
+- [R-0033 â€” Chequeo simple: reposo nocturno + olfato como alerta (no como Ãºnico control)](../01_Agua/Agua_Parte4_DEEP/150_Desinfectantes_Cloro_Cloramina.md)
+- [R-0034 â€” Si hay residual luego del carbÃ³n, el carbÃ³n se considera agotado (breakthrough)](../01_Agua/Agua_Parte4_DEEP/150_Desinfectantes_Cloro_Cloramina.md)
+- [R-0035 â€” Dimensionamiento teÃ³rico de caudal: cloramina exige mucho mÃ¡s que cloro](../01_Agua/Agua_Parte4_DEEP/150_Desinfectantes_Cloro_Cloramina.md)
+- [R-0036 â€” Regla prÃ¡ctica: cartucho 10â€ a ~1 gpm puede funcionar para cloro; para cloramina, bajar caudal](../01_Agua/Agua_Parte4_DEEP/150_Desinfectantes_Cloro_Cloramina.md)
+- [R-0037 â€” Control operativo: el rendimiento del carbÃ³n debe validarse con mediciÃ³n (no asumir)](../01_Agua/Agua_Parte4_DEEP/150_Desinfectantes_Cloro_Cloramina.md)
+- [R-0038 â€” Riesgo sanitario del carbÃ³n: puede alojar bacterias; definir recambio/sanitizaciÃ³n](../01_Agua/Agua_Parte4_DEEP/150_Desinfectantes_Cloro_Cloramina.md)
+- [R-0039 â€” Monitoreo de breakthrough: muestreos antes/despuÃ©s del carbÃ³n](../01_Agua/Agua_Parte4_DEEP/150_Desinfectantes_Cloro_Cloramina.md)
+- [R-0040 â€” InterpretaciÃ³n estÃ¡ndar de resultados (regla de decisiÃ³n)](../01_Agua/Agua_Parte4_DEEP/150_Desinfectantes_Cloro_Cloramina.md)
+- [R-0041 â€” El objetivo es pH del mash, no el pH del agua](../01_Agua/Agua_Parte1_DEEP/20_pH_vs_Alcalinidad.md)
+- [R-0042 â€” La alcalinidad suele importar mÃ¡s que el pH del agua](../01_Agua/Agua_Parte1_DEEP/20_pH_vs_Alcalinidad.md)
+- [R-0043 â€” La alcalinidad es el tampÃ³n primario del agua potable](../01_Agua/Agua_Parte1_DEEP/20_pH_vs_Alcalinidad.md)
+- [R-0044 â€” pH sin contexto de tampones puede engaÃ±ar](../01_Agua/Agua_Parte1_DEEP/20_pH_vs_Alcalinidad.md)
+- [R-0045 â€” Baja alcalinidad suele ser deseable en cervezas claras](../01_Agua/Agua_Parte1_DEEP/20_pH_vs_Alcalinidad.md)
+- [R-0046 â€” Subir alcalinidad â€œa ciegasâ€ puede empeorar el mash pH](../01_Agua/Agua_Parte1_DEEP/20_pH_vs_Alcalinidad.md)
+- [R-0047 â€” La correcciÃ³n debe anclarse a mediciones del mash](../01_Agua/Agua_Parte1_DEEP/20_pH_vs_Alcalinidad.md)
+- [R-0048 â€” Un ajuste pequeÃ±o puede ser suficiente; evitar sobrecorrecciones](../01_Agua/Agua_Parte1_DEEP/20_pH_vs_Alcalinidad.md)
+- [R-0049 â€” Cambios de pH afectan extracciÃ³n de taninos/eficiencia](../01_Agua/Agua_Parte1_DEEP/20_pH_vs_Alcalinidad.md)
+- [R-0050 â€” Registrar pH y alcalinidad como variables de control del sistema](../01_Agua/Agua_Parte1_DEEP/20_pH_vs_Alcalinidad.md)
+- [R-0051 â€” Balance sulfato/cloruro define percepciÃ³n (no â€œsolo nÃºmerosâ€)](../01_Agua/Agua_Parte2_DEEP/70_Perfiles_Agua_para_IPA.md)
+- [R-0052 â€” Sulfato empuja â€œseco/amargoâ€; cloruro empuja â€œcuerpo/dulzorâ€](../01_Agua/Agua_Parte2_DEEP/70_Perfiles_Agua_para_IPA.md)
+- [R-0053 â€” Evitar extremos sin intenciÃ³n: el balance se diseÃ±a por estilo](../01_Agua/Agua_Parte2_DEEP/70_Perfiles_Agua_para_IPA.md)
+- [R-0054 â€” Ajustes de sales deben acompaÃ±ar el objetivo de pH](../01_Agua/Agua_Parte2_DEEP/70_Perfiles_Agua_para_IPA.md)
+- [R-0055 â€” Cuidado con agua â€œmuy blandaâ€: puede afectar performance/estabilidad](../01_Agua/Agua_Parte2_DEEP/70_Perfiles_Agua_para_IPA.md)
+- [R-0056 â€” Registrar relaciÃ³n y absolutos (no solo relaciÃ³n)](../01_Agua/Agua_Parte2_DEEP/70_Perfiles_Agua_para_IPA.md)
+- [R-0057 â€” Cambios de agua cambian receta: recalcular siempre](../01_Agua/Agua_Parte2_DEEP/70_Perfiles_Agua_para_IPA.md)
+- [R-0058 â€” â€œSal de mashâ€: ajustar donde importa (mash) antes que en hervido](../01_Agua/Agua_Parte2_DEEP/50_pH_en_el_Mash.md)
+- [R-0059 â€” Calcio y magnesio tienen efectos tÃ©cnicos; no ajustar solo por sabor](../01_Agua/Agua_Parte2_DEEP/50_pH_en_el_Mash.md)
+- [R-0060 â€” Evitar sobre-mineralizaciÃ³n por costumbre; definir objetivo](../01_Agua/Agua_Parte2_DEEP/50_pH_en_el_Mash.md)
+- [R-0061 â€” Ajustar por estilo y por proceso (mash/sparge)](../01_Agua/Agua_Parte2_DEEP/50_pH_en_el_Mash.md)
+- [R-0062 â€” Registrar gramos, volumen y mÃ©todo (para repetir)](../01_Agua/Agua_Parte2_DEEP/50_pH_en_el_Mash.md)
+- [R-0063 â€” Evitar â€œcorregir despuÃ©sâ€: el daÃ±o suele estar en mash pH](../01_Agua/Agua_Parte2_DEEP/50_pH_en_el_Mash.md)
+- [R-0064 â€” Control: medir pH real del mash, no asumir](../01_Agua/Agua_Parte2_DEEP/50_pH_en_el_Mash.md)
+- [R-0065 â€” Correcciones pequeÃ±as y controladas ganan a cambios grandes](../01_Agua/Agua_Parte2_DEEP/50_pH_en_el_Mash.md)
+- [R-0066 â€” Si cambia receta, cambia agua objetivo (siempre)](../01_Agua/Agua_Parte2_DEEP/50_pH_en_el_Mash.md)
+- [R-0067 â€” Sparge: evitar extracciÃ³n de taninos por pH alto](../01_Agua/Agua_Parte2_DEEP/50_pH_en_el_Mash.md)
+- [R-0068 â€” Documentar â€œperfil objetivoâ€ por estilo (plantilla)](../01_Agua/Agua_Parte2_DEEP/50_pH_en_el_Mash.md)
+- [R-0069 â€” Ajustar por lotes; validar con sensorial](../01_Agua/Agua_Parte2_DEEP/50_pH_en_el_Mash.md)
+- [R-0070 â€” Estabilidad: minerales y pH influyen vida Ãºtil](../01_Agua/Agua_Parte2_DEEP/50_pH_en_el_Mash.md)
+- [R-0071 â€” Si hay variabilidad, revisar mediciÃ³n y mÃ©todo de adiciÃ³n](../01_Agua/Agua_Parte2_DEEP/50_pH_en_el_Mash.md)
+- [R-0072 â€” Mantener trazabilidad: origen de agua + fecha + mediciones](../01_Agua/Agua_Parte2_DEEP/50_pH_en_el_Mash.md)
+- [R-0073 â€” No â€œcopiar perfilesâ€ sin recalcular para tu agua real](../01_Agua/Agua_Parte2_DEEP/50_pH_en_el_Mash.md)
+
+## Malta (02)
+- [R-0074 â€” Malta: rol estructural](../02_Malta/Malta_Parte1_DEEP/10_Rol_Estructural_de_la_Malta.md)
+- [R-0075 â€” Malta: calidad y consistencia](../02_Malta/Malta_Parte1_DEEP/10_Rol_Estructural_de_la_Malta.md)
+- [R-0076 â€” Malta: definir objetivo por estilo](../02_Malta/Malta_Parte1_DEEP/10_Rol_Estructural_de_la_Malta.md)
+- [R-0077 â€” ConversiÃ³n: sistema enzimÃ¡tico](../02_Malta/Malta_Parte2_DEEP/20_Enzimas_Amilasas_y_Proteasas.md)
+- [R-0078 â€” ConversiÃ³n: controlar variables](../02_Malta/Malta_Parte2_DEEP/20_Enzimas_Amilasas_y_Proteasas.md)
+- [R-0079 â€” ConversiÃ³n: evitar supuestos](../02_Malta/Malta_Parte2_DEEP/20_Enzimas_Amilasas_y_Proteasas.md)
+- [R-0080 â€” Color y sabor: Maillard](../02_Malta/Malta_Parte3_DEEP/10_Kilning_y_Reacciones_Maillard.md)
+- [R-0081 â€” Color: coherencia de receta](../02_Malta/Malta_Parte3_DEEP/10_Kilning_y_Reacciones_Maillard.md)
+- [R-0082 â€” Maillard: impacto sensorial](../02_Malta/Malta_Parte3_DEEP/10_Kilning_y_Reacciones_Maillard.md)
+- [R-0083 â€” Molienda: base de la extracciÃ³n](../02_Malta/Malta_Parte1_DEEP/50_Molienda_y_Preparacion.md)
+- [R-0084 â€” Molienda: evitar stuck mash](../02_Malta/Malta_Parte1_DEEP/50_Molienda_y_Preparacion.md)
+- [R-0085 â€” Molienda: consistencia lote a lote](../02_Malta/Malta_Parte1_DEEP/50_Molienda_y_Preparacion.md)
+- [R-0086 â€” Manejo del grano: controlar polvo/humedad](../02_Malta/Malta_Parte1_DEEP/50_Molienda_y_Preparacion.md)
+- [R-0087 â€” Almacenamiento: frescura manda](../02_Malta/Malta_Parte1_DEEP/40_COA_y_Control_de_Calidad.md)
+- [R-0088 â€” Almacenamiento: evitar calor/humedad](../02_Malta/Malta_Parte1_DEEP/40_COA_y_Control_de_Calidad.md)
+- [R-0089 â€” Almacenamiento: trazabilidad por lote](../02_Malta/Malta_Parte1_DEEP/40_COA_y_Control_de_Calidad.md)
+
+## Levadura (03)
+- [R-0090 â€” Levadura: cepa/estado como decisiÃ³n principal](../03_Levadura/Levadura_Parte1_DEEP/10_La_Levadura_como_Motor_del_Sabor.md)
+- [R-0091 â€” Levadura: medir inoculaciÃ³n/viabilidad para consistencia](../03_Levadura/Levadura_Parte1_DEEP/60_Errores_Estructurales_Comunes.md)
+- [R-0092 â€” Parte frÃ­a: fermentaciÃ³n frÃ­a mejora estabilidad (cuando aplica)](../03_Levadura/Levadura_Parte1_DEEP/20_Fermentacion_como_Parte_Fria.md)
+- [R-0093 â€” Control tÃ©rmico sostenido durante fermentaciÃ³n](../03_Levadura/Levadura_Parte1_DEEP/20_Fermentacion_como_Parte_Fria.md)
+- [R-0094 â€” OxÃ­geno al inicio (excepciÃ³n: alta densidad)](../03_Levadura/Levadura_Parte1_DEEP/40_Necesidades_Basicas.md)
+- [R-0095 â€” Nutrientes/minerales (zinc) como soporte](../03_Levadura/Levadura_Parte1_DEEP/40_Necesidades_Basicas.md)
+- [R-0096 â€” GestiÃ³n por generaciones: log mÃ­nimo](../03_Levadura/Levadura_Parte1_DEEP/50_Levadura_como_Sistema_Vivo.md)
+- [R-0097 â€” OxigenaciÃ³n y pitch rate](../03_Levadura/Fermentacion_DEEP/02_Oxigenacion_y_pitch_rate.md)
+- [R-0098 â€” OxigenaciÃ³n: control y consistencia](../03_Levadura/Fermentacion_DEEP/02_Oxigenacion_y_pitch_rate.md)
+- [R-0099 â€” Pitch rate: evitar extremos](../03_Levadura/Fermentacion_DEEP/02_Oxigenacion_y_pitch_rate.md)
+- [R-0100 â€” Curva tÃ©rmica y diacetilo](../03_Levadura/Fermentacion_DEEP/03_Curva_termica_diacetilo_y_rampas.md)
+- [R-0101 â€” Rampas: lÃ³gica y riesgos](../03_Levadura/Fermentacion_DEEP/03_Curva_termica_diacetilo_y_rampas.md)
+- [R-0102 â€” Diacetilo: prevenciÃ³n](../03_Levadura/Fermentacion_DEEP/03_Curva_termica_diacetilo_y_rampas.md)
+- [R-0103 â€” FloculaciÃ³n y clarificaciÃ³n](../03_Levadura/Fermentacion_DEEP/05_Floculacion_clarificacion_y_sedimentos.md)
+- [R-0104 â€” Sedimentos: control](../03_Levadura/Fermentacion_DEEP/05_Floculacion_clarificacion_y_sedimentos.md)
+- [R-0105 â€” ClarificaciÃ³n: impacto sensorial](../03_Levadura/Fermentacion_DEEP/05_Floculacion_clarificacion_y_sedimentos.md)
+- [R-0106 â€” EstrÃ©s fermentativo](../03_Levadura/Levadura_Parte3_DEEP/50_Estres_Celular_y_Defectos.md)
+- [R-0107 â€” PrevenciÃ³n: higiene + control](../03_Levadura/Levadura_Parte3_DEEP/50_Estres_Celular_y_Defectos.md)
+- [R-0108 â€” SeÃ±ales de alarma](../03_Levadura/Levadura_Parte3_DEEP/50_Estres_Celular_y_Defectos.md)
+- [R-0109 â€” Mixtas: interacciÃ³n bacteria/levadura](../03_Levadura/Fermentacion_DEEP/07_Troubleshooting_sintomas_causas_acciones.md)
+- [R-0110 â€” Mixtas: riesgos](../03_Levadura/Fermentacion_DEEP/07_Troubleshooting_sintomas_causas_acciones.md)
+- [R-0111 â€” Mixtas: control](../03_Levadura/Fermentacion_DEEP/07_Troubleshooting_sintomas_causas_acciones.md)
+- [R-0112 â€” Sabores y defectos](../03_Levadura/Levadura_Parte3_DEEP/50_Estres_Celular_y_Defectos.md)
+- [R-0113 â€” DiagnÃ³stico de defectos](../03_Levadura/Levadura_Parte3_DEEP/50_Estres_Celular_y_Defectos.md)
+- [R-0114 â€” PrevenciÃ³n de defectos](../03_Levadura/Levadura_Parte3_DEEP/50_Estres_Celular_y_Defectos.md)
+- [R-0115 â€” InteracciÃ³n con ingredientes](../03_Levadura/Levadura_Parte3_DEEP/40_Nutrientes_y_Minerales.md)
+- [R-0116 â€” InteracciÃ³n: proceso](../03_Levadura/Levadura_Parte3_DEEP/40_Nutrientes_y_Minerales.md)
+- [R-0117 â€” InteracciÃ³n: estilos](../03_Levadura/Levadura_Parte3_DEEP/40_Nutrientes_y_Minerales.md)
+- [R-0118 â€” Estrategias por estilos](../03_Levadura/Levadura_Parte5_DEEP/10_Marco_Decision_Seleccion_Cepa.md)
+- [R-0119 â€” Estilos: control tÃ©rmico](../03_Levadura/Levadura_Parte5_DEEP/10_Marco_Decision_Seleccion_Cepa.md)
+- [R-0120 â€” Estilos: consistencia](../03_Levadura/Levadura_Parte5_DEEP/10_Marco_Decision_Seleccion_Cepa.md)
+- [R-0121 â€” PropagaciÃ³n y starters](../03_Levadura/Levadura_Parte4_DEEP/00_INDEX.md)
+- [R-0122 â€” PropagaciÃ³n: control](../03_Levadura/Levadura_Parte4_DEEP/00_INDEX.md)
+- [R-0123 â€” PropagaciÃ³n: riesgos](../03_Levadura/Levadura_Parte4_DEEP/00_INDEX.md)
+- [R-0124 â€” Lavado y reuso](../03_Levadura/Levadura_Parte4_DEEP/00_INDEX.md)
+- [R-0125 â€” Reuso: control](../03_Levadura/Levadura_Parte4_DEEP/00_INDEX.md)
+- [R-0126 â€” Reuso: riesgos](../03_Levadura/Levadura_Parte4_DEEP/00_INDEX.md)
+- [R-0127 â€” Guarda y transporte](../03_Levadura/Levadura_Parte4_DEEP/00_INDEX.md)
+- [R-0128 â€” Transporte: control](../03_Levadura/Levadura_Parte4_DEEP/00_INDEX.md)
+- [R-0129 â€” Guarda: lÃ­mites](../03_Levadura/Levadura_Parte4_DEEP/00_INDEX.md)
+- [R-0130 â€” Checklist diseÃ±o fermentaciÃ³n](../03_Levadura/Levadura_Parte3_DEEP/60_Checklist_Control_Fermentacion.md)
+- [R-0131 â€” Checklist fermentaciÃ³n: control](../03_Levadura/Levadura_Parte3_DEEP/60_Checklist_Control_Fermentacion.md)
+- [R-0132 â€” Checklist fermentaciÃ³n: riesgos](../03_Levadura/Levadura_Parte3_DEEP/60_Checklist_Control_Fermentacion.md)
+- [R-0133 â€” Checklist prevenciÃ³n defectos](../03_Levadura/Levadura_Parte5_DEEP/00_INDEX.md)
+- [R-0134 â€” Checklist defectos: control](../03_Levadura/Levadura_Parte5_DEEP/00_INDEX.md)
+- [R-0135 â€” Checklist defectos: consistencia](../03_Levadura/Levadura_Parte5_DEEP/00_INDEX.md)
+- [R-0136 â€” TP Log de Levadura](../03_Levadura/Levadura_Parte5_DEEP/00_INDEX.md)
+- [R-0137 â€” TP Log: control](../03_Levadura/Levadura_Parte5_DEEP/00_INDEX.md)
+- [R-0138 â€” TP Log: trazabilidad](../03_Levadura/Levadura_Parte5_DEEP/00_INDEX.md)
+- [R-0139 â€” TP Log de FermentaciÃ³n](../03_Levadura/Levadura_Parte5_DEEP/00_INDEX.md)
+- [R-0140 â€” TP Log: control](../03_Levadura/Levadura_Parte5_DEEP/00_INDEX.md)
+- [R-0141 â€” TP Log: consistencia](../03_Levadura/Levadura_Parte5_DEEP/00_INDEX.md)
+- [R-0142 â€” Aromas limpias vs expresivas (checklist)](../03_Levadura/Levadura_Parte5_DEEP/00_INDEX.md)
+- [R-0143 â€” Aromas: control](../03_Levadura/Levadura_Parte5_DEEP/00_INDEX.md)
+- [R-0144 â€” Aromas: riesgos](../03_Levadura/Levadura_Parte5_DEEP/00_INDEX.md)
+- [R-0145 â€” Aromas: consistencia](../03_Levadura/Levadura_Parte5_DEEP/00_INDEX.md)
+- [R-0146 â€” Aromas: decisiones](../03_Levadura/Levadura_Parte5_DEEP/00_INDEX.md)
+
+## LÃºpulo (04)
+- [R-0401 â€” DefiniciÃ³n operativa de IBU (quÃ© mide y cÃ³mo leerlo)](../04_Lupulo/Lupulo_Parte1_DEEP/20_Amargor_como_Sistema.md)
+- [R-0402 â€” Sinergia â€œtropicalâ€: LGC + 4MSP (4MMP)](../04_Lupulo/Lupulo_Parte1_DEEP/30_Aroma_y_Complejidad.md)
+- [R-0403 â€” Dry hop: el oxÃ­geno es un riesgo estructural](../04_Lupulo/Lupulo_Parte3_DEEP/40_Dry_Hopping.md)
+- [R-0404 â€” Hop creep: controlar por temperatura y tiempo de contacto](../04_Lupulo/Lupulo_Parte4_DEEP/40_Riesgos_y_Control.md)
+- [R-0405 â€” Tioles: poco contenido, gran impacto](../04_Lupulo/Lupulo_Parte4_DEEP/20_Compuestos_Clave.md)
+- [R-0406 â€” Whirlpool/hopstand: se diseÃ±a como adiciÃ³n con impacto en amargor (no solo aroma)](../04_Lupulo/Lupulo_Parte3_DEEP/30_Whirlpool_y_Hopstand.md)
+- [R-0407 â€” Whirlpool/hopstand: definir duraciÃ³n objetivo; evitar tiempos largos â€œpor inerciaâ€](../04_Lupulo/Lupulo_Parte3_DEEP/30_Whirlpool_y_Hopstand.md)
 
 
-## Agua
 
-### Desinfectantes: Cloro y cloraminas
-- Ubicación: [150_Desinfectantes_Cloro_Cloramina.md](../01_Agua/Agua_Parte4_DEEP/150_Desinfectantes_Cloro_Cloramina.md)
-- Fuente: B022
-
-#### Agua — Desinfectantes: cloro y cloramina (B022)
-- [R-0029 — Identificar si el desinfectante es cloro o cloramina con test “libre vs total”](../01_Agua/Agua_Parte4_DEEP/150_Desinfectantes_Cloro_Cloramina.md#r-0029)
-- [R-0030 — Diagnóstico: si “total > libre” hay cloramina (o mezcla)](../01_Agua/Agua_Parte4_DEEP/150_Desinfectantes_Cloro_Cloramina.md#r-0030)
-- [R-0031 — No confiar solo en medición de “cloro libre” si querés detectar cloramina](../01_Agua/Agua_Parte4_DEEP/150_Desinfectantes_Cloro_Cloramina.md#r-0031)
-- [R-0032 — Remoción por volatilidad: el cloro se elimina por aireación/calor; la cloramina no](../01_Agua/Agua_Parte4_DEEP/150_Desinfectantes_Cloro_Cloramina.md#r-0032)
-- [R-0033 — Chequeo simple: reposo nocturno + olfato como alerta (no como único control)](../01_Agua/Agua_Parte4_DEEP/150_Desinfectantes_Cloro_Cloramina.md#r-0033)
-- [R-0034 — Si hay residual luego del carbón, el carbón se considera agotado](../01_Agua/Agua_Parte4_DEEP/150_Desinfectantes_Cloro_Cloramina.md#r-0034)
-- [R-0035 — Dimensionamiento teórico de caudal (cartucho 10”) es mucho más estricto para cloramina](../01_Agua/Agua_Parte4_DEEP/150_Desinfectantes_Cloro_Cloramina.md#r-0035)
-- [R-0036 — Regla práctica: 10” a ~1 gpm puede funcionar para cloro, pero solo si se verifica](../01_Agua/Agua_Parte4_DEEP/150_Desinfectantes_Cloro_Cloramina.md#r-0036)
-- [R-0037 — Control operativo: el rendimiento del carbón “debe comprobarse regularmente”](../01_Agua/Agua_Parte4_DEEP/150_Desinfectantes_Cloro_Cloramina.md#r-0037)
-- [R-0038 — Riesgo sanitario del carbón: puede alojar bacterias si no se mantiene correctamente](../01_Agua/Agua_Parte4_DEEP/150_Desinfectantes_Cloro_Cloramina.md#r-0038)
-- [R-0039 — Para monitoreo de “breakthrough”, usar muestreos antes/después (y en lechos, puertos a profundidad)](../01_Agua/Agua_Parte4_DEEP/150_Desinfectantes_Cloro_Cloramina.md#r-0039)
-- [R-0040 — Interpretación estándar de resultados (regla de decisión)](../01_Agua/Agua_Parte4_DEEP/150_Desinfectantes_Cloro_Cloramina.md#r-0040)
-- [R-0041 — El objetivo de control es el pH del mash, no el pH del agua](../01_Agua/Agua_Parte1_DEEP/20_pH_vs_Alcalinidad.md#r-0041)
-- [R-0042 — La alcalinidad es más importante que el pH del agua](../01_Agua/Agua_Parte1_DEEP/20_pH_vs_Alcalinidad.md#r-0042)
-- [R-0043 — La alcalinidad es el tampón primario del agua potable](../01_Agua/Agua_Parte1_DEEP/20_pH_vs_Alcalinidad.md#r-0043)
-- [R-0044 — pH sin contexto de tampones puede engañar](../01_Agua/Agua_Parte1_DEEP/20_pH_vs_Alcalinidad.md#r-0044)
-- [R-0045 — Baja alcalinidad suele ser deseable en cervezas claras](../01_Agua/Agua_Parte1_DEEP/20_pH_vs_Alcalinidad.md#r-0045)
-- [R-0046 — Mayor necesidad de alcalinidad en grists más oscuros/ácidos](../01_Agua/Agua_Parte1_DEEP/20_pH_vs_Alcalinidad.md#r-0046)
-- [R-0047 — El sabor guía](../01_Agua/Agua_Parte1_DEEP/20_pH_vs_Alcalinidad.md#r-0047)
-- [R-0048 — “< 50 ppm” es generalidad histórica, no ley](../01_Agua/Agua_Parte1_DEEP/20_pH_vs_Alcalinidad.md#r-0048)
-- [R-0049 — Alcalinidad recomendada depende de la acidez del mash](../01_Agua/Agua_Parte1_DEEP/20_pH_vs_Alcalinidad.md#r-0049)
-- [R-0050 — Sensorial del agua como herramienta operativa](../01_Agua/Agua_Parte1_DEEP/20_pH_vs_Alcalinidad.md#r-0050)
-- [R-0051 — El pH del agua no es la meta](../01_Agua/Agua_Parte1_DEEP/20_pH_vs_Alcalinidad.md#r-0051)
-- [R-0052 — Diseñar condiciones para operar mejor](../01_Agua/Agua_Parte1_DEEP/20_pH_vs_Alcalinidad.md#r-0052)
-#### Agua — Rol del Calcio (B022)
-
-- [R-0053 — Mantener Ca en rango operativo 50–150 ppm](../01_Agua/Agua_Parte1_DEEP/40_Rol_del_Calcio.md#r-0053)
-- [R-0054 — Asegurar Ca mínimo ~40 ppm](../01_Agua/Agua_Parte1_DEEP/40_Rol_del_Calcio.md#r-0054)
-- [R-0055 — Evitar Ca >200 ppm](../01_Agua/Agua_Parte1_DEEP/40_Rol_del_Calcio.md#r-0055)
-- [R-0056 — Ca alto inhibe absorción Mg](../01_Agua/Agua_Parte1_DEEP/40_Rol_del_Calcio.md#r-0056)
-- [R-0057 — Malta aporta Ca/Mg 100–150 mg/L](../01_Agua/Agua_Parte1_DEEP/40_Rol_del_Calcio.md#r-0057)
-- [R-0058 — Ca baja pH mash (fosfatos)](../01_Agua/Agua_Parte1_DEEP/40_Rol_del_Calcio.md#r-0058)
-- [R-0059 — Ca promueve claridad](../01_Agua/Agua_Parte1_DEEP/40_Rol_del_Calcio.md#r-0059)
-- [R-0060 — Ca reduce oxalato](../01_Agua/Agua_Parte1_DEEP/40_Rol_del_Calcio.md#r-0060)
-- [R-0061 — Oxalato típico 25–40 ppm](../01_Agua/Agua_Parte1_DEEP/40_Rol_del_Calcio.md#r-0061)
-- [R-0062 — Depósitos en líneas; limpieza ácida](../01_Agua/Agua_Parte1_DEEP/40_Rol_del_Calcio.md#r-0062)
-- [R-0063 — Beerstone es duro/resistente](../01_Agua/Agua_Parte1_DEEP/40_Rol_del_Calcio.md#r-0063)
-- [R-0064 — Depósito en superficies calientes](../01_Agua/Agua_Parte1_DEEP/40_Rol_del_Calcio.md#r-0064)
-
-## Malta
-
-- Ubicación: [02_Malta.md](../02_Malta/02_Malta.md)
-- Fuente: B004
-
-#### Malta — Malteado y química (B004)
-- [R-0065 — Entender el propósito del malteado como “transformación funcional” del grano](../02_Malta/Malta_Parte1_DEEP/10_Proceso_de_Malteado.md#r-0065)
-- [R-0066 — Considerar beta glucanos/hemicelulosa como “palancas” de filtración (vía malteado)](../02_Malta/Malta_Parte1_DEEP/20_Quimica_de_Malta_para_Cerveceros.md#r-0066)
-- [R-0067 — Usar “Diastatic Power” como criterio de aptitud de conversión](../02_Malta/Malta_Parte1_DEEP/20_Quimica_de_Malta_para_Cerveceros.md#r-0067)
-
-#### Malta — COA / Calidad (B004)
-- [R-0068 — Tratar el COA como herramienta de predicción de performance del brewhouse](../02_Malta/Malta_Parte1_DEEP/40_COA_y_Control_de_Calidad.md#r-0068)
-- [R-0069 — No leer el COA como lista de números aislados: buscar interrelaciones](../02_Malta/Malta_Parte1_DEEP/40_COA_y_Control_de_Calidad.md#r-0069)
-
-#### Malta — Molienda y handling (B004)
-- [R-0070 — Definir el objetivo de molienda: exponer endospermo con mínima destrucción de cáscara](../02_Malta/Malta_Parte1_DEEP/50_Molienda_y_Preparacion.md#r-0070)
-- [R-0071 — Evitar extremos: over-milling vs under-milling tienen fallas distintas (flujo vs extracto)](../02_Malta/Malta_Parte1_DEEP/50_Molienda_y_Preparacion.md#r-0071)
-- [R-0072 — Considerar wet milling cuando el polvo sea un riesgo o limitante (y para mejorar husk/porosidad)](../02_Malta/Malta_Parte1_DEEP/50_Molienda_y_Preparacion.md#r-0072)
-- [R-0073 — Diseñar/usar silos/bins pensando en flujo y limpieza del sistema (calidad + seguridad)](../02_Malta/Malta_Parte1_DEEP/50_Molienda_y_Preparacion.md#r-0073)
-
-#### Malta — Familias / maltas especiales (B004)
-- [R-0074 — Usar maltas especiales para agregar complejidad más allá de la base](../02_Malta/Malta_Parte1_DEEP/30_Familias_de_Maltas_y_Aporte_Sensorial.md#r-0074)
-
-#### Malta — Malteado y química (B004)
-- [R-0075 — Modelar el malteado como 3 etapas fijas: steeping → germination → kilning](../02_Malta/Malta_Parte1_DEEP/10_Proceso_de_Malteado.md#r-0075)
-- [R-0076 — Tratar el kernel como “fábrica”: transforma carbohidratos, proteínas y lípidos](../02_Malta/Malta_Parte1_DEEP/20_Quimica_de_Malta_para_Cerveceros.md#r-0076)
-- [R-0077 — La modificación en germinación es secuencial: el endospermo se degrada “de un extremo al otro”](../02_Malta/Malta_Parte1_DEEP/20_Quimica_de_Malta_para_Cerveceros.md#r-0077)
-
-#### Malta — Familias / maltas especiales (B004)
-- [R-0078 — Definir “high-dried malts” por proceso: menor temperatura → color y sabores más livianos](../02_Malta/Malta_Parte1_DEEP/30_Familias_de_Maltas_y_Aporte_Sensorial.md#r-0078)
-- [R-0079 — Definir “roasted malts” por proceso: tostado directo en drum roaster → notas chocolate/café](../02_Malta/Malta_Parte1_DEEP/30_Familias_de_Maltas_y_Aporte_Sensorial.md#r-0079)
-
-#### Malta — Molienda y handling (B004)
-- [R-0080 — Wet milling reduce el riesgo de explosiones por polvo, pero exige manejo cuidadoso agua↔grano](../02_Malta/Malta_Parte1_DEEP/50_Molienda_y_Preparacion.md#r-0080)
-
-### Malta — Parte 2: Modificación / enzimas / DP (B004)
-- [R-0081 — Leer la “modificación” como proceso secuencial dentro del grano](../02_Malta/Malta_Parte2_DEEP/10_Modificacion_de_la_Malta.md#r-0081)
-- [R-0082 — Degradación de beta-glucanos/hemicelulosa como requisito de proceso](../02_Malta/Malta_Parte2_DEEP/10_Modificacion_de_la_Malta.md#r-0082)
-- [R-0083 — Sub vs sobre-modificada: diagnóstico por efectos](../02_Malta/Malta_Parte2_DEEP/10_Modificacion_de_la_Malta.md#r-0083)
-- [R-0084 — Enzimas: catalizadores específicos como drivers](../02_Malta/Malta_Parte2_DEEP/20_Enzimas_Amilasas_y_Proteasas.md#r-0084)
-- [R-0085 — Alfa vs beta amilasa definen perfil de azúcares](../02_Malta/Malta_Parte2_DEEP/20_Enzimas_Amilasas_y_Proteasas.md#r-0085)
-- [R-0086 — DP como criterio de capacidad de conversión del grist](../02_Malta/Malta_Parte2_DEEP/30_Diastatic_Power_y_Limites.md#r-0086)
-- [R-0087 — Fermentables vs no fermentables como decisión de diseño](../02_Malta/Malta_Parte2_DEEP/40_Temperatura_Tiempo_y_Fermentabilidad.md#r-0087)
-
-- [Puente pH (Malta ↔ Agua):](../02_Malta/Malta_Parte2_DEEP/50_Interaccion_Malta_Agua_pH.md)
-
-### Levadura
-
-- [R-0090 - Levadura: cepa/estado como decisión principal | [Motor del sabor]](../03_Levadura/Levadura_Parte1_DEEP/10_La_Levadura_como_Motor_del_Sabor.md#r-0090) |
-- [R-0091 | Levadura: medir inoculación/viabilidad para consistencia | [Errores estructurales]](../03_Levadura/Levadura_Parte1_DEEP/60_Errores_Estructurales_Comunes.md#r-0091) |
-- [R-0092 | Parte fría: fermentación fría mejora estabilidad/shelf life | [Parte fría]](../03_Levadura/Levadura_Parte1_DEEP/20_Fermentacion_como_Parte_Fria.md#r-0092) |
-- [R-0093 | Control térmico sostenido durante fermentación | [Parte fría]](../03_Levadura/Levadura_Parte1_DEEP/20_Fermentacion_como_Parte_Fria.md#r-0093) |
-- [R-0094 | Oxígeno al inicio (excepción alta densidad) | [Necesidades básicas]](../03_Levadura/Levadura_Parte1_DEEP/40_Necesidades_Basicas.md#r-0094) |
-- [R-0095 | Nutrientes/minerales (zinc) como soporte | [Necesidades básicas]](../03_Levadura/Levadura_Parte1_DEEP/40_Necesidades_Basicas.md#r-0095) |
-- [R-0096 | Gestión por generaciones/log mínimo | [Sistema vivo]](../03_Levadura/Levadura_Parte1_DEEP/50_Levadura_como_Sistema_Vivo.md#r-0096) |
-- [R-0097 — Membrana: “válvula” del sistema (permeabilidad)](../03_Levadura/Levadura_Parte2_DEEP/10_Estructura_Celular.md#r-0097)
-- [R-0098 — Esteroles: infraestructura (salud y resiliencia)](../03_Levadura/Levadura_Parte2_DEEP/10_Estructura_Celular.md#r-0098)
-- [R-0099 — Maltotriosa: define seco vs lleno (depende de cepa)](../03_Levadura/Levadura_Parte2_DEEP/20_Metabolismo_de_Azucares.md#r-0099)
-- [R-0100 — Dextrinas: no se fermentan (techo de atenuación real)](../03_Levadura/Levadura_Parte2_DEEP/20_Metabolismo_de_Azucares.md#r-0100)
-- [R-0101 — Etanol: anaeróbico (O₂ solo al inicio)](../03_Levadura/Levadura_Parte2_DEEP/30_Produccion_de_Alcohol_y_CO2.md#r-0101)
-- [R-0102 — Piruvato: salen subproductos (gestionables)](../03_Levadura/Levadura_Parte2_DEEP/30_Produccion_de_Alcohol_y_CO2.md#r-0102)
-- [R-0103 — Ésteres: 3 perillas (Temp/Pitch/O₂)](../03_Levadura/Levadura_Parte2_DEEP/40_Esteres_y_Alcoholes_Superiores.md#r-0103)
-- [R-0104 — Oxígeno ↓ ésteres (acetil-CoA/esteroles)](../03_Levadura/Levadura_Parte2_DEEP/40_Esteres_y_Alcoholes_Superiores.md#r-0104)
-- [R-0105 — Mosto alto en glucosa → ↑ ésteres](../03_Levadura/Levadura_Parte2_DEEP/40_Esteres_y_Alcoholes_Superiores.md#r-0105)
-- [R-0106 — Floculación: propiedad de proceso](../03_Levadura/Levadura_Parte2_DEEP/50_Floculacion_y_Sedimentacion.md#r-0106)
-- [R-0107 — Muy floculantes: ↓ atenuación + ↑ diacetilo/ésteres](../03_Levadura/Levadura_Parte2_DEEP/50_Floculacion_y_Sedimentacion.md#r-0107)
-- [R-0108 — Ésteres: mayor impacto sensorial](../03_Levadura/Levadura_Parte2_DEEP/40_Esteres_y_Alcoholes_Superiores.md#r-0108)
-- [R-0109 — Prohibido oxigenar tarde](../03_Levadura/Levadura_Parte3_DEEP/60_Checklist_Control_Fermentacion.md#r-0109)
-- [R-0110 — Pitch rate con target + plan cerrado](../03_Levadura/Levadura_Parte3_DEEP/60_Checklist_Control_Fermentacion.md#r-0110)
-- [R-0111 — Temperatura real: setpoint vs real](../03_Levadura/Levadura_Parte3_DEEP/60_Checklist_Control_Fermentacion.md#r-0111)
-- [R-0112 — Nutrientes: decisión sí/no + dosis/timing](../03_Levadura/Levadura_Parte3_DEEP/60_Checklist_Control_Fermentacion.md#r-0112)
-- [R-0113 — Troubleshooting: primero Pitch/O2/Temp/Nutrientes](../03_Levadura/Levadura_Parte3_DEEP/60_Checklist_Control_Fermentacion.md#r-0113)
-- [R-0114 — No crash/transfer prematuro](../03_Levadura/Levadura_Parte3_DEEP/60_Checklist_Control_Fermentacion.md#r-0114)
-- [R-0115 — Guardar curva real (densidad+T°)](../03_Levadura/Levadura_Parte3_DEEP/60_Checklist_Control_Fermentacion.md#r-0115)
-- [R-0116 — Si no calculás, registrá criterio (TP Log)](../03_Levadura/Levadura_Parte3_DEEP/TP_Log_Pitch_O2_Temp_Nutrientes.md#r-0116)
-- [R-0117 — No cerrar sin limpieza confirmada](../03_Levadura/Levadura_Parte4_DEEP/60_Checklist_Post_Fermentacion.md#r-0117)
-- [R-0118 — Floculación completa antes de acciones finales](../03_Levadura/Levadura_Parte4_DEEP/60_Checklist_Post_Fermentacion.md#r-0118)
-- [R-0119 — Cosecha limpia y en ventana óptima](../03_Levadura/Levadura_Parte4_DEEP/60_Checklist_Post_Fermentacion.md#r-0119)
-- [R-0120 — Si no medís, registrá criterio (viabilidad/vitalidad)](../03_Levadura/Levadura_Parte4_DEEP/60_Checklist_Post_Fermentacion.md#r-0120)
-- [R-0121 — Generación registrada obligatoria](../03_Levadura/Levadura_Parte4_DEEP/60_Checklist_Post_Fermentacion.md#r-0121)
-- [R-0122 — Almacenamiento frío y limpio](../03_Levadura/Levadura_Parte4_DEEP/60_Checklist_Post_Fermentacion.md#r-0122)
-- [R-0123 — Reutilizar levadura es gestión biológica](../03_Levadura/Levadura_Parte4_DEEP/60_Checklist_Post_Fermentacion.md#r-0123)
-- [R-0124 — Trazabilidad final obligatoria](../03_Levadura/Levadura_Parte4_DEEP/60_Checklist_Post_Fermentacion.md#r-0124)
-- [R-0125 — Minimizar oxígeno en slurry](../03_Levadura/Levadura_Parte4_DEEP/30_Cosecha_y_Reutilizacion.md#r-0125)
-- [R-0126 — Ventana óptima: planificar antes](../03_Levadura/Levadura_Parte4_DEEP/30_Cosecha_y_Reutilizacion.md#r-0126)
-- [R-0127 — Elegí por carácter, no sólo por estilo/región](../03_Levadura/Levadura_Parte5_DEEP/10_Marco_Decision_Seleccion_Cepa.md#r-0127)
-- [R-0128 — La cepa determina floculación (impacta operación/resultado)](../03_Levadura/Levadura_Parte5_DEEP/10_Marco_Decision_Seleccion_Cepa.md#r-0128)
-- [R-0129 — Cepas rápidas: plan explícito para evitar diacetilo](../03_Levadura/Levadura_Parte5_DEEP/10_Marco_Decision_Seleccion_Cepa.md#r-0129)
-- [R-0130 — La temperatura real manda la selección](../03_Levadura/Levadura_Parte5_DEEP/10_Marco_Decision_Seleccion_Cepa.md#r-0130)
-- [R-0131 — Pitch rate es parte de la decisión sensorial](../03_Levadura/Levadura_Parte5_DEEP/10_Marco_Decision_Seleccion_Cepa.md#r-0131)
-- [R-0132 — Limpieza/sanitización entre batches (repetibilidad)](../03_Levadura/Levadura_Parte5_DEEP/10_Marco_Decision_Seleccion_Cepa.md#r-0132)
-- [R-0133 — En cono: descartes y cosecha con criterio](../03_Levadura/Levadura_Parte5_DEEP/60_Checklist_Seleccion_Cepa.md#r-0133)
-- [R-0134 — Selección limpia si hay cultivo/propagación](../03_Levadura/Levadura_Parte5_DEEP/60_Checklist_Seleccion_Cepa.md#r-0134)
-- [R-0135 — Salida = setpoints coherentes (no sólo cepa)](../03_Levadura/Levadura_Parte5_DEEP/60_Checklist_Seleccion_Cepa.md#r-0135)
-- [R-0136 — Validación con caso + checklist](../03_Levadura/Levadura_Parte5_DEEP/60_Checklist_Seleccion_Cepa.md#r-0136)
-- [R-0137 — Si el objetivo es “limpio”, la forma más segura es cepa limpia + control estricto de temperatura (0–48 h)](../03_Levadura/Levadura_Parte5_DEEP/20_Cepas_Limpias_vs_Expresivas.md#r-0137)
-- [R-0138 — Cepas expresivas tienden a fermentar/flocular rápido: ganás turnaround, pero sube el riesgo de subproductos (p.ej., diacetilo)](../03_Levadura/Levadura_Parte5_DEEP/20_Cepas_Limpias_vs_Expresivas.md#r-0138)
-- [R-0139 — “Limpia vs expresiva” no se define solo por la cepa: el triángulo Pitch ↔ O2 ↔ Temperatura manda el perfil](../03_Levadura/Levadura_Parte5_DEEP/20_Cepas_Limpias_vs_Expresivas.md#r-0139)
-- [R-0140 — Para mantener “limpio”, evitar subpitch y picos térmicos tempranos; para más expresión, ajustar sin romper consistencia](../03_Levadura/Levadura_Parte5_DEEP/20_Cepas_Limpias_vs_Expresivas.md#r-0140)
-- [R-0141 — Si necesitás claridad rápida, priorizá floculación (rasgo) pero controlá el timing: flocular “demasiado temprano” puede frenar atenuación](../03_Levadura/Levadura_Parte5_DEEP/20_Cepas_Limpias_vs_Expresivas.md#r-0141)
-- [R-0142 — Si el estilo requiere fenoles (POF+), no intentes “forzar” una limpia: elegí cepa correcta primero](../03_Levadura/Levadura_Parte5_DEEP/20_Cepas_Limpias_vs_Expresivas.md#r-0142)
-- [R-0143 — Para “casi lager” sin lagering largo: usar enfoque híbrido (ale a baja T) y aceptar que puede haber trazas (p.ej., azufre)](../03_Levadura/Levadura_Parte5_DEEP/20_Cepas_Limpias_vs_Expresivas.md#r-0143)
-- [R-0144 — Si elegís expresiva por perfil, no “mates” su valor con overpitch y T demasiado baja: definí un rango de operación y repetilo](../03_Levadura/Levadura_Parte5_DEEP/20_Cepas_Limpias_vs_Expresivas.md#r-0144)
-- [R-0145 — El cierre (Parte 4) es parte de la decisión “limpia vs expresiva”: planificar diacetilo, clarificación y estabilidad como sistema](../03_Levadura/Levadura_Parte5_DEEP/20_Cepas_Limpias_vs_Expresivas.md#r-0145)
-- [R-0146 — Regla de oro de decisión: “limpio” se logra por restricción; “expresivo” se logra por dirección (sin estrés)](../03_Levadura/Levadura_Parte5_DEEP/20_Cepas_Limpias_vs_Expresivas.md#r-0146)
-
-
-## Lúpulo (04)
-- [R-0401 — Definición operativa de IBU (qué mide y cómo leerlo)](../04_Lupulo/Lupulo_Parte1_DEEP/20_Amargor_como_Sistema.md#r-0401)
-- [R-0402 — Sinergia “tropical”: LGC + 4MSP (4MMP)](../04_Lupulo/Lupulo_Parte1_DEEP/30_Aroma_y_Complejidad.md#r-0402)
-- [R-0403 — Dry hop: el oxígeno es un riesgo estructural](../04_Lupulo/Lupulo_Parte3_DEEP/40_Dry_Hopping.md#r-0403)
-- [R-0404 — Hop creep: controlar por temperatura y tiempo de contacto](../04_Lupulo/Lupulo_Parte4_DEEP/40_Riesgos_y_Control.md#r-0404)
-- [R-0405 — Tioles: poco contenido, gran impacto](../04_Lupulo/Lupulo_Parte4_DEEP/20_Compuestos_Clave.md#r-0405)
