@@ -1,10 +1,9 @@
-
-_backups/
-
+# builds
 site/
 
-# Bibliografía convertida pesada (no se versiona)
-**/* conv.html
+# backups locales
+_backups/
+
 # artifacts generados (no versionar)
 *conv.html
 *.bak

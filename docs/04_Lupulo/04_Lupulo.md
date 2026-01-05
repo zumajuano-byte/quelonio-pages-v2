@@ -18,8 +18,9 @@ Este módulo define el lúpulo como **sistema de diseño** (amargor + aroma + es
 - B005 — Stan Hieronymus, *For the Love of Hops* (aroma, amargor, cultura, técnica).
 - B006 — Scott Janish, *THE NEW IPA (ES)* (guía científica de lúpulo/aroma/sabor; dry hop, hop creep, biotransformación, tioles).
 
-> Nota: la bibliografía completa y links están en `99_Indice_y_Mapas/REGISTRO_FUENTES.md` y la política en `99_Indice_y_Mapas/POLITICA_RAG_Y_FUENTES.md`.
+## Referencias y política
+- [Registro de fuentes](../99_Indice_y_Mapas/REGISTRO_FUENTES.md)
+- [Política — RAG y fuentes](../99_Indice_y_Mapas/POLITICA_RAG_Y_FUENTES.md)
 
-
-
+## TPs
 - TP: [Log de Lupulado](Lupulo_Parte5_DEEP/90_TP_Log_Lupulado.md)
