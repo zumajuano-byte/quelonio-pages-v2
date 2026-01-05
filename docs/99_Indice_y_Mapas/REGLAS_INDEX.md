@@ -280,3 +280,4 @@ Este archivo es el **índice maestro** de reglas `R-XXXX` y su trazabilidad.
 | R-0553 | IPA Moderna (05) | [../05_Sistemas_IPA_Moderna/IPA_NewIPA_Parte5_DEEP/30_Hop_Burn_y_Astringencia.md](../05_Sistemas_IPA_Moderna/IPA_NewIPA_Parte5_DEEP/30_Hop_Burn_y_Astringencia.md) |
 | R-0554 | IPA Moderna (05) | [../05_Sistemas_IPA_Moderna/IPA_NewIPA_Parte5_DEEP/40_Oxigeno_Color_y_Shelf_Life.md](../05_Sistemas_IPA_Moderna/IPA_NewIPA_Parte5_DEEP/40_Oxigeno_Color_y_Shelf_Life.md) |
 | R-0555 | IPA Moderna (05) | [../05_Sistemas_IPA_Moderna/IPA_NewIPA_Parte5_DEEP/50_Estabilidad_vs_Expresividad.md](../05_Sistemas_IPA_Moderna/IPA_NewIPA_Parte5_DEEP/50_Estabilidad_vs_Expresividad.md) |
+| R-0556 | IPA Moderna (05) | [../05_Sistemas_IPA_Moderna/IPA_NewIPA_Parte4_DEEP/30_Planificacion_Dry_Hopping.md](../05_Sistemas_IPA_Moderna/IPA_NewIPA_Parte4_DEEP/30_Planificacion_Dry_Hopping.md) |
