@@ -21,3 +21,7 @@
 - Parte 2 — Timing Dry Hop (SOP): [20_Timing_Dry_Hop](../IPA_NewIPA_Parte2_DEEP/20_Timing_Dry_Hop.md)
 - Parte 2 — Hop Creep + Diacetilo (SOP): [30_Hop_Creep_y_Diacetilo](../IPA_NewIPA_Parte2_DEEP/30_Hop_Creep_y_Diacetilo.md)
 - Parte 2 — Control de Oxígeno + Estabilidad (SOP): [40_Control_Oxigeno_y_Estabilidad](../IPA_NewIPA_Parte2_DEEP/40_Control_Oxigeno_y_Estabilidad.md)
+## Operativa Parte 5
+- Troubleshooting Hop Burn/Astringencia: [30_Hop_Burn_y_Astringencia](30_Hop_Burn_y_Astringencia.md)
+- SOP Oxígeno/Color/Shelf Life: [40_Oxigeno_Color_y_Shelf_Life](40_Oxigeno_Color_y_Shelf_Life.md)
+- Marco decisión Estabilidad vs Expresividad: [50_Estabilidad_vs_Expresividad](50_Estabilidad_vs_Expresividad.md)

@@ -36,3 +36,28 @@ Elegí el “perfil objetivo” y alineá proceso:
 - [ ] Tenés log de lupulado (para repetir y diagnosticar).
 
 Siguiente: [Puentes Obsidian](60_Puentes_Obsidian_IPA_Parte5.md)
+
+---
+
+## Marco de decisión — Estabilidad vs Expresividad (operativo)
+
+### Objetivo
+Tomar decisiones de diseño sin “romanticismo”: cada punto de expresividad tiene costo en estabilidad.
+
+### Matriz (rápida)
+| Decisión | Sube expresividad | Sube riesgo | Cómo compensar |
+|---|---|---|---|
+| Dosis DH muy alta | Sí | Hop burn / creep / oxidación | Fraccionar, limitar contacto, controlar temp |
+| Contacto largo | A veces | Polifenoles / vegetal / burn | Tiempo máximo, mejor separación |
+| Dry hop tardío | Sí | Oxidación | Circuito cerrado + purgas + minimizar headspace |
+| Mucho haze buscado | Puede | Shelf-life menor / textura inestable | Control de proceso + frío + rotación |
+
+### Checklist de diseño (antes de producir)
+- [ ] ¿Cuál es el “target” real? (NEIPA jugosa vs WC nítida vs híbrida)
+- [ ] ¿Cuál es la ventana de consumo? (rápida / media / larga)
+- [ ] ¿Cuál es el riesgo principal del lote? (O₂ / creep / burn / color)
+- [ ] ¿Qué control “no negocio” sí o sí? (purga, tiempos, temperaturas, registros)
+
+### Regla interna (útil)
+- Si el producto necesita venderse “fresco”, priorizar expresividad.
+- Si el producto viaja o rota lento, priorizar estabilidad.

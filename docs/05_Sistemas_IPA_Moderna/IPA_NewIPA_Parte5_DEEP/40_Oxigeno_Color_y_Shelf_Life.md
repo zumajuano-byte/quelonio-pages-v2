@@ -30,3 +30,45 @@ Puente:
 - Empaque/estabilidad: `../../09_Empaque_Estabilidad/09_Empaque_Estabilidad.md`
 
 Siguiente: [Estabilidad vs expresividad](50_Estabilidad_vs_Expresividad.md)
+
+---
+
+## SOP — Oxígeno, Color y Shelf Life (IPA Moderna)
+
+### Objetivo
+Minimizar “O₂ pickup” en los eventos críticos y definir un criterio de liberación realista.
+
+### Eventos críticos (orden de riesgo típico)
+1) Envasado (punto de no retorno)
+2) Dry hop
+3) Transferencias (fermentador ↔ brite ↔ llenadora)
+4) Clarificación/filtrado (si aplica)
+
+### SOP (mínimo viable)
+#### A) Preparación
+- Purga con CO₂ de: líneas, recipientes, cabezales y cualquier volumen muerto.
+- Reducir headspace (evitar aire atrapado).
+- Evitar turbulencia/salpicado.
+
+#### B) Envasado
+- Definir un estándar de purga por envase (si tu equipo lo permite).
+- Mantener llenado estable (espuma controlada, sin “cascada”).
+- Cerrar rápido y consistente.
+
+#### C) Verificación (sin instrumental)
+- Control visual de color: comparar contra muestra “OK” de referencia (mismo estilo).
+- Control sensorial: aroma “apagado/cartón” o caída abrupta del perfil lupulado = alerta.
+- Control de estabilidad: muestreo a D+7 y D+14 (mínimo) con registro.
+
+### Indicadores de alarma
+- Pardeamiento acelerado en días.
+- Pérdida brusca de aroma (de “jugoso” a plano).
+- Aparición de notas oxidativas (cartón/papel, dulzor raro, apagado general).
+
+### Registro mínimo
+| Lote | Evento | Método anti-O₂ | Responsable | Resultado (OK/NO) | Observaciones |
+|---|---|---|---|---|---|
+
+### Criterio de liberación (práctico)
+- **OK** si: color y aroma se sostienen en control interno (D+7) y no hay signos claros de oxidación.
+- **NO OK** si: pardeamiento acelerado o caída aromática fuerte → retener y revisar SOP de envasado/transferencias.
