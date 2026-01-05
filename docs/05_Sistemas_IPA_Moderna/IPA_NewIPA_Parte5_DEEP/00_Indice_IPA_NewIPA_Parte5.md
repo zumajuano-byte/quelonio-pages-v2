@@ -16,3 +16,8 @@
 - [40 — Oxígeno, color y shelf-life](40_Oxigeno_Color_y_Shelf_Life.md)
 - [50 — Estabilidad vs expresividad](50_Estabilidad_vs_Expresividad.md)
 - [60 — Puentes Obsidian (IPA Parte 5)](60_Puentes_Obsidian_IPA_Parte5.md)
+
+## SOPs operativos (IPA Moderna)
+- Parte 2 — Timing Dry Hop (SOP): [20_Timing_Dry_Hop](../IPA_NewIPA_Parte2_DEEP/20_Timing_Dry_Hop.md)
+- Parte 2 — Hop Creep + Diacetilo (SOP): [30_Hop_Creep_y_Diacetilo](../IPA_NewIPA_Parte2_DEEP/30_Hop_Creep_y_Diacetilo.md)
+- Parte 2 — Control de Oxígeno + Estabilidad (SOP): [40_Control_Oxigeno_y_Estabilidad](../IPA_NewIPA_Parte2_DEEP/40_Control_Oxigeno_y_Estabilidad.md)

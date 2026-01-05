@@ -272,3 +272,8 @@ Este archivo es el **índice maestro** de reglas `R-XXXX` y su trazabilidad.
 - [R-0405 — Tioles: poco contenido, gran impacto](../04_Lupulo/Lupulo_Parte4_DEEP/20_Compuestos_Clave.md)
 - [R-0406 — Whirlpool/hopstand: se diseña como adición con impacto en amargor (no solo aroma)](../04_Lupulo/Lupulo_Parte3_DEEP/30_Whirlpool_y_Hopstand.md)
 - [R-0407 — Whirlpool/hopstand: definir duración objetivo; evitar tiempos largos "por inercia"](../04_Lupulo/Lupulo_Parte3_DEEP/30_Whirlpool_y_Hopstand.md)
+
+
+| R-0550 | IPA Moderna (05) | [../05_Sistemas_IPA_Moderna/IPA_NewIPA_Parte2_DEEP/20_Timing_Dry_Hop.md](../05_Sistemas_IPA_Moderna/IPA_NewIPA_Parte2_DEEP/20_Timing_Dry_Hop.md) |
+| R-0551 | IPA Moderna (05) | [../05_Sistemas_IPA_Moderna/IPA_NewIPA_Parte2_DEEP/30_Hop_Creep_y_Diacetilo.md](../05_Sistemas_IPA_Moderna/IPA_NewIPA_Parte2_DEEP/30_Hop_Creep_y_Diacetilo.md) |
+| R-0552 | IPA Moderna (05) | [../05_Sistemas_IPA_Moderna/IPA_NewIPA_Parte2_DEEP/40_Control_Oxigeno_y_Estabilidad.md](../05_Sistemas_IPA_Moderna/IPA_NewIPA_Parte2_DEEP/40_Control_Oxigeno_y_Estabilidad.md) |
