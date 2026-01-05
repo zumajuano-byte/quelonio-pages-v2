@@ -1,19 +1,20 @@
-# 00 — Índice (DEEP) Lúpulo Parte 1
+# Lúpulo Parte 1 (DEEP) — Rol y fundamentos
 
-## Entradas rápidas (orden recomendado)
+## Objetivo
+Alinear lenguaje y criterios: qué “hace” el lúpulo en la cerveza y cómo se diseña como sistema (no como adiciones aisladas).
 
-1) [10 — Rol estructural del lúpulo](10_Rol_Estructural_del_Lupulo.md)  
-2) [20 — Amargor como sistema](20_Amargor_como_Sistema.md)  
-3) [30 — Aroma y complejidad](30_Aroma_y_Complejidad.md)  
-4) [40 — Lúpulo vs Malta y Levadura](40_Lupulo_vs_Malta_y_Levadura.md)  
-5) [50 — Errores estructurales comunes](50_Errores_Estructurales_Comunes.md)  
-6) [60 — Puentes Obsidian (Lúpulo Parte 1)](60_Puentes_Obsidian_Lupulo_Parte1.md)
+## Archivos
+- [Índice Parte 1](00_Indice_Lupulo_Parte1.md)
+- 10 — Rol estructural del lúpulo
+- 20 — Amargor como sistema (**incluye regla canónica de IBU**)
+- 30 — Aroma y complejidad (**incluye regla canónica de sinergia tropical**)
+- 40 — Lúpulo vs malta y levadura
+- 50 — Errores estructurales comunes
+- 60 — Puentes Obsidian
 
----
-
-## Qué cubre esta parte (en una frase)
-
-Entender el lúpulo como **bloque estructural**: qué aporta, qué rompe, y cómo se conecta con el resto del sistema (agua/malta/levadura/proceso).
+## Reglas canónicas de esta parte
+- En **20_Amargor_como_Sistema.md**: R-0401 (IBU)
+- En **30_Aroma_y_Complejidad.md**: R-0402 (sinergia LGC + 4MSP)
 
 ---
 

@@ -22,3 +22,31 @@ Riesgo: final áspero y rasposo.
 
 Controles:
 - bajar contacto/temperatura, mejorar separación, ajustar carga.
+
+# Riesgos y control (IPA moderna)
+
+## Riesgos estructurales típicos
+- Oxígeno (ver Parte 3)
+- Hop creep (re-fermentación / cambios)
+- Astringencia/polifenoles
+- Estabilidad aromática
+
+---
+
+<a id="r-0404"></a>
+### R-0404 — Hop creep: controlar por temperatura y tiempo de contacto
+
+- FuenteID: B006
+- Evidencia: "controlar ... temperaturas del dry hop y el tiempo de contacto."
+- Ubicación: B006 — Cap. 9 Hop Creep (pNN pendiente)
+
+**Regla (operativa):**
+- Cuando el lote lleva dry hop, definir:
+  - temperatura objetivo de dry hop
+  - tiempo de contacto objetivo
+  - criterio de corte (cuándo se separa el lúpulo)
+- Registrar “señales” a monitorear (densidad/FG, presión, diacetilo si aplica) según el protocolo Quelonio.
+
+**Notas:**
+- Esta regla define el “control mínimo”; el protocolo de medición se completa en QA/QC.
+

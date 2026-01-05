@@ -18,3 +18,21 @@ Cómo usar lúpulo + levadura como **sistema aromático** (NEIPA / IPA moderna) 
 - diacetilo,
 - oxidación,
 - y perfiles “verdes” inestables.
+
+# Lúpulo Parte 4 (DEEP) — IPA moderna: biotransformación + tioles + control
+
+## Objetivo
+Operativizar los “motores” de IPA moderna: interacción lúpulo-levadura, liberación/transformación de compuestos y controles de riesgo.
+
+## Archivos
+- [Índice Parte 4](00_Indice_Lupulo_Parte4.md)
+- 10 — Qué es biotransformación
+- 20 — Compuestos clave (**incluye regla canónica de tioles**)
+- 30 — Timing de adición
+- 40 — Riesgos y control (**incluye regla canónica de hop creep**)
+- 50 — Casos aplicados NEIPA
+- 60 — Puentes Obsidian
+
+## Reglas canónicas de esta parte
+- En **20_Compuestos_Clave.md**: R-0405 (tioles)
+- En **40_Riesgos_y_Control.md**: R-0404 (hop creep)

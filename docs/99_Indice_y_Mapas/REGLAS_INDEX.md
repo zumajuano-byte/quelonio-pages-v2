@@ -167,3 +167,9 @@ Este archivo es el **índice maestro** de reglas `R-XXXX` y su trazabilidad.
 - [R-0146 — Regla de oro de decisión: “limpio” se logra por restricción; “expresivo” se logra por dirección (sin estrés)](../03_Levadura/Levadura_Parte5_DEEP/20_Cepas_Limpias_vs_Expresivas.md#r-0146)
 
 
+## Lúpulo (04)
+- [R-0401 — Definición operativa de IBU (qué mide y cómo leerlo)](../04_Lupulo/Lupulo_Parte1_DEEP/20_Amargor_como_Sistema.md#r-0401)
+- [R-0402 — Sinergia “tropical”: LGC + 4MSP (4MMP)](../04_Lupulo/Lupulo_Parte1_DEEP/30_Aroma_y_Complejidad.md#r-0402)
+- [R-0403 — Dry hop: el oxígeno es un riesgo estructural](../04_Lupulo/Lupulo_Parte3_DEEP/40_Dry_Hopping.md#r-0403)
+- [R-0404 — Hop creep: controlar por temperatura y tiempo de contacto](../04_Lupulo/Lupulo_Parte4_DEEP/40_Riesgos_y_Control.md#r-0404)
+- [R-0405 — Tioles: poco contenido, gran impacto](../04_Lupulo/Lupulo_Parte4_DEEP/20_Compuestos_Clave.md#r-0405)

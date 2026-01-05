@@ -18,3 +18,20 @@ Cómo ejecutar el lupulado en planta (o brewday) con control:
 - temperaturas,
 - contacto,
 - y mitigación de pérdidas/riesgos.
+
+# Lúpulo Parte 3 (DEEP) — Técnicas de adición
+
+## Objetivo
+Convertir técnicas (hervor, late hopping, whirlpool, dry hop) en decisiones reproducibles.
+
+## Archivos
+- [Índice Parte 3](00_Indice_Lupulo_Parte3.md)
+- 10 — Hervor y amargor
+- 20 — Late hopping
+- 30 — Whirlpool y hopstand
+- 40 — Dry hopping (**incluye regla canónica de oxígeno**)
+- 50 — Extracción vs saturación
+- 60 — Puentes Obsidian
+
+## Reglas canónicas de esta parte
+- En **40_Dry_Hopping.md**: R-0403 (oxígeno)

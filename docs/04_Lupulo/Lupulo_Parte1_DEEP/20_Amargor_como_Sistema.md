@@ -27,3 +27,35 @@ Si la cerveza queda:
 - ¿Querés amargor “noble/suave” o “afilado/moderno”?
 - ¿Dónde está el amargor: hervor, whirlpool, extracto, dry hop?
 - ¿Cómo lo vas a verificar: sensorial + DO + estabilidad?
+
+# Amargor como sistema
+
+## Concepto en 60 segundos
+El amargor no es “una cifra”: es **percepción** (balance, pH, sulfato/cloruro, compuestos, timing, temperatura, interacción con aroma).
+
+---
+
+<a id="r-0401"></a>
+### R-0401 — Definición operativa de IBU (qué mide y cómo leerlo)
+
+- FuenteID: B001
+- Evidencia: "IBUs are parts-per-million of isomerized alpha acids in beer."
+- Ubicación: B001 — sección IBU (pNN pendiente)
+
+**Regla (operativa):**
+- Usar IBU como **medida de concentración** (ppm de alfa-ácidos isomerizados), no como garantía de “amargor percibido”.
+- En documentos Quelonio: cuando registres IBU, acompañarlo de:
+  - Estilo objetivo
+  - pH final
+  - Relación sulfato/cloruro (si aplica)
+  - Timing principal de lupulado (hervor/whirlpool/dry hop)
+
+**Notas:**
+- La calibración “IBU → percepción” se define por estilo y por receta (no por una tabla universal).
+
+---
+
+## Checklist mínimo (para receta)
+- [ ] Definí estilo y perfil de amargor (seco, suave, firme, limpio).
+- [ ] Definí el “bloque” de amargor: hervor vs whirlpool (Parte 3).
+- [ ] Registrá IBU + pH + perfil de agua (si aplica).

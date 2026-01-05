@@ -27,3 +27,33 @@ Complejidad es:
 - ¿Qué 2 notas secundarias querés (2)?
 - ¿Cuál es el riesgo principal: oxidación, vegetal, hop creep?
 - ¿Tu proceso protege esa nota líder (temperatura + DO + tiempo)?
+
+# Aroma y complejidad
+
+## Concepto en 60 segundos
+El aroma lupulado es una **composición**: no depende de un solo compuesto, sino de sinergias (y del proceso).
+
+---
+
+<a id="r-0402"></a>
+### R-0402 — Sinergia “tropical”: Linalool/Geraniol/Citronelol + 4MSP (4MMP)
+
+- FuenteID: B006
+- Evidencia: "Una solución ... LGC como 4MSP tenía un carácter claramente tropical."
+- Ubicación: B006 — Prefacio (sección Sapporo / sinergia LGC + 4MSP) (pNN pendiente)
+
+**Regla (operativa):**
+- Para buscar “tropical” (tipo jugoso), diseñar el blend considerando:
+  - un componente “LGC” (linalool/geraniol/citronelol) y
+  - un componente con tioles/4MSP (4MMP) donde aplique.
+- En Quelonio: registrar el objetivo sensorial (“cítrico” vs “tropical”) y el racional del blend (por qué cada lúpulo está ahí).
+
+**Notas:**
+- Esta regla no reemplaza pruebas sensoriales: la confirmación final es panel/degustación.
+
+---
+
+## Checklist mínimo (para un blend)
+- [ ] Objetivo sensorial escrito (2–4 descriptores).
+- [ ] Lista de lúpulos con “rol”: base / acento / soporte.
+- [ ] Método de adición previsto (whirlpool/dry hop) (Parte 3).
