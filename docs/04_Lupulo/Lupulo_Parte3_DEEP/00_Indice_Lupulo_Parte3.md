@@ -9,6 +9,11 @@
 5) [50 — Extracción vs saturación](50_Extraccion_vs_Saturacion.md)  
 6) [60 — Puentes Obsidian (Lúpulo Parte 3)](60_Puentes_Obsidian_Lupulo_Parte3.md)
 
+## Reglas canónicas (Parte 3)
+- [R-0406 — Whirlpool/hopstand impacta amargor (no solo aroma)](30_Whirlpool_y_Hopstand.md#r-0406)
+- [R-0407 — Definir duración objetivo; evitar tiempos largos por inercia](30_Whirlpool_y_Hopstand.md#r-0407)
+
+
 ## Objetivo
 Que puedas **diseñar y controlar** el aporte del lúpulo por técnica, sin confundir:
 - “más lúpulo” con “más aroma”
