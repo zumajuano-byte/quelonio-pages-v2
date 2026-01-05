@@ -28,6 +28,8 @@ Links directos (sin rutas raras):
 - [CONTRATO_ESTRUCTURA](CONTRATO_ESTRUCTURA.md)
 - [Mapa_General_Quelonio](Mapa_General_Quelonio.md)
 
+- Antes de crear archivos nuevos: revisar [ESTRUCTURA_REPO](ESTRUCTURA_REPO.md)
+
 ---
 
 ## Proyectos (estado vivo)

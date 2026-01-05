@@ -1,5 +1,9 @@
 # SESSIONS_LOG — Bitácora global (Quelonio)
 
+> Nota: este archivo es histórico.
+> La continuidad operativa se maneja con el “Prompt de Avances (V2)” en el chat.
+
+
 Este archivo **no** es el “estado vivo” de ningún proyecto.  
 El estado vivo está en `PROYECTO_*.md` (uno por proyecto).
 

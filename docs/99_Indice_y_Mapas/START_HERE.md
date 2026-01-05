@@ -7,6 +7,8 @@ Este archivo define **cómo arrancar una sesión** sin ambigüedad, para evitar 
 **Entrada mínima recomendada (proyecto activo):**
 volvemos
 URL: https://zumajuano-byte.github.io/quelonio-pages-v2/
+- Inventario del repo (árbol canónico): [ESTRUCTURA_REPO](ESTRUCTURA_REPO.md)
+
 
 
 Con eso, el asistente debe:
