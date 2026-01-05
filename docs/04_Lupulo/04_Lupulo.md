@@ -1,19 +1,25 @@
 # Lúpulo (04)
 
-Este módulo organiza el conocimiento de **lúpulo** para:
-- Diseño de recetas (amargor, aroma, sabor, estabilidad)
-- Elección de formatos (pellet, flor, extractos, cryo/lupulina concentrada)
-- Estrategias de adición (hot-side, whirlpool, dry hop, timing)
-- Control de riesgos (oxidación, hop creep/diacetilo, polifenoles, turbidez)
+Este módulo trata el lúpulo como **sistema de diseño**: amargor + aroma/sabor + estabilidad + costos (no como “ingrediente suelto”).
 
-## Partes DEEP (índices)
+## Uso recomendado (operativo)
+1) **Diseño de receta** (lupulado completo): ir directo a **Parte 5**.  
+2) **Ajustar amargor/aroma** (sin cambiar todo): usar **Parte 2 + Parte 3**.  
+3) **IPA moderna / NEIPA** (biotransformación, tioles, hop creep, turbidez): usar **Parte 3 + Parte 4**.
 
-- [Lúpulo — Parte 1 (Fundamentos, compuestos y hot-side)](Lupulo_Parte1_DEEP/00_Indice_Lupulo_Parte1.md)
-- [Lúpulo — Parte 2 (Selección de variedades y formulación)](Lupulo_Parte2_DEEP/00_Indice_Lupulo_Parte2.md)
-- [Lúpulo — Parte 3 (Dry hop, amargor, hop creep, biotransformación)](Lupulo_Parte3_DEEP/00_Indice_Lupulo_Parte3.md)
-- [Lúpulo — Parte 4 (Tioles, lupulina concentrada, turbidez y estabilidad)](Lupulo_Parte4_DEEP/00_Indice_Lupulo_Parte4.md)
-- [Lúpulo — Parte 5 (Marco de diseño, esquemas, eficiencia y costos)](Lupulo_Parte5_DEEP/00_Indice_Lupulo_Parte5.md)
+## Partes DEEP
+- [Lúpulo Parte 1 — Fundamentos de rol](Lupulo_Parte1_DEEP/00_INDEX.md)
+- [Lúpulo Parte 2 — Química práctica (resinas/aceites/polifenoles/oxidación)](Lupulo_Parte2_DEEP/00_INDEX.md)
+- [Lúpulo Parte 3 — Técnicas de adición (hervor/late/whirlpool/dry hop)](Lupulo_Parte3_DEEP/00_INDEX.md)
+- [Lúpulo Parte 4 — IPA moderna: biotransformación + tioles + control](Lupulo_Parte4_DEEP/00_INDEX.md)
+- [Lúpulo Parte 5 — Marco de diseño de lupulado (receta, eficiencia, costos)](Lupulo_Parte5_DEEP/00_INDEX.md)
 
-## Convenciones del módulo
-- Cada página DEEP debe incluir: objetivo, puntos clave, “cómo aplicarlo en receta”, riesgos/controles.
-- Evitar copiar texto de bibliografía; redactar en forma de notas técnicas aplicables.
+## Fuentes núcleo (para este módulo)
+- **B005** — Stan Hieronymus, *For the Love of Hops* (aroma, amargor, técnica y cultura).
+- **B006** — Scott Janish, *THE NEW IPA (ES)* (guía científica: hot-side, whirlpool, dry hop, hop creep, biotransformación, tioles, turbidez, estabilidad).
+
+> Bibliografía completa, IDs y links: `99_Indice_y_Mapas/REGISTRO_FUENTES.md`  
+> Política de uso de fuentes / RAG: `99_Indice_y_Mapas/POLITICA_RAG_Y_FUENTES.md`
+
+## Templates / Logs
+- TP: [Log de Lupulado](Lupulo_Parte5_DEEP/90_TP_Log_Lupulado.md)

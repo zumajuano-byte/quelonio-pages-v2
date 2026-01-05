@@ -1,22 +1,21 @@
-# Índice — Lúpulo Parte 4 (Tioles, lupulina concentrada, turbidez y estabilidad)
+# 00 — Índice (DEEP) Lúpulo Parte 4
+**IPA moderna / NEIPA**: biotransformación + tioles + turbidez + estabilidad + control de riesgos.
 
-## Objetivo
-Completar el “tramo final” de IPA moderna:
-- Tioles (origen, liberación, sinergias sensoriales)
-- Productos concentrados (cryo/lupulina) y su uso
-- Causas de turbidez y estabilidad en cervezas lupuladas
-- Empaque, almacenamiento y vida útil
-
-## Archivos
+## Entradas rápidas (orden recomendado)
 1) [10 — Qué es biotransformación](10_Que_es_Biotransformacion.md)  
 2) [20 — Compuestos clave](20_Compuestos_Clave.md)  
 3) [30 — Timing de adición](30_Timing_de_Adicion.md)  
 4) [40 — Riesgos y control](40_Riesgos_y_Control.md)  
 5) [50 — Casos aplicados NEIPA](50_Casos_Aplicados_NEIPA.md)  
-6) [60 — Puentes Obsidian (Parte 4)](60_Puentes_Obsidian_Lupulo_Parte4.md)
+6) [60 — Puentes Obsidian (Lúpulo Parte 4)](60_Puentes_Obsidian_Lupulo_Parte4.md)
 
+## Objetivo
+Operativizar los “motores” de IPA moderna:
+- interacción lúpulo–levadura
+- liberación/transformación de compuestos (biotransformación)
+- tioles (impacto alto en dosis muy bajas)
+- controles para no pagar el precio: hop creep/diacetilo, oxidación, turbidez fuera de objetivo
 
-## Checklist de calidad
-- [ ] Conectar decisiones de lúpulo con empaque/estabilidad
-- [ ] Incluir “controles de proceso” (O2, metales, almacenamiento)
-- [ ] Recomendaciones accionables por estilo (West Coast vs Hazy)
+## Reglas canónicas de esta parte
+- En **20_Compuestos_Clave.md**: R-0405 (tioles)
+- En **40_Riesgos_y_Control.md**: R-0404 (hop creep)
