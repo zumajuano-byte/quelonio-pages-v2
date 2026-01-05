@@ -28,8 +28,8 @@ nav:
   - OS Boot:
       - START HERE: 99_Indice_y_Mapas/START_HERE.md
       - LAUNCHER: 99_Indice_y_Mapas/LAUNCHER.md
-      - SESSIONS LOG: 99_Indice_y_Mapas/SESSIONS_LOG.md
       - Contrato de estructura: 99_Indice_y_Mapas/CONTRATO_ESTRUCTURA.md
+      - Registro de fuentes: 99_Indice_y_Mapas/REGISTRO_FUENTES.md
       - Proyectos (estado vivo):
           - Biblia (Pages): 99_Indice_y_Mapas/PROYECTO_BIBLIA.md
           - Web + API (MVP): 99_Indice_y_Mapas/PROYECTO_WEB_API.md
@@ -64,7 +64,8 @@ nav:
       - Specs recetas: 98_Verdad_Negocio/03_Specs_Recetas.md
       - QA/QC: 98_Verdad_Negocio/04_QAQC.md
       - Branding & comms: 98_Verdad_Negocio/05_Branding_Comms.md
-  - Soporte bibliográfico: 97_Soporte_Bibliografico/index.md
+      - Política — RAG y fuentes: 99_Indice_y_Mapas/POLITICA_RAG_Y_FUENTES.md
+
 
 # Archivos que existen "a propósito" fuera del menú (por diseño).
 # Sigue el patrón .gitignore.
