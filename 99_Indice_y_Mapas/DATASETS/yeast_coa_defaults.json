@@ -1,0 +1,64 @@
+{
+  "dataset": "YEAST_COA",
+  "version": "1.0",
+  "units": {
+    "temperature": "C",
+    "cell_count": "billion",
+    "mass": "g"
+  },
+  "required_fields": [
+    "record.supplier",
+    "record.product_name",
+    "record.lot_id",
+    "record.format"
+  ],
+  "optional_fields": [
+    "record.pack_date",
+    "record.best_before",
+    "record.storage_recommendation_c",
+    "record.specs.viability_percent_at_pack",
+    "record.specs.cell_count_billion_per_g",
+    "record.specs.cell_count_billion_per_ml",
+    "record.specs.moisture_percent_max",
+    "record.specs.bacteria_cfu_per_g_max",
+    "record.specs.wild_yeast_cfu_per_g_max"
+  ],
+  "defaults": {
+    "record.format": [
+      "dry",
+      "liquid",
+      "slurry"
+    ],
+    "record.specs.viability_percent_at_pack": null,
+    "record.specs.cell_count_billion_per_g": null,
+    "record.specs.cell_count_billion_per_ml": null
+  },
+  "validation_rules": [
+    {
+      "field": "record.format",
+      "rule": "one_of",
+      "values": [
+        "dry",
+        "liquid",
+        "slurry"
+      ]
+    },
+    {
+      "field": "record.specs.viability_percent_at_pack",
+      "rule": "range",
+      "min": 0,
+      "max": 100
+    },
+    {
+      "field": "record.specs.moisture_percent_max",
+      "rule": "range",
+      "min": 0,
+      "max": 20
+    }
+  ],
+  "operational_use": [
+    "Trazabilidad: qué cepa/lote fue a qué batch.",
+    "Cálculo de pitch rate: cuando el COA trae cell count y/o viabilidad.",
+    "Gestión de almacenamiento: fecha/temperatura objetivo; alerta de vencimiento."
+  ]
+}

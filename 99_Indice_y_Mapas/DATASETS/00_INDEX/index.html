@@ -812,6 +812,78 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#hops_coa-certificados-de-analisis-de-lupulos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        HOPS_COA (Certificados de Análisis de lúpulos)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#malt_coa-capa-1-segura-capa-2-opcional" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        MALT_COA (Capa 1 segura + Capa 2 opcional)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="MALT_COA (Capa 1 segura + Capa 2 opcional)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#archivos-crear-en-docs99_indice_y_mapasdatasets" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Archivos (crear en docs/99_Indice_y_Mapas/DATASETS/)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uso-recomendado-operativo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Uso recomendado (operativo)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#yeast_coa-capa-1-segura" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        YEAST_COA (Capa 1 segura)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#yeast_coa_model-capa-2-opcionalcondicionada" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        YEAST_COA_MODEL (Capa 2 opcional/condicionada)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -993,6 +1065,78 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#hops_coa-certificados-de-analisis-de-lupulos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        HOPS_COA (Certificados de Análisis de lúpulos)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#malt_coa-capa-1-segura-capa-2-opcional" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        MALT_COA (Capa 1 segura + Capa 2 opcional)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="MALT_COA (Capa 1 segura + Capa 2 opcional)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#archivos-crear-en-docs99_indice_y_mapasdatasets" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Archivos (crear en docs/99_Indice_y_Mapas/DATASETS/)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uso-recomendado-operativo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Uso recomendado (operativo)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#yeast_coa-capa-1-segura" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        YEAST_COA (Capa 1 segura)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#yeast_coa_model-capa-2-opcionalcondicionada" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        YEAST_COA_MODEL (Capa 2 opcional/condicionada)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -1108,6 +1252,46 @@ Ejemplo correcto si DATASETS vive dentro de <code>99_Indice_y_Mapas</code>:</p>
 <pre><code class="language-yaml">- &quot;99 — Índice y Mapas&quot;:
   - &quot;DATASETS&quot;: 99_Indice_y_Mapas/DATASETS/00_INDEX.md
 </code></pre>
+<h2 id="hops_coa-certificados-de-analisis-de-lupulos">HOPS_COA (Certificados de Análisis de lúpulos)<a class="headerlink" href="#hops_coa-certificados-de-analisis-de-lupulos" title="Permanent link">&para;</a></h2>
+<p><strong>Objetivo (operativo):</strong> capturar COA por lote para que la formulación use <strong>valores reales</strong> (AA%, aceites, HSI, humedad) y para trazabilidad de insumos.</p>
+<p><strong>Capa 1 (segura)</strong>
+- <code>hops_coa_example.json</code> — ejemplo de input (1 lote).
+- <code>hops_coa_defaults.json</code> — defaults + reglas de validación “sanity check”.</p>
+<p><strong>Capa 2 (opcional / condicionada)</strong>
+- <code>hops_alpha_age_model.json</code> — modelo simple para estimar AA% efectivo por edad/almacenamiento (placeholders, calibrar).</p>
+<p><strong>Cómo se usa en receta (mínimo)</strong>
+- Si la receta dice “Citra 12% AA” y tu COA dice 10.8% AA, el sistema recalcula gramos para sostener el target de IBU/bittering.
+- En dry hop, los aceites totales + HSI ayudan a decidir: “lote fresco / lote viejo” y ajustar dosis/tiempos.</p>
+<hr />
+<h2 id="malt_coa-capa-1-segura-capa-2-opcional">MALT_COA (Capa 1 segura + Capa 2 opcional)<a class="headerlink" href="#malt_coa-capa-1-segura-capa-2-opcional" title="Permanent link">&para;</a></h2>
+<p><strong>Objetivo:</strong> normalizar y registrar el <strong>COA de maltas</strong> (por lote) para que el asistente pueda:
+- Ajustar <strong>rendimiento esperado</strong> (extracto/points) y detectar outliers por proveedor/lote.
+- Ajustar <strong>color</strong> y tradeoffs técnicos (proteína, beta‑glucanos, friabilidad) en función del estilo.
+- Mantener trazabilidad de insumos (lote → receta → batch).</p>
+<h3 id="archivos-crear-en-docs99_indice_y_mapasdatasets">Archivos (crear en <code>docs/99_Indice_y_Mapas/DATASETS/</code>)<a class="headerlink" href="#archivos-crear-en-docs99_indice_y_mapasdatasets" title="Permanent link">&para;</a></h3>
+<p><strong>Capa 1 — referencia operativa (recomendado)</strong>
+- <code>malt_coa_example.json</code> — ejemplo de input canónico (un lote).
+- <code>malt_coa_defaults.json</code> — rangos/validaciones + valores “fallback” por tipo de malta.</p>
+<p><strong>Capa 2 — opcional / condicionada</strong>
+- <code>malt_coa_model.json</code> — modelo mínimo para convertir COA a inputs operativos (aprox).<br />
+  Nota: si preferís, esto puede vivir “apagado” hasta que calibremos con datos reales (rendimientos en planta).</p>
+<h3 id="uso-recomendado-operativo">Uso recomendado (operativo)<a class="headerlink" href="#uso-recomendado-operativo" title="Permanent link">&para;</a></h3>
+<p>1) Cada vez que entra una malta nueva, copiás <code>malt_coa_example.json</code>, lo completás con tu COA real y guardás un archivo por lote (ej. <code>malt_coa_lote_CRISP-PA-2025-11-18.json</code>).<br />
+2) El asistente usa <code>malt_coa_defaults.json</code> para validar y advertir (no para “adivinar”).<br />
+3) Si habilitamos Capa 2, <code>malt_coa_model.json</code> permite estimar potencial PPG y SRM desde extracto/color.</p>
+<h3 id="yeast_coa-capa-1-segura">YEAST_COA (Capa 1 segura)<a class="headerlink" href="#yeast_coa-capa-1-segura" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Propósito:</strong> normalizar el registro de lotes de levadura (seca/líquida/slurry) para trazabilidad y cálculos básicos de pitch.</li>
+<li><strong>Archivos</strong></li>
+<li><code>DATASETS/yeast_coa_example.json</code> — ejemplo de input (lote + specs disponibles)</li>
+<li><code>DATASETS/yeast_coa_defaults.json</code> — defaults/validaciones mínimas (qué es requerido vs opcional)</li>
+</ul>
+<h3 id="yeast_coa_model-capa-2-opcionalcondicionada">YEAST_COA_MODEL (Capa 2 opcional/condicionada)<a class="headerlink" href="#yeast_coa_model-capa-2-opcionalcondicionada" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Propósito:</strong> estimar viabilidad/pitch cuando hay datos mínimos (y supuestos explícitos).</li>
+<li><strong>Archivo</strong></li>
+<li><code>DATASETS/yeast_coa_model.json</code> — parámetros/modelos (viability decay + pitch planning)</li>
+</ul>
 
 
 

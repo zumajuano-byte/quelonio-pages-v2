@@ -721,6 +721,111 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#hops_coa_examplejson" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        hops_coa_example.json
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hops_coa_defaultsjson" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        hops_coa_defaults.json
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hops_alpha_age_modeljson-opcional" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        hops_alpha_age_model.json (opcional)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#m010-dataset-malt_coa" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        M010 — Dataset: MALT_COA
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="M010 — Dataset: MALT_COA">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#m010-a-malt_coa_examplejson-capa-1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        M010-A — malt_coa_example.json (Capa 1)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#m010-b-malt_coa_defaultsjson-capa-1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        M010-B — malt_coa_defaults.json (Capa 1)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#m010-c-malt_coa_modeljson-capa-2-opcional" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        M010-C — malt_coa_model.json (Capa 2 opcional)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dataset-yeast_coa-capa-1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Dataset: YEAST_COA (Capa 1)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dataset-yeast_coa_model-capa-2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Dataset: YEAST_COA_MODEL (Capa 2)
+      
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -893,6 +998,317 @@
   ]
 }
 </code></pre>
+<h2 id="hops_coa_examplejson">hops_coa_example.json<a class="headerlink" href="#hops_coa_examplejson" title="Permanent link">&para;</a></h2>
+<pre><code class="language-json">{
+  &quot;dataset_id&quot;: &quot;hops_coa&quot;,
+  &quot;version&quot;: &quot;0.1&quot;,
+  &quot;records&quot;: [
+    {
+      &quot;id&quot;: &quot;HCOA-0001&quot;,
+      &quot;variety&quot;: &quot;Citra&quot;,
+      &quot;supplier&quot;: &quot;Example Hops Co.&quot;,
+      &quot;country&quot;: &quot;US&quot;,
+      &quot;product_form&quot;: &quot;pellet&quot;,
+      &quot;pellet_spec&quot;: &quot;T90&quot;,
+      &quot;crop_year&quot;: 2025,
+      &quot;lot_code&quot;: &quot;CIT-25-12345&quot;,
+      &quot;packaging&quot;: &quot;vacuum_foil&quot;,
+      &quot;net_weight_kg&quot;: 5.0,
+      &quot;received_date&quot;: &quot;2026-01-05&quot;,
+      &quot;storage&quot;: {
+        &quot;temperature_c&quot;: 0,
+        &quot;oxygen_exposure&quot;: &quot;minimized&quot;,
+        &quot;notes&quot;: &quot;Stored frozen upon receipt&quot;
+      },
+      &quot;analysis&quot;: {
+        &quot;method&quot;: &quot;HPLC&quot;,
+        &quot;alpha_acid_pct&quot;: 12.8,
+        &quot;beta_acid_pct&quot;: 3.9,
+        &quot;cohumulone_pct_of_alpha&quot;: 23.0,
+        &quot;total_oil_ml_per_100g&quot;: 2.4,
+        &quot;moisture_pct&quot;: 8.5,
+        &quot;hsi&quot;: 0.26
+      },
+      &quot;traceability&quot;: {
+        &quot;document_ref&quot;: &quot;COA_pdf_or_scan_path_or_link&quot;,
+        &quot;internal_batch_refs&quot;: [&quot;INV-RAW-2026-0007&quot;]
+      },
+      &quot;notes&quot;: &quot;Example record. Replace with real COA values.&quot;
+    }
+  ]
+}
+</code></pre>
+<h2 id="hops_coa_defaultsjson">hops_coa_defaults.json<a class="headerlink" href="#hops_coa_defaultsjson" title="Permanent link">&para;</a></h2>
+<pre><code class="language-json">{
+  &quot;dataset_id&quot;: &quot;hops_coa_defaults&quot;,
+  &quot;version&quot;: &quot;0.1&quot;,
+  &quot;defaults&quot;: {
+    &quot;product_form&quot;: &quot;pellet&quot;,
+    &quot;pellet_spec&quot;: &quot;T90&quot;,
+    &quot;packaging&quot;: &quot;vacuum_foil&quot;,
+    &quot;storage&quot;: {
+      &quot;temperature_c&quot;: 0,
+      &quot;oxygen_exposure&quot;: &quot;minimized&quot;
+    },
+    &quot;analysis&quot;: {
+      &quot;method&quot;: &quot;HPLC&quot;
+    }
+  },
+  &quot;validation_rules&quot;: {
+    &quot;alpha_acid_pct&quot;: {&quot;min&quot;: 0.5, &quot;max&quot;: 25.0},
+    &quot;beta_acid_pct&quot;: {&quot;min&quot;: 0.1, &quot;max&quot;: 15.0},
+    &quot;total_oil_ml_per_100g&quot;: {&quot;min&quot;: 0.1, &quot;max&quot;: 6.0},
+    &quot;moisture_pct&quot;: {&quot;min&quot;: 4.0, &quot;max&quot;: 12.0},
+    &quot;hsi&quot;: {&quot;min&quot;: 0.15, &quot;max&quot;: 1.0},
+    &quot;crop_year&quot;: {&quot;min&quot;: 2000, &quot;max&quot;: 2100}
+  }
+}
+</code></pre>
+<h2 id="hops_alpha_age_modeljson-opcional">hops_alpha_age_model.json (opcional)<a class="headerlink" href="#hops_alpha_age_modeljson-opcional" title="Permanent link">&para;</a></h2>
+<pre><code class="language-json">{
+  &quot;dataset_id&quot;: &quot;hops_alpha_age_model&quot;,
+  &quot;version&quot;: &quot;0.1&quot;,
+  &quot;defaults&quot;: {
+    &quot;assume_months_since_harvest&quot;: 6,
+    &quot;temperature_factor&quot;: {&quot;0&quot;: 0.15, &quot;4&quot;: 0.25, &quot;20&quot;: 1.0},
+    &quot;alpha_loss_per_month_at_20c_relative&quot;: 0.02
+  },
+  &quot;notes&quot;: &quot;Capa 2 opcional. Placeholders: calibrar con datos/bibliografía.&quot;
+}
+</code></pre>
+<hr />
+<h2 id="m010-dataset-malt_coa">M010 — Dataset: MALT_COA<a class="headerlink" href="#m010-dataset-malt_coa" title="Permanent link">&para;</a></h2>
+<h3 id="m010-a-malt_coa_examplejson-capa-1">M010-A — <code>malt_coa_example.json</code> (Capa 1)<a class="headerlink" href="#m010-a-malt_coa_examplejson-capa-1" title="Permanent link">&para;</a></h3>
+<p><strong>Propósito:</strong> formato canónico de entrada para un COA de malta por lote.</p>
+<p><strong>Campos mínimos sugeridos:</strong>
+- <code>malt_lot.malt_name</code>
+- <code>malt_lot.malt_type</code> (<code>base</code>, <code>specialty</code>, <code>crystal</code>, <code>roasted</code>, <code>adjunct</code>)
+- <code>malt_lot.supplier</code>
+- <code>malt_lot.lot_code</code>
+- <code>malt_lot.analysis.moisture_pct</code>
+- <code>malt_lot.analysis.extract_fine_dry_basis_pct</code>
+- <code>malt_lot.analysis.color_ebc</code></p>
+<pre><code class="language-json">{
+  &quot;dataset&quot;: &quot;MALT_COA&quot;,
+  &quot;version&quot;: &quot;1.0&quot;,
+  &quot;malt_lot&quot;: {
+    &quot;malt_name&quot;: &quot;Pale Ale Malt&quot;,
+    &quot;malt_type&quot;: &quot;base&quot;,
+    &quot;supplier&quot;: &quot;Crisp Malt&quot;,
+    &quot;origin_country&quot;: &quot;UK&quot;,
+    &quot;lot_code&quot;: &quot;CRISP-PA-2025-11-18&quot;,
+    &quot;delivery_date&quot;: &quot;2025-12-02&quot;,
+    &quot;tested_on&quot;: &quot;2026-01-06&quot;,
+    &quot;packaging&quot;: {
+      &quot;form&quot;: &quot;bag&quot;,
+      &quot;size_kg&quot;: 25
+    },
+    &quot;storage&quot;: {
+      &quot;temp_c&quot;: 16,
+      &quot;notes&quot;: &quot;lugar seco, bolsa cerrada&quot;
+    },
+    &quot;analysis&quot;: {
+      &quot;moisture_pct&quot;: 4.2,
+      &quot;extract_fine_dry_basis_pct&quot;: 80.5,
+      &quot;extract_coarse_dry_basis_pct&quot;: 79.0,
+      &quot;difference_fine_coarse_pct&quot;: 1.5,
+      &quot;color_ebc&quot;: 6.0,
+      &quot;protein_pct&quot;: 10.8,
+      &quot;soluble_protein_pct&quot;: 4.2,
+      &quot;kolbach_index_pct&quot;: 39,
+      &quot;diastatic_power_wk&quot;: 280,
+      &quot;friability_pct&quot;: 85,
+      &quot;beta_glucan_mg_l&quot;: 120,
+      &quot;fan_mg_l&quot;: 180,
+      &quot;ph&quot;: 5.8
+    },
+    &quot;coa_document_ref&quot;: &quot;COA_2025-11-18_Crisp_PaleAle.pdf&quot;,
+    &quot;notes&quot;: &quot;Ejemplo. Completar/ajustar a tu COA real. Si no hay un campo, dejar null y usar defaults.&quot;
+  }
+}
+</code></pre>
+<h3 id="m010-b-malt_coa_defaultsjson-capa-1">M010-B — <code>malt_coa_defaults.json</code> (Capa 1)<a class="headerlink" href="#m010-b-malt_coa_defaultsjson-capa-1" title="Permanent link">&para;</a></h3>
+<p><strong>Propósito:</strong> defaults operativos + reglas de validación.<br />
+Se usa para: warnings, normalización de unidades, fallbacks por tipo de malta (si algún proveedor no reporta todo).</p>
+<pre><code class="language-json">{
+  &quot;dataset&quot;: &quot;MALT_COA_DEFAULTS&quot;,
+  &quot;version&quot;: &quot;1.0&quot;,
+  &quot;assumptions&quot;: {
+    &quot;units&quot;: {
+      &quot;moisture_pct&quot;: &quot;% w/w&quot;,
+      &quot;extract_*_dry_basis_pct&quot;: &quot;% dry basis&quot;,
+      &quot;color_ebc&quot;: &quot;EBC&quot;,
+      &quot;protein_pct&quot;: &quot;% w/w&quot;,
+      &quot;diastatic_power_wk&quot;: &quot;°WK (Windisch-Kolbach)&quot;,
+      &quot;beta_glucan_mg_l&quot;: &quot;mg/L&quot;,
+      &quot;fan_mg_l&quot;: &quot;mg/L&quot;
+    },
+    &quot;fallbacks&quot;: {
+      &quot;base_malt&quot;: {
+        &quot;moisture_pct&quot;: 4.5,
+        &quot;extract_fine_dry_basis_pct&quot;: 80.0,
+        &quot;color_ebc&quot;: 6.0,
+        &quot;protein_pct&quot;: 11.0,
+        &quot;diastatic_power_wk&quot;: 250
+      },
+      &quot;pilsner_malt&quot;: {
+        &quot;moisture_pct&quot;: 4.5,
+        &quot;extract_fine_dry_basis_pct&quot;: 80.0,
+        &quot;color_ebc&quot;: 4.0,
+        &quot;protein_pct&quot;: 10.5,
+        &quot;diastatic_power_wk&quot;: 300
+      },
+      &quot;wheat_malt&quot;: {
+        &quot;moisture_pct&quot;: 5.0,
+        &quot;extract_fine_dry_basis_pct&quot;: 83.0,
+        &quot;color_ebc&quot;: 4.5,
+        &quot;protein_pct&quot;: 12.5,
+        &quot;diastatic_power_wk&quot;: 250
+      },
+      &quot;crystal_malt&quot;: {
+        &quot;moisture_pct&quot;: 5.0,
+        &quot;extract_fine_dry_basis_pct&quot;: 75.0,
+        &quot;diastatic_power_wk&quot;: 0
+      }
+    }
+  },
+  &quot;validation_rules&quot;: {
+    &quot;moisture_pct&quot;: {
+      &quot;min&quot;: 2.0,
+      &quot;max&quot;: 8.0,
+      &quot;warn_if_gt&quot;: 5.5
+    },
+    &quot;extract_fine_dry_basis_pct&quot;: {
+      &quot;min&quot;: 60.0,
+      &quot;max&quot;: 88.0,
+      &quot;warn_if_lt&quot;: 76.0
+    },
+    &quot;extract_coarse_dry_basis_pct&quot;: {
+      &quot;min&quot;: 55.0,
+      &quot;max&quot;: 88.0
+    },
+    &quot;difference_fine_coarse_pct&quot;: {
+      &quot;min&quot;: 0.0,
+      &quot;max&quot;: 5.0,
+      &quot;warn_if_gt&quot;: 2.5
+    },
+    &quot;color_ebc&quot;: {
+      &quot;min&quot;: 1.0,
+      &quot;max&quot;: 2000.0
+    },
+    &quot;protein_pct&quot;: {
+      &quot;min&quot;: 6.0,
+      &quot;max&quot;: 18.0,
+      &quot;warn_if_gt&quot;: 13.0
+    },
+    &quot;kolbach_index_pct&quot;: {
+      &quot;min&quot;: 30,
+      &quot;max&quot;: 50,
+      &quot;warn_if_lt&quot;: 35,
+      &quot;warn_if_gt&quot;: 45
+    },
+    &quot;diastatic_power_wk&quot;: {
+      &quot;min&quot;: 0,
+      &quot;max&quot;: 500,
+      &quot;warn_if_lt&quot;: 180
+    },
+    &quot;friability_pct&quot;: {
+      &quot;min&quot;: 0,
+      &quot;max&quot;: 100,
+      &quot;warn_if_lt&quot;: 70
+    },
+    &quot;beta_glucan_mg_l&quot;: {
+      &quot;min&quot;: 0,
+      &quot;max&quot;: 2000,
+      &quot;warn_if_gt&quot;: 250
+    },
+    &quot;fan_mg_l&quot;: {
+      &quot;min&quot;: 0,
+      &quot;max&quot;: 350,
+      &quot;warn_if_lt&quot;: 120
+    },
+    &quot;ph&quot;: {
+      &quot;min&quot;: 5.0,
+      &quot;max&quot;: 6.5
+    }
+  },
+  &quot;computed_helpers&quot;: {
+    &quot;notes&quot;: &quot;Cálculos de rendimiento/color viven en BREW_MATH; acá solo normalizamos COA.&quot;,
+    &quot;map_to_brew_math_inputs&quot;: {
+      &quot;ppg_potential_formula_ref&quot;: &quot;brew_math_formulas.json#potential_ppg_from_extract&quot;,
+      &quot;color_units_formula_ref&quot;: &quot;brew_math_formulas.json#srm_from_ebc&quot;
+    }
+  }
+}
+</code></pre>
+<h3 id="m010-c-malt_coa_modeljson-capa-2-opcional">M010-C — <code>malt_coa_model.json</code> (Capa 2 opcional)<a class="headerlink" href="#m010-c-malt_coa_modeljson-capa-2-opcional" title="Permanent link">&para;</a></h3>
+<p><strong>Propósito:</strong> convertir COA a inputs operativos (aprox) cuando lo habilitemos.<br />
+Si no querés “modelo” todavía, igual conviene mantener el archivo como placeholder versionado.</p>
+<pre><code class="language-json">{
+  &quot;dataset&quot;: &quot;MALT_COA_MODEL&quot;,
+  &quot;version&quot;: &quot;1.0&quot;,
+  &quot;purpose&quot;: &quot;Modelo mínimo para convertir COA (extracto+humedad+color) a inputs operativos de receta.&quot;,
+  &quot;references&quot;: [
+    {
+      &quot;ref&quot;: &quot;B011_Matematica_de_la_cerveza&quot;,
+      &quot;type&quot;: &quot;internal_biblia&quot;
+    },
+    {
+      &quot;ref&quot;: &quot;BREW_MATH_FORMULAS&quot;,
+      &quot;file&quot;: &quot;brew_math_formulas.json&quot;
+    }
+  ],
+  &quot;functions&quot;: {
+    &quot;extract_as_is_pct&quot;: {
+      &quot;description&quot;: &quot;Convierte extracto dry-basis a as-is usando humedad.&quot;,
+      &quot;inputs&quot;: {
+        &quot;extract_fine_dry_basis_pct&quot;: &quot;number&quot;,
+        &quot;moisture_pct&quot;: &quot;number&quot;
+      },
+      &quot;formula&quot;: &quot;extract_as_is = extract_dry_basis * (1 - moisture/100)&quot;
+    },
+    &quot;potential_ppg&quot;: {
+      &quot;description&quot;: &quot;Potencial de puntos por libra/galón aprox a partir de extracto as-is.&quot;,
+      &quot;inputs&quot;: {
+        &quot;extract_as_is_pct&quot;: &quot;number&quot;
+      },
+      &quot;formula&quot;: &quot;ppg ≈ 46.21 * (extract_as_is_pct/100)&quot;
+    },
+    &quot;srm_from_ebc&quot;: {
+      &quot;description&quot;: &quot;Conversión rápida EBC→SRM.&quot;,
+      &quot;formula&quot;: &quot;srm ≈ ebc / 1.97&quot;
+    }
+  },
+  &quot;calibration&quot;: {
+    &quot;note&quot;: &quot;Estos modelos son aproximaciones. Si tenés mediciones reales (rendimiento en planta), recalibrar.&quot;
+  }
+}
+</code></pre>
+<h2 id="dataset-yeast_coa-capa-1">Dataset: YEAST_COA (Capa 1)<a class="headerlink" href="#dataset-yeast_coa-capa-1" title="Permanent link">&para;</a></h2>
+<p><strong>Entidad:</strong> lote de levadura (seca/líquida/slurry) con specs de proveedor (cuando existan).</p>
+<p><strong>Campos mínimos (requeridos)</strong>
+- <code>supplier</code> (string)
+- <code>product_name</code> (string)
+- <code>lot_id</code> (string)
+- <code>format</code> (enum: <code>dry | liquid | slurry</code>)</p>
+<p><strong>Campos recomendados (opcionales)</strong>
+- <code>pack_date</code> (YYYY-MM-DD)
+- <code>best_before</code> (YYYY-MM-DD)
+- <code>storage_recommendation_c</code> (string o rango, ej. <code>"4-10"</code>)
+- <code>specs.viability_percent_at_pack</code> (0–100)
+- <code>specs.cell_count_billion_per_g</code> (dry) o <code>specs.cell_count_billion_per_ml</code> (slurry)
+- <code>specs.moisture_percent_max</code> (dry)
+- <code>specs.bacteria_cfu_per_g_max</code>, <code>specs.wild_yeast_cfu_per_g_max</code> (si el COA lo trae)</p>
+<p><strong>Uso operativo (mínimo)</strong>
+- Trazabilidad batch↔lote de levadura.
+- Alertas por vencimiento / rotación de stock.
+- Base para cálculo de pitch <strong>solo</strong> si hay cell count/viabilidad (o supuestos registrados).</p>
+<h2 id="dataset-yeast_coa_model-capa-2">Dataset: YEAST_COA_MODEL (Capa 2)<a class="headerlink" href="#dataset-yeast_coa_model-capa-2" title="Permanent link">&para;</a></h2>
+<p><strong>Condición de uso:</strong> solo si existe data mínima y/o supuestos explícitos guardados en el registro del lote.</p>
+<ul>
+<li>Modelo <code>viability_decay</code>: estima viabilidad por días y temperatura.</li>
+<li>Modelo <code>pitch_planning</code>: computa células requeridas vs disponibles.</li>
+</ul>
 
 
 

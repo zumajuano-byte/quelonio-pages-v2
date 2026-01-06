@@ -1,0 +1,21 @@
+{
+  "dataset": "YEAST_COA",
+  "version": "1.0",
+  "record": {
+    "supplier": "Fermentis",
+    "product_name": "SafAle US-05",
+    "strain_family": "American Ale",
+    "lot_id": "US05-2025-11-18-A",
+    "format": "dry",
+    "net_weight_g": 11.5,
+    "pack_date": "2025-11-18",
+    "best_before": "2027-11-18",
+    "storage_recommendation_c": "4-10",
+    "specs": {
+      "viability_percent_at_pack": 95,
+      "cell_count_billion_per_g": 20,
+      "moisture_percent_max": 6.0
+    },
+    "notes": "Ejemplo para registrar el lote y sus specs mínimas. Campos opcionales se omiten si no están en el COA."
+  }
+}
