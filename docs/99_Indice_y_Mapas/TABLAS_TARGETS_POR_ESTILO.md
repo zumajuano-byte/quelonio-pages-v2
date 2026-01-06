@@ -1,15 +1,7 @@
----
-status: stable
-operational_level: P0
-last_reviewed: 2025-12-22
-owner: Juan
-source: internal
----
-
-# TABLAS — Targets por estilo (v0.1)
+# TABLAS — Targets por estilo (v0.2)
 
 Objetivo: dar rangos operativos (targets) para que el asistente pueda:
-- proponer specs baseline por estilo
+- proponer SPEC baseline por estilo
 - detectar desvíos (QA/QC)
 - armar planes (proceso/empaque) con límites claros
 
@@ -18,6 +10,33 @@ Regla: estos targets son **DEFAULT**. Se ajustan por:
 - objetivo sensorial (perfil)
 - restricciones (insumos, costos)
 - evidencia propia (histórico de lotes)
+
+---
+
+## 0) Cómo usa esto el asistente (motor de decisión)
+
+### Inputs mínimos
+Para proponer una SPEC baseline:
+1) **Familia/estilo**
+2) **Volumen final** (L)
+3) Objetivo sensorial (ej.: “seco”, “más haze”, “amargor percibido bajo/alto”)
+4) Restricciones (insumos/costos)
+
+### Salidas mínimas (SPEC baseline)
+- OG/FG objetivo (rango y valor nominal)
+- ABV objetivo (derivado)
+- IBU objetivo (rango)
+- Color objetivo (SRM)
+- pH final objetivo
+- CO2 vols objetivo
+
+### Reglas de resolución (cuando hay conflicto)
+1) Prioridad #1: **seguridad / estabilidad / shelf life**
+2) Prioridad #2: **consistencia sensorial**
+3) Prioridad #3: **costo / eficiencia**
+4) Si hay tradeoff explícito (ej. NEIPA expresiva vs estabilidad), el asistente debe:
+   - marcar el tradeoff
+   - proponer “modo estable” y “modo expresivo” como variantes (misma familia)
 
 ---
 
@@ -52,23 +71,55 @@ Regla: estos targets son **DEFAULT**. Se ajustan por:
 - pH final (cerveza): ver tabla por estilo
 
 ### Fermentación (curva baseline)
-- Ale: 18–20 C (base), ramp a 20–22 C para cierre/VDK si aplica
-- Lager: 9–12 C (base), descanso VDK 18–20 C, luego frío
+- Ale: 18–20 °C (base), rampa a 20–22 °C para cierre/VDK si aplica
+- Lager: 9–12 °C (base), descanso VDK 18–20 °C, luego frío
 
 ---
 
-## 3) “Inputs mínimos” para proponer targets
-Para que el asistente proponga SPEC baseline:
-- estilo/familia
-- volumen final
-- objetivo sensorial (seco/dulce, amargor percibido, haze, etc.)
-- restricciones (insumos/costos)
+## 3) Derivaciones rápidas (para que la tabla “decida”)
+
+### ABV estimado (baseline)
+- ABV% ≈ (OG - FG) * 131.25
+  - Ej.: OG 1.060 y FG 1.012 → (0.048 * 131.25) ≈ 6.3%
+
+Regla operativa:
+- Si ABV derivado queda fuera del rango del estilo, el asistente debe:
+  - proponer ajuste de OG (grist) o FG (perfil de fermentabilidad / levadura / mash)
 
 ---
 
-## 4) BIBLIO (canónico) — completar
+## 4) Checks de desvío (QA/QC) usando estos targets
+
+### Severidad
+- **OK**: dentro del rango
+- **WARNING**: fuera del rango por poco (desvío leve) → requiere nota en lote + explicación
+- **FAIL**: fuera del rango de forma relevante → requiere incidente + decisión (blend, re-etiquetado, descarte)
+
+### Reglas mínimas (aplican a cualquier estilo)
+- OG: WARNING si ±0.002 fuera; FAIL si ±0.004 o más fuera
+- FG: WARNING si ±0.002 fuera; FAIL si ±0.004 o más fuera
+- pH final: WARNING si ±0.10 fuera; FAIL si ±0.20 o más fuera
+- CO2: WARNING si ±0.2 vols fuera; FAIL si ±0.4 vols o más fuera
+
+Nota: esto es “operativo v0.1”; luego se calibra con histórico propio (control limits reales).
+
+---
+
+## 5) Dónde se refleja en la Biblia (contrato interno)
+
+Este archivo es canónico para:
+- SPEC: `99_Indice_y_Mapas/TEMPLATE_SPEC_V1.md`
+- Diseño/receta: `08_Recetas_Formulacion/Calculos_rapidos.md`
+- QA/QC: módulo `06_Procesos_QA_QC` (límites + desvíos)
+
+---
+
+## 6) BIBLIO (canónico)
+
 - source_id: BIB-TBL-001
-- Obra: [COMPLETAR] (p.ej. BJCP / Brewers Publications / Palmer / Janish)
-- Edición/Año:
-- Sección/pág:
-- Nota: targets de estilo y rangos recomendados.
+- Qué aporta: rangos/targets por estilo (OG/FG/ABV/IBU/Color/CO2) y descriptores
+- Fuente primaria: **BJCP 2021 (ES)** → ver: `../99_Indice_y_Mapas/FUENTES/B010_BJCP_2021.md`
+
+- source_id: BIB-TBL-002
+- Qué aporta: fórmulas y derivaciones (ABV, etc.) para convertir targets en decisiones numéricas
+- Fuente primaria: **Matemática de la Cerveza** → ver: `../99_Indice_y_Mapas/FUENTES/B011_Matematica_de_la_cerveza.md`

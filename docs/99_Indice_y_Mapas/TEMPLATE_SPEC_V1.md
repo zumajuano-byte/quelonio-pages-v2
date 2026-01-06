@@ -23,6 +23,15 @@ owner: Juan
 - CO2 (vol):
 - pH (rango objetivo):
 
+### Defaults de targets por estilo (baseline)
+
+Los valores por defecto de OG/FG/ABV/IBU/SRM/pH/CO2 se toman de:
+- `TABLAS_TARGETS_POR_ESTILO.md` (canónico): `../99_Indice_y_Mapas/TABLAS_TARGETS_POR_ESTILO.md`
+
+Regla:
+- La SPEC debe registrar: (a) el target nominal elegido, (b) el rango del estilo, (c) el motivo si se sale del rango.
+
+
 ## 3) Receta (BOM)
 ### Maltas
 - ...

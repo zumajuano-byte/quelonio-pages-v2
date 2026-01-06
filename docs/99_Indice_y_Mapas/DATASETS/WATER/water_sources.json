@@ -1,0 +1,27 @@
+{
+  "version": "1.0",
+  "unit_convention": {
+    "ions": "mg/L",
+    "alkalinity_as_CaCO3": "mg/L",
+    "note": "ppm se copia como mg/L (convención práctica)."
+  },
+  "sources": [
+    {
+      "id": "WAT-SRC-0001",
+      "name": "Agua de red (placeholder)",
+      "location": "ARG (placeholder)",
+      "report_date": "YYYY-MM-DD",
+      "ions_mgL": {
+        "Ca": null,
+        "Mg": null,
+        "Na": null,
+        "Cl": null,
+        "SO4": null,
+        "HCO3": null
+      },
+      "alkalinity_as_CaCO3_mgL": null,
+      "pH": null,
+      "notes": "Pegar valores del reporte. Si solo tenés alcalinidad, completá alkalinity_as_CaCO3_mgL."
+    }
+  ]
+}

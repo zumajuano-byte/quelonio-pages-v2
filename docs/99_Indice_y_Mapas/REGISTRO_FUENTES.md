@@ -17,6 +17,8 @@ Una regla solo es válida si cita: `FuenteID + ubicación exacta + cita textual 
 |---|---|---|---|---|---|
 | B001 | Cómo hacer cerveza — John Palmer | https://drive.google.com/file/d/1pgFqZwiOUuyQiIhMeI2R4qRrU74ihaHG/view | ES | Proceso base + diseño general | PENDIENTE |
 | B002 | Designing Great Beers (Español) | https://drive.google.com/file/d/1DJ1bTTOQ5pUVEcH_6FSBSZKgGqXZIDA2/view | ES | Diseño por estilo + targets | PENDIENTE |
+| B010 | BJCP 2021 — Guía de Estilos de Cerveza (ES) | LOCAL (2021_Guidelines_Beer_ES_1.0.pdf) | ES | Targets de estilo + descriptores sensoriales | ACTIVO |
+| B011 | Matemática de la cerveza — Sebastián Oddone | LOCAL (-Matematica-de-la-cerveza.pdf) | ES | Fórmulas/cálculos canónicos (OG/FG/ABV/IBU/SRM/CO₂) | ACTIVO |
 | B003 | Yeast — The Practical Guide (traducido) | https://drive.google.com/file/d/1Ps9vCr_XuYHK--c99kcATw22NCbIV_MS/view | ES | Levadura + fermentación aplicada | PENDIENTE |
 | B004 | Malt (John Mallett) — extracto/compilado tipo Bookey | https://drive.google.com/file/d/1CH0NaWmZGhPTohcHiPQqfaW1ceegDZoi/view | EN | Malta + contribución sensorial/proceso + COA + molienda | EN PROCESO |
 | B005 | For the Love of Hops — Stan Hieronymus (OCR) | https://drive.google.com/file/d/1LQ9V_su-1809dEfkFQjAn85mitKoaNbY/view | OCR | Lúpulo: amargor/aroma/proceso | PENDIENTE |

@@ -1,0 +1,20 @@
+{
+  "dataset_id": "water_report_example",
+  "version": "1.0",
+  "report_id": "example_01",
+  "source": "municipal_lab",
+  "units": "ppm (mg/L)",
+  "ions": {
+    "Ca": 35,
+    "Mg": 8,
+    "Na": 15,
+    "Cl": 22,
+    "SO4": 35,
+    "HCO3": 110
+  },
+  "alkalinity": {
+    "as_CaCO3_ppm": null,
+    "from_hco3": true
+  },
+  "notes": "Si tu reporte ya trae Alcalinidad como CaCO3, completá alkalinity.as_CaCO3_ppm y podés omitir HCO3."
+}

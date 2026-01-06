@@ -36,11 +36,13 @@ nav:
       - Reglas index: 99_Indice_y_Mapas/REGLAS_INDEX.md
       - Estructura repo: 99_Indice_y_Mapas/ESTRUCTURA_REPO.md
       - Registro fuentes: 99_Indice_y_Mapas/REGISTRO_FUENTES.md
+      - Fuentes:
+          - B010 — BJCP 2021 (ES): 99_Indice_y_Mapas/FUENTES/B010_BJCP_2021.md
+          - B011 — Matemática de la cerveza: 99_Indice_y_Mapas/FUENTES/B011_Matematica_de_la_cerveza.md
       - Proyecto Biblia: 99_Indice_y_Mapas/PROYECTO_BIBLIA.md
       - Sessions log: 99_Indice_y_Mapas/SESSIONS_LOG.md
-      
-validation:
-  nav:
-    omitted_files: ignore
+      - DATASETS: 99_Indice_y_Mapas/DATASETS/00_INDEX.md
+
+
 
 copyright: "© 2026 Quelonio"

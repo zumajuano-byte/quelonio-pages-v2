@@ -1,5 +1,17 @@
 # Cálculos rápidos (guía simple)
 
+## Targets por estilo (baseline)
+
+Fuente canónica de rangos operativos (OG/FG/ABV/IBU/SRM/pH/CO2):
+- Ver: `../99_Indice_y_Mapas/TABLAS_TARGETS_POR_ESTILO.md`
+
+Uso en formulación:
+1) Elegí estilo/familia
+2) Tomá OG/FG objetivo (nominal dentro del rango)
+3) Derivá ABV y validá que caiga dentro del rango del estilo
+4) Si hay tradeoff (ej. NEIPA: expresividad vs estabilidad), definí el modo y ajustá proceso en consecuencia
+
+
 ## Objetivo
 Tener una hoja mental para validar si una receta “cierra” antes de elaborarla.
 
@@ -20,3 +32,6 @@ Tener una hoja mental para validar si una receta “cierra” antes de elaborarl
 - OG objetivo.
 - Perfil de fermentación (temperatura y días estimados).
 - Plan de lúpulo (cuándo y cómo, cuidando oxidación).
+
+## Fuentes
+- Ver B011 — Matemática de la cerveza (Oddone) — base de cálculos canónicos: ../99_Indice_y_Mapas/FUENTES/B011_Matematica_de_la_cerveza.md

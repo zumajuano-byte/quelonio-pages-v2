@@ -7,6 +7,15 @@ Cuando aparece un problema, este archivo te dice:
 3) a qué documento ir según el síntoma,
 4) y cómo dejarlo registrado (para que no se repita).
 
+
+### Targets por estilo (baseline) para detección de desvíos
+
+Para comparar mediciones reales vs esperado por estilo:
+- Fuente canónica: `../99_Indice_y_Mapas/TABLAS_TARGETS_POR_ESTILO.md`
+
+Regla:
+- Un desvío se evalúa contra el rango del estilo y contra los límites operativos definidos (OK/WARNING/FAIL) del mismo documento.
+
 ---
 
 ## 1) Primeros 3 pasos (siempre iguales)
