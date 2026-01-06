@@ -1,0 +1,106 @@
+{
+  "dataset_id": "brew_math_formulas",
+  "version": "0.1",
+  "source": {
+    "ref_id": "B011",
+    "title": "Matemática de la cerveza (PDF provisto por el usuario)",
+    "file": "-Matematica-de-la-cerveza.pdf",
+    "note": "Fórmulas incluidas son estándar de uso común; se pueden alinear 1:1 con el PDF cuando quieras."
+  },
+  "formulas": [
+    {
+      "id": "abv_basic",
+      "name": "ABV (aprox.)",
+      "inputs": [
+        {
+          "name": "og",
+          "unit": "SG"
+        },
+        {
+          "name": "fg",
+          "unit": "SG"
+        }
+      ],
+      "output": {
+        "name": "abv",
+        "unit": "%"
+      },
+      "expression": "(og - fg) * 131.25",
+      "notes": "Aproximación clásica. Útil para operación y comparación."
+    },
+    {
+      "id": "apparent_attenuation",
+      "name": "Atenuación aparente",
+      "inputs": [
+        {
+          "name": "og",
+          "unit": "SG"
+        },
+        {
+          "name": "fg",
+          "unit": "SG"
+        }
+      ],
+      "output": {
+        "name": "aa",
+        "unit": "%"
+      },
+      "expression": "((og - fg) / (og - 1)) * 100"
+    },
+    {
+      "id": "gravity_points",
+      "name": "Puntos de gravedad (GP)",
+      "inputs": [
+        {
+          "name": "sg",
+          "unit": "SG"
+        }
+      ],
+      "output": {
+        "name": "gp",
+        "unit": "points"
+      },
+      "expression": "(sg - 1) * 1000"
+    },
+    {
+      "id": "srm_morey",
+      "name": "Color SRM (Morey)",
+      "inputs": [
+        {
+          "name": "mcu",
+          "unit": "MCU"
+        }
+      ],
+      "output": {
+        "name": "srm",
+        "unit": "SRM"
+      },
+      "expression": "1.4922 * (mcu ** 0.6859)",
+      "notes": "Modelo Morey."
+    },
+    {
+      "id": "mcu",
+      "name": "MCU (Malt Color Units)",
+      "inputs": [
+        {
+          "name": "malt_weight_lb",
+          "unit": "lb"
+        },
+        {
+          "name": "malt_color_lovibond",
+          "unit": "°L"
+        },
+        {
+          "name": "volume_gal",
+          "unit": "gal"
+        }
+      ],
+      "output": {
+        "name": "mcu",
+        "unit": "MCU"
+      },
+      "expression": "(malt_weight_lb * malt_color_lovibond) / volume_gal",
+      "notes": "Si hay varios granos, sumar MCU por grano."
+    }
+  ]
+}

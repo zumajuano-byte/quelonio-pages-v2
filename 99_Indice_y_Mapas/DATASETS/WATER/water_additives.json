@@ -1,0 +1,67 @@
+{
+  "version": "1.0",
+  "units": {
+    "salt_additions": "g",
+    "acid_additions_liquid": "mL",
+    "acid_additions_solid": "g"
+  },
+  "salts": [
+    {
+      "id": "WAT-SALT-0001",
+      "name": "Yeso (CaSO4·2H2O)",
+      "form": "solid",
+      "purity_fraction": 1.0,
+      "notes": "Completar si tu proveedor declara pureza distinta."
+    },
+    {
+      "id": "WAT-SALT-0002",
+      "name": "Cloruro de calcio (CaCl2·2H2O)",
+      "form": "solid",
+      "purity_fraction": 1.0,
+      "notes": ""
+    },
+    {
+      "id": "WAT-SALT-0003",
+      "name": "Sal de Epsom (MgSO4·7H2O)",
+      "form": "solid",
+      "purity_fraction": 1.0,
+      "notes": ""
+    },
+    {
+      "id": "WAT-SALT-0004",
+      "name": "Bicarbonato de sodio (NaHCO3)",
+      "form": "solid",
+      "purity_fraction": 1.0,
+      "notes": "Para subir alcalinidad/pH cuando haga falta."
+    }
+  ],
+  "acids": [
+    {
+      "id": "WAT-ACID-0001",
+      "name": "Ácido láctico",
+      "form": "liquid",
+      "label_concentration_w_w_fraction": 0.85,
+      "density_g_per_mL": null,
+      "effective_equivalents_per_mole": 1.0,
+      "notes": "Completar density_g_per_mL desde etiqueta/ficha. effective_equivalents_per_mole=1 (operativo)."
+    },
+    {
+      "id": "WAT-ACID-0002",
+      "name": "Ácido fosfórico",
+      "form": "liquid",
+      "label_concentration_w_w_fraction": 0.85,
+      "density_g_per_mL": null,
+      "effective_equivalents_per_mole": 1.0,
+      "notes": "A pH de mash se usa como monoprotico 'operativo' (1 eq) para cálculos simples; se calibra por medición."
+    },
+    {
+      "id": "WAT-ACID-0003",
+      "name": "Ácido cítrico",
+      "form": "solid_or_solution",
+      "label_concentration_w_w_fraction": null,
+      "density_g_per_mL": null,
+      "effective_equivalents_per_mole": 1.0,
+      "notes": "Si lo usás sólido: dosificar en g. Si lo usás en solución: completar concentración y densidad."
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "dataset_id": "water_profiles_canonical",
+  "version": "1.0",
+  "units": "ppm (mg/L)",
+  "profiles": [
+    {
+      "id": "balanced",
+      "name": "Balanceado",
+      "ions": {
+        "Ca": 60,
+        "Mg": 10,
+        "Na": 20,
+        "Cl": 70,
+        "SO4": 70,
+        "Alkalinity_as_CaCO3": 40
+      }
+    },
+    {
+      "id": "hoppy_crisp",
+      "name": "Lupulado/Sequito (SO4 alto)",
+      "ions": {
+        "Ca": 90,
+        "Mg": 10,
+        "Na": 20,
+        "Cl": 50,
+        "SO4": 180,
+        "Alkalinity_as_CaCO3": 30
+      }
+    },
+    {
+      "id": "hazy_soft",
+      "name": "Hazy/Suave (Cl alto)",
+      "ions": {
+        "Ca": 80,
+        "Mg": 10,
+        "Na": 20,
+        "Cl": 160,
+        "SO4": 80,
+        "Alkalinity_as_CaCO3": 30
+      }
+    },
+    {
+      "id": "malty_round",
+      "name": "Maltoso/Redondo",
+      "ions": {
+        "Ca": 60,
+        "Mg": 10,
+        "Na": 30,
+        "Cl": 120,
+        "SO4": 50,
+        "Alkalinity_as_CaCO3": 60
+      }
+    },
+    {
+      "id": "dark_beer",
+      "name": "Oscuras (alcalinidad más alta)",
+      "ions": {
+        "Ca": 60,
+        "Mg": 10,
+        "Na": 30,
+        "Cl": 80,
+        "SO4": 60,
+        "Alkalinity_as_CaCO3": 120
+      }
+    }
+  ],
+  "notes": "Perfiles canónicos operativos (Capa 1). Son puntos de partida, no reglas. Ajustar según tu agua base y estilo."
+}

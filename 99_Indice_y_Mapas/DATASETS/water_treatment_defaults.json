@@ -1,0 +1,157 @@
+{
+  "dataset_id": "water_treatment_defaults",
+  "version": "0.1",
+  "units": {
+    "ions_ppm": "mg/L",
+    "alkalinity_as_CaCO3_ppm": "mg/L as CaCO3",
+    "volume": "L",
+    "mass": "g",
+    "acid_volume": "mL"
+  },
+  "water_report_fields_supported": [
+    "Ca",
+    "Mg",
+    "Na",
+    "Cl",
+    "SO4",
+    "HCO3",
+    "Alkalinity_as_CaCO3"
+  ],
+  "conversions": {
+    "ppm_to_meq_per_L": {
+      "as_CaCO3": {
+        "expression": "ppm / 50.0",
+        "notes": "1 meq/L = 50 ppm como CaCO3"
+      },
+      "HCO3": {
+        "expression": "ppm / 61.0",
+        "notes": "HCO3- (61 g/mol)"
+      },
+      "Ca": {
+        "expression": "ppm / 20.04",
+        "notes": "Ca2+ equivalente: 40.08/2 = 20.04"
+      },
+      "Mg": {
+        "expression": "ppm / 12.15",
+        "notes": "Mg2+ equivalente: 24.30/2 = 12.15"
+      },
+      "Na": {
+        "expression": "ppm / 22.99",
+        "notes": "Na+ equivalente: 22.99"
+      },
+      "Cl": {
+        "expression": "ppm / 35.45",
+        "notes": "Cl- equivalente: 35.45"
+      },
+      "SO4": {
+        "expression": "ppm / 48.03",
+        "notes": "SO4(2-) equivalente: 96.06/2 = 48.03"
+      }
+    }
+  },
+  "formulas": [
+    {
+      "id": "residual_alkalinity_palmer_ppm_as_CaCO3",
+      "name": "Residual Alkalinity (Palmer, aproximación)",
+      "inputs": [
+        {
+          "name": "alkalinity_as_CaCO3_ppm",
+          "unit": "ppm as CaCO3"
+        },
+        {
+          "name": "Ca_ppm",
+          "unit": "ppm"
+        },
+        {
+          "name": "Mg_ppm",
+          "unit": "ppm"
+        }
+      ],
+      "output": {
+        "name": "RA_ppm_as_CaCO3",
+        "unit": "ppm as CaCO3"
+      },
+      "expression": "alkalinity_as_CaCO3_ppm - (Ca_ppm/3.5 + Mg_ppm/7.0)",
+      "notes": "Útil como indicador; no sustituye medición/ajuste real de pH."
+    }
+  ],
+  "acids": [
+    {
+      "id": "lactic_85",
+      "name": "Ácido láctico 85%",
+      "concentration_w_w": 0.85,
+      "density_g_ml_default": 1.2,
+      "mw_g_mol": 90.08,
+      "effective_equivalents_per_mol": 1.0,
+      "mEq_per_mL_default": 11.3,
+      "notes": "Default operativo. Ajustar densidad/concentración según proveedor."
+    },
+    {
+      "id": "phosphoric_85",
+      "name": "Ácido fosfórico 85%",
+      "concentration_w_w": 0.85,
+      "density_g_ml_default": 1.685,
+      "mw_g_mol": 98.0,
+      "effective_equivalents_per_mol": 2.0,
+      "mEq_per_mL_default": 49.0,
+      "notes": "Fosfórico es triprótico; aquí se usa equivalencia efectiva≈2 para neutralización práctica. Recomiendo calibrar con medición."
+    },
+    {
+      "id": "citric_variable",
+      "name": "Ácido cítrico (variable)",
+      "concentration_w_w": null,
+      "density_g_ml_default": null,
+      "mw_g_mol": 192.12,
+      "effective_equivalents_per_mol": 3.0,
+      "mEq_per_mL_default": null,
+      "notes": "Depende de presentación (sólido/solución). Se completa cuando tengas datos del producto real."
+    }
+  ],
+  "salts": [
+    {
+      "id": "gypsum",
+      "name": "Sulfato de calcio (CaSO4·2H2O, gypsum)",
+      "grams_per_L_to_ppm": {
+        "Ca": 233.0,
+        "SO4": 558.0
+      },
+      "notes": "Aproximación por estequiometría."
+    },
+    {
+      "id": "calcium_chloride",
+      "name": "Cloruro de calcio (CaCl2·2H2O)",
+      "grams_per_L_to_ppm": {
+        "Ca": 272.0,
+        "Cl": 482.0
+      },
+      "notes": "Aproximación por estequiometría."
+    },
+    {
+      "id": "epsom",
+      "name": "Sulfato de magnesio (MgSO4·7H2O, epsom)",
+      "grams_per_L_to_ppm": {
+        "Mg": 99.0,
+        "SO4": 390.0
+      },
+      "notes": "Aproximación por estequiometría."
+    },
+    {
+      "id": "baking_soda",
+      "name": "Bicarbonato de sodio (NaHCO3)",
+      "grams_per_L_to_ppm": {
+        "Na": 274.0,
+        "HCO3": 727.0
+      },
+      "notes": "Aproximación por estequiometría."
+    },
+    {
+      "id": "chalk",
+      "name": "Carbonato de calcio (CaCO3, chalk)",
+      "grams_per_L_to_ppm": {
+        "Ca": 400.0,
+        "Alkalinity_as_CaCO3": 1000.0
+      },
+      "notes": "Limitado por solubilidad; usar con cautela."
+    }
+  ]
+}

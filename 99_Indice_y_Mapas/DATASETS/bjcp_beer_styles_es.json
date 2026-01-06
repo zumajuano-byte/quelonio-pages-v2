@@ -1,0 +1,4004 @@
+{
+  "dataset_id": "bjcp_beer_styles_es",
+  "version": "0.1",
+  "generated_from": "2021_Guidelines_Beer_ES_1.0.pdf (structure+vital stats where parsable)",
+  "style_count": 108,
+  "styles": [
+    {
+      "code": "1A",
+      "category": 1,
+      "substyle": "A",
+      "name": "American Light Lager",
+      "targets": {
+        "og": 1.034,
+        "fg": 1.003,
+        "ibu": 10,
+        "srm": 2.5,
+        "abv": 3.5
+      },
+      "ranges": {
+        "og": {
+          "min": 1.028,
+          "max": 1.04
+        },
+        "fg": {
+          "min": 0.998,
+          "max": 1.008
+        },
+        "ibu": {
+          "min": 8,
+          "max": 12
+        },
+        "srm": {
+          "min": 2.0,
+          "max": 3.0
+        },
+        "abv": {
+          "min": 2.8,
+          "max": 4.2
+        }
+      },
+      "notes": null,
+      "source": {
+        "ref_id": "B010",
+        "title": "BJCP Beer Guidelines (ES PDF)",
+        "file": "2021_Guidelines_Beer_ES_1.0.pdf",
+        "page_index_guess": 18
+      }
+    },
+    {
+      "code": "1B",
+      "category": 1,
+      "substyle": "B",
+      "name": "American Lager",
+      "targets": {
+        "og": 1.034,
+        "fg": 1.003,
+        "ibu": 10,
+        "srm": 2.5,
+        "abv": 3.5
+      },
+      "ranges": {
+        "og": {
+          "min": 1.028,
+          "max": 1.04
+        },
+        "fg": {
+          "min": 0.998,
+          "max": 1.008
+        },
+        "ibu": {
+          "min": 8,
+          "max": 12
+        },
+        "srm": {
+          "min": 2.0,
+          "max": 3.0
+        },
+        "abv": {
+          "min": 2.8,
+          "max": 4.2
+        }
+      },
+      "notes": null,
+      "source": {
+        "ref_id": "B010",
+        "title": "BJCP Beer Guidelines (ES PDF)",
+        "file": "2021_Guidelines_Beer_ES_1.0.pdf",
+        "page_index_guess": 18
+      }
+    },
+    {
+      "code": "1C",
+      "category": 1,
+      "substyle": "C",
+      "name": "Cream Ale",
+      "targets": {
+        "og": 1.045,
+        "fg": 1.007,
+        "ibu": 13,
+        "srm": 2.8,
+        "abv": 4.75
+      },
+      "ranges": {
+        "og": {
+          "min": 1.04,
+          "max": 1.05
+        },
+        "fg": {
+          "min": 1.004,
+          "max": 1.01
+        },
+        "ibu": {
+          "min": 8,
+          "max": 18
+        },
+        "srm": {
+          "min": 2.0,
+          "max": 3.5
+        },
+        "abv": {
+          "min": 4.2,
+          "max": 5.3
+        }
+      },
+      "notes": null,
+      "source": {
+        "ref_id": "B010",
+        "title": "BJCP Beer Guidelines (ES PDF)",
+        "file": "2021_Guidelines_Beer_ES_1.0.pdf",
+        "page_index_guess": 19
+      }
+    },
+    {
+      "code": "1D",
+      "category": 1,
+      "substyle": "D",
+      "name": "American Wheat Beer",
+      "targets": {
+        "og": 1.045,
+        "fg": 1.007,
+        "ibu": 13,
+        "srm": 2.8,
+        "abv": 4.75
+      },
+      "ranges": {
+        "og": {
+          "min": 1.04,
+          "max": 1.05
+        },
+        "fg": {
+          "min": 1.004,
+          "max": 1.01
+        },
+        "ibu": {
+          "min": 8,
+          "max": 18
+        },
+        "srm": {
+          "min": 2.0,
+          "max": 3.5
+        },
+        "abv": {
+          "min": 4.2,
+          "max": 5.3
+        }
+      },
+      "notes": null,
+      "source": {
+        "ref_id": "B010",
+        "title": "BJCP Beer Guidelines (ES PDF)",
+        "file": "2021_Guidelines_Beer_ES_1.0.pdf",
+        "page_index_guess": 19
+      }
+    },
+    {
+      "code": "2A",
+      "category": 2,
+      "substyle": "A",
+      "name": "International Pale Lager",
+      "targets": {
+        "og": 1.0475,
+        "fg": 1.0105,
+        "ibu": 22,
+        "srm": 4.5,
+        "abv": 4.75
+      },
+      "ranges": {
+        "og": {
+          "min": 1.04,
+          "max": 1.055
+        },
+        "fg": {
+          "min": 1.008,
+          "max": 1.013
+        },
+        "ibu": {
+          "min": 15,
+          "max": 30
+        },
+        "srm": {
+          "min": 3.0,
+          "max": 6.0
+        },
+        "abv": {
+          "min": 4.0,
+          "max": 5.5
+        }
+      },
+      "notes": null,
+      "source": {
+        "ref_id": "B010",
+        "title": "BJCP Beer Guidelines (ES PDF)",
+        "file": "2021_Guidelines_Beer_ES_1.0.pdf",
+        "page_index_guess": 20
+      }
+    },
+    {
+      "code": "2B",
+      "category": 2,
+      "substyle": "B",
+      "name": "International Amber Lager",
+      "targets": {
+        "og": 1.0475,
+        "fg": 1.0105,
+        "ibu": 22,
+        "srm": 4.5,
+        "abv": 4.75
+      },
+      "ranges": {
+        "og": {
+          "min": 1.04,
+          "max": 1.055
+        },
+        "fg": {
+          "min": 1.008,
+          "max": 1.013
+        },
+        "ibu": {
+          "min": 15,
+          "max": 30
+        },
+        "srm": {
+          "min": 3.0,
+          "max": 6.0
+        },
+        "abv": {
+          "min": 4.0,
+          "max": 5.5
+        }
+      },
+      "notes": null,
+      "source": {
+        "ref_id": "B010",
+        "title": "BJCP Beer Guidelines (ES PDF)",
+        "file": "2021_Guidelines_Beer_ES_1.0.pdf",
+        "page_index_guess": 20
+      }
+    },
+    {
+      "code": "2C",
+      "category": 2,
+      "substyle": "C",
+      "name": "International Dark Lager",
+      "targets": {
+        "og": 1.0485,
+        "fg": 1.011,
+        "ibu": 16,
+        "srm": 10.0,
+        "abv": 5.25
+      },
+      "ranges": {
+        "og": {
+          "min": 1.042,
+          "max": 1.055
+        },
+        "fg": {
+          "min": 1.008,
+          "max": 1.014
+        },
+        "ibu": {
+          "min": 8,
+          "max": 25
+        },
+        "srm": {
+          "min": 6.0,
+          "max": 14.0
+        },
+        "abv": {
+          "min": 4.5,
+          "max": 6.0
+        }
+      },
+      "notes": null,
+      "source": {
+        "ref_id": "B010",
+        "title": "BJCP Beer Guidelines (ES PDF)",
+        "file": "2021_Guidelines_Beer_ES_1.0.pdf",
+        "page_index_guess": 21
+      }
+    },
+    {
+      "code": "3A",
+      "category": 3,
+      "substyle": "A",
+      "name": "Czech Pale Lager",
+      "targets": {
+        "og": 1.036,
+        "fg": 1.011,
+        "ibu": 28,
+        "srm": 4.5,
+        "abv": 3.55
+      },
+      "ranges": {
+        "og": {
+          "min": 1.028,
+          "max": 1.044
+        },
+        "fg": {
+          "min": 1.008,
+          "max": 1.014
+        },
+        "ibu": {
+          "min": 20,
+          "max": 35
+        },
+        "srm": {
+          "min": 3.0,
+          "max": 6.0
+        },
+        "abv": {
+          "min": 3.0,
+          "max": 4.1
+        }
+      },
+      "notes": null,
+      "source": {
+        "ref_id": "B010",
+        "title": "BJCP Beer Guidelines (ES PDF)",
+        "file": "2021_Guidelines_Beer_ES_1.0.pdf",
+        "page_index_guess": 22
+      }
+    },
+    {
+      "code": "3B",
+      "category": 3,
+      "substyle": "B",
+      "name": "Czech Premium Pale Lager",
+      "targets": {
+        "og": 1.036,
+        "fg": 1.011,
+        "ibu": 28,
+        "srm": 4.5,
+        "abv": 3.55
+      },
+      "ranges": {
+        "og": {
+          "min": 1.028,
+          "max": 1.044
+        },
+        "fg": {
+          "min": 1.008,
+          "max": 1.014
+        },
+        "ibu": {
+          "min": 20,
+          "max": 35
+        },
+        "srm": {
+          "min": 3.0,
+          "max": 6.0
+        },
+        "abv": {
+          "min": 3.0,
+          "max": 4.1
+        }
+      },
+      "notes": null,
+      "source": {
+        "ref_id": "B010",
+        "title": "BJCP Beer Guidelines (ES PDF)",
+        "file": "2021_Guidelines_Beer_ES_1.0.pdf",
+        "page_index_guess": 22
+      }
+    },
+    {
+      "code": "3C",
+      "category": 3,
+      "substyle": "C",
+      "name": "Czech Amber Lager",
+      "targets": {
+        "og": 1.052,
+        "fg": 1.015,
+        "ibu": 38,
+        "srm": 4.8,
+        "abv": 5.0
+      },
+      "ranges": {
+        "og": {
+          "min": 1.044,
+          "max": 1.06
+        },
+        "fg": {
+          "min": 1.013,
+          "max": 1.017
+        },
+        "ibu": {
+          "min": 30,
+          "max": 45
+        },
+        "srm": {
+          "min": 3.5,
+          "max": 6.0
+        },
+        "abv": {
+          "min": 4.2,
+          "max": 5.8
+        }
+      },
+      "notes": null,
+      "source": {
+        "ref_id": "B010",
+        "title": "BJCP Beer Guidelines (ES PDF)",
+        "file": "2021_Guidelines_Beer_ES_1.0.pdf",
+        "page_index_guess": 23
+      }
+    },
+    {
+      "code": "3D",
+      "category": 3,
+      "substyle": "D",
+      "name": "Czec h Dark Lager",
+      "targets": {
+        "og": 1.052,
+        "fg": 1.015,
+        "ibu": 38,
+        "srm": 4.8,
+        "abv": 5.0
+      },
+      "ranges": {
+        "og": {
+          "min": 1.044,
+          "max": 1.06
+        },
+        "fg": {
+          "min": 1.013,
+          "max": 1.017
+        },
+        "ibu": {
+          "min": 30,
+          "max": 45
+        },
+        "srm": {
+          "min": 3.5,
+          "max": 6.0
+        },
+        "abv": {
+          "min": 4.2,
+          "max": 5.8
+        }
+      },
+      "notes": null,
+      "source": {
+        "ref_id": "B010",
+        "title": "BJCP Beer Guidelines (ES PDF)",
+        "file": "2021_Guidelines_Beer_ES_1.0.pdf",
+        "page_index_guess": 23
+      }
+    },
+    {
+      "code": "4A",
+      "category": 4,
+      "substyle": "A",
+      "name": "Munich Helles",
+      "targets": {
+        "og": 1.046,
+        "fg": 1.009,
+        "ibu": 19,
+        "srm": 4.0,
+        "abv": 5.05
+      },
+      "ranges": {
+        "og": {
+          "min": 1.044,
+          "max": 1.048
+        },
+        "fg": {
+          "min": 1.006,
+          "max": 1.012
+        },
+        "ibu": {
+          "min": 16,
+          "max": 22
+        },
+        "srm": {
+          "min": 3.0,
+          "max": 5.0
+        },
+        "abv": {
+          "min": 4.7,
+          "max": 5.4
+        }
+      },
+      "notes": null,
+      "source": {
+        "ref_id": "B010",
+        "title": "BJCP Beer Guidelines (ES PDF)",
+        "file": "2021_Guidelines_Beer_ES_1.0.pdf",
+        "page_index_guess": 25
+      }
+    },
+    {
+      "code": "4B",
+      "category": 4,
+      "substyle": "B",
+      "name": "Festbier",
+      "targets": {
+        "og": 1.046,
+        "fg": 1.009,
+        "ibu": 19,
+        "srm": 4.0,
+        "abv": 5.05
+      },
+      "ranges": {
+        "og": {
+          "min": 1.044,
+          "max": 1.048
+        },
+        "fg": {
+          "min": 1.006,
+          "max": 1.012
+        },
+        "ibu": {
+          "min": 16,
+          "max": 22
+        },
+        "srm": {
+          "min": 3.0,
+          "max": 5.0
+        },
+        "abv": {
+          "min": 4.7,
+          "max": 5.4
+        }
+      },
+      "notes": null,
+      "source": {
+        "ref_id": "B010",
+        "title": "BJCP Beer Guidelines (ES PDF)",
+        "file": "2021_Guidelines_Beer_ES_1.0.pdf",
+        "page_index_guess": 25
+      }
+    },
+    {
+      "code": "4C",
+      "category": 4,
+      "substyle": "C",
+      "name": "Helles Bock 9 5. PALE BITTER EUROPEAN BEER",
+      "targets": {
+        "og": 1.0555,
+        "fg": 1.011,
+        "ibu": 22,
+        "srm": 5.0,
+        "abv": 6.05
+      },
+      "ranges": {
+        "og": {
+          "min": 1.054,
+          "max": 1.057
+        },
+        "fg": {
+          "min": 1.01,
+          "max": 1.012
+        },
+        "ibu": {
+          "min": 18,
+          "max": 25
+        },
+        "srm": {
+          "min": 4.0,
+          "max": 6.0
+        },
+        "abv": {
+          "min": 5.8,
+          "max": 6.3
+        }
+      },
+      "notes": null,
+      "source": {
+        "ref_id": "B010",
+        "title": "BJCP Beer Guidelines (ES PDF)",
+        "file": "2021_Guidelines_Beer_ES_1.0.pdf",
+        "page_index_guess": 26
+      }
+    },
+    {
+      "code": "5A",
+      "category": 5,
+      "substyle": "A",
+      "name": "German Leichtbier",
+      "targets": {
+        "og": 1.03,
+        "fg": 1.008,
+        "ibu": 22,
+        "srm": 2.8,
+        "abv": 3.0
+      },
+      "ranges": {
+        "og": {
+          "min": 1.026,
+          "max": 1.034
+        },
+        "fg": {
+          "min": 1.006,
+          "max": 1.01
+        },
+        "ibu": {
+          "min": 15,
+          "max": 28
+        },
+        "srm": {
+          "min": 1.5,
+          "max": 4.0
+        },
+        "abv": {
+          "min": 2.4,
+          "max": 3.6
+        }
+      },
+      "notes": null,
+      "source": {
+        "ref_id": "B010",
+        "title": "BJCP Beer Guidelines (ES PDF)",
+        "file": "2021_Guidelines_Beer_ES_1.0.pdf",
+        "page_index_guess": 27
+      }
+    },
+    {
+      "code": "5B",
+      "category": 5,
+      "substyle": "B",
+      "name": "Kölsch",
+      "targets": {
+        "og": 1.03,
+        "fg": 1.008,
+        "ibu": 22,
+        "srm": 2.8,
+        "abv": 3.0
+      },
+      "ranges": {
+        "og": {
+          "min": 1.026,
+          "max": 1.034
+        },
+        "fg": {
+          "min": 1.006,
+          "max": 1.01
+        },
+        "ibu": {
+          "min": 15,
+          "max": 28
+        },
+        "srm": {
+          "min": 1.5,
+          "max": 4.0
+        },
+        "abv": {
+          "min": 2.4,
+          "max": 3.6
+        }
+      },
+      "notes": null,
+      "source": {
+        "ref_id": "B010",
+        "title": "BJCP Beer Guidelines (ES PDF)",
+        "file": "2021_Guidelines_Beer_ES_1.0.pdf",
+        "page_index_guess": 27
+      }
+    },
+    {
+      "code": "5C",
+      "category": 5,
+      "substyle": "C",
+      "name": "German Helles Exportbier",
+      "targets": {
+        "og": 1.047,
+        "fg": 1.009,
+        "ibu": 24,
+        "srm": 4.2,
+        "abv": 4.8
+      },
+      "ranges": {
+        "og": {
+          "min": 1.044,
+          "max": 1.05
+        },
+        "fg": {
+          "min": 1.007,
+          "max": 1.011
+        },
+        "ibu": {
+          "min": 18,
+          "max": 30
+        },
+        "srm": {
+          "min": 3.5,
+          "max": 5.0
+        },
+        "abv": {
+          "min": 4.4,
+          "max": 5.2
+        }
+      },
+      "notes": null,
+      "source": {
+        "ref_id": "B010",
+        "title": "BJCP Beer Guidelines (ES PDF)",
+        "file": "2021_Guidelines_Beer_ES_1.0.pdf",
+        "page_index_guess": 28
+      }
+    },
+    {
+      "code": "5D",
+      "category": 5,
+      "substyle": "D",
+      "name": "German Pils",
+      "targets": {
+        "og": 1.047,
+        "fg": 1.009,
+        "ibu": 24,
+        "srm": 4.2,
+        "abv": 4.8
+      },
+      "ranges": {
+        "og": {
+          "min": 1.044,
+          "max": 1.05
+        },
+        "fg": {
+          "min": 1.007,
+          "max": 1.011
+        },
+        "ibu": {
+          "min": 18,
+          "max": 30
+        },
+        "srm": {
+          "min": 3.5,
+          "max": 5.0
+        },
+        "abv": {
+          "min": 4.4,
+          "max": 5.2
+        }
+      },
+      "notes": null,
+      "source": {
+        "ref_id": "B010",
+        "title": "BJCP Beer Guidelines (ES PDF)",
+        "file": "2021_Guidelines_Beer_ES_1.0.pdf",
+        "page_index_guess": 28
+      }
+    },
+    {
+      "code": "6A",
+      "category": 6,
+      "substyle": "A",
+      "name": "Märzen",
+      "targets": {
+        "og": 1.047,
+        "fg": 1.0105,
+        "ibu": 31,
+        "srm": 3.0,
+        "abv": 4.8
+      },
+      "ranges": {
+        "og": {
+          "min": 1.044,
+          "max": 1.05
+        },
+        "fg": {
+          "min": 1.008,
+          "max": 1.013
+        },
+        "ibu": {
+          "min": 22,
+          "max": 40
+        },
+        "srm": {
+          "min": 2.0,
+          "max": 4.0
+        },
+        "abv": {
+          "min": 4.4,
+          "max": 5.2
+        }
+      },
+      "notes": null,
+      "source": {
+        "ref_id": "B010",
+        "title": "BJCP Beer Guidelines (ES PDF)",
+        "file": "2021_Guidelines_Beer_ES_1.0.pdf",
+        "page_index_guess": 29
+      }
+    },
+    {
+      "code": "6B",
+      "category": 6,
+      "substyle": "B",
+      "name": "Rauchbier",
+      "targets": {
+        "og": 1.047,
+        "fg": 1.0105,
+        "ibu": 31,
+        "srm": 3.0,
+        "abv": 4.8
+      },
+      "ranges": {
+        "og": {
+          "min": 1.044,
+          "max": 1.05
+        },
+        "fg": {
+          "min": 1.008,
+          "max": 1.013
+        },
+        "ibu": {
+          "min": 22,
+          "max": 40
+        },
+        "srm": {
+          "min": 2.0,
+          "max": 4.0
+        },
+        "abv": {
+          "min": 4.4,
+          "max": 5.2
+        }
+      },
+      "notes": null,
+      "source": {
+        "ref_id": "B010",
+        "title": "BJCP Beer Guidelines (ES PDF)",
+        "file": "2021_Guidelines_Beer_ES_1.0.pdf",
+        "page_index_guess": 29
+      }
+    },
+    {
+      "code": "6C",
+      "category": 6,
+      "substyle": "C",
+      "name": "Dunkles Bo ck",
+      "targets": {
+        "og": 1.0535,
+        "fg": 1.014,
+        "ibu": 25,
+        "srm": 17.0,
+        "abv": 5.4
+      },
+      "ranges": {
+        "og": {
+          "min": 1.05,
+          "max": 1.057
+        },
+        "fg": {
+          "min": 1.012,
+          "max": 1.016
+        },
+        "ibu": {
+          "min": 20,
+          "max": 30
+        },
+        "srm": {
+          "min": 12.0,
+          "max": 22.0
+        },
+        "abv": {
+          "min": 4.8,
+          "max": 6.0
+        }
+      },
+      "notes": null,
+      "source": {
+        "ref_id": "B010",
+        "title": "BJCP Beer Guidelines (ES PDF)",
+        "file": "2021_Guidelines_Beer_ES_1.0.pdf",
+        "page_index_guess": 30
+      }
+    },
+    {
+      "code": "7A",
+      "category": 7,
+      "substyle": "A",
+      "name": "Vienna Lager",
+      "targets": {
+        "og": 1.0515,
+        "fg": 1.012,
+        "ibu": 24,
+        "srm": 12.0,
+        "abv": 5.1
+      },
+      "ranges": {
+        "og": {
+          "min": 1.048,
+          "max": 1.055
+        },
+        "fg": {
+          "min": 1.01,
+          "max": 1.014
+        },
+        "ibu": {
+          "min": 18,
+          "max": 30
+        },
+        "srm": {
+          "min": 9.0,
+          "max": 15.0
+        },
+        "abv": {
+          "min": 4.7,
+          "max": 5.5
+        }
+      },
+      "notes": null,
+      "source": {
+        "ref_id": "B010",
+        "title": "BJCP Beer Guidelines (ES PDF)",
+        "file": "2021_Guidelines_Beer_ES_1.0.pdf",
+        "page_index_guess": 31
+      }
+    },
+    {
+      "code": "7B",
+      "category": 7,
+      "substyle": "B",
+      "name": "Altbier",
+      "targets": {
+        "og": 1.0515,
+        "fg": 1.012,
+        "ibu": 24,
+        "srm": 12.0,
+        "abv": 5.1
+      },
+      "ranges": {
+        "og": {
+          "min": 1.048,
+          "max": 1.055
+        },
+        "fg": {
+          "min": 1.01,
+          "max": 1.014
+        },
+        "ibu": {
+          "min": 18,
+          "max": 30
+        },
+        "srm": {
+          "min": 9.0,
+          "max": 15.0
+        },
+        "abv": {
+          "min": 4.7,
+          "max": 5.5
+        }
+      },
+      "notes": null,
+      "source": {
+        "ref_id": "B010",
+        "title": "BJCP Beer Guidelines (ES PDF)",
+        "file": "2021_Guidelines_Beer_ES_1.0.pdf",
+        "page_index_guess": 31
+      }
+    },
+    {
+      "code": "8A",
+      "category": 8,
+      "substyle": "A",
+      "name": "Mu nich Dunkel",
+      "targets": {
+        "og": 1.048,
+        "fg": 1.011,
+        "ibu": 38,
+        "srm": 13.0,
+        "abv": 4.9
+      },
+      "ranges": {
+        "og": {
+          "min": 1.044,
+          "max": 1.052
+        },
+        "fg": {
+          "min": 1.008,
+          "max": 1.014
+        },
+        "ibu": {
+          "min": 25,
+          "max": 50
+        },
+        "srm": {
+          "min": 9.0,
+          "max": 17.0
+        },
+        "abv": {
+          "min": 4.3,
+          "max": 5.5
+        }
+      },
+      "notes": null,
+      "source": {
+        "ref_id": "B010",
+        "title": "BJCP Beer Guidelines (ES PDF)",
+        "file": "2021_Guidelines_Beer_ES_1.0.pdf",
+        "page_index_guess": 32
+      }
+    },
+    {
+      "code": "8B",
+      "category": 8,
+      "substyle": "B",
+      "name": "Schwarzbier",
+      "targets": {
+        "og": 1.048,
+        "fg": 1.011,
+        "ibu": 38,
+        "srm": 13.0,
+        "abv": 4.9
+      },
+      "ranges": {
+        "og": {
+          "min": 1.044,
+          "max": 1.052
+        },
+        "fg": {
+          "min": 1.008,
+          "max": 1.014
+        },
+        "ibu": {
+          "min": 25,
+          "max": 50
+        },
+        "srm": {
+          "min": 9.0,
+          "max": 17.0
+        },
+        "abv": {
+          "min": 4.3,
+          "max": 5.5
+        }
+      },
+      "notes": null,
+      "source": {
+        "ref_id": "B010",
+        "title": "BJCP Beer Guidelines (ES PDF)",
+        "file": "2021_Guidelines_Beer_ES_1.0.pdf",
+        "page_index_guess": 32
+      }
+    },
+    {
+      "code": "9A",
+      "category": 9,
+      "substyle": "A",
+      "name": "Doppelbock",
+      "targets": {
+        "og": 1.049,
+        "fg": 1.013,
+        "ibu": 28,
+        "srm": 24.5,
+        "abv": 4.9
+      },
+      "ranges": {
+        "og": {
+          "min": 1.046,
+          "max": 1.052
+        },
+        "fg": {
+          "min": 1.01,
+          "max": 1.016
+        },
+        "ibu": {
+          "min": 20,
+          "max": 35
+        },
+        "srm": {
+          "min": 19.0,
+          "max": 30.0
+        },
+        "abv": {
+          "min": 4.4,
+          "max": 5.4
+        }
+      },
+      "notes": null,
+      "source": {
+        "ref_id": "B010",
+        "title": "BJCP Beer Guidelines (ES PDF)",
+        "file": "2021_Guidelines_Beer_ES_1.0.pdf",
+        "page_index_guess": 33
+      }
+    },
+    {
+      "code": "9B",
+      "category": 9,
+      "substyle": "B",
+      "name": "Eisbock",
+      "targets": {
+        "og": 1.099,
+        "fg": 1.0275,
+        "ibu": 30,
+        "srm": 23.5,
+        "abv": 11.5
+      },
+      "ranges": {
+        "og": {
+          "min": 1.078,
+          "max": 1.12
+        },
+        "fg": {
+          "min": 1.02,
+          "max": 1.035
+        },
+        "ibu": {
+          "min": 25,
+          "max": 35
+        },
+        "srm": {
+          "min": 17.0,
+          "max": 30.0
+        },
+        "abv": {
+          "min": 9.0,
+          "max": 14.0
+        }
+      },
+      "notes": null,
+      "source": {
+        "ref_id": "B010",
+        "title": "BJCP Beer Guidelines (ES PDF)",
+        "file": "2021_Guidelines_Beer_ES_1.0.pdf",
+        "page_index_guess": 34
+      }
+    },
+    {
+      "code": "9C",
+      "category": 9,
+      "substyle": "C",
+      "name": "Baltic Porte r",
+      "targets": {
+        "og": 1.099,
+        "fg": 1.0275,
+        "ibu": 30,
+        "srm": 23.5,
+        "abv": 11.5
+      },
+      "ranges": {
+        "og": {
+          "min": 1.078,
+          "max": 1.12
+        },
+        "fg": {
+          "min": 1.02,
+          "max": 1.035
+        },
+        "ibu": {
+          "min": 25,
+          "max": 35
+        },
+        "srm": {
+          "min": 17.0,
+          "max": 30.0
+        },
+        "abv": {
+          "min": 9.0,
+          "max": 14.0
+        }
+      },
+      "notes": null,
+      "source": {
+        "ref_id": "B010",
+        "title": "BJCP Beer Guidelines (ES PDF)",
+        "file": "2021_Guidelines_Beer_ES_1.0.pdf",
+        "page_index_guess": 34
+      }
+    },
+    {
+      "code": "10A",
+      "category": 10,
+      "substyle": "A",
+      "name": "Weissbier",
+      "targets": {
+        "og": 1.075,
+        "fg": 1.02,
+        "ibu": 30,
+        "srm": 23.5,
+        "abv": 8.0
+      },
+      "ranges": {
+        "og": {
+          "min": 1.06,
+          "max": 1.09
+        },
+        "fg": {
+          "min": 1.016,
+          "max": 1.024
+        },
+        "ibu": {
+          "min": 20,
+          "max": 40
+        },
+        "srm": {
+          "min": 17.0,
+          "max": 30.0
+        },
+        "abv": {
+          "min": 6.5,
+          "max": 9.5
+        }
+      },
+      "notes": null,
+      "source": {
+        "ref_id": "B010",
+        "title": "BJCP Beer Guidelines (ES PDF)",
+        "file": "2021_Guidelines_Beer_ES_1.0.pdf",
+        "page_index_guess": 35
+      }
+    },
+    {
+      "code": "10B",
+      "category": 10,
+      "substyle": "B",
+      "name": "Dunkles Weissbier",
+      "targets": {
+        "og": 1.075,
+        "fg": 1.02,
+        "ibu": 30,
+        "srm": 23.5,
+        "abv": 8.0
+      },
+      "ranges": {
+        "og": {
+          "min": 1.06,
+          "max": 1.09
+        },
+        "fg": {
+          "min": 1.016,
+          "max": 1.024
+        },
+        "ibu": {
+          "min": 20,
+          "max": 40
+        },
+        "srm": {
+          "min": 17.0,
+          "max": 30.0
+        },
+        "abv": {
+          "min": 6.5,
+          "max": 9.5
+        }
+      },
+      "notes": null,
+      "source": {
+        "ref_id": "B010",
+        "title": "BJCP Beer Guidelines (ES PDF)",
+        "file": "2021_Guidelines_Beer_ES_1.0.pdf",
+        "page_index_guess": 35
+      }
+    },
+    {
+      "code": "10C",
+      "category": 10,
+      "substyle": "C",
+      "name": "W eizenbock",
+      "targets": {
+        "og": 1.0505,
+        "fg": 1.011,
+        "ibu": 14,
+        "srm": 18.5,
+        "abv": 4.95
+      },
+      "ranges": {
+        "og": {
+          "min": 1.044,
+          "max": 1.057
+        },
+        "fg": {
+          "min": 1.008,
+          "max": 1.014
+        },
+        "ibu": {
+          "min": 10,
+          "max": 18
+        },
+        "srm": {
+          "min": 14.0,
+          "max": 23.0
+        },
+        "abv": {
+          "min": 4.3,
+          "max": 5.6
+        }
+      },
+      "notes": null,
+      "source": {
+        "ref_id": "B010",
+        "title": "BJCP Beer Guidelines (ES PDF)",
+        "file": "2021_Guidelines_Beer_ES_1.0.pdf",
+        "page_index_guess": 36
+      }
+    },
+    {
+      "code": "11A",
+      "category": 11,
+      "substyle": "A",
+      "name": "Ordinary Bitter",
+      "targets": {
+        "og": 1.077,
+        "fg": 1.0185,
+        "ibu": 22,
+        "srm": 15.5,
+        "abv": 7.75
+      },
+      "ranges": {
+        "og": {
+          "min": 1.064,
+          "max": 1.09
+        },
+        "fg": {
+          "min": 1.015,
+          "max": 1.022
+        },
+        "ibu": {
+          "min": 15,
+          "max": 30
+        },
+        "srm": {
+          "min": 6.0,
+          "max": 25.0
+        },
+        "abv": {
+          "min": 6.5,
+          "max": 9.0
+        }
+      },
+      "notes": null,
+      "source": {
+        "ref_id": "B010",
+        "title": "BJCP Beer Guidelines (ES PDF)",
+        "file": "2021_Guidelines_Beer_ES_1.0.pdf",
+        "page_index_guess": 37
+      }
+    },
+    {
+      "code": "11B",
+      "category": 11,
+      "substyle": "B",
+      "name": "Best Bitter",
+      "targets": {
+        "og": 1.077,
+        "fg": 1.0185,
+        "ibu": 22,
+        "srm": 15.5,
+        "abv": 7.75
+      },
+      "ranges": {
+        "og": {
+          "min": 1.064,
+          "max": 1.09
+        },
+        "fg": {
+          "min": 1.015,
+          "max": 1.022
+        },
+        "ibu": {
+          "min": 15,
+          "max": 30
+        },
+        "srm": {
+          "min": 6.0,
+          "max": 25.0
+        },
+        "abv": {
+          "min": 6.5,
+          "max": 9.0
+        }
+      },
+      "notes": null,
+      "source": {
+        "ref_id": "B010",
+        "title": "BJCP Beer Guidelines (ES PDF)",
+        "file": "2021_Guidelines_Beer_ES_1.0.pdf",
+        "page_index_guess": 37
+      }
+    },
+    {
+      "code": "11C",
+      "category": 11,
+      "substyle": "C",
+      "name": "Strong Bitter",
+      "targets": {
+        "og": 1.044,
+        "fg": 1.01,
+        "ibu": 32,
+        "srm": 12.0,
+        "abv": 5.4
+      },
+      "ranges": {
+        "og": {
+          "min": 1.04,
+          "max": 1.048
+        },
+        "fg": {
+          "min": 1.008,
+          "max": 1.012
+        },
+        "ibu": {
+          "min": 25,
+          "max": 40
+        },
+        "srm": {
+          "min": 8.0,
+          "max": 16.0
+        },
+        "abv": {
+          "min": 4.6,
+          "max": 6.2
+        }
+      },
+      "notes": null,
+      "source": {
+        "ref_id": "B010",
+        "title": "BJCP Beer Guidelines (ES PDF)",
+        "file": "2021_Guidelines_Beer_ES_1.0.pdf",
+        "page_index_guess": 38
+      }
+    },
+    {
+      "code": "12A",
+      "category": 12,
+      "substyle": "A",
+      "name": "British Golden Ale",
+      "targets": {
+        "og": 1.0455,
+        "fg": 1.009,
+        "ibu": 32,
+        "srm": 3.5,
+        "abv": 4.4
+      },
+      "ranges": {
+        "og": {
+          "min": 1.038,
+          "max": 1.053
+        },
+        "fg": {
+          "min": 1.006,
+          "max": 1.012
+        },
+        "ibu": {
+          "min": 20,
+          "max": 45
+        },
+        "srm": {
+          "min": 2.0,
+          "max": 5.0
+        },
+        "abv": {
+          "min": 3.8,
+          "max": 5.0
+        }
+      },
+      "notes": null,
+      "source": {
+        "ref_id": "B010",
+        "title": "BJCP Beer Guidelines (ES PDF)",
+        "file": "2021_Guidelines_Beer_ES_1.0.pdf",
+        "page_index_guess": 39
+      }
+    },
+    {
+      "code": "12B",
+      "category": 12,
+      "substyle": "B",
+      "name": "Australian Sparkling Ale",
+      "targets": {
+        "og": 1.0455,
+        "fg": 1.009,
+        "ibu": 32,
+        "srm": 3.5,
+        "abv": 4.4
+      },
+      "ranges": {
+        "og": {
+          "min": 1.038,
+          "max": 1.053
+        },
+        "fg": {
+          "min": 1.006,
+          "max": 1.012
+        },
+        "ibu": {
+          "min": 20,
+          "max": 45
+        },
+        "srm": {
+          "min": 2.0,
+          "max": 5.0
+        },
+        "abv": {
+          "min": 3.8,
+          "max": 5.0
+        }
+      },
+      "notes": null,
+      "source": {
+        "ref_id": "B010",
+        "title": "BJCP Beer Guidelines (ES PDF)",
+        "file": "2021_Guidelines_Beer_ES_1.0.pdf",
+        "page_index_guess": 39
+      }
+    },
+    {
+      "code": "12C",
+      "category": 12,
+      "substyle": "C",
+      "name": "English IPA",
+      "targets": {
+        "og": 1.044,
+        "fg": 1.005,
+        "ibu": 28,
+        "srm": 5.5,
+        "abv": 5.25
+      },
+      "ranges": {
+        "og": {
+          "min": 1.038,
+          "max": 1.05
+        },
+        "fg": {
+          "min": 1.004,
+          "max": 1.006
+        },
+        "ibu": {
+          "min": 20,
+          "max": 35
+        },
+        "srm": {
+          "min": 4.0,
+          "max": 7.0
+        },
+        "abv": {
+          "min": 4.5,
+          "max": 6.0
+        }
+      },
+      "notes": null,
+      "source": {
+        "ref_id": "B010",
+        "title": "BJCP Beer Guidelines (ES PDF)",
+        "file": "2021_Guidelines_Beer_ES_1.0.pdf",
+        "page_index_guess": 40
+      }
+    },
+    {
+      "code": "13A",
+      "category": 13,
+      "substyle": "A",
+      "name": "D ark Mild",
+      "targets": {
+        "og": 1.06,
+        "fg": 1.0125,
+        "ibu": 50,
+        "srm": 10.0,
+        "abv": 6.25
+      },
+      "ranges": {
+        "og": {
+          "min": 1.05,
+          "max": 1.07
+        },
+        "fg": {
+          "min": 1.01,
+          "max": 1.015
+        },
+        "ibu": {
+          "min": 40,
+          "max": 60
+        },
+        "srm": {
+          "min": 6.0,
+          "max": 14.0
+        },
+        "abv": {
+          "min": 5.0,
+          "max": 7.5
+        }
+      },
+      "notes": null,
+      "source": {
+        "ref_id": "B010",
+        "title": "BJCP Beer Guidelines (ES PDF)",
+        "file": "2021_Guidelines_Beer_ES_1.0.pdf",
+        "page_index_guess": 41
+      }
+    },
+    {
+      "code": "13B",
+      "category": 13,
+      "substyle": "B",
+      "name": "British Brown Ale",
+      "targets": {
+        "og": 1.034,
+        "fg": 1.0105,
+        "ibu": 18,
+        "srm": 19.5,
+        "abv": 3.4
+      },
+      "ranges": {
+        "og": {
+          "min": 1.03,
+          "max": 1.038
+        },
+        "fg": {
+          "min": 1.008,
+          "max": 1.013
+        },
+        "ibu": {
+          "min": 10,
+          "max": 25
+        },
+        "srm": {
+          "min": 14.0,
+          "max": 25.0
+        },
+        "abv": {
+          "min": 3.0,
+          "max": 3.8
+        }
+      },
+      "notes": null,
+      "source": {
+        "ref_id": "B010",
+        "title": "BJCP Beer Guidelines (ES PDF)",
+        "file": "2021_Guidelines_Beer_ES_1.0.pdf",
+        "page_index_guess": 42
+      }
+    },
+    {
+      "code": "13C",
+      "category": 13,
+      "substyle": "C",
+      "name": "English Porter",
+      "targets": {
+        "og": 1.034,
+        "fg": 1.0105,
+        "ibu": 18,
+        "srm": 19.5,
+        "abv": 3.4
+      },
+      "ranges": {
+        "og": {
+          "min": 1.03,
+          "max": 1.038
+        },
+        "fg": {
+          "min": 1.008,
+          "max": 1.013
+        },
+        "ibu": {
+          "min": 10,
+          "max": 25
+        },
+        "srm": {
+          "min": 14.0,
+          "max": 25.0
+        },
+        "abv": {
+          "min": 3.0,
+          "max": 3.8
+        }
+      },
+      "notes": null,
+      "source": {
+        "ref_id": "B010",
+        "title": "BJCP Beer Guidelines (ES PDF)",
+        "file": "2021_Guidelines_Beer_ES_1.0.pdf",
+        "page_index_guess": 42
+      }
+    },
+    {
+      "code": "14A",
+      "category": 14,
+      "substyle": "A",
+      "name": "Scottis h Light",
+      "targets": {
+        "og": 1.046,
+        "fg": 1.011,
+        "ibu": 26,
+        "srm": 25.0,
+        "abv": 4.7
+      },
+      "ranges": {
+        "og": {
+          "min": 1.04,
+          "max": 1.052
+        },
+        "fg": {
+          "min": 1.008,
+          "max": 1.014
+        },
+        "ibu": {
+          "min": 18,
+          "max": 35
+        },
+        "srm": {
+          "min": 20.0,
+          "max": 30.0
+        },
+        "abv": {
+          "min": 4.0,
+          "max": 5.4
+        }
+      },
+      "notes": null,
+      "source": {
+        "ref_id": "B010",
+        "title": "BJCP Beer Guidelines (ES PDF)",
+        "file": "2021_Guidelines_Beer_ES_1.0.pdf",
+        "page_index_guess": 43
+      }
+    },
+    {
+      "code": "14B",
+      "category": 14,
+      "substyle": "B",
+      "name": "Scottish Heavy",
+      "targets": {
+        "og": 1.0325,
+        "fg": 1.0115,
+        "ibu": 15,
+        "srm": 21.0,
+        "abv": 2.9
+      },
+      "ranges": {
+        "og": {
+          "min": 1.03,
+          "max": 1.035
+        },
+        "fg": {
+          "min": 1.01,
+          "max": 1.013
+        },
+        "ibu": {
+          "min": 10,
+          "max": 20
+        },
+        "srm": {
+          "min": 17.0,
+          "max": 25.0
+        },
+        "abv": {
+          "min": 2.5,
+          "max": 3.3
+        }
+      },
+      "notes": null,
+      "source": {
+        "ref_id": "B010",
+        "title": "BJCP Beer Guidelines (ES PDF)",
+        "file": "2021_Guidelines_Beer_ES_1.0.pdf",
+        "page_index_guess": 44
+      }
+    },
+    {
+      "code": "14C",
+      "category": 14,
+      "substyle": "C",
+      "name": "Scottish Export",
+      "targets": {
+        "og": 1.0325,
+        "fg": 1.0115,
+        "ibu": 15,
+        "srm": 21.0,
+        "abv": 2.9
+      },
+      "ranges": {
+        "og": {
+          "min": 1.03,
+          "max": 1.035
+        },
+        "fg": {
+          "min": 1.01,
+          "max": 1.013
+        },
+        "ibu": {
+          "min": 10,
+          "max": 20
+        },
+        "srm": {
+          "min": 17.0,
+          "max": 25.0
+        },
+        "abv": {
+          "min": 2.5,
+          "max": 3.3
+        }
+      },
+      "notes": null,
+      "source": {
+        "ref_id": "B010",
+        "title": "BJCP Beer Guidelines (ES PDF)",
+        "file": "2021_Guidelines_Beer_ES_1.0.pdf",
+        "page_index_guess": 44
+      }
+    },
+    {
+      "code": "15A",
+      "category": 15,
+      "substyle": "A",
+      "name": "Irish Red Ale",
+      "targets": {
+        "og": 1.05,
+        "fg": 1.013,
+        "ibu": 22,
+        "srm": 16.0,
+        "abv": 4.95
+      },
+      "ranges": {
+        "og": {
+          "min": 1.04,
+          "max": 1.06
+        },
+        "fg": {
+          "min": 1.01,
+          "max": 1.016
+        },
+        "ibu": {
+          "min": 15,
+          "max": 30
+        },
+        "srm": {
+          "min": 12.0,
+          "max": 20.0
+        },
+        "abv": {
+          "min": 3.9,
+          "max": 6.0
+        }
+      },
+      "notes": null,
+      "source": {
+        "ref_id": "B010",
+        "title": "BJCP Beer Guidelines (ES PDF)",
+        "file": "2021_Guidelines_Beer_ES_1.0.pdf",
+        "page_index_guess": 45
+      }
+    },
+    {
+      "code": "15B",
+      "category": 15,
+      "substyle": "B",
+      "name": "Irish Stout",
+      "targets": {
+        "og": 1.04,
+        "fg": 1.009,
+        "ibu": 35,
+        "srm": 32.5,
+        "abv": 4.4
+      },
+      "ranges": {
+        "og": {
+          "min": 1.036,
+          "max": 1.044
+        },
+        "fg": {
+          "min": 1.007,
+          "max": 1.011
+        },
+        "ibu": {
+          "min": 25,
+          "max": 45
+        },
+        "srm": {
+          "min": 25.0,
+          "max": 40.0
+        },
+        "abv": {
+          "min": 3.8,
+          "max": 5.0
+        }
+      },
+      "notes": null,
+      "source": {
+        "ref_id": "B010",
+        "title": "BJCP Beer Guidelines (ES PDF)",
+        "file": "2021_Guidelines_Beer_ES_1.0.pdf",
+        "page_index_guess": 46
+      }
+    },
+    {
+      "code": "15C",
+      "category": 15,
+      "substyle": "C",
+      "name": "Irish Extra Stout",
+      "targets": {
+        "og": 1.04,
+        "fg": 1.009,
+        "ibu": 35,
+        "srm": 32.5,
+        "abv": 4.4
+      },
+      "ranges": {
+        "og": {
+          "min": 1.036,
+          "max": 1.044
+        },
+        "fg": {
+          "min": 1.007,
+          "max": 1.011
+        },
+        "ibu": {
+          "min": 25,
+          "max": 45
+        },
+        "srm": {
+          "min": 25.0,
+          "max": 40.0
+        },
+        "abv": {
+          "min": 3.8,
+          "max": 5.0
+        }
+      },
+      "notes": null,
+      "source": {
+        "ref_id": "B010",
+        "title": "BJCP Beer Guidelines (ES PDF)",
+        "file": "2021_Guidelines_Beer_ES_1.0.pdf",
+        "page_index_guess": 46
+      }
+    },
+    {
+      "code": "16A",
+      "category": 16,
+      "substyle": "A",
+      "name": "Sweet Stout",
+      "targets": {
+        "og": 1.057,
+        "fg": 1.012,
+        "ibu": 42,
+        "srm": 35.0,
+        "abv": 5.75
+      },
+      "ranges": {
+        "og": {
+          "min": 1.052,
+          "max": 1.062
+        },
+        "fg": {
+          "min": 1.01,
+          "max": 1.014
+        },
+        "ibu": {
+          "min": 35,
+          "max": 50
+        },
+        "srm": {
+          "min": 30.0,
+          "max": 40.0
+        },
+        "abv": {
+          "min": 5.0,
+          "max": 6.5
+        }
+      },
+      "notes": null,
+      "source": {
+        "ref_id": "B010",
+        "title": "BJCP Beer Guidelines (ES PDF)",
+        "file": "2021_Guidelines_Beer_ES_1.0.pdf",
+        "page_index_guess": 47
+      }
+    },
+    {
+      "code": "16B",
+      "category": 16,
+      "substyle": "B",
+      "name": "Oatmeal Stout",
+      "targets": {
+        "og": 1.057,
+        "fg": 1.012,
+        "ibu": 42,
+        "srm": 35.0,
+        "abv": 5.75
+      },
+      "ranges": {
+        "og": {
+          "min": 1.052,
+          "max": 1.062
+        },
+        "fg": {
+          "min": 1.01,
+          "max": 1.014
+        },
+        "ibu": {
+          "min": 35,
+          "max": 50
+        },
+        "srm": {
+          "min": 30.0,
+          "max": 40.0
+        },
+        "abv": {
+          "min": 5.0,
+          "max": 6.5
+        }
+      },
+      "notes": null,
+      "source": {
+        "ref_id": "B010",
+        "title": "BJCP Beer Guidelines (ES PDF)",
+        "file": "2021_Guidelines_Beer_ES_1.0.pdf",
+        "page_index_guess": 47
+      }
+    },
+    {
+      "code": "16C",
+      "category": 16,
+      "substyle": "C",
+      "name": "Tropical Stout",
+      "targets": {
+        "og": 1.055,
+        "fg": 1.014,
+        "ibu": 32,
+        "srm": 31.0,
+        "abv": 5.05
+      },
+      "ranges": {
+        "og": {
+          "min": 1.045,
+          "max": 1.065
+        },
+        "fg": {
+          "min": 1.01,
+          "max": 1.018
+        },
+        "ibu": {
+          "min": 25,
+          "max": 40
+        },
+        "srm": {
+          "min": 22.0,
+          "max": 40.0
+        },
+        "abv": {
+          "min": 4.2,
+          "max": 5.9
+        }
+      },
+      "notes": null,
+      "source": {
+        "ref_id": "B010",
+        "title": "BJCP Beer Guidelines (ES PDF)",
+        "file": "2021_Guidelines_Beer_ES_1.0.pdf",
+        "page_index_guess": 48
+      }
+    },
+    {
+      "code": "16D",
+      "category": 16,
+      "substyle": "D",
+      "name": "Foreign Extra Stout",
+      "targets": {
+        "og": 1.055,
+        "fg": 1.014,
+        "ibu": 32,
+        "srm": 31.0,
+        "abv": 5.05
+      },
+      "ranges": {
+        "og": {
+          "min": 1.045,
+          "max": 1.065
+        },
+        "fg": {
+          "min": 1.01,
+          "max": 1.018
+        },
+        "ibu": {
+          "min": 25,
+          "max": 40
+        },
+        "srm": {
+          "min": 22.0,
+          "max": 40.0
+        },
+        "abv": {
+          "min": 4.2,
+          "max": 5.9
+        }
+      },
+      "notes": null,
+      "source": {
+        "ref_id": "B010",
+        "title": "BJCP Beer Guidelines (ES PDF)",
+        "file": "2021_Guidelines_Beer_ES_1.0.pdf",
+        "page_index_guess": 48
+      }
+    },
+    {
+      "code": "17A",
+      "category": 17,
+      "substyle": "A",
+      "name": "British Strong Ale",
+      "targets": {
+        "og": 1.0655,
+        "fg": 1.014,
+        "ibu": 60,
+        "srm": 35.0,
+        "abv": 7.15
+      },
+      "ranges": {
+        "og": {
+          "min": 1.056,
+          "max": 1.075
+        },
+        "fg": {
+          "min": 1.01,
+          "max": 1.018
+        },
+        "ibu": {
+          "min": 50,
+          "max": 70
+        },
+        "srm": {
+          "min": 30.0,
+          "max": 40.0
+        },
+        "abv": {
+          "min": 6.3,
+          "max": 8.0
+        }
+      },
+      "notes": null,
+      "source": {
+        "ref_id": "B010",
+        "title": "BJCP Beer Guidelines (ES PDF)",
+        "file": "2021_Guidelines_Beer_ES_1.0.pdf",
+        "page_index_guess": 49
+      }
+    },
+    {
+      "code": "17B",
+      "category": 17,
+      "substyle": "B",
+      "name": "Old Ale",
+      "targets": {
+        "og": 1.0675,
+        "fg": 1.0185,
+        "ibu": 45,
+        "srm": 15.0,
+        "abv": 6.75
+      },
+      "ranges": {
+        "og": {
+          "min": 1.055,
+          "max": 1.08
+        },
+        "fg": {
+          "min": 1.015,
+          "max": 1.022
+        },
+        "ibu": {
+          "min": 30,
+          "max": 60
+        },
+        "srm": {
+          "min": 8.0,
+          "max": 22.0
+        },
+        "abv": {
+          "min": 5.5,
+          "max": 8.0
+        }
+      },
+      "notes": null,
+      "source": {
+        "ref_id": "B010",
+        "title": "BJCP Beer Guidelines (ES PDF)",
+        "file": "2021_Guidelines_Beer_ES_1.0.pdf",
+        "page_index_guess": 50
+      }
+    },
+    {
+      "code": "17C",
+      "category": 17,
+      "substyle": "C",
+      "name": "Wee Heavy",
+      "targets": {
+        "og": 1.0675,
+        "fg": 1.0185,
+        "ibu": 45,
+        "srm": 15.0,
+        "abv": 6.75
+      },
+      "ranges": {
+        "og": {
+          "min": 1.055,
+          "max": 1.08
+        },
+        "fg": {
+          "min": 1.015,
+          "max": 1.022
+        },
+        "ibu": {
+          "min": 30,
+          "max": 60
+        },
+        "srm": {
+          "min": 8.0,
+          "max": 22.0
+        },
+        "abv": {
+          "min": 5.5,
+          "max": 8.0
+        }
+      },
+      "notes": null,
+      "source": {
+        "ref_id": "B010",
+        "title": "BJCP Beer Guidelines (ES PDF)",
+        "file": "2021_Guidelines_Beer_ES_1.0.pdf",
+        "page_index_guess": 50
+      }
+    },
+    {
+      "code": "17D",
+      "category": 17,
+      "substyle": "D",
+      "name": "English Barley Wine",
+      "targets": {
+        "og": 1.1,
+        "fg": 1.029,
+        "ibu": 26,
+        "srm": 19.5,
+        "abv": 8.25
+      },
+      "ranges": {
+        "og": {
+          "min": 1.07,
+          "max": 1.13
+        },
+        "fg": {
+          "min": 1.018,
+          "max": 1.04
+        },
+        "ibu": {
+          "min": 17,
+          "max": 35
+        },
+        "srm": {
+          "min": 14.0,
+          "max": 25.0
+        },
+        "abv": {
+          "min": 6.5,
+          "max": 10.0
+        }
+      },
+      "notes": null,
+      "source": {
+        "ref_id": "B010",
+        "title": "BJCP Beer Guidelines (ES PDF)",
+        "file": "2021_Guidelines_Beer_ES_1.0.pdf",
+        "page_index_guess": 51
+      }
+    },
+    {
+      "code": "18A",
+      "category": 18,
+      "substyle": "A",
+      "name": "Blonde Ale",
+      "targets": {
+        "og": 1.046,
+        "fg": 1.0105,
+        "ibu": 22,
+        "srm": 4.5,
+        "abv": 4.65
+      },
+      "ranges": {
+        "og": {
+          "min": 1.038,
+          "max": 1.054
+        },
+        "fg": {
+          "min": 1.008,
+          "max": 1.013
+        },
+        "ibu": {
+          "min": 15,
+          "max": 28
+        },
+        "srm": {
+          "min": 3.0,
+          "max": 6.0
+        },
+        "abv": {
+          "min": 3.8,
+          "max": 5.5
+        }
+      },
+      "notes": null,
+      "source": {
+        "ref_id": "B010",
+        "title": "BJCP Beer Guidelines (ES PDF)",
+        "file": "2021_Guidelines_Beer_ES_1.0.pdf",
+        "page_index_guess": 52
+      }
+    },
+    {
+      "code": "18B",
+      "category": 18,
+      "substyle": "B",
+      "name": "America n Pale Ale",
+      "targets": {
+        "og": 1.046,
+        "fg": 1.0105,
+        "ibu": 22,
+        "srm": 4.5,
+        "abv": 4.65
+      },
+      "ranges": {
+        "og": {
+          "min": 1.038,
+          "max": 1.054
+        },
+        "fg": {
+          "min": 1.008,
+          "max": 1.013
+        },
+        "ibu": {
+          "min": 15,
+          "max": 28
+        },
+        "srm": {
+          "min": 3.0,
+          "max": 6.0
+        },
+        "abv": {
+          "min": 3.8,
+          "max": 5.5
+        }
+      },
+      "notes": null,
+      "source": {
+        "ref_id": "B010",
+        "title": "BJCP Beer Guidelines (ES PDF)",
+        "file": "2021_Guidelines_Beer_ES_1.0.pdf",
+        "page_index_guess": 52
+      }
+    },
+    {
+      "code": "19A",
+      "category": 19,
+      "substyle": "A",
+      "name": "American Amber Ale",
+      "targets": {
+        "og": 1.0525,
+        "fg": 1.0125,
+        "ibu": 40,
+        "srm": 7.5,
+        "abv": 5.35
+      },
+      "ranges": {
+        "og": {
+          "min": 1.045,
+          "max": 1.06
+        },
+        "fg": {
+          "min": 1.01,
+          "max": 1.015
+        },
+        "ibu": {
+          "min": 30,
+          "max": 50
+        },
+        "srm": {
+          "min": 5.0,
+          "max": 10.0
+        },
+        "abv": {
+          "min": 4.5,
+          "max": 6.2
+        }
+      },
+      "notes": null,
+      "source": {
+        "ref_id": "B010",
+        "title": "BJCP Beer Guidelines (ES PDF)",
+        "file": "2021_Guidelines_Beer_ES_1.0.pdf",
+        "page_index_guess": 53
+      }
+    },
+    {
+      "code": "19B",
+      "category": 19,
+      "substyle": "B",
+      "name": "California Common",
+      "targets": {
+        "og": 1.0525,
+        "fg": 1.0125,
+        "ibu": 40,
+        "srm": 7.5,
+        "abv": 5.35
+      },
+      "ranges": {
+        "og": {
+          "min": 1.045,
+          "max": 1.06
+        },
+        "fg": {
+          "min": 1.01,
+          "max": 1.015
+        },
+        "ibu": {
+          "min": 30,
+          "max": 50
+        },
+        "srm": {
+          "min": 5.0,
+          "max": 10.0
+        },
+        "abv": {
+          "min": 4.5,
+          "max": 6.2
+        }
+      },
+      "notes": null,
+      "source": {
+        "ref_id": "B010",
+        "title": "BJCP Beer Guidelines (ES PDF)",
+        "file": "2021_Guidelines_Beer_ES_1.0.pdf",
+        "page_index_guess": 53
+      }
+    },
+    {
+      "code": "19C",
+      "category": 19,
+      "substyle": "C",
+      "name": "A merican Brown Ale",
+      "targets": {
+        "og": 1.051,
+        "fg": 1.0125,
+        "ibu": 38,
+        "srm": 11.5,
+        "abv": 5.0
+      },
+      "ranges": {
+        "og": {
+          "min": 1.048,
+          "max": 1.054
+        },
+        "fg": {
+          "min": 1.011,
+          "max": 1.014
+        },
+        "ibu": {
+          "min": 30,
+          "max": 45
+        },
+        "srm": {
+          "min": 9.0,
+          "max": 14.0
+        },
+        "abv": {
+          "min": 4.5,
+          "max": 5.5
+        }
+      },
+      "notes": null,
+      "source": {
+        "ref_id": "B010",
+        "title": "BJCP Beer Guidelines (ES PDF)",
+        "file": "2021_Guidelines_Beer_ES_1.0.pdf",
+        "page_index_guess": 54
+      }
+    },
+    {
+      "code": "20A",
+      "category": 20,
+      "substyle": "A",
+      "name": "American Porter",
+      "targets": {
+        "og": 1.06,
+        "fg": 1.015,
+        "ibu": 38,
+        "srm": 31.0,
+        "abv": 5.65
+      },
+      "ranges": {
+        "og": {
+          "min": 1.05,
+          "max": 1.07
+        },
+        "fg": {
+          "min": 1.012,
+          "max": 1.018
+        },
+        "ibu": {
+          "min": 25,
+          "max": 50
+        },
+        "srm": {
+          "min": 22.0,
+          "max": 40.0
+        },
+        "abv": {
+          "min": 4.8,
+          "max": 6.5
+        }
+      },
+      "notes": null,
+      "source": {
+        "ref_id": "B010",
+        "title": "BJCP Beer Guidelines (ES PDF)",
+        "file": "2021_Guidelines_Beer_ES_1.0.pdf",
+        "page_index_guess": 55
+      }
+    },
+    {
+      "code": "20B",
+      "category": 20,
+      "substyle": "B",
+      "name": "American Stout",
+      "targets": {
+        "og": 1.06,
+        "fg": 1.015,
+        "ibu": 38,
+        "srm": 31.0,
+        "abv": 5.65
+      },
+      "ranges": {
+        "og": {
+          "min": 1.05,
+          "max": 1.07
+        },
+        "fg": {
+          "min": 1.012,
+          "max": 1.018
+        },
+        "ibu": {
+          "min": 25,
+          "max": 50
+        },
+        "srm": {
+          "min": 22.0,
+          "max": 40.0
+        },
+        "abv": {
+          "min": 4.8,
+          "max": 6.5
+        }
+      },
+      "notes": null,
+      "source": {
+        "ref_id": "B010",
+        "title": "BJCP Beer Guidelines (ES PDF)",
+        "file": "2021_Guidelines_Beer_ES_1.0.pdf",
+        "page_index_guess": 55
+      }
+    },
+    {
+      "code": "20C",
+      "category": 20,
+      "substyle": "C",
+      "name": "Imperial Stout",
+      "targets": {
+        "og": 1.0625,
+        "fg": 1.016,
+        "ibu": 55,
+        "srm": 35.0,
+        "abv": 6.0
+      },
+      "ranges": {
+        "og": {
+          "min": 1.05,
+          "max": 1.075
+        },
+        "fg": {
+          "min": 1.01,
+          "max": 1.022
+        },
+        "ibu": {
+          "min": 35,
+          "max": 75
+        },
+        "srm": {
+          "min": 30.0,
+          "max": 40.0
+        },
+        "abv": {
+          "min": 5.0,
+          "max": 7.0
+        }
+      },
+      "notes": null,
+      "source": {
+        "ref_id": "B010",
+        "title": "BJCP Beer Guidelines (ES PDF)",
+        "file": "2021_Guidelines_Beer_ES_1.0.pdf",
+        "page_index_guess": 56
+      }
+    },
+    {
+      "code": "20D",
+      "category": 20,
+      "substyle": "D",
+      "name": "Specialty Spice Beer",
+      "targets": null,
+      "ranges": null,
+      "notes": null,
+      "source": {
+        "ref_id": "B010",
+        "title": "BJCP Beer Guidelines (ES PDF)",
+        "file": "2021_Guidelines_Beer_ES_1.0.pdf",
+        "page_index_guess": null
+      }
+    },
+    {
+      "code": "21A",
+      "category": 21,
+      "substyle": "A",
+      "name": "American IPA",
+      "targets": {
+        "og": 1.063,
+        "fg": 1.011,
+        "ibu": 55,
+        "srm": 10.0,
+        "abv": 6.5
+      },
+      "ranges": {
+        "og": {
+          "min": 1.056,
+          "max": 1.07
+        },
+        "fg": {
+          "min": 1.008,
+          "max": 1.014
+        },
+        "ibu": {
+          "min": 40,
+          "max": 70
+        },
+        "srm": {
+          "min": 6.0,
+          "max": 14.0
+        },
+        "abv": {
+          "min": 5.5,
+          "max": 7.5
+        }
+      },
+      "notes": null,
+      "source": {
+        "ref_id": "B010",
+        "title": "BJCP Beer Guidelines (ES PDF)",
+        "file": "2021_Guidelines_Beer_ES_1.0.pdf",
+        "page_index_guess": 57
+      }
+    },
+    {
+      "code": "21B",
+      "category": 21,
+      "substyle": "B",
+      "name": "Specialty IPA",
+      "targets": {
+        "og": 1.063,
+        "fg": 1.011,
+        "ibu": 55,
+        "srm": 10.0,
+        "abv": 6.5
+      },
+      "ranges": {
+        "og": {
+          "min": 1.056,
+          "max": 1.07
+        },
+        "fg": {
+          "min": 1.008,
+          "max": 1.014
+        },
+        "ibu": {
+          "min": 40,
+          "max": 70
+        },
+        "srm": {
+          "min": 6.0,
+          "max": 14.0
+        },
+        "abv": {
+          "min": 5.5,
+          "max": 7.5
+        }
+      },
+      "notes": null,
+      "source": {
+        "ref_id": "B010",
+        "title": "BJCP Beer Guidelines (ES PDF)",
+        "file": "2021_Guidelines_Beer_ES_1.0.pdf",
+        "page_index_guess": 57
+      }
+    },
+    {
+      "code": "21C",
+      "category": 21,
+      "substyle": "C",
+      "name": "Hazy IPA 44 22. STRONG AMERICAN ALE",
+      "targets": {
+        "og": 1.0605,
+        "fg": 1.013,
+        "ibu": 55,
+        "srm": 5.5,
+        "abv": 6.25
+      },
+      "ranges": {
+        "og": {
+          "min": 1.056,
+          "max": 1.065
+        },
+        "fg": {
+          "min": 1.01,
+          "max": 1.016
+        },
+        "ibu": {
+          "min": 40,
+          "max": 70
+        },
+        "srm": {
+          "min": 5.0,
+          "max": 6.0
+        },
+        "abv": {
+          "min": 5.5,
+          "max": 7.0
+        }
+      },
+      "notes": null,
+      "source": {
+        "ref_id": "B010",
+        "title": "BJCP Beer Guidelines (ES PDF)",
+        "file": "2021_Guidelines_Beer_ES_1.0.pdf",
+        "page_index_guess": 61
+      }
+    },
+    {
+      "code": "22A",
+      "category": 22,
+      "substyle": "A",
+      "name": "Double IPA",
+      "targets": {
+        "og": 1.075,
+        "fg": 1.013,
+        "ibu": 80,
+        "srm": 10.0,
+        "abv": 8.75
+      },
+      "ranges": {
+        "og": {
+          "min": 1.065,
+          "max": 1.085
+        },
+        "fg": {
+          "min": 1.008,
+          "max": 1.018
+        },
+        "ibu": {
+          "min": 60,
+          "max": 100
+        },
+        "srm": {
+          "min": 6.0,
+          "max": 14.0
+        },
+        "abv": {
+          "min": 7.5,
+          "max": 10.0
+        }
+      },
+      "notes": null,
+      "source": {
+        "ref_id": "B010",
+        "title": "BJCP Beer Guidelines (ES PDF)",
+        "file": "2021_Guidelines_Beer_ES_1.0.pdf",
+        "page_index_guess": 63
+      }
+    },
+    {
+      "code": "22B",
+      "category": 22,
+      "substyle": "B",
+      "name": "America n Strong Ale",
+      "targets": {
+        "og": 1.075,
+        "fg": 1.013,
+        "ibu": 80,
+        "srm": 10.0,
+        "abv": 8.75
+      },
+      "ranges": {
+        "og": {
+          "min": 1.065,
+          "max": 1.085
+        },
+        "fg": {
+          "min": 1.008,
+          "max": 1.018
+        },
+        "ibu": {
+          "min": 60,
+          "max": 100
+        },
+        "srm": {
+          "min": 6.0,
+          "max": 14.0
+        },
+        "abv": {
+          "min": 7.5,
+          "max": 10.0
+        }
+      },
+      "notes": null,
+      "source": {
+        "ref_id": "B010",
+        "title": "BJCP Beer Guidelines (ES PDF)",
+        "file": "2021_Guidelines_Beer_ES_1.0.pdf",
+        "page_index_guess": 63
+      }
+    },
+    {
+      "code": "22C",
+      "category": 22,
+      "substyle": "C",
+      "name": "American Barleywine",
+      "targets": {
+        "og": 1.076,
+        "fg": 1.019,
+        "ibu": 75,
+        "srm": 12.5,
+        "abv": 8.15
+      },
+      "ranges": {
+        "og": {
+          "min": 1.062,
+          "max": 1.09
+        },
+        "fg": {
+          "min": 1.014,
+          "max": 1.024
+        },
+        "ibu": {
+          "min": 50,
+          "max": 100
+        },
+        "srm": {
+          "min": 7.0,
+          "max": 18.0
+        },
+        "abv": {
+          "min": 6.3,
+          "max": 10.0
+        }
+      },
+      "notes": null,
+      "source": {
+        "ref_id": "B010",
+        "title": "BJCP Beer Guidelines (ES PDF)",
+        "file": "2021_Guidelines_Beer_ES_1.0.pdf",
+        "page_index_guess": 64
+      }
+    },
+    {
+      "code": "22D",
+      "category": 22,
+      "substyle": "D",
+      "name": "Wheatwine",
+      "targets": {
+        "og": 1.076,
+        "fg": 1.019,
+        "ibu": 75,
+        "srm": 12.5,
+        "abv": 8.15
+      },
+      "ranges": {
+        "og": {
+          "min": 1.062,
+          "max": 1.09
+        },
+        "fg": {
+          "min": 1.014,
+          "max": 1.024
+        },
+        "ibu": {
+          "min": 50,
+          "max": 100
+        },
+        "srm": {
+          "min": 7.0,
+          "max": 18.0
+        },
+        "abv": {
+          "min": 6.3,
+          "max": 10.0
+        }
+      },
+      "notes": null,
+      "source": {
+        "ref_id": "B010",
+        "title": "BJCP Beer Guidelines (ES PDF)",
+        "file": "2021_Guidelines_Beer_ES_1.0.pdf",
+        "page_index_guess": 64
+      }
+    },
+    {
+      "code": "23A",
+      "category": 23,
+      "substyle": "A",
+      "name": "B erliner Weisse",
+      "targets": {
+        "og": 1.03,
+        "fg": 1.0045,
+        "ibu": 6,
+        "srm": 2.5,
+        "abv": 3.3
+      },
+      "ranges": {
+        "og": {
+          "min": 1.028,
+          "max": 1.032
+        },
+        "fg": {
+          "min": 1.003,
+          "max": 1.006
+        },
+        "ibu": {
+          "min": 3,
+          "max": 8
+        },
+        "srm": {
+          "min": 2.0,
+          "max": 3.0
+        },
+        "abv": {
+          "min": 2.8,
+          "max": 3.8
+        }
+      },
+      "notes": null,
+      "source": {
+        "ref_id": "B010",
+        "title": "BJCP Beer Guidelines (ES PDF)",
+        "file": "2021_Guidelines_Beer_ES_1.0.pdf",
+        "page_index_guess": 66
+      }
+    },
+    {
+      "code": "23B",
+      "category": 23,
+      "substyle": "B",
+      "name": "Flanders Red Ale",
+      "targets": {
+        "og": 1.03,
+        "fg": 1.0045,
+        "ibu": 6,
+        "srm": 2.5,
+        "abv": 3.3
+      },
+      "ranges": {
+        "og": {
+          "min": 1.028,
+          "max": 1.032
+        },
+        "fg": {
+          "min": 1.003,
+          "max": 1.006
+        },
+        "ibu": {
+          "min": 3,
+          "max": 8
+        },
+        "srm": {
+          "min": 2.0,
+          "max": 3.0
+        },
+        "abv": {
+          "min": 2.8,
+          "max": 3.8
+        }
+      },
+      "notes": null,
+      "source": {
+        "ref_id": "B010",
+        "title": "BJCP Beer Guidelines (ES PDF)",
+        "file": "2021_Guidelines_Beer_ES_1.0.pdf",
+        "page_index_guess": 66
+      }
+    },
+    {
+      "code": "23C",
+      "category": 23,
+      "substyle": "C",
+      "name": "Oud Bruin",
+      "targets": {
+        "og": 1.0525,
+        "fg": 1.007,
+        "ibu": 18,
+        "srm": 13.5,
+        "abv": 5.55
+      },
+      "ranges": {
+        "og": {
+          "min": 1.048,
+          "max": 1.057
+        },
+        "fg": {
+          "min": 1.002,
+          "max": 1.012
+        },
+        "ibu": {
+          "min": 10,
+          "max": 25
+        },
+        "srm": {
+          "min": 10.0,
+          "max": 17.0
+        },
+        "abv": {
+          "min": 4.6,
+          "max": 6.5
+        }
+      },
+      "notes": null,
+      "source": {
+        "ref_id": "B010",
+        "title": "BJCP Beer Guidelines (ES PDF)",
+        "file": "2021_Guidelines_Beer_ES_1.0.pdf",
+        "page_index_guess": 67
+      }
+    },
+    {
+      "code": "23D",
+      "category": 23,
+      "substyle": "D",
+      "name": "Lambic",
+      "targets": {
+        "og": 1.047,
+        "fg": 1.0055,
+        "ibu": 5,
+        "srm": 4.5,
+        "abv": 5.75
+      },
+      "ranges": {
+        "og": {
+          "min": 1.04,
+          "max": 1.054
+        },
+        "fg": {
+          "min": 1.001,
+          "max": 1.01
+        },
+        "ibu": {
+          "min": 0,
+          "max": 10
+        },
+        "srm": {
+          "min": 3.0,
+          "max": 6.0
+        },
+        "abv": {
+          "min": 5.0,
+          "max": 6.5
+        }
+      },
+      "notes": null,
+      "source": {
+        "ref_id": "B010",
+        "title": "BJCP Beer Guidelines (ES PDF)",
+        "file": "2021_Guidelines_Beer_ES_1.0.pdf",
+        "page_index_guess": 68
+      }
+    },
+    {
+      "code": "23E",
+      "category": 23,
+      "substyle": "E",
+      "name": "Gueuze",
+      "targets": {
+        "og": 1.047,
+        "fg": 1.0055,
+        "ibu": 5,
+        "srm": 4.5,
+        "abv": 5.75
+      },
+      "ranges": {
+        "og": {
+          "min": 1.04,
+          "max": 1.054
+        },
+        "fg": {
+          "min": 1.001,
+          "max": 1.01
+        },
+        "ibu": {
+          "min": 0,
+          "max": 10
+        },
+        "srm": {
+          "min": 3.0,
+          "max": 6.0
+        },
+        "abv": {
+          "min": 5.0,
+          "max": 6.5
+        }
+      },
+      "notes": null,
+      "source": {
+        "ref_id": "B010",
+        "title": "BJCP Beer Guidelines (ES PDF)",
+        "file": "2021_Guidelines_Beer_ES_1.0.pdf",
+        "page_index_guess": 68
+      }
+    },
+    {
+      "code": "23F",
+      "category": 23,
+      "substyle": "F",
+      "name": "Fruit Lambi c",
+      "targets": {
+        "og": 1.047,
+        "fg": 1.003,
+        "ibu": 5,
+        "srm": 5.5,
+        "abv": 6.5
+      },
+      "ranges": {
+        "og": {
+          "min": 1.04,
+          "max": 1.054
+        },
+        "fg": {
+          "min": 1.0,
+          "max": 1.006
+        },
+        "ibu": {
+          "min": 0,
+          "max": 10
+        },
+        "srm": {
+          "min": 5.0,
+          "max": 6.0
+        },
+        "abv": {
+          "min": 5.0,
+          "max": 8.0
+        }
+      },
+      "notes": null,
+      "source": {
+        "ref_id": "B010",
+        "title": "BJCP Beer Guidelines (ES PDF)",
+        "file": "2021_Guidelines_Beer_ES_1.0.pdf",
+        "page_index_guess": 69
+      }
+    },
+    {
+      "code": "23G",
+      "category": 23,
+      "substyle": "G",
+      "name": "Gose",
+      "targets": {
+        "og": 1.047,
+        "fg": 1.003,
+        "ibu": 5,
+        "srm": 5.5,
+        "abv": 6.5
+      },
+      "ranges": {
+        "og": {
+          "min": 1.04,
+          "max": 1.054
+        },
+        "fg": {
+          "min": 1.0,
+          "max": 1.006
+        },
+        "ibu": {
+          "min": 0,
+          "max": 10
+        },
+        "srm": {
+          "min": 5.0,
+          "max": 6.0
+        },
+        "abv": {
+          "min": 5.0,
+          "max": 8.0
+        }
+      },
+      "notes": null,
+      "source": {
+        "ref_id": "B010",
+        "title": "BJCP Beer Guidelines (ES PDF)",
+        "file": "2021_Guidelines_Beer_ES_1.0.pdf",
+        "page_index_guess": 69
+      }
+    },
+    {
+      "code": "24A",
+      "category": 24,
+      "substyle": "A",
+      "name": "Witbier",
+      "targets": {
+        "og": 1.046,
+        "fg": 1.008,
+        "ibu": 8,
+        "srm": 3.5,
+        "abv": 4.5
+      },
+      "ranges": {
+        "og": {
+          "min": 1.036,
+          "max": 1.056
+        },
+        "fg": {
+          "min": 1.006,
+          "max": 1.01
+        },
+        "ibu": {
+          "min": 5,
+          "max": 12
+        },
+        "srm": {
+          "min": 3.0,
+          "max": 4.0
+        },
+        "abv": {
+          "min": 4.2,
+          "max": 4.8
+        }
+      },
+      "notes": null,
+      "source": {
+        "ref_id": "B010",
+        "title": "BJCP Beer Guidelines (ES PDF)",
+        "file": "2021_Guidelines_Beer_ES_1.0.pdf",
+        "page_index_guess": 70
+      }
+    },
+    {
+      "code": "24B",
+      "category": 24,
+      "substyle": "B",
+      "name": "Belgian Pale Ale",
+      "targets": {
+        "og": 1.051,
+        "fg": 1.012,
+        "ibu": 25,
+        "srm": 11.0,
+        "abv": 5.15
+      },
+      "ranges": {
+        "og": {
+          "min": 1.048,
+          "max": 1.054
+        },
+        "fg": {
+          "min": 1.01,
+          "max": 1.014
+        },
+        "ibu": {
+          "min": 20,
+          "max": 30
+        },
+        "srm": {
+          "min": 8.0,
+          "max": 14.0
+        },
+        "abv": {
+          "min": 4.8,
+          "max": 5.5
+        }
+      },
+      "notes": null,
+      "source": {
+        "ref_id": "B010",
+        "title": "BJCP Beer Guidelines (ES PDF)",
+        "file": "2021_Guidelines_Beer_ES_1.0.pdf",
+        "page_index_guess": 71
+      }
+    },
+    {
+      "code": "24C",
+      "category": 24,
+      "substyle": "C",
+      "name": "B ière de Garde",
+      "targets": {
+        "og": 1.051,
+        "fg": 1.012,
+        "ibu": 25,
+        "srm": 11.0,
+        "abv": 5.15
+      },
+      "ranges": {
+        "og": {
+          "min": 1.048,
+          "max": 1.054
+        },
+        "fg": {
+          "min": 1.01,
+          "max": 1.014
+        },
+        "ibu": {
+          "min": 20,
+          "max": 30
+        },
+        "srm": {
+          "min": 8.0,
+          "max": 14.0
+        },
+        "abv": {
+          "min": 4.8,
+          "max": 5.5
+        }
+      },
+      "notes": null,
+      "source": {
+        "ref_id": "B010",
+        "title": "BJCP Beer Guidelines (ES PDF)",
+        "file": "2021_Guidelines_Beer_ES_1.0.pdf",
+        "page_index_guess": 71
+      }
+    },
+    {
+      "code": "25A",
+      "category": 25,
+      "substyle": "A",
+      "name": "Belgian Blond Ale",
+      "targets": {
+        "og": 1.0685,
+        "fg": 1.013,
+        "ibu": 22,
+        "srm": 5.0,
+        "abv": 6.75
+      },
+      "ranges": {
+        "og": {
+          "min": 1.062,
+          "max": 1.075
+        },
+        "fg": {
+          "min": 1.008,
+          "max": 1.018
+        },
+        "ibu": {
+          "min": 15,
+          "max": 30
+        },
+        "srm": {
+          "min": 4.0,
+          "max": 6.0
+        },
+        "abv": {
+          "min": 6.0,
+          "max": 7.5
+        }
+      },
+      "notes": null,
+      "source": {
+        "ref_id": "B010",
+        "title": "BJCP Beer Guidelines (ES PDF)",
+        "file": "2021_Guidelines_Beer_ES_1.0.pdf",
+        "page_index_guess": 73
+      }
+    },
+    {
+      "code": "25B",
+      "category": 25,
+      "substyle": "B",
+      "name": "Saison",
+      "targets": {
+        "og": 1.0685,
+        "fg": 1.013,
+        "ibu": 22,
+        "srm": 5.0,
+        "abv": 6.75
+      },
+      "ranges": {
+        "og": {
+          "min": 1.062,
+          "max": 1.075
+        },
+        "fg": {
+          "min": 1.008,
+          "max": 1.018
+        },
+        "ibu": {
+          "min": 15,
+          "max": 30
+        },
+        "srm": {
+          "min": 4.0,
+          "max": 6.0
+        },
+        "abv": {
+          "min": 6.0,
+          "max": 7.5
+        }
+      },
+      "notes": null,
+      "source": {
+        "ref_id": "B010",
+        "title": "BJCP Beer Guidelines (ES PDF)",
+        "file": "2021_Guidelines_Beer_ES_1.0.pdf",
+        "page_index_guess": 73
+      }
+    },
+    {
+      "code": "25C",
+      "category": 25,
+      "substyle": "C",
+      "name": "Belgian Gol den Strong Ale",
+      "targets": {
+        "og": 1.0565,
+        "fg": 1.005,
+        "ibu": 28,
+        "srm": 9.5,
+        "abv": 4.25
+      },
+      "ranges": {
+        "og": {
+          "min": 1.048,
+          "max": 1.065
+        },
+        "fg": {
+          "min": 1.002,
+          "max": 1.008
+        },
+        "ibu": {
+          "min": 20,
+          "max": 35
+        },
+        "srm": {
+          "min": 5.0,
+          "max": 14.0
+        },
+        "abv": {
+          "min": 3.5,
+          "max": 5.0
+        }
+      },
+      "notes": null,
+      "source": {
+        "ref_id": "B010",
+        "title": "BJCP Beer Guidelines (ES PDF)",
+        "file": "2021_Guidelines_Beer_ES_1.0.pdf",
+        "page_index_guess": 74
+      }
+    },
+    {
+      "code": "26A",
+      "category": 26,
+      "substyle": "A",
+      "name": "Belgian Single",
+      "targets": {
+        "og": 1.0825,
+        "fg": 1.0105,
+        "ibu": 28,
+        "srm": 4.5,
+        "abv": 9.0
+      },
+      "ranges": {
+        "og": {
+          "min": 1.07,
+          "max": 1.095
+        },
+        "fg": {
+          "min": 1.005,
+          "max": 1.016
+        },
+        "ibu": {
+          "min": 22,
+          "max": 35
+        },
+        "srm": {
+          "min": 3.0,
+          "max": 6.0
+        },
+        "abv": {
+          "min": 7.5,
+          "max": 10.5
+        }
+      },
+      "notes": null,
+      "source": {
+        "ref_id": "B010",
+        "title": "BJCP Beer Guidelines (ES PDF)",
+        "file": "2021_Guidelines_Beer_ES_1.0.pdf",
+        "page_index_guess": 75
+      }
+    },
+    {
+      "code": "26B",
+      "category": 26,
+      "substyle": "B",
+      "name": "Belgian Dubbel",
+      "targets": {
+        "og": 1.0825,
+        "fg": 1.0105,
+        "ibu": 28,
+        "srm": 4.5,
+        "abv": 9.0
+      },
+      "ranges": {
+        "og": {
+          "min": 1.07,
+          "max": 1.095
+        },
+        "fg": {
+          "min": 1.005,
+          "max": 1.016
+        },
+        "ibu": {
+          "min": 22,
+          "max": 35
+        },
+        "srm": {
+          "min": 3.0,
+          "max": 6.0
+        },
+        "abv": {
+          "min": 7.5,
+          "max": 10.5
+        }
+      },
+      "notes": null,
+      "source": {
+        "ref_id": "B010",
+        "title": "BJCP Beer Guidelines (ES PDF)",
+        "file": "2021_Guidelines_Beer_ES_1.0.pdf",
+        "page_index_guess": 75
+      }
+    },
+    {
+      "code": "26C",
+      "category": 26,
+      "substyle": "C",
+      "name": "Belgian Tripel",
+      "targets": {
+        "og": 1.0685,
+        "fg": 1.013,
+        "ibu": 20,
+        "srm": 13.5,
+        "abv": 6.8
+      },
+      "ranges": {
+        "og": {
+          "min": 1.062,
+          "max": 1.075
+        },
+        "fg": {
+          "min": 1.008,
+          "max": 1.018
+        },
+        "ibu": {
+          "min": 15,
+          "max": 25
+        },
+        "srm": {
+          "min": 10.0,
+          "max": 17.0
+        },
+        "abv": {
+          "min": 6.0,
+          "max": 7.6
+        }
+      },
+      "notes": null,
+      "source": {
+        "ref_id": "B010",
+        "title": "BJCP Beer Guidelines (ES PDF)",
+        "file": "2021_Guidelines_Beer_ES_1.0.pdf",
+        "page_index_guess": 76
+      }
+    },
+    {
+      "code": "26D",
+      "category": 26,
+      "substyle": "D",
+      "name": "Bel gian Dark Strong Ale",
+      "targets": {
+        "og": 1.0685,
+        "fg": 1.013,
+        "ibu": 20,
+        "srm": 13.5,
+        "abv": 6.8
+      },
+      "ranges": {
+        "og": {
+          "min": 1.062,
+          "max": 1.075
+        },
+        "fg": {
+          "min": 1.008,
+          "max": 1.018
+        },
+        "ibu": {
+          "min": 15,
+          "max": 25
+        },
+        "srm": {
+          "min": 10.0,
+          "max": 17.0
+        },
+        "abv": {
+          "min": 6.0,
+          "max": 7.6
+        }
+      },
+      "notes": null,
+      "source": {
+        "ref_id": "B010",
+        "title": "BJCP Beer Guidelines (ES PDF)",
+        "file": "2021_Guidelines_Beer_ES_1.0.pdf",
+        "page_index_guess": 76
+      }
+    },
+    {
+      "code": "28A",
+      "category": 28,
+      "substyle": "A",
+      "name": "Brett Beer",
+      "targets": null,
+      "ranges": null,
+      "notes": null,
+      "source": {
+        "ref_id": "B010",
+        "title": "BJCP Beer Guidelines (ES PDF)",
+        "file": "2021_Guidelines_Beer_ES_1.0.pdf",
+        "page_index_guess": 87
+      }
+    },
+    {
+      "code": "28B",
+      "category": 28,
+      "substyle": "B",
+      "name": "Mixed -Fermentation Sour Beer",
+      "targets": null,
+      "ranges": null,
+      "notes": null,
+      "source": {
+        "ref_id": "B010",
+        "title": "BJCP Beer Guidelines (ES PDF)",
+        "file": "2021_Guidelines_Beer_ES_1.0.pdf",
+        "page_index_guess": 87
+      }
+    },
+    {
+      "code": "28C",
+      "category": 28,
+      "substyle": "C",
+      "name": "Wild Specialty Beer",
+      "targets": {
+        "og": 1.0565,
+        "fg": 1.0095,
+        "ibu": 6,
+        "srm": 2.5,
+        "abv": 5.75
+      },
+      "ranges": {
+        "og": {
+          "min": 1.048,
+          "max": 1.065
+        },
+        "fg": {
+          "min": 1.006,
+          "max": 1.013
+        },
+        "ibu": {
+          "min": 3,
+          "max": 8
+        },
+        "srm": {
+          "min": 2.0,
+          "max": 3.0
+        },
+        "abv": {
+          "min": 4.5,
+          "max": 7.0
+        }
+      },
+      "notes": null,
+      "source": {
+        "ref_id": "B010",
+        "title": "BJCP Beer Guidelines (ES PDF)",
+        "file": "2021_Guidelines_Beer_ES_1.0.pdf",
+        "page_index_guess": 88
+      }
+    },
+    {
+      "code": "28D",
+      "category": 28,
+      "substyle": "D",
+      "name": "Straight Sour Beer",
+      "targets": {
+        "og": 1.0565,
+        "fg": 1.0095,
+        "ibu": 6,
+        "srm": 2.5,
+        "abv": 5.75
+      },
+      "ranges": {
+        "og": {
+          "min": 1.048,
+          "max": 1.065
+        },
+        "fg": {
+          "min": 1.006,
+          "max": 1.013
+        },
+        "ibu": {
+          "min": 3,
+          "max": 8
+        },
+        "srm": {
+          "min": 2.0,
+          "max": 3.0
+        },
+        "abv": {
+          "min": 4.5,
+          "max": 7.0
+        }
+      },
+      "notes": null,
+      "source": {
+        "ref_id": "B010",
+        "title": "BJCP Beer Guidelines (ES PDF)",
+        "file": "2021_Guidelines_Beer_ES_1.0.pdf",
+        "page_index_guess": 88
+      }
+    },
+    {
+      "code": "29A",
+      "category": 29,
+      "substyle": "A",
+      "name": "Fruit Beer",
+      "targets": null,
+      "ranges": null,
+      "notes": null,
+      "source": {
+        "ref_id": "B010",
+        "title": "BJCP Beer Guidelines (ES PDF)",
+        "file": "2021_Guidelines_Beer_ES_1.0.pdf",
+        "page_index_guess": 90
+      }
+    },
+    {
+      "code": "29B",
+      "category": 29,
+      "substyle": "B",
+      "name": "Fruit and Spice Beer",
+      "targets": null,
+      "ranges": null,
+      "notes": null,
+      "source": {
+        "ref_id": "B010",
+        "title": "BJCP Beer Guidelines (ES PDF)",
+        "file": "2021_Guidelines_Beer_ES_1.0.pdf",
+        "page_index_guess": 90
+      }
+    },
+    {
+      "code": "29C",
+      "category": 29,
+      "substyle": "C",
+      "name": "Specialty Fruit Beer",
+      "targets": null,
+      "ranges": null,
+      "notes": null,
+      "source": {
+        "ref_id": "B010",
+        "title": "BJCP Beer Guidelines (ES PDF)",
+        "file": "2021_Guidelines_Beer_ES_1.0.pdf",
+        "page_index_guess": 91
+      }
+    },
+    {
+      "code": "29D",
+      "category": 29,
+      "substyle": "D",
+      "name": "Grape Ale",
+      "targets": null,
+      "ranges": null,
+      "notes": null,
+      "source": {
+        "ref_id": "B010",
+        "title": "BJCP Beer Guidelines (ES PDF)",
+        "file": "2021_Guidelines_Beer_ES_1.0.pdf",
+        "page_index_guess": 91
+      }
+    },
+    {
+      "code": "30A",
+      "category": 30,
+      "substyle": "A",
+      "name": "Spice, Herb, or Vegetable Beer",
+      "targets": null,
+      "ranges": null,
+      "notes": null,
+      "source": {
+        "ref_id": "B010",
+        "title": "BJCP Beer Guidelines (ES PDF)",
+        "file": "2021_Guidelines_Beer_ES_1.0.pdf",
+        "page_index_guess": 93
+      }
+    },
+    {
+      "code": "30B",
+      "category": 30,
+      "substyle": "B",
+      "name": "Autumn Seasonal Beer",
+      "targets": null,
+      "ranges": null,
+      "notes": null,
+      "source": {
+        "ref_id": "B010",
+        "title": "BJCP Beer Guidelines (ES PDF)",
+        "file": "2021_Guidelines_Beer_ES_1.0.pdf",
+        "page_index_guess": 93
+      }
+    },
+    {
+      "code": "30C",
+      "category": 30,
+      "substyle": "C",
+      "name": "Winter Seasonal Beer",
+      "targets": null,
+      "ranges": null,
+      "notes": null,
+      "source": {
+        "ref_id": "B010",
+        "title": "BJCP Beer Guidelines (ES PDF)",
+        "file": "2021_Guidelines_Beer_ES_1.0.pdf",
+        "page_index_guess": 94
+      }
+    },
+    {
+      "code": "30D",
+      "category": 30,
+      "substyle": "D",
+      "name": "Specialty Spice Beer",
+      "targets": null,
+      "ranges": null,
+      "notes": null,
+      "source": {
+        "ref_id": "B010",
+        "title": "BJCP Beer Guidelines (ES PDF)",
+        "file": "2021_Guidelines_Beer_ES_1.0.pdf",
+        "page_index_guess": 95
+      }
+    },
+    {
+      "code": "31A",
+      "category": 31,
+      "substyle": "A",
+      "name": "Alternative Grain Beer",
+      "targets": null,
+      "ranges": null,
+      "notes": null,
+      "source": {
+        "ref_id": "B010",
+        "title": "BJCP Beer Guidelines (ES PDF)",
+        "file": "2021_Guidelines_Beer_ES_1.0.pdf",
+        "page_index_guess": 96
+      }
+    },
+    {
+      "code": "31B",
+      "category": 31,
+      "substyle": "B",
+      "name": "Alternative Sugar Beer",
+      "targets": null,
+      "ranges": null,
+      "notes": null,
+      "source": {
+        "ref_id": "B010",
+        "title": "BJCP Beer Guidelines (ES PDF)",
+        "file": "2021_Guidelines_Beer_ES_1.0.pdf",
+        "page_index_guess": 96
+      }
+    },
+    {
+      "code": "32A",
+      "category": 32,
+      "substyle": "A",
+      "name": "Classic Style Smoked Beer",
+      "targets": null,
+      "ranges": null,
+      "notes": null,
+      "source": {
+        "ref_id": "B010",
+        "title": "BJCP Beer Guidelines (ES PDF)",
+        "file": "2021_Guidelines_Beer_ES_1.0.pdf",
+        "page_index_guess": 97
+      }
+    },
+    {
+      "code": "32B",
+      "category": 32,
+      "substyle": "B",
+      "name": "Specialty Smoked Beer",
+      "targets": null,
+      "ranges": null,
+      "notes": null,
+      "source": {
+        "ref_id": "B010",
+        "title": "BJCP Beer Guidelines (ES PDF)",
+        "file": "2021_Guidelines_Beer_ES_1.0.pdf",
+        "page_index_guess": 97
+      }
+    },
+    {
+      "code": "33A",
+      "category": 33,
+      "substyle": "A",
+      "name": "Wood -Aged Beer",
+      "targets": null,
+      "ranges": null,
+      "notes": null,
+      "source": {
+        "ref_id": "B010",
+        "title": "BJCP Beer Guidelines (ES PDF)",
+        "file": "2021_Guidelines_Beer_ES_1.0.pdf",
+        "page_index_guess": 98
+      }
+    },
+    {
+      "code": "33B",
+      "category": 33,
+      "substyle": "B",
+      "name": "Spe cialty Wood -Aged Beer",
+      "targets": null,
+      "ranges": null,
+      "notes": null,
+      "source": {
+        "ref_id": "B010",
+        "title": "BJCP Beer Guidelines (ES PDF)",
+        "file": "2021_Guidelines_Beer_ES_1.0.pdf",
+        "page_index_guess": 98
+      }
+    },
+    {
+      "code": "34A",
+      "category": 34,
+      "substyle": "A",
+      "name": "Commercial Specialty Beer",
+      "targets": null,
+      "ranges": null,
+      "notes": null,
+      "source": {
+        "ref_id": "B010",
+        "title": "BJCP Beer Guidelines (ES PDF)",
+        "file": "2021_Guidelines_Beer_ES_1.0.pdf",
+        "page_index_guess": 100
+      }
+    },
+    {
+      "code": "34B",
+      "category": 34,
+      "substyle": "B",
+      "name": "Mixed -Style Beer",
+      "targets": null,
+      "ranges": null,
+      "notes": null,
+      "source": {
+        "ref_id": "B010",
+        "title": "BJCP Beer Guidelines (ES PDF)",
+        "file": "2021_Guidelines_Beer_ES_1.0.pdf",
+        "page_index_guess": 100
+      }
+    },
+    {
+      "code": "34C",
+      "category": 34,
+      "substyle": "C",
+      "name": "Experimental Beer",
+      "targets": null,
+      "ranges": null,
+      "notes": null,
+      "source": {
+        "ref_id": "B010",
+        "title": "BJCP Beer Guidelines (ES PDF)",
+        "file": "2021_Guidelines_Beer_ES_1.0.pdf",
+        "page_index_guess": 100
+      }
+    }
+  ]
+}

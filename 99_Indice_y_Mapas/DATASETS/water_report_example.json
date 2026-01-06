@@ -1,0 +1,14 @@
+{
+  "dataset_id": "water_report_example",
+  "version": "0.1",
+  "notes": "Ejemplo/template. Completar con tu análisis real.",
+  "water_report_ppm": {
+    "Ca": null,
+    "Mg": null,
+    "Na": null,
+    "Cl": null,
+    "SO4": null,
+    "HCO3": null,
+    "Alkalinity_as_CaCO3": null
+  }
+}

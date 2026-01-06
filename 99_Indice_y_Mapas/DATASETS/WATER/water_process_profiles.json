@@ -1,0 +1,26 @@
+{
+  "version": "1.0",
+  "profiles": [
+    {
+      "id": "WAT-PROC-0001",
+      "name": "Mash-only (sin lavado separado)",
+      "apply_salts_to": "mash_water_only",
+      "sparge_acidification": {
+        "enabled": false
+      },
+      "notes": "Útil si no separás aguas o si hacés BIAB sin sparge real."
+    },
+    {
+      "id": "WAT-PROC-0002",
+      "name": "Mash + Sparge (lavado separado)",
+      "apply_salts_to": "mash_water_primary",
+      "sparge_acidification": {
+        "enabled": true,
+        "target_sparge_pH_at_room_temp": [5.2, 5.6],
+        "max_sparge_pH_at_room_temp": 5.8,
+        "notes": "Objetivo: evitar extracción de taninos y arrastre alcalino."
+      },
+      "notes": "Separar mash y sparge te da control real y repetible."
+    }
+  ]
+}

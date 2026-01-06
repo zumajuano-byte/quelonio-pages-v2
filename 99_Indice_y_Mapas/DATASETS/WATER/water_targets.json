@@ -1,0 +1,58 @@
+{
+  "version": "1.0",
+  "units": "mg/L",
+  "families": [
+    {
+      "id": "WAT-TGT-HOPPY",
+      "name": "Hoppy (SO4 alto / Cl moderado)",
+      "ions_target_ranges_mgL": {
+        "Ca": [80, 140],
+        "Mg": [5, 20],
+        "Na": [0, 50],
+        "Cl": [40, 90],
+        "SO4": [150, 300],
+        "HCO3": [0, 80]
+      },
+      "notes": "Para West Coast / IPA seca. Ajustar a tu realidad sensorial."
+    },
+    {
+      "id": "WAT-TGT-MALTY",
+      "name": "Malty (Cl alto / SO4 bajo)",
+      "ions_target_ranges_mgL": {
+        "Ca": [50, 100],
+        "Mg": [5, 20],
+        "Na": [0, 70],
+        "Cl": [100, 180],
+        "SO4": [0, 100],
+        "HCO3": [0, 120]
+      },
+      "notes": "Para estilos maltosos / redondos."
+    },
+    {
+      "id": "WAT-TGT-BALANCED",
+      "name": "Balanced",
+      "ions_target_ranges_mgL": {
+        "Ca": [50, 100],
+        "Mg": [5, 20],
+        "Na": [0, 50],
+        "Cl": [60, 120],
+        "SO4": [60, 150],
+        "HCO3": [0, 100]
+      },
+      "notes": ""
+    },
+    {
+      "id": "WAT-TGT-LAGER-CRISP",
+      "name": "Lager crisp (bajo mineral, limpio)",
+      "ions_target_ranges_mgL": {
+        "Ca": [20, 60],
+        "Mg": [0, 10],
+        "Na": [0, 30],
+        "Cl": [20, 60],
+        "SO4": [20, 80],
+        "HCO3": [0, 50]
+      },
+      "notes": "Para lager claras / perfil seco-limpio."
+    }
+  ]
+}
