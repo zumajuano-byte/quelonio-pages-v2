@@ -10,3 +10,5 @@ _backups/
 *.bak2
 *.bak*
 *.zip
+QA_REPORT.md
+suspects_utf8.txt
