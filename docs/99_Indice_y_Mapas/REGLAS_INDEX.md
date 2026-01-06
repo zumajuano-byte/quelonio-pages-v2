@@ -273,11 +273,12 @@ Este archivo es el **índice maestro** de reglas `R-XXXX` y su trazabilidad.
 - [R-0406 — Whirlpool/hopstand: se diseña como adición con impacto en amargor (no solo aroma)](../04_Lupulo/Lupulo_Parte3_DEEP/30_Whirlpool_y_Hopstand.md)
 - [R-0407 — Whirlpool/hopstand: definir duración objetivo; evitar tiempos largos "por inercia"](../04_Lupulo/Lupulo_Parte3_DEEP/30_Whirlpool_y_Hopstand.md)
 
+## IPA Moderna (05)
+- [R-0550 — Timing de dry hop (cuándo aplicar y por qué)](../05_Sistemas_IPA_Moderna/IPA_NewIPA_Parte2_DEEP/20_Timing_Dry_Hop.md)
+- [R-0551 — Hop creep y diacetilo (riesgo, síntomas, control)](../05_Sistemas_IPA_Moderna/IPA_NewIPA_Parte2_DEEP/30_Hop_Creep_y_Diacetilo.md)
+- [R-0552 — Oxígeno y estabilidad (control estructural)](../05_Sistemas_IPA_Moderna/IPA_NewIPA_Parte2_DEEP/40_Control_Oxigeno_y_Estabilidad.md)
+- [R-0553 — Hop burn y astringencia (causas y mitigación)](../05_Sistemas_IPA_Moderna/IPA_NewIPA_Parte5_DEEP/30_Hop_Burn_y_Astringencia.md)
+- [R-0554 — Oxígeno, color y shelf life (mecanismo y prevención)](../05_Sistemas_IPA_Moderna/IPA_NewIPA_Parte5_DEEP/40_Oxigeno_Color_y_Shelf_Life.md)
+- [R-0555 — Estabilidad vs expresividad (tradeoffs operativos)](../05_Sistemas_IPA_Moderna/IPA_NewIPA_Parte5_DEEP/50_Estabilidad_vs_Expresividad.md)
+- [R-0556 — Planificación de dry hopping (diseño y ejecución)](../05_Sistemas_IPA_Moderna/IPA_NewIPA_Parte4_DEEP/30_Planificacion_Dry_Hopping.md)
 
-| R-0550 | IPA Moderna (05) | [../05_Sistemas_IPA_Moderna/IPA_NewIPA_Parte2_DEEP/20_Timing_Dry_Hop.md](../05_Sistemas_IPA_Moderna/IPA_NewIPA_Parte2_DEEP/20_Timing_Dry_Hop.md) |
-| R-0551 | IPA Moderna (05) | [../05_Sistemas_IPA_Moderna/IPA_NewIPA_Parte2_DEEP/30_Hop_Creep_y_Diacetilo.md](../05_Sistemas_IPA_Moderna/IPA_NewIPA_Parte2_DEEP/30_Hop_Creep_y_Diacetilo.md) |
-| R-0552 | IPA Moderna (05) | [../05_Sistemas_IPA_Moderna/IPA_NewIPA_Parte2_DEEP/40_Control_Oxigeno_y_Estabilidad.md](../05_Sistemas_IPA_Moderna/IPA_NewIPA_Parte2_DEEP/40_Control_Oxigeno_y_Estabilidad.md) |
-| R-0553 | IPA Moderna (05) | [../05_Sistemas_IPA_Moderna/IPA_NewIPA_Parte5_DEEP/30_Hop_Burn_y_Astringencia.md](../05_Sistemas_IPA_Moderna/IPA_NewIPA_Parte5_DEEP/30_Hop_Burn_y_Astringencia.md) |
-| R-0554 | IPA Moderna (05) | [../05_Sistemas_IPA_Moderna/IPA_NewIPA_Parte5_DEEP/40_Oxigeno_Color_y_Shelf_Life.md](../05_Sistemas_IPA_Moderna/IPA_NewIPA_Parte5_DEEP/40_Oxigeno_Color_y_Shelf_Life.md) |
-| R-0555 | IPA Moderna (05) | [../05_Sistemas_IPA_Moderna/IPA_NewIPA_Parte5_DEEP/50_Estabilidad_vs_Expresividad.md](../05_Sistemas_IPA_Moderna/IPA_NewIPA_Parte5_DEEP/50_Estabilidad_vs_Expresividad.md) |
-| R-0556 | IPA Moderna (05) | [../05_Sistemas_IPA_Moderna/IPA_NewIPA_Parte4_DEEP/30_Planificacion_Dry_Hopping.md](../05_Sistemas_IPA_Moderna/IPA_NewIPA_Parte4_DEEP/30_Planificacion_Dry_Hopping.md) |
