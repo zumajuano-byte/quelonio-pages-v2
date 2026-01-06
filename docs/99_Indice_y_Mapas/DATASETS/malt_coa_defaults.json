@@ -1,0 +1,110 @@
+{
+  "dataset": "MALT_COA_DEFAULTS",
+  "version": "1.0",
+  "assumptions": {
+    "units": {
+      "moisture_pct": "% w/w",
+      "extract_*_dry_basis_pct": "% dry basis",
+      "color_ebc": "EBC",
+      "protein_pct": "% w/w",
+      "diastatic_power_wk": "°WK (Windisch-Kolbach)",
+      "beta_glucan_mg_l": "mg/L",
+      "fan_mg_l": "mg/L"
+    },
+    "fallbacks": {
+      "base_malt": {
+        "moisture_pct": 4.5,
+        "extract_fine_dry_basis_pct": 80.0,
+        "color_ebc": 6.0,
+        "protein_pct": 11.0,
+        "diastatic_power_wk": 250
+      },
+      "pilsner_malt": {
+        "moisture_pct": 4.5,
+        "extract_fine_dry_basis_pct": 80.0,
+        "color_ebc": 4.0,
+        "protein_pct": 10.5,
+        "diastatic_power_wk": 300
+      },
+      "wheat_malt": {
+        "moisture_pct": 5.0,
+        "extract_fine_dry_basis_pct": 83.0,
+        "color_ebc": 4.5,
+        "protein_pct": 12.5,
+        "diastatic_power_wk": 250
+      },
+      "crystal_malt": {
+        "moisture_pct": 5.0,
+        "extract_fine_dry_basis_pct": 75.0,
+        "diastatic_power_wk": 0
+      }
+    }
+  },
+  "validation_rules": {
+    "moisture_pct": {
+      "min": 2.0,
+      "max": 8.0,
+      "warn_if_gt": 5.5
+    },
+    "extract_fine_dry_basis_pct": {
+      "min": 60.0,
+      "max": 88.0,
+      "warn_if_lt": 76.0
+    },
+    "extract_coarse_dry_basis_pct": {
+      "min": 55.0,
+      "max": 88.0
+    },
+    "difference_fine_coarse_pct": {
+      "min": 0.0,
+      "max": 5.0,
+      "warn_if_gt": 2.5
+    },
+    "color_ebc": {
+      "min": 1.0,
+      "max": 2000.0
+    },
+    "protein_pct": {
+      "min": 6.0,
+      "max": 18.0,
+      "warn_if_gt": 13.0
+    },
+    "kolbach_index_pct": {
+      "min": 30,
+      "max": 50,
+      "warn_if_lt": 35,
+      "warn_if_gt": 45
+    },
+    "diastatic_power_wk": {
+      "min": 0,
+      "max": 500,
+      "warn_if_lt": 180
+    },
+    "friability_pct": {
+      "min": 0,
+      "max": 100,
+      "warn_if_lt": 70
+    },
+    "beta_glucan_mg_l": {
+      "min": 0,
+      "max": 2000,
+      "warn_if_gt": 250
+    },
+    "fan_mg_l": {
+      "min": 0,
+      "max": 350,
+      "warn_if_lt": 120
+    },
+    "ph": {
+      "min": 5.0,
+      "max": 6.5
+    }
+  },
+  "computed_helpers": {
+    "notes": "Cálculos de rendimiento/color viven en BREW_MATH; acá solo normalizamos COA.",
+    "map_to_brew_math_inputs": {
+      "ppg_potential_formula_ref": "brew_math_formulas.json#potential_ppg_from_extract",
+      "color_units_formula_ref": "brew_math_formulas.json#srm_from_ebc"
+    }
+  }
+}

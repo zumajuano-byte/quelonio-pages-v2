@@ -1,0 +1,38 @@
+{
+  "dataset": "MALT_COA",
+  "version": "1.0",
+  "malt_lot": {
+    "malt_name": "Pale Ale Malt",
+    "malt_type": "base",
+    "supplier": "Crisp Malt",
+    "origin_country": "UK",
+    "lot_code": "CRISP-PA-2025-11-18",
+    "delivery_date": "2025-12-02",
+    "tested_on": "2026-01-06",
+    "packaging": {
+      "form": "bag",
+      "size_kg": 25
+    },
+    "storage": {
+      "temp_c": 16,
+      "notes": "lugar seco, bolsa cerrada"
+    },
+    "analysis": {
+      "moisture_pct": 4.2,
+      "extract_fine_dry_basis_pct": 80.5,
+      "extract_coarse_dry_basis_pct": 79.0,
+      "difference_fine_coarse_pct": 1.5,
+      "color_ebc": 6.0,
+      "protein_pct": 10.8,
+      "soluble_protein_pct": 4.2,
+      "kolbach_index_pct": 39,
+      "diastatic_power_wk": 280,
+      "friability_pct": 85,
+      "beta_glucan_mg_l": 120,
+      "fan_mg_l": 180,
+      "ph": 5.8
+    },
+    "coa_document_ref": "COA_2025-11-18_Crisp_PaleAle.pdf",
+    "notes": "Ejemplo. Completar/ajustar a tu COA real. Si no hay un campo, dejar null y usar defaults."
+  }
+}

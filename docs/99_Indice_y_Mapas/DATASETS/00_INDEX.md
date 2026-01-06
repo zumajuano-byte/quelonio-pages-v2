@@ -85,3 +85,52 @@ Ejemplo correcto si DATASETS vive dentro de `99_Indice_y_Mapas`:
 - "99 — Índice y Mapas":
   - "DATASETS": 99_Indice_y_Mapas/DATASETS/00_INDEX.md
 ```
+## HOPS_COA (Certificados de Análisis de lúpulos)
+
+**Objetivo (operativo):** capturar COA por lote para que la formulación use **valores reales** (AA%, aceites, HSI, humedad) y para trazabilidad de insumos.
+
+**Capa 1 (segura)**
+- `hops_coa_example.json` — ejemplo de input (1 lote).
+- `hops_coa_defaults.json` — defaults + reglas de validación “sanity check”.
+
+**Capa 2 (opcional / condicionada)**
+- `hops_alpha_age_model.json` — modelo simple para estimar AA% efectivo por edad/almacenamiento (placeholders, calibrar).
+
+**Cómo se usa en receta (mínimo)**
+- Si la receta dice “Citra 12% AA” y tu COA dice 10.8% AA, el sistema recalcula gramos para sostener el target de IBU/bittering.
+- En dry hop, los aceites totales + HSI ayudan a decidir: “lote fresco / lote viejo” y ajustar dosis/tiempos.
+
+---
+
+## MALT_COA (Capa 1 segura + Capa 2 opcional)
+
+**Objetivo:** normalizar y registrar el **COA de maltas** (por lote) para que el asistente pueda:
+- Ajustar **rendimiento esperado** (extracto/points) y detectar outliers por proveedor/lote.
+- Ajustar **color** y tradeoffs técnicos (proteína, beta‑glucanos, friabilidad) en función del estilo.
+- Mantener trazabilidad de insumos (lote → receta → batch).
+
+### Archivos (crear en `docs/99_Indice_y_Mapas/DATASETS/`)
+
+**Capa 1 — referencia operativa (recomendado)**
+- `malt_coa_example.json` — ejemplo de input canónico (un lote).
+- `malt_coa_defaults.json` — rangos/validaciones + valores “fallback” por tipo de malta.
+
+**Capa 2 — opcional / condicionada**
+- `malt_coa_model.json` — modelo mínimo para convertir COA a inputs operativos (aprox).  
+  Nota: si preferís, esto puede vivir “apagado” hasta que calibremos con datos reales (rendimientos en planta).
+
+### Uso recomendado (operativo)
+1) Cada vez que entra una malta nueva, copiás `malt_coa_example.json`, lo completás con tu COA real y guardás un archivo por lote (ej. `malt_coa_lote_CRISP-PA-2025-11-18.json`).  
+2) El asistente usa `malt_coa_defaults.json` para validar y advertir (no para “adivinar”).  
+3) Si habilitamos Capa 2, `malt_coa_model.json` permite estimar potencial PPG y SRM desde extracto/color.
+
+### YEAST_COA (Capa 1 segura)
+- **Propósito:** normalizar el registro de lotes de levadura (seca/líquida/slurry) para trazabilidad y cálculos básicos de pitch.
+- **Archivos**
+  - `DATASETS/yeast_coa_example.json` — ejemplo de input (lote + specs disponibles)
+  - `DATASETS/yeast_coa_defaults.json` — defaults/validaciones mínimas (qué es requerido vs opcional)
+
+### YEAST_COA_MODEL (Capa 2 opcional/condicionada)
+- **Propósito:** estimar viabilidad/pitch cuando hay datos mínimos (y supuestos explícitos).
+- **Archivo**
+  - `DATASETS/yeast_coa_model.json` — parámetros/modelos (viability decay + pitch planning)

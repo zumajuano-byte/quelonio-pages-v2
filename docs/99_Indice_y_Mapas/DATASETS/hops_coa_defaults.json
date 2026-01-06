@@ -1,0 +1,43 @@
+{
+  "dataset_id": "hops_coa_defaults",
+  "version": "0.1",
+  "defaults": {
+    "product_form": "pellet",
+    "pellet_spec": "T90",
+    "packaging": "vacuum_foil",
+    "storage": {
+      "temperature_c": 0,
+      "oxygen_exposure": "minimized"
+    },
+    "analysis": {
+      "method": "HPLC"
+    }
+  },
+  "validation_rules": {
+    "alpha_acid_pct": {
+      "min": 0.5,
+      "max": 25.0
+    },
+    "beta_acid_pct": {
+      "min": 0.1,
+      "max": 15.0
+    },
+    "total_oil_ml_per_100g": {
+      "min": 0.1,
+      "max": 6.0
+    },
+    "moisture_pct": {
+      "min": 4.0,
+      "max": 12.0
+    },
+    "hsi": {
+      "min": 0.15,
+      "max": 1.0
+    },
+    "crop_year": {
+      "min": 2000,
+      "max": 2100
+    }
+  },
+  "notes": "Capa 1: defaults + simple sanity checks only. No predictive corrections."
+}

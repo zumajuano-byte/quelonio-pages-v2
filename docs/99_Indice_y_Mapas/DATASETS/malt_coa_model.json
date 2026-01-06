@@ -1,0 +1,39 @@
+{
+  "dataset": "MALT_COA_MODEL",
+  "version": "1.0",
+  "purpose": "Modelo mínimo para convertir COA (extracto+humedad+color) a inputs operativos de receta.",
+  "references": [
+    {
+      "ref": "B011_Matematica_de_la_cerveza",
+      "type": "internal_biblia"
+    },
+    {
+      "ref": "BREW_MATH_FORMULAS",
+      "file": "brew_math_formulas.json"
+    }
+  ],
+  "functions": {
+    "extract_as_is_pct": {
+      "description": "Convierte extracto dry-basis a as-is usando humedad.",
+      "inputs": {
+        "extract_fine_dry_basis_pct": "number",
+        "moisture_pct": "number"
+      },
+      "formula": "extract_as_is = extract_dry_basis * (1 - moisture/100)"
+    },
+    "potential_ppg": {
+      "description": "Potencial de puntos por libra/galón aprox a partir de extracto as-is.",
+      "inputs": {
+        "extract_as_is_pct": "number"
+      },
+      "formula": "ppg ≈ 46.21 * (extract_as_is_pct/100)"
+    },
+    "srm_from_ebc": {
+      "description": "Conversión rápida EBC→SRM.",
+      "formula": "srm ≈ ebc / 1.97"
+    }
+  },
+  "calibration": {
+    "note": "Estos modelos son aproximaciones. Si tenés mediciones reales (rendimiento en planta), recalibrar."
+  }
+}

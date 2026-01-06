@@ -1,0 +1,37 @@
+{
+  "dataset": "YEAST_COA_MODEL",
+  "version": "1.0",
+  "scope": "Capa 2 (opcional/condicionada)",
+  "note": "Se activa solo si tenés datos mínimos (pack_date + viabilidad/cell count o un supuesto explícito).",
+  "models": {
+    "viability_decay": {
+      "description": "Modelo simple de decaimiento de viabilidad por tiempo/temperatura (aprox).",
+      "inputs": [
+        "initial_viability_percent",
+        "days_since_pack",
+        "storage_temp_c"
+      ],
+      "parameters_defaults": {
+        "k_per_day_at_4c": 0.0015,
+        "q10": 2.0,
+        "reference_temp_c": 4
+      },
+      "output": "estimated_viability_percent"
+    },
+    "pitch_planning": {
+      "description": "Planificación de pitch desde COA/pack y targets del estilo.",
+      "inputs": [
+        "batch_volume_l",
+        "og_plato",
+        "target_cells_million_per_ml_plato",
+        "cell_count_billion_available",
+        "estimated_viability_percent"
+      ],
+      "outputs": [
+        "required_cells_billion",
+        "packs_needed_or_slurry_ml"
+      ]
+    }
+  },
+  "disclaimer": "Ajustar parámetros con datos propios. Si no hay data, no usar el modelo: usar Capa 1 y registrar supuestos."
+}
