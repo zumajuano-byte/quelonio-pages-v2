@@ -1,0 +1,135 @@
+﻿# QA_REPORT — Quelonio Pages V2
+
+- Timestamp: **2026-01-06 12:50:17**
+- Status: **FAIL**
+- Total md files scanned: **382**
+
+## Gates
+- mkdocs exit code: **0**
+- bad chars (mojibake) files: **4**
+- :contentReference leftover matches (excluding PROYECTO_BIBLIA.md): **0**
+- mkdocs missing-anchor warnings: **0**
+- not-in-nav pages (informational): **374**
+
+## FAIL reasons
+- mojibake/bad-chars files=4
+
+## Mojibake files (first 30)
+- C:\Users\flore\Documents\quelonio-pages-v2\docs\03_Levadura\Levadura_Parte5_DEEP\10_Marco_Decision_Seleccion_Cepa.md
+- C:\Users\flore\Documents\quelonio-pages-v2\docs\05_Sistemas_IPA_Moderna\IPA_NewIPA_Parte2_DEEP\20_Timing_Dry_Hop.md
+- C:\Users\flore\Documents\quelonio-pages-v2\docs\05_Sistemas_IPA_Moderna\IPA_NewIPA_Parte2_DEEP\30_Hop_Creep_y_Diacetilo.md
+- C:\Users\flore\Documents\quelonio-pages-v2\docs\05_Sistemas_IPA_Moderna\IPA_NewIPA_Parte2_DEEP\40_Control_Oxigeno_y_Estabilidad.md
+
+## Not-in-nav pages (first 50) — informational
+- 00_Glosario.md
+- 01_Agua\01_Agua.md
+- 01_Agua\Agua_Parte1_DEEP\00_INDEX.md
+- 01_Agua\Agua_Parte1_DEEP\00_Indice_Agua_Parte1.md
+- 01_Agua\Agua_Parte1_DEEP\10_Naturaleza_Quimica_del_Agua.md
+- 01_Agua\Agua_Parte1_DEEP\15_Cloro_y_Cloraminas.md
+- 01_Agua\Agua_Parte1_DEEP\20_pH_vs_Alcalinidad.md
+- 01_Agua\Agua_Parte1_DEEP\30_Sistema_Tampon_Carbonato.md
+- 01_Agua\Agua_Parte1_DEEP\40_Rol_del_Calcio.md
+- 01_Agua\Agua_Parte1_DEEP\90_TP_Log_Ajuste_Agua.md
+- 01_Agua\Agua_Parte2_DEEP\00_INDEX.md
+- 01_Agua\Agua_Parte2_DEEP\00_Indice_Agua_Parte2.md
+- 01_Agua\Agua_Parte2_DEEP\50_pH_en_el_Mash.md
+- 01_Agua\Agua_Parte2_DEEP\60_Sensibilidad_PH_y_Sulfatos.md
+- 01_Agua\Agua_Parte2_DEEP\70_Perfiles_Agua_para_IPA.md
+- 01_Agua\Agua_Parte2_DEEP\80_Manejo_Ajustes_En_Plantas.md
+- 01_Agua\Agua_Parte3_DEEP\00_INDEX.md
+- 01_Agua\Agua_Parte3_DEEP\00_Indice_Agua_Parte3.md
+- 01_Agua\Agua_Parte3_DEEP\100_Variabilidad_Estacional_y_Control.md
+- 01_Agua\Agua_Parte3_DEEP\110_Playbook_Control_Fuente.md
+- 01_Agua\Agua_Parte3_DEEP\90_Tipos_de_Fuentes_de_Agua.md
+- 01_Agua\Agua_Parte4_DEEP\00_INDEX.md
+- 01_Agua\Agua_Parte4_DEEP\00_Indice_Agua_Parte4.md
+- 01_Agua\Agua_Parte4_DEEP\120_Lectura_Cervecera_Informe_Agua.md
+- 01_Agua\Agua_Parte4_DEEP\130_Alcalinidad_Com_CaCO3_y_mEq.md
+- 01_Agua\Agua_Parte4_DEEP\140_RA_Alcalinidad_Efectiva.md
+- 01_Agua\Agua_Parte4_DEEP\150_Desinfectantes_Cloro_Cloramina.md
+- 01_Agua\Agua_Parte5_DEEP\00_INDEX.md
+- 01_Agua\Agua_Parte5_DEEP\00_Indice_Agua_Parte5.md
+- 01_Agua\Agua_Parte5_DEEP\160_Dise�o_Agua_para_Mash.md
+- 01_Agua\Agua_Parte5_DEEP\170_pH_Objetivo_y_Tipo_de_Malta.md
+- 01_Agua\Agua_Parte5_DEEP\180_Interaccion_Alcalinidad_Calcio.md
+- 01_Agua\Agua_Parte5_DEEP\190_Estrategias_Ajuste_Mash.md
+- 01_Agua\Agua_Parte5_DEEP\195_Checklist_Dise�o_Mash.md
+- 01_Agua\Agua_Parte6_DEEP\00_INDEX.md
+- 01_Agua\Agua_Parte6_DEEP\00_Indice_Agua_Parte6.md
+- 01_Agua\Agua_Parte6_DEEP\200_Agua_de_Lavado_Sparge.md
+- 01_Agua\Agua_Parte6_DEEP\210_pH_Critico_y_Taninos.md
+- 01_Agua\Agua_Parte6_DEEP\220_Dise�o_Agua_Sparge.md
+- 01_Agua\Agua_Parte6_DEEP\230_Temperatura_y_Control_Extraccion.md
+- 01_Agua\Agua_Parte6_DEEP\240_Checklist_Sparge.md
+- 01_Agua\Agua_Parte7_DEEP\00_INDEX.md
+- 01_Agua\Agua_Parte7_DEEP\00_Indice_Agua_Parte7.md
+- 01_Agua\Agua_Parte7_DEEP\300_Caso_NEIPA.md
+- 01_Agua\Agua_Parte7_DEEP\310_Caso_West_Coast_IPA.md
+- 01_Agua\Agua_Parte7_DEEP\320_Caso_Lager_Clara.md
+- 01_Agua\Agua_Parte7_DEEP\330_Caso_Malt_Forward.md
+- 01_Agua\Agua_Parte7_DEEP\340_Checklist_Casos_Completos.md
+- 01_Agua\DEEP\AGUA_CALCULOS_Y_LIMITES.md
+- 02_Malta\02_Malta.md
+
+## mkdocs raw (last 60 lines)
+      - 07_Fermentacion_Maduracion\DEEP\30_Transferencias_cold_crash_y_salida.md
+      - 07_Fermentacion_Maduracion\DEEP\40_Troubleshooting_proceso.md
+      - 07_Fermentacion_Maduracion\DEEP\TP_Log_Fermentacion_y_Maduracion.md
+      - 08_Recetas_Formulacion\08_Recetas_Formulacion.md
+      - 08_Recetas_Formulacion\Calculos_rapidos.md
+      - 08_Recetas_Formulacion\DEEP\00_INDEX.md
+      - 08_Recetas_Formulacion\DEEP\01_DEEP_Recetas_Specs_v1.md
+      - 08_Recetas_Formulacion\DEEP\TP_Ticket_Mejora_Receta_Spec.md
+      - 09_Empaque_Estabilidad\09_Empaque_Estabilidad.md
+      - 09_Empaque_Estabilidad\Oxidacion_y_DO.md
+      - 09_Empaque_Estabilidad\DEEP\00_INDEX.md
+      - 09_Empaque_Estabilidad\DEEP\01_DEEP_Empaque_Estabilidad_v1.md
+      - 09_Empaque_Estabilidad\DEEP\05_Preparacion_para_envasar.md
+      - 09_Empaque_Estabilidad\DEEP\10_Priming_y_carbonatacion_en_botella.md
+      - 09_Empaque_Estabilidad\DEEP\20_Control_oxigeno_DO_TPO.md
+      - 09_Empaque_Estabilidad\DEEP\30_Luz_temperatura_almacenamiento.md
+      - 09_Empaque_Estabilidad\DEEP\40_Shelflife_y_troubleshooting_empaque.md
+      - 09_Empaque_Estabilidad\DEEP\CO2_CARBONATACION_TABLAS.md
+      - 09_Empaque_Estabilidad\DEEP\DO_TPO_OBJETIVOS_Y_METODO.md
+      - 09_Empaque_Estabilidad\DEEP\SHELF_LIFE_PLAN_Y_CRITERIOS.md
+      - 09_Empaque_Estabilidad\DEEP\TP_Log_Envasado_y_Estabilidad.md
+      - 10_Limpieza_Sanitizacion\10_Limpieza_Sanitizacion.md
+      - 10_Limpieza_Sanitizacion\DEEP\00_INDEX.md
+      - 10_Limpieza_Sanitizacion\DEEP\01_DEEP_Limpieza_Sanitizacion_v1.md
+      - 10_Limpieza_Sanitizacion\DEEP\20_Troubleshooting_CIP_Kunze_Nivel2.md
+      - 10_Limpieza_Sanitizacion\DEEP\TP_Log_Limpieza_y_CIP.md
+      - 11_Sensorial\11_Sensorial.md
+      - 11_Sensorial\DEEP\00_INDEX.md
+      - 11_Sensorial\DEEP\01_DEEP_Sensorial_v1.md
+      - 11_Sensorial\DEEP\20_Pasar_Sensorial_a_Spec_y_Receta.md
+      - 11_Sensorial\DEEP\TP_Log_Cata_y_Defectos.md
+      - 98_Verdad_Negocio\01_Economia_Unitaria.md
+      - 98_Verdad_Negocio\02_Operaciones.md
+      - 98_Verdad_Negocio\03_Specs_Recetas.md
+      - 98_Verdad_Negocio\04_QAQC.md
+      - 98_Verdad_Negocio\05_Branding_Comms.md
+      - 98_Verdad_Negocio\98_Verdad_Negocio.md
+      - 99_Indice_y_Mapas\ASISTENTE_CONTRATOS.md
+      - 99_Indice_y_Mapas\ASISTENTE_DATA_CONTRACT.md
+      - 99_Indice_y_Mapas\ASISTENTE_KNOWLEDGE_MAP.md
+      - 99_Indice_y_Mapas\ASISTENTE_V1.md
+      - 99_Indice_y_Mapas\CONTRATO_ESTRUCTURA.md
+      - 99_Indice_y_Mapas\CONTRATO_METODO_V2.md
+      - 99_Indice_y_Mapas\CONTRATO_RAG_API.md
+      - 99_Indice_y_Mapas\GLOSARIO_OPERATIVO.md
+      - 99_Indice_y_Mapas\Indice_Total.md
+      - 99_Indice_y_Mapas\LAUNCHER.md
+      - 99_Indice_y_Mapas\MATRIZ_AFIRMACIONES_P0.md
+      - 99_Indice_y_Mapas\POLITICA_RAG_Y_FUENTES.md
+      - 99_Indice_y_Mapas\PROYECTO_LATAS.md
+      - 99_Indice_y_Mapas\PROYECTO_RAG_APP.md
+      - 99_Indice_y_Mapas\PROYECTO_WEB_API.md
+      - 99_Indice_y_Mapas\START_HERE.md
+      - 99_Indice_y_Mapas\TABLAS_TARGETS_POR_ESTILO.md
+      - 99_Indice_y_Mapas\TEMPLATE_CHECKLIST_GATES_V1.md
+      - 99_Indice_y_Mapas\TEMPLATE_PLAN_PRODUCCION_V1.md
+      - 99_Indice_y_Mapas\TEMPLATE_SPEC_V1.md
+      - 99_Indice_y_Mapas\TEMPLATE_TROUBLESHOOTING_V1.md
+      - 99_Indice_y_Mapas\PLANTILLAS\SPEC_v1_0.md
+    INFO    -  Documentation built in 1.75 seconds

@@ -73,3 +73,8 @@ Siguiente: [Oxígeno, color y shelf-life](40_Oxigeno_Color_y_Shelf_Life.md)
 - **OK** si ardor/astringencia están en rango aceptable en control sensorial interno.
 - **NO OK** si hay ardor “punzante” o astringencia dominante → retener, esperar, y/o ajustar separación para el próximo lote.
 
+## Trazabilidad (REGLA)
+
+| R-ID | FuenteID | Ubicación | Cita (<=25 palabras) |
+|---|---|---|---|
+| R-0553 | B006 | p.110 | "pasan unos 5-7 días en un tanque de clarificada donde se asentará parte de la astringencia del lúpulo." |

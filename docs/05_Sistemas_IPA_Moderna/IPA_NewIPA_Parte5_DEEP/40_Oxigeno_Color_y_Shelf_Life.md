@@ -72,3 +72,9 @@ Minimizar “O₂ pickup” en los eventos críticos y definir un criterio de li
 ### Criterio de liberación (práctico)
 - **OK** si: color y aroma se sostienen en control interno (D+7) y no hay signos claros de oxidación.
 - **NO OK** si: pardeamiento acelerado o caída aromática fuerte → retener y revisar SOP de envasado/transferencias.
+
+## Trazabilidad (REGLA)
+
+| R-ID | FuenteID | Ubicación | Cita (<=25 palabras) |
+|---|---|---|---|
+| R-0554 | B006 | p.355 | "Una pequeña cantidad de oxígeno que llega a una lata o barril puede causar oscurecimiento del color." |

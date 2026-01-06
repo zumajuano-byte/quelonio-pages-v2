@@ -137,3 +137,10 @@ Definir un plan de dry hop repetible que:
 - [ ] Estabilidad confirmada (densidad estable)
 - [ ] Control VDK/diacetilo (si aplica) OK
 - [ ] Sensorial interno OK (sin hop burn dominante / astringencia excesiva)
+
+## Trazabilidad (REGLA)
+
+| R-ID | FuenteID | Ubicación | Cita (<=25 palabras) |
+|---|---|---|---|
+| R-0556 | B006 | p.110 | "hacen una pequeña y lenta filtración de CO2 para purgar la mayor cantidad de oxígeno posible." |
+| R-0556 | B006 | p.371 | "Las duraciones cortas del dry hop a temperaturas más bajas... pueden ayudar a evitar la extracción máxima." |

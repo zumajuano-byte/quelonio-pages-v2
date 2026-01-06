@@ -61,3 +61,9 @@ Tomar decisiones de diseño sin “romanticismo”: cada punto de expresividad t
 ### Regla interna (útil)
 - Si el producto necesita venderse “fresco”, priorizar expresividad.
 - Si el producto viaja o rota lento, priorizar estabilidad.
+
+## Trazabilidad (REGLA)
+
+| R-ID | FuenteID | Ubicación | Cita (<=25 palabras) |
+|---|---|---|---|
+| R-0555 | B006 | p.355 | "La elaboración de Hazy IPAs puede venir con sus desafíos, el principal es la estabilidad." |
