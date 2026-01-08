@@ -1,4 +1,4 @@
-﻿# ESTRUCTURA_REPO — Árbol canónico (Quelonio Pages V2)
+# ESTRUCTURA_REPO — Árbol canónico (Quelonio Pages V2)
 
 Este archivo es la “vista de inventario” del repo para evitar duplicados (ej. dos `10_*.md` en la misma carpeta).
 
@@ -13,8 +13,8 @@ Antes de crear/nombrar un archivo nuevo, se debe:
 - Excluye: `site/`, `.git/`, `.obsidian/`, `node_modules/`, etc.
 
 ## Última actualización
-- last_updated: 2026/01/05
-- commit: (pegar hash)
+- last_updated: 2026/01/08
+- commit: fb6d44c8de133dadbe2374ba56730f001b94cdc3
 
 ---
 
