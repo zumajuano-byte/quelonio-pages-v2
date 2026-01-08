@@ -14,7 +14,7 @@ Antes de crear/nombrar un archivo nuevo, se debe:
 
 ## Última actualización
 - last_updated: 2026/01/08
-- commit: fb6d44c8de133dadbe2374ba56730f001b94cdc3
+- commit: c5b1006
 
 ---
 
