@@ -17,3 +17,9 @@ Módulo de datasets predictivos para materias primas cerveceras (malta, lúpulo,
 ## Próximos pasos
 - Agregar más items basados en plantillas.
 - Integrar con specs de recetas en módulo 08.
+
+## Lúpulos
+- [LUPULO__cascade_ar_generic](lupulos/items/LUPULO__cascade_ar_generic.md)
+- [LUPULO__columbus_ctz_ar_generic](lupulos/items/LUPULO__columbus_ctz_ar_generic.md)
+- [LUPULO__hallertau_mittelfruh_ar_generic](lupulos/items/LUPULO__hallertau_mittelfruh_ar_generic.md)
+- [LUPULO__mosaic_int_generic](lupulos/items/LUPULO__mosaic_int_generic.md)
