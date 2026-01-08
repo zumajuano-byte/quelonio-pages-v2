@@ -13,11 +13,9 @@ AR/INT (Argentina-first; marcar INT para importaciones con notas).
 [Si aplica: costos adicionales, tiempos, etc.]
 
 ## Incidencia por estilo
-| Estilo | Incidencia |
-|--------|------------|
-| Lager  | Bajo      |
-| APA    | Medio     |
-| NEIPA  | Alto      |
+Ver [_schema/INCIDENCIA_ESTANDAR.md](../_schema/INCIDENCIA_ESTANDAR.md) para matriz heurística.
+
+Si hay datos de Excel/Sheets, usar incidencia real; sino, heurística.
 
 ## Parámetros clave
 - [Campo 1]: Valor.
