@@ -40,6 +40,8 @@ Lúpulo con COA/proveedor → usar AA% real (Excel/COA) y recalcular IBU/plan.
 - [08 Recetas y Formulación](08_Recetas_Formulacion/08_Recetas_Formulacion.md)
 - [Cálculos rápidos](08_Recetas_Formulacion/Calculos_rapidos.md)
 - [Datasets de materias primas](12_Datasets_Materias_Primas/12_Datasets_Materias_Primas.md)
+- SOPs (operación Excel-first): ver [Índice SOP 1–7](12_Datasets_Materias_Primas/SOP/_INDEX.md)
+- Contratos/IDs/counters: ver [_schema index](12_Datasets_Materias_Primas/_schema/_INDEX.md)
 
 ### 🏭 Producción
 - [05 Sistemas IPA Moderna](05_Sistemas_IPA_Moderna/05_Sistemas_IPA_Moderna.md)
