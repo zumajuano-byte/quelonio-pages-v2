@@ -59,3 +59,7 @@ Al cerrar una sesión de un proyecto:
 ## Si algo no cierra
 
 Abrir `99_Indice_y_Mapas/LAUNCHER.md` para seleccionar proyecto manualmente o revisar reglas de operación.
+
+## Boot operativo (terceros)
+
+Para acceso directo a rutas operativas sin entrar en lógica de proyectos: [LAUNCHER_OPS](../LAUNCHER_OPS.md)
