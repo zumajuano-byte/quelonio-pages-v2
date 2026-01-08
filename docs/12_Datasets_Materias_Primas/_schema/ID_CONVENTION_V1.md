@@ -24,6 +24,18 @@ Convención por entidad:
 - En Excel MVP: *_id al alta (macro asistida o script; evitar fórmulas). *_code ingresado o autogenerado bajo reglas.
 - En WebApp futura: *_id en backend al crear. *_code validado por unicidad.
 
+## Modo Excel-first (pre-app): codes correlativos, ids al ingerir en app
+En Excel se exige *_code, *_id opcional/vacío.
+
+En import/app: generar *_id ULID + generar/validar *_code correlativo.
+
+Reglas de correlatividad:
+- recipe_code: REC-{FAMILIA}-{NNN}
+- batch_code: BATCH-{YYYYMMDD}-{NN}
+- sale_code (si aplica): SALE-{YYYYMM}-{NNNN}
+
+Nota: el correlativo se gestiona con "counters" por entidad (tabla/registro contador) en backend, no en Excel.
+
 ## Validaciones y Unicidad
 - *_id único global (ULID/UUID garantiza).
 - *_code único dentro entidad (ej: recipe_code único en RECIPES).
