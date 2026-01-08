@@ -1,5 +1,11 @@
 # PROYECTO_WEB_API — Quelonio SaaS (Web App + API + DB)
 
+# ARCHIVED — referencia histórica (no activo)
+
+Proyecto activo único: [PROYECTO_BIBLIA.md](../PROYECTO_BIBLIA.md)
+
+---
+
 **Última actualización:** 2025-12-29 (AR)
 **Estado:** Sprint 1.5/2 — Vertical slice multi-tenant + Inventario/Ventas (API) operativo  
 **Regla de trabajo:** micro-pasos (1 paso por vez). Si un paso requiere admin, se aclara explícitamente.

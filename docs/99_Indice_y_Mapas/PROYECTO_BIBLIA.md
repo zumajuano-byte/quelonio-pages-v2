@@ -7,7 +7,6 @@ Links de referencia:
 - [START_HERE](START_HERE.md)
 - [LAUNCHER](LAUNCHER.md)
 - [SESSIONS_LOG (Regla de oro + histórico)](SESSIONS_LOG.md)
-- [PROYECTO_WEB_API (Quelonio Brew OS)](PROYECTO_WEB_API.md)
 - [ASISTENTE — Knowledge Map](ASISTENTE_KNOWLEDGE_MAP.md)
 - [ASISTENTE — Contratos de salida](ASISTENTE_CONTRATOS.md)
 - [ASISTENTE — Data Contract Brew OS](ASISTENTE_DATA_CONTRACT.md)

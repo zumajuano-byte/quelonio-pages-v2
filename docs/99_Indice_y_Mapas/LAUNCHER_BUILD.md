@@ -19,7 +19,6 @@ Esta es la guía para tareas de construcción y mantenimiento de la Biblia (lado
 ## Proyectos
 
 - [PROYECTO_BIBLIA](PROYECTO_BIBLIA.md) — Biblia Cervecera Quelonio (MkDocs + GitHub Pages)
-- [PROYECTO_RAG_APP](PROYECTO_RAG_APP.md) — Aplicación RAG para la Biblia
 
 ---
 

@@ -20,10 +20,8 @@ Con eso, el asistente debe:
 
 Si el usuario no especifica proyecto, el proyecto activo se determina así:
 
-11) Abrir estos 3 archivos:
+11) Abrir este archivo:
    - `99_Indice_y_Mapas/PROYECTO_BIBLIA.md`
-   - `99_Indice_y_Mapas/PROYECTO_RAG_APP.md`
-   - `99_Indice_y_Mapas/PROYECTO_LATAS.md`
 
 
 2) Elegir como “activo” el que tenga **`last_updated` más reciente** (formato `YYYY-MM-DD`).
@@ -37,14 +35,7 @@ Para evitar cualquier duda, el usuario puede arrancar así:
 volvemos
 Proyecto — Biblia: [PROYECTO_BIBLIA](PROYECTO_BIBLIA.md)
 
-- **RAG App**
-volvemos
-Proyecto — RAG App: [PROYECTO_RAG_APP](PROYECTO_RAG_APP.md)
 
-
-- **Latas**
-volvemos
-Proyecto — Latas: [PROYECTO_LATAS](PROYECTO_LATAS.md)
 
 
 ## Protocolo de cierre (para no “manosear” muchos archivos)

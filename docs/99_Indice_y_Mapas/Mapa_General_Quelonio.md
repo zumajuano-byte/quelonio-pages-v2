@@ -12,10 +12,7 @@ Este documento es el “mapa rápido” del sitio y del sistema de arranque.
 ## 2) Proyectos (estado vivo)
 
 - [Proyecto — Biblia](PROYECTO_BIBLIA.md)
-- [Proyecto — RAG App](PROYECTO_RAG_APP.md)
 - [Contrato — RAG API](CONTRATO_RAG_API.md)
-- [Proyecto — Latas](PROYECTO_LATAS.md)
-- (Legacy) [Proyecto — Web + API](PROYECTO_WEB_API.md)
 
 ## 3) Módulos principales (Biblia)
 

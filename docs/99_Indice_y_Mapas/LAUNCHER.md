@@ -32,39 +32,20 @@ Links directos (sin rutas raras):
 
 ---
 
-## Proyectos (estado vivo)
-
-Estos archivos son el **único lugar** donde se mantiene el `CURRENT_STATE` de cada proyecto, para que al cerrar y volver solo tengas que copiar/pegar **un archivo**.
-
+## Proyecto Activo
 - [Biblia (Quelonio Pages) — Estado vivo](PROYECTO_BIBLIA.md)
-- Proyecto — RAG App: [PROYECTO_RAG_APP](PROYECTO_RAG_APP.md)
-- [Latas (Quelonio Brew) — Estado vivo](PROYECTO_LATAS.md)
 
-Regla operativa:
-- **Al cerrar trabajo de un proyecto:** se actualiza *solo* su `PROYECTO_*.md`.
-- **SESSIONS_LOG:** queda como histórico/bitácora (se edita solo si querés registrar hitos o cambiar reglas globales).
+## Boot por rol
+- [LAUNCHER_BUILD](LAUNCHER_BUILD.md) — Construcción/mantenimiento (build).
+- [LAUNCHER_OPS](../LAUNCHER_OPS.md) — Operación (ops).
 
 ---
 
-## Contrato de dependencia — Biblia como “Source of Truth” para otros proyectos
-
-La **Biblia (Quelonio Pages)** es el sistema de referencia vigente para:
-
-- **RAG App**
-- Proyecto — RAG App: [PROYECTO_RAG_APP](PROYECTO_RAG_APP.md)
-
-### B) Latas (Quelonio Brew)
-- Consume definiciones canónicas de: **branding/comms, mínimos de etiqueta, claims permitidos, estructura de línea**.
-- La creatividad (frases por lote) vive en “Latas”, pero los **criterios** viven en Pages.
-
-### Regla de promoción (temporal → permanente)
-Si en Web+API o Latas aparece una decisión que debería quedar como verdad vigente:
-1) Se documenta en el proyecto de trabajo (Web+API o Latas).
-2) Se promueve a Pages (98_Verdad_Negocio o módulo técnico) con:
-   - Qué queda vigente
-   - Dónde quedó escrito (ruta/link)
-   - Fuente (medición, planilla, cálculo, etc.)
-   - Impacto/riesgo
+## Archivados (no activos)
+Referencia histórica en [archived/](archived/):
+- PROYECTO_WEB_API.md
+- PROYECTO_RAG_APP.md
+- PROYECTO_LATAS.md
 
 ---
 

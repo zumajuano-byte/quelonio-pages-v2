@@ -1,5 +1,11 @@
 # PROYECTO — Latas (Quelonio Brew)
 
+# ARCHIVED — referencia histórica (no activo)
+
+Proyecto activo único: [PROYECTO_BIBLIA.md](../PROYECTO_BIBLIA.md)
+
+---
+
 Este archivo es el **estado vivo** del proyecto Latas/Branding.
 Regla: al cerrar una sesión de Latas, **se reemplaza este archivo completo** (copiar/pegar).
 

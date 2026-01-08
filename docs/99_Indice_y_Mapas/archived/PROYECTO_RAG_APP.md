@@ -1,5 +1,11 @@
 # PROYECTO — RAG App (Soporte amplificado para Biblia + PDFs)
 
+# ARCHIVED — referencia histórica (no activo)
+
+Proyecto activo único: [PROYECTO_BIBLIA.md](../PROYECTO_BIBLIA.md)
+
+---
+
 last_updated: 2026-01-05
 
 ## CURRENT_STATE (estado vivo)
