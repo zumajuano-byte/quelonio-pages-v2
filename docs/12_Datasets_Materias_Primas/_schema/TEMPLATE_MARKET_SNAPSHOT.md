@@ -3,6 +3,9 @@
 ## Precio rango
 - Mínimo: [Vacío]
 - Máximo: [Vacío]
+- price_index: (1–10) opcional
+- nivel: bajo|medio|alto opcional
+- confianza: alta|media|baja
 
 ## Disponibilidad
 [Notas generales; no precios exactos]

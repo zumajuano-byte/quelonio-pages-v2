@@ -29,3 +29,7 @@ Módulo de datasets predictivos para materias primas cerveceras (malta, lúpulo,
 - [LEVADURA__s04_market](levaduras/items/LEVADURA__s04_market.md)
 - [LEVADURA__lager_dry_market](levaduras/items/LEVADURA__lager_dry_market.md)
 - [COSECHA_COMPARTIDA_MINIMOS](levaduras/COSECHA_COMPARTIDA_MINIMOS.md)
+
+## Market Snapshots
+- [Definición v1](_schema/MARKET_SNAPSHOT_V1.md)
+- [README](market_snapshots/README.md)
