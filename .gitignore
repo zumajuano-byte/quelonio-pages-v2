@@ -12,3 +12,9 @@ _backups/
 *.zip
 QA_REPORT.md
 suspects_utf8.txt
+.env
+
+# --- OpenCode (local) ---
+.opencode/
+opencode.json
+..opencodeagent*.md
