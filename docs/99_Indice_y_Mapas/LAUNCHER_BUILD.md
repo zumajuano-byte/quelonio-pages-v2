@@ -11,6 +11,7 @@ Esta es la guía para tareas de construcción y mantenimiento de la Biblia (lado
 ## Estructura del repositorio
 
 - [ESTRUCTURA_REPO](ESTRUCTURA_REPO.md) — Inventario del repo (árbol canónico)
+- [12 Datasets Materias Primas](../12_Datasets_Materias_Primas/12_Datasets_Materias_Primas.md) — Módulo de datasets predictivos
 
 ---
 

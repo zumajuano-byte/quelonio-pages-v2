@@ -21,6 +21,7 @@ Este launcher es para **terceros** que necesitan acceso rápido a rutas operativ
 ### 🍺 Recetas
 - [08 Recetas y Formulación](08_Recetas_Formulacion/08_Recetas_Formulacion.md)
 - [Cálculos rápidos](08_Recetas_Formulacion/Calculos_rapidos.md)
+- [Datasets de materias primas](12_Datasets_Materias_Primas/12_Datasets_Materias_Primas.md)
 
 ### 🏭 Producción
 - [05 Sistemas IPA Moderna](05_Sistemas_IPA_Moderna/05_Sistemas_IPA_Moderna.md)
