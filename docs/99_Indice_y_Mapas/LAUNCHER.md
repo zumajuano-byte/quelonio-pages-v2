@@ -42,10 +42,10 @@ Links directos (sin rutas raras):
 ---
 
 ## Archivados (no activos)
-Referencia histórica en [archived/](archived/):
-- PROYECTO_WEB_API.md
-- PROYECTO_RAG_APP.md
-- PROYECTO_LATAS.md
+Referencia histórica:
+- [PROYECTO_WEB_API.md](archived/PROYECTO_WEB_API.md)
+- [PROYECTO_RAG_APP.md](archived/PROYECTO_RAG_APP.md)
+- [PROYECTO_LATAS.md](archived/PROYECTO_LATAS.md)
 
 ---
 

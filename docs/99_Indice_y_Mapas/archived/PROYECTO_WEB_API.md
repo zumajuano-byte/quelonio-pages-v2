@@ -34,7 +34,7 @@ Arquitectura (MVP):
 
 - **Repo Web App:** `C:\Users\flore\Documents\quelonio-saas`
 - **Repo Biblia / Docs (GitHub Pages):** `C:\Users\flore\Documents\quelonio-pages`
-- Plantilla oficial: [SPEC v1.0](PLANTILLAS/SPEC_v1_0.md)
+- Plantilla oficial: [SPEC v1.0](../PLANTILLAS/SPEC_v1_0.md)
 
 Este archivo vive en **quelonio-pages** para que el “asistente” y el “método” queden publicados y versionados.
 

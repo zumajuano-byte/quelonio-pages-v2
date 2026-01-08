@@ -10,10 +10,10 @@ Este archivo es el **estado vivo** del proyecto Latas/Branding.
 Regla: al cerrar una sesión de Latas, **se reemplaza este archivo completo** (copiar/pegar).
 
 Links de referencia:
-- [START_HERE](START_HERE.md)
-- [LAUNCHER](LAUNCHER.md)
-- [Branding/Comms (verdad vigente)](../98_Verdad_Negocio/05_Branding_Comms.md)
-- [SESSIONS_LOG (Regla de oro + histórico)](SESSIONS_LOG.md)
+- [START_HERE](../START_HERE.md)
+- [LAUNCHER](../LAUNCHER.md)
+- [Branding/Comms (verdad vigente)](../../98_Verdad_Negocio/05_Branding_Comms.md)
+- [SESSIONS_LOG (Regla de oro + histórico)](../SESSIONS_LOG.md)
 
 ---
 
