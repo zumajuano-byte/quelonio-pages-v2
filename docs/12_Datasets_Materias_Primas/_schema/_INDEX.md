@@ -12,6 +12,7 @@ Punto de entrada único al submódulo _schema. Aquí encuentras contratos, conve
 - [DATA_CONTRACT_EXCEL_V1.md](DATA_CONTRACT_EXCEL_V1.md): Estructura multi-libro y columnas mínimas.
 - [ID_CONVENTION_V1.md](ID_CONVENTION_V1.md): *_id (ULID) vs *_code (correlativo legible).
 - [CODE_COUNTERS_V1.md](CODE_COUNTERS_V1.md): Generación atómica de códigos correlativos en backend.
+- Excel Pack v1 (workbooks + hojas mínimas): [EXCEL_PACK_V1](EXCEL_PACK_V1.md)
 - [MARKET_SNAPSHOT_V1.md](MARKET_SNAPSHOT_V1.md): Esquema para snapshots de mercado (referencia temporal).
 - [TEMPLATE_MARKET_SNAPSHOT.md](TEMPLATE_MARKET_SNAPSHOT.md): Plantilla para crear snapshots.
 
