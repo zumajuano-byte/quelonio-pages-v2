@@ -14,6 +14,24 @@ Este launcher es para **terceros** que necesitan acceso rápido a rutas operativ
 
 ⚠️ **NOTA**: Agua nunca se asume. Siempre medir parámetros del agua o pedir análisis.
 
+## Cómo decide el sistema qué datos usar
+
+Excel/Sheets (dato duro) manda.  
+Biblia (dataset teórico/publicable) como referencia.  
+Supuestos (default) solo si faltan ambos.  
+
+Nota explícita: agua no se asume; COA manda en materias primas cuando exista.
+
+### Ejemplos concretos
+
+**Ejemplo A (Incidencia estilo):**  
+NEIPA sin costos en Excel → usar heurística (lúpulo Alto, etc.) y marcar como REFERENCIA.  
+NEIPA con costos en Excel → calcular share y clasificar Bajo/Medio/Alto.
+
+**Ejemplo B (Materias primas):**  
+Lúpulo sin COA (AA% desconocido) → usar rango Biblia y marcar incertidumbre.  
+Lúpulo con COA/proveedor → usar AA% real (Excel/COA) y recalcular IBU/plan.
+
 ---
 
 ## Rutas operativas
