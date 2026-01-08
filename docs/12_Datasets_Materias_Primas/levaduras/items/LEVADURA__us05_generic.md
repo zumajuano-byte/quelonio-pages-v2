@@ -9,12 +9,7 @@ AR/INT (Disponible en proveedores locales; importación para cepas frescas).
 ## Notas de importación
 Mínimo impacto; verificar viabilidad post-envío.
 
-## Incidencia por estilo
-| Estilo | Incidencia |
-|--------|------------|
-| Lager  | Bajo      |
-| APA    | Medio     |
-| NEIPA  | Alto      |
+Ver Incidencia estándar: [_schema/INCIDENCIA_ESTANDAR.md](../../_schema/INCIDENCIA_ESTANDAR.md)
 
 ## Parámetros clave
 - Atenuación: 75-80%.

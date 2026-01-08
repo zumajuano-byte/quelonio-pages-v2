@@ -9,12 +9,7 @@ INT (Importado; Argentina no produce Citra localmente).
 ## Notas de importación
 Costos elevados por flete; trazabilidad crítica para lotes.
 
-## Incidencia por estilo
-| Estilo | Incidencia |
-|--------|------------|
-| Lager  | Bajo      |
-| APA    | Medio     |
-| NEIPA  | Alto      |
+Ver Incidencia estándar: [_schema/INCIDENCIA_ESTANDAR.md](../../_schema/INCIDENCIA_ESTANDAR.md)
 
 ## Parámetros clave
 - Alfa ácidos: 12-14%.

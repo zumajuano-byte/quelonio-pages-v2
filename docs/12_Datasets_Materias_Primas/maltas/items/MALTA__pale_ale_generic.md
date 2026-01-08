@@ -9,12 +9,7 @@ AR/INT (Disponible localmente; importación opcional para variedades premium).
 ## Notas de importación
 Costos +20% por flete; tiempos 2-4 semanas.
 
-## Incidencia por estilo
-| Estilo | Incidencia |
-|--------|------------|
-| Lager  | Bajo      |
-| APA    | Medio     |
-| NEIPA  | Alto      |
+Ver Incidencia estándar: [_schema/INCIDENCIA_ESTANDAR.md](../../_schema/INCIDENCIA_ESTANDAR.md)
 
 ## Parámetros clave
 - Extracto: ~80%.
