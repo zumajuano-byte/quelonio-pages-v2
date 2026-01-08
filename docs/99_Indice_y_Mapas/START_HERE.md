@@ -63,3 +63,7 @@ Abrir `99_Indice_y_Mapas/LAUNCHER.md` para seleccionar proyecto manualmente o re
 ## Boot operativo (terceros)
 
 Para acceso directo a rutas operativas sin entrar en lógica de proyectos: [LAUNCHER_OPS](../LAUNCHER_OPS.md)
+
+## Boot operativo BUILD
+
+Para acceso directo a tareas de construcción y mantenimiento: [LAUNCHER_BUILD](LAUNCHER_BUILD.md)
