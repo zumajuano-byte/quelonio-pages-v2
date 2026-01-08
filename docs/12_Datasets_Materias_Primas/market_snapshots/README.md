@@ -13,3 +13,7 @@
 ## Naming sugerido
 - [MATERIAL]_[FUENTE]_[FECHA].md
 - Ejemplo: MALTA_PILSEN_AR_LOCAL_2025-01.md
+
+## Ejemplo
+
+[EXAMPLE__snapshot_v1](./EXAMPLE__snapshot_v1.md)
