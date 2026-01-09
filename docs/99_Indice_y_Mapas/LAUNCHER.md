@@ -1,4 +1,4 @@
-# LAUNCHER — Selector de proyectos
+# LAUNCHER — ACI (inicio y selección de componente)
 
 ## ACI-DEV — Método paso a paso (obligatorio)
 
@@ -27,11 +27,11 @@ No mezclar con otros métodos.
 1) Primero se lee: **START_HERE** (reglas del sistema).  
 2) Luego, según **la URL** con la que venís:
 
-- Si el usuario pega la **URL de un proyecto** (ej. `.../PROYECTO_BIBLIA/`): se toma **ese** archivo como `CURRENT_STATE` del proyecto.
-- Si el usuario pega la **URL home** del sitio: se continúa con lo registrado en **SESSIONS_LOG** (último proyecto activo) y/o se usa este **LAUNCHER** para elegir proyecto.
+- Si el usuario pega la **URL de un componente** (ej. `.../PROYECTO_BIBLIA/`): se toma **ese** archivo como `CURRENT_STATE` del componente.
+- Si el usuario pega la **URL home** del sitio: se continúa con lo registrado en **SESSIONS_LOG** (último componente activo) y/o se usa este **LAUNCHER** para elegir componente.
 
 Este **LAUNCHER** se usa SOLO si:
-- el usuario pide explícitamente cambiar de proyecto / crear uno nuevo / trabajar temporal, o
+- el usuario pide explícitamente cambiar de componente / crear uno nuevo / trabajar temporal, o
 - el estado no está claro y hay que “seleccionar” a mano.
 
 Links directos (sin rutas raras):
@@ -44,8 +44,16 @@ Links directos (sin rutas raras):
 
 ---
 
-## Proyecto Activo
-- [Biblia (Quelonio Pages) — Estado vivo](PROYECTO_BIBLIA.md)
+## Elegir componente
+- [Biblia (Base de Conocimiento)](PROYECTO_BIBLIA.md)
+- [Soporte (RAG)](archived/PROYECTO_RAG_APP.md)
+- [Sistema ACI](archived/PROYECTO_WEB_API.md)
+- Investigación (Web) (sin link; se activa por nivel)
+
+## Inicio de sesión (obligatorio)
+A) Componente (elegir de lista superior)
+B) Tarea (1 frase: ¿qué necesitas hacer?)
+C) Nivel (1/2/3: contexto de detalle)
 
 ## Boot por rol
 - [LAUNCHER_BUILD](LAUNCHER_BUILD.md) — Construcción/mantenimiento (build).
@@ -55,8 +63,6 @@ Links directos (sin rutas raras):
 
 ## Archivados (no activos)
 Referencia histórica:
-- [PROYECTO_WEB_API.md](archived/PROYECTO_WEB_API.md)
-- [PROYECTO_RAG_APP.md](archived/PROYECTO_RAG_APP.md)
 - [PROYECTO_LATAS.md](archived/PROYECTO_LATAS.md)
 
 ---

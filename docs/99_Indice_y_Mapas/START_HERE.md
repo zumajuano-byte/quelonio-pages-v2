@@ -30,16 +30,16 @@ Si NO pegó ninguno todavía: no hacer nada más. Solo pedir que lo pegue.
 - Regla: 1 tarea = 1 commit.
 - Entrega: bloques copy/paste + lista exacta de archivos tocados + mensajes de commit.
 
-## Selección de proyecto activo (SIN last_updated)
-Prohibido seleccionar proyecto por timestamps (`last_updated`).
-- Si el usuario pegó una URL directa a un PROYECTO_*.md: ese es el proyecto activo.
+## Selección de componente activo (SIN last_updated)
+Prohibido seleccionar componente por timestamps (`last_updated`).
+- Si el usuario pegó una URL directa a un PROYECTO_*.md: ese es el componente activo.
 - Si no está claro: abrir LAUNCHER y pedir elección explícita.
 
-## Proyectos activos (vivos)
-- Biblia (Pages): `docs/99_Indice_y_Mapas/PROYECTO_BIBLIA.md`
-- Web + API (MVP): `docs/99_Indice_y_Mapas/PROYECTO_WEB_API.md`
-- Asistente v1: `docs/99_Indice_y_Mapas/ASISTENTE_V1.md`
+## Componentes activos
+- Biblia (Base de Conocimiento): `docs/99_Indice_y_Mapas/PROYECTO_BIBLIA.md`
+- Soporte (RAG): `docs/99_Indice_y_Mapas/archived/PROYECTO_RAG_APP.md` (función del ACI; estado técnico)
+- Investigación (Web): (sin link; se activa por nivel)
+- Sistema ACI (reglas/infra/app/api si aplica): `docs/99_Indice_y_Mapas/archived/PROYECTO_WEB_API.md` (referencia técnica interna)
 
-## Archivados (no participan del arranque)
+## Componentes archivados (no participan del arranque)
 - Latas: `docs/99_Indice_y_Mapas/PROYECTO_LATAS.md`
-- RAG App: `docs/99_Indice_y_Mapas/PROYECTO_RAG_APP.md` (integrado al ACI; no es proyecto vivo)
