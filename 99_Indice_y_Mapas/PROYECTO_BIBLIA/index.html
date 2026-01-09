@@ -718,7 +718,7 @@
   <a href="#b-restos-contentreference" class="md-nav__link">
     <span class="md-ellipsis">
       
-        B) Restos “:contentReference[...]”
+        B) Restos “contentReference[...]”
       
     </span>
   </a>
@@ -977,7 +977,7 @@
   <a href="#b-restos-contentreference" class="md-nav__link">
     <span class="md-ellipsis">
       
-        B) Restos “:contentReference[...]”
+        B) Restos “contentReference[...]”
       
     </span>
   </a>
@@ -1066,7 +1066,6 @@ Regla: al cerrar una sesión de Biblia, <strong>se reemplaza este archivo comple
 - <a href="../START_HERE/">START_HERE</a>
 - <a href="../LAUNCHER/">LAUNCHER</a>
 - <a href="../SESSIONS_LOG/">SESSIONS_LOG (Regla de oro + histórico)</a>
-- <a href="../PROYECTO_WEB_API/">PROYECTO_WEB_API (Quelonio Brew OS)</a>
 - <a href="../ASISTENTE_KNOWLEDGE_MAP/">ASISTENTE — Knowledge Map</a>
 - <a href="../ASISTENTE_CONTRATOS/">ASISTENTE — Contratos de salida</a>
 - <a href="../ASISTENTE_DATA_CONTRACT/">ASISTENTE — Data Contract Brew OS</a></p>
@@ -1120,10 +1119,10 @@ Regla: al cerrar una sesión de Biblia, <strong>se reemplaza este archivo comple
    - <code>$utf8   = [System.Text.Encoding]::UTF8</code>
    - <code>foreach ($f in $files) { $content = Get-Content -LiteralPath $f -Raw; $fixed = $utf8.GetString($latin1.GetBytes($content)); Set-Content -LiteralPath $f -Value $fixed -Encoding utf8 }</code>
 3) Revalidar con <code>Select-String</code> y correr <code>python -m mkdocs build --strict</code>.</p>
-<h3 id="b-restos-contentreference">B) Restos “:contentReference[...]”<a class="headerlink" href="#b-restos-contentreference" title="Permanent link">&para;</a></h3>
+<h3 id="b-restos-contentreference">B) Restos “contentReference[...]”<a class="headerlink" href="#b-restos-contentreference" title="Permanent link">&para;</a></h3>
 <ul>
 <li>Detectar:</li>
-<li><code>Select-String -Path .\docs\**\*.md -Pattern ":contentReference" -AllMatches</code></li>
+<li><code>Select-String -Path .\docs\**\*.md -Pattern (":" + "contentReference") -AllMatches</code></li>
 <li>Limpiar: borrar esos tokens/líneas y re-correr <code>.\preflight.ps1</code>.</li>
 </ul>
 <h3 id="c-normalizacion-lf-windows">C) Normalización LF (Windows)<a class="headerlink" href="#c-normalizacion-lf-windows" title="Permanent link">&para;</a></h3>

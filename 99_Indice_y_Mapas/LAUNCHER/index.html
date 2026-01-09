@@ -667,6 +667,17 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#aci-dev-metodo-paso-a-paso-obligatorio" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ACI-DEV — Método paso a paso (obligatorio)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#method-lock" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -689,10 +700,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#proyectos-estado-vivo" class="md-nav__link">
+  <a href="#proyecto-activo" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Proyectos (estado vivo)
+        Proyecto Activo
       
     </span>
   </a>
@@ -700,41 +711,24 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#contrato-de-dependencia-biblia-como-source-of-truth-para-otros-proyectos" class="md-nav__link">
+  <a href="#boot-por-rol" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Contrato de dependencia — Biblia como “Source of Truth” para otros proyectos
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Contrato de dependencia — Biblia como “Source of Truth” para otros proyectos">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#b-latas-quelonio-brew" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        B) Latas (Quelonio Brew)
+        Boot por rol
       
     </span>
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
-  <a href="#regla-de-promocion-temporal-permanente" class="md-nav__link">
+      
+        <li class="md-nav__item">
+  <a href="#archivados-no-activos" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Regla de promoción (temporal → permanente)
+        Archivados (no activos)
       
     </span>
   </a>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
       
@@ -770,6 +764,15 @@
 
 
 <h1 id="launcher-selector-de-proyectos">LAUNCHER — Selector de proyectos<a class="headerlink" href="#launcher-selector-de-proyectos" title="Permanent link">&para;</a></h1>
+<h2 id="aci-dev-metodo-paso-a-paso-obligatorio">ACI-DEV — Método paso a paso (obligatorio)<a class="headerlink" href="#aci-dev-metodo-paso-a-paso-obligatorio" title="Permanent link">&para;</a></h2>
+<p>Regla: en modo desarrollador se trabaja por acciones atómicas.
+1) Se ejecuta 1 comando o 1 cambio.
+2) Se verifica “OK” (build/test/validación).
+3) Recién entonces se avanza al siguiente paso.</p>
+<p>Si algo falla:
+- detenerse
+- reportar el error literal
+- proponer una única corrección y reintentar</p>
 <h2 id="method-lock">METHOD LOCK<a class="headerlink" href="#method-lock" title="Permanent link">&para;</a></h2>
 <p>Para GitHub Pages de este repo: <strong>publicar = <code>python -m mkdocs gh-deploy --force</code> (canónico)</strong>.<br />
 No mezclar con otros métodos.</p>
@@ -797,36 +800,21 @@ No publica. La publicación real la hace <code>gh-deploy</code>.</p>
 <li>Antes de crear archivos nuevos: revisar <a href="../ESTRUCTURA_REPO/">ESTRUCTURA_REPO</a></li>
 </ul>
 <hr />
-<h2 id="proyectos-estado-vivo">Proyectos (estado vivo)<a class="headerlink" href="#proyectos-estado-vivo" title="Permanent link">&para;</a></h2>
-<p>Estos archivos son el <strong>único lugar</strong> donde se mantiene el <code>CURRENT_STATE</code> de cada proyecto, para que al cerrar y volver solo tengas que copiar/pegar <strong>un archivo</strong>.</p>
+<h2 id="proyecto-activo">Proyecto Activo<a class="headerlink" href="#proyecto-activo" title="Permanent link">&para;</a></h2>
 <ul>
 <li><a href="../PROYECTO_BIBLIA/">Biblia (Quelonio Pages) — Estado vivo</a></li>
-<li>Proyecto — RAG App: <a href="../PROYECTO_RAG_APP/">PROYECTO_RAG_APP</a></li>
-<li><a href="../PROYECTO_LATAS/">Latas (Quelonio Brew) — Estado vivo</a></li>
 </ul>
-<p>Regla operativa:
-- <strong>Al cerrar trabajo de un proyecto:</strong> se actualiza <em>solo</em> su <code>PROYECTO_*.md</code>.
-- <strong>SESSIONS_LOG:</strong> queda como histórico/bitácora (se edita solo si querés registrar hitos o cambiar reglas globales).</p>
+<h2 id="boot-por-rol">Boot por rol<a class="headerlink" href="#boot-por-rol" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="../LAUNCHER_BUILD/">LAUNCHER_BUILD</a> — Construcción/mantenimiento (build).</li>
+<li><a href="../../LAUNCHER_OPS/">LAUNCHER_OPS</a> — Operación (ops).</li>
+</ul>
 <hr />
-<h2 id="contrato-de-dependencia-biblia-como-source-of-truth-para-otros-proyectos">Contrato de dependencia — Biblia como “Source of Truth” para otros proyectos<a class="headerlink" href="#contrato-de-dependencia-biblia-como-source-of-truth-para-otros-proyectos" title="Permanent link">&para;</a></h2>
-<p>La <strong>Biblia (Quelonio Pages)</strong> es el sistema de referencia vigente para:</p>
-<ul>
-<li><strong>RAG App</strong></li>
-<li>Proyecto — RAG App: <a href="../PROYECTO_RAG_APP/">PROYECTO_RAG_APP</a></li>
-</ul>
-<h3 id="b-latas-quelonio-brew">B) Latas (Quelonio Brew)<a class="headerlink" href="#b-latas-quelonio-brew" title="Permanent link">&para;</a></h3>
-<ul>
-<li>Consume definiciones canónicas de: <strong>branding/comms, mínimos de etiqueta, claims permitidos, estructura de línea</strong>.</li>
-<li>La creatividad (frases por lote) vive en “Latas”, pero los <strong>criterios</strong> viven en Pages.</li>
-</ul>
-<h3 id="regla-de-promocion-temporal-permanente">Regla de promoción (temporal → permanente)<a class="headerlink" href="#regla-de-promocion-temporal-permanente" title="Permanent link">&para;</a></h3>
-<p>Si en Web+API o Latas aparece una decisión que debería quedar como verdad vigente:
-1) Se documenta en el proyecto de trabajo (Web+API o Latas).
-2) Se promueve a Pages (98_Verdad_Negocio o módulo técnico) con:
-   - Qué queda vigente
-   - Dónde quedó escrito (ruta/link)
-   - Fuente (medición, planilla, cálculo, etc.)
-   - Impacto/riesgo</p>
+<h2 id="archivados-no-activos">Archivados (no activos)<a class="headerlink" href="#archivados-no-activos" title="Permanent link">&para;</a></h2>
+<p>Referencia histórica:
+- <a href="../archived/PROYECTO_WEB_API/">PROYECTO_WEB_API.md</a>
+- <a href="../archived/PROYECTO_RAG_APP/">PROYECTO_RAG_APP.md</a>
+- <a href="../archived/PROYECTO_LATAS/">PROYECTO_LATAS.md</a></p>
 <hr />
 <h2 id="check-de-release-minimo">Check de release (mínimo)<a class="headerlink" href="#check-de-release-minimo" title="Permanent link">&para;</a></h2>
 <p>Cuando hay cambios que deban verse en la web:</p>

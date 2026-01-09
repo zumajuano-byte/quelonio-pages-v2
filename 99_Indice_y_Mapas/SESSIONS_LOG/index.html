@@ -703,6 +703,28 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#2026-01-08-consolidacion-final-schema-excel-first-single-active-project" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2026-01-08 — Consolidación final: Schema Excel-first + Single Active Project
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2026-01-08-avances-excel-first-sops-completos-excel_pack_v1-enlazado" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2026-01-08 — Avances Excel-first: SOPs completos + EXCEL_PACK_V1 enlazado
+      
+    </span>
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -834,6 +856,28 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#2026-01-08-consolidacion-final-schema-excel-first-single-active-project" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2026-01-08 — Consolidación final: Schema Excel-first + Single Active Project
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2026-01-08-avances-excel-first-sops-completos-excel_pack_v1-enlazado" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2026-01-08 — Avances Excel-first: SOPs completos + EXCEL_PACK_V1 enlazado
+      
+    </span>
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -912,6 +956,81 @@ Si preferís “cero fricción”, logueá dentro de cada <code>PROYECTO_*.md</c
 <li><code>lib/prisma.ts</code></li>
 <li>endpoint DB ping / primer modelo</li>
 <li>Nota: warning Next por lockfile extra en <code>C:\Users\flore\package-lock.json</code> (no bloqueante)</li>
+</ul>
+<h3 id="2026-01-08-consolidacion-final-schema-excel-first-single-active-project">2026-01-08 — Consolidación final: Schema Excel-first + Single Active Project<a class="headerlink" href="#2026-01-08-consolidacion-final-schema-excel-first-single-active-project" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Hecho: Excel-first schema completado</strong> (docs/12_Datasets_Materias_Primas/_schema/):</li>
+<li>DATA_CONTRACT_EXCEL_V1.md (estructuras multi-libro + columnas mínimas)</li>
+<li>ID_CONVENTION_V1.md (ULID + codes correlativos; modo Excel-first)</li>
+<li>CODE_COUNTERS_V1.md (generación atómica de codes en backend)</li>
+<li>EXCEL_WORKFLOW_OVERVIEW.md (resumen claro Bible vs Excel vs App)</li>
+<li>_INDEX.md (punto de entrada canónico)</li>
+<li><strong>Hecho: Single active project</strong> (solo PROYECTO_BIBLIA.md activo):</li>
+<li>PROYECTO_WEB_API.md / PROYECTO_RAG_APP.md / PROYECTO_LATAS.md archivados con banner "ARCHIVED"</li>
+<li>LAUNCHER.md simplificado + links directos a archived/</li>
+<li>Links rotos en archived/ corregidos para mkdocs --strict</li>
+<li><strong>Hecho: Enlaces cross</strong> (LAUNCHER_BUILD.md enlaza _schema/_INDEX.md)</li>
+<li><strong>Estado final:</strong> mkdocs build --strict OK (sin warnings)</li>
+<li><strong>Referencias commits (tanda completa):</strong></li>
+<li>1581189 Implement Market Snapshots v1...</li>
+<li>101fb65 Improve LAUNCHER_OPS with data usage protocol...</li>
+<li>b9dc353 Add 3 market yeast items...</li>
+<li>b1747a6 Add 4 Argentina-first hop items...</li>
+<li>3f6e3fa Align 3 generic items to standard incidence v1...</li>
+<li>16c1a5d Align 3 generic items...</li>
+<li>fd34765 Add EXAMPLE__snapshot_v1.md...</li>
+<li>fb6d44c docs(datasets): link example snapshot...</li>
+<li>163ecbc docs(inventory): regenerate ESTRUCTURA_REPO</li>
+<li>7a433e2 docs(datasets): add AR market snapshot pilsen 25kg...</li>
+<li>6f04d71 docs(schema): add Excel data contract v1...</li>
+<li>67ce29d docs(schema): define ID convention v1...</li>
+<li>0319c5e docs(schema): clarify Excel-first ID generation...</li>
+<li>43b3a0b docs(schema): define code counters v1...</li>
+<li>31f5f21 docs(schema): add Excel workflow overview...</li>
+<li>86af448 docs(schema): add _schema index entrypoint</li>
+<li>5218511 docs(launcher): link Excel schema index entrypoint</li>
+<li>56806df docs: consolidate single active project...</li>
+<li>ff90106 docs: fix archived links to pass mkdocs --strict</li>
+</ul>
+<h3 id="2026-01-08-avances-excel-first-sops-completos-excel_pack_v1-enlazado">2026-01-08 — Avances Excel-first: SOPs completos + EXCEL_PACK_V1 enlazado<a class="headerlink" href="#2026-01-08-avances-excel-first-sops-completos-excel_pack_v1-enlazado" title="Permanent link">&para;</a></h3>
+<ul>
+<li>SOP 1–7 creados + SOP/_INDEX enlazado</li>
+<li>EXCEL_PACK_V1 creado + link en _schema/_INDEX</li>
+<li>LAUNCHER_OPS enlaza SOP index y schema index</li>
+<li>mkdocs build --strict OK</li>
+<li>Referencias commits:</li>
+<li>c5b1006 docs(schema): link Excel Pack v1 from schema index</li>
+<li>03dc365 docs(schema): define Excel Pack v1 (workbooks + SOP mapping)</li>
+<li>e815f18 docs(ops): link SOP index entrypoint</li>
+<li>d7465e4 docs(sop): add SOP index entrypoint (1-7)</li>
+<li>66bee72 docs(sop): add SOP 7 producto terminado y envasado (Excel-first)</li>
+<li>788313b docs(sop): add SOP 6 venta y cobro (Excel-first)</li>
+<li>e0838b3 docs(sop): add SOP 5 consumo y movimientos de stock (Excel-first)</li>
+<li>4ccf5a4 docs(sop): add SOP 4 compras y alta de stock (Excel-first)</li>
+<li>de3fe2d docs(sop): add SOP 3 crear lote (Excel-first)</li>
+<li>cf6edc7 docs(sop): add SOP 2 alta de receta (Excel-first)</li>
+<li>8ba6910 docs(sop): add SOP 1 alta de item (Excel-first)</li>
+<li>7aca5e8 docs(log): add master checkpoint 2026-01-08 (schema + consolidation)</li>
+<li>ff90106 docs: fix archived links to pass mkdocs --strict</li>
+<li>56806df docs: consolidate single active project and archive non-core projects</li>
+<li>5218511 docs(launcher): link Excel schema index entrypoint</li>
+<li>86af448 docs(schema): add _schema index entrypoint</li>
+<li>31f5f21 docs(schema): add Excel workflow overview (Bible vs Excel vs App)</li>
+<li>43b3a0b docs(schema): define code counters v1 (correlative codes)</li>
+<li>0319c5e docs(schema): clarify Excel-first ID generation (codes now, ULIDs on ingest)</li>
+<li>67ce29d docs(schema): define ID convention v1 (ULID + human codes)</li>
+<li>6f04d71 docs(schema): add Excel data contract v1 (multi-workbook)</li>
+<li>7a433e2 docs(datasets): add AR market snapshot pilsen 25kg (2026-01-08)</li>
+<li>163ecbc docs(inventory): regenerate ESTRUCTURA_REPO</li>
+<li>fb6d44c docs(datasets): link example snapshot in market_snapshots README</li>
+<li>fd34765 Add EXAMPLE__snapshot_v1.md: didactic example of market snapshot v1 with placeholders, showing both range and fallback modes</li>
+<li>1581189 Implement Market Snapshots v1 without hard prices: add MARKET_SNAPSHOT_V1.md, update TEMPLATE_MARKET_SNAPSHOT.md with optional fields, add market_snapshots/README.md, and update index with links</li>
+<li>10c6774 Add KIT_AUDITORIA_DATASETS.md: quick audit kit for datasets module with checklist, PowerShell commands, and approval criteria</li>
+<li>101fb65 Improve LAUNCHER_OPS with data usage protocol (Excel &gt; Bible &gt; Assumptions) + 2 concrete examples</li>
+<li>b9dc353 Add 3 market yeast items (US-05, S-04, Lager Dry) v1 with shared harvest minimos checklist, and update index with links</li>
+<li>b1747a6 Add 4 Argentina-first hop items (Cascade, Columbus/CTZ, Hallertau Mittelfrüh, Mosaic INT) v1 without prices, and update index with links</li>
+<li>3f6e3fa Align 3 generic items to standard incidence v1...</li>
+<li>16c1a5d Align 3 generic items...</li>
 </ul>
 
 
