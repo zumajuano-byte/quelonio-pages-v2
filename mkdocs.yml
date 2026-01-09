@@ -7,10 +7,13 @@ edit_uri: edit/main/docs/
 
 # Reduce ruido (backups, temporales) en el build y en el “cerebro operativo”
 exclude_docs: |
-  **/*.bak*
-  **/*.bak2
-  **/*.tmp
-  **/~*
+  **/*.bak.md
+  **/*.tmp.md
+  **/*.draft.md
+  **/*.PRIVATE.md
+
+not_in_nav: |
+  *
 
 theme:
   name: material
