@@ -1,60 +1,45 @@
-# START_HERE — Quelonio OS Boot (Determinístico)
+# START_HERE — OS Boot (ACI)
 
-Este archivo define **cómo arrancar una sesión** sin ambigüedad, para evitar inconsistencias entre chats.
+Este repo/documentación es la base operativa del **ACI (Asesor Cervecero Inteligente)**.
 
-## Regla de arranque (determinística)
+## Regla crítica (cero supuestos)
+Antes de responder o proponer cualquier cosa, se hace SIEMPRE este orden:
+1) Leer este archivo (START_HERE).
+2) Leer LAUNCHER.
+3) Verificar ESTRUCTURA_REPO (inventario) antes de nombrar/crear/editar rutas.
 
-**Entrada mínima recomendada (proyecto activo):**
-volvemos
-URL: https://zumajuano-byte.github.io/quelonio-pages-v2/
-- Inventario del repo (árbol canónico): [ESTRUCTURA_REPO](ESTRUCTURA_REPO.md)
+## Entrada mínima (para que el inicio funcione siempre)
+Cuando el usuario diga “volvemos”, el arranque correcto es:
+- URL canónica abierta (home): `https://zumajuano-byte.github.io/quelonio-pages-v2/`
+- Luego el usuario pega 1 de estos dos prompts (uno solo):
+  - ACI_OPS_PROMPT (modo operacional)
+  - ACI_DEV_PROMPT (modo desarrollador / correcciones)
+Si NO pegó ninguno todavía: no hacer nada más. Solo pedir que lo pegue.
 
+## Modos
+### ACI-OPS (operacional)
+- Rol: consultor.
+- Regla: NO proponer cambios al repo.
+- Si se detecta un problema: decir
+  “Para corregir esto, pasemos a ACI-DEV. Pegame el ACI_DEV_PROMPT.”
+  y pedir el error exacto (texto literal) si aplica.
 
+### ACI-DEV (desarrollador)
+- Rol: corregir arranque / menú / contratos mínimos.
+- Regla: cambios siempre vía OpenCode.
+- Regla: 1 tarea = 1 commit.
+- Entrega: bloques copy/paste + lista exacta de archivos tocados + mensajes de commit.
 
-Con eso, el asistente debe:
-1) Abrir este `START_HERE`.
-2) Resolver **proyecto activo** usando la regla “Selección automática” (abajo).
-3) Abrir el archivo del proyecto elegido (`PROYECTO_*.md`) y operar **solo desde su CURRENT_STATE**.
+## Selección de proyecto activo (SIN last_updated)
+Prohibido seleccionar proyecto por timestamps (`last_updated`).
+- Si el usuario pegó una URL directa a un PROYECTO_*.md: ese es el proyecto activo.
+- Si no está claro: abrir LAUNCHER y pedir elección explícita.
 
-## Selección automática del proyecto activo
+## Proyectos activos (vivos)
+- Biblia (Pages): `docs/99_Indice_y_Mapas/PROYECTO_BIBLIA.md`
+- Web + API (MVP): `docs/99_Indice_y_Mapas/PROYECTO_WEB_API.md`
+- Asistente v1: `docs/99_Indice_y_Mapas/ASISTENTE_V1.md`
 
-Si el usuario no especifica proyecto, el proyecto activo se determina así:
-
-11) Abrir este archivo:
-   - `99_Indice_y_Mapas/PROYECTO_BIBLIA.md`
-
-
-2) Elegir como “activo” el que tenga **`last_updated` más reciente** (formato `YYYY-MM-DD`).
-3) Si falta `last_updated` o hay empate, usar **Biblia** como default.
-
-## Cambio explícito de proyecto
-
-Para evitar cualquier duda, el usuario puede arrancar así:
-
-- **Biblia**
-volvemos
-Proyecto — Biblia: [PROYECTO_BIBLIA](PROYECTO_BIBLIA.md)
-
-
-
-
-## Protocolo de cierre (para no “manosear” muchos archivos)
-
-Al cerrar una sesión de un proyecto:
-1) Actualizar **solo** el archivo `PROYECTO_*.md` correspondiente:
-   - `last_updated`
-   - `CURRENT_STATE` (qué se hizo + próximo paso + hilos abiertos)
-   - (Opcional) agregar una entrada breve en “LOG del proyecto”
-2) No tocar `SESSIONS_LOG.md` salvo cambios de metodología / reglas globales.
-
-## Si algo no cierra
-
-Abrir `99_Indice_y_Mapas/LAUNCHER.md` para seleccionar proyecto manualmente o revisar reglas de operación.
-
-## Boot operativo (terceros)
-
-Para acceso directo a rutas operativas sin entrar en lógica de proyectos: [LAUNCHER_OPS](../LAUNCHER_OPS.md)
-
-## Boot operativo BUILD
-
-Para acceso directo a tareas de construcción y mantenimiento: [LAUNCHER_BUILD](LAUNCHER_BUILD.md)
+## Archivados (no participan del arranque)
+- Latas: `docs/99_Indice_y_Mapas/PROYECTO_LATAS.md`
+- RAG App: `docs/99_Indice_y_Mapas/PROYECTO_RAG_APP.md` (integrado al ACI; no es proyecto vivo)
