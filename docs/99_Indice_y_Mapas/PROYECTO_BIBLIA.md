@@ -70,9 +70,9 @@ Notas:
    - `foreach ($f in $files) { $content = Get-Content -LiteralPath $f -Raw; $fixed = $utf8.GetString($latin1.GetBytes($content)); Set-Content -LiteralPath $f -Value $fixed -Encoding utf8 }`
 3) Revalidar con `Select-String` y correr `python -m mkdocs build --strict`.
 
-### B) Restos “:contentReference[...]”
+### B) Restos “contentReference[...]”
 - Detectar:
-  - `Select-String -Path .\docs\**\*.md -Pattern ":contentReference" -AllMatches`
+  - `Select-String -Path .\docs\**\*.md -Pattern (":" + "contentReference") -AllMatches`
 - Limpiar: borrar esos tokens/líneas y re-correr `.\preflight.ps1`.
 
 ### C) Normalización LF (Windows)
