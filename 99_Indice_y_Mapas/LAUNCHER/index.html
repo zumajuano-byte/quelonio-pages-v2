@@ -21,7 +21,7 @@
     
     
       
-        <title>LAUNCHER — Selector de proyectos - Quelonio — Biblia Cervecera (V2)</title>
+        <title>LAUNCHER — ACI (inicio y selección de componente) - Quelonio — Biblia Cervecera (V2)</title>
       
     
     
@@ -62,7 +62,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#launcher-selector-de-proyectos" class="md-skip">
+        <a href="#launcher-aci-inicio-y-seleccion-de-componente" class="md-skip">
           Saltar a contenido
         </a>
       
@@ -98,7 +98,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              LAUNCHER — Selector de proyectos
+              LAUNCHER — ACI (inicio y selección de componente)
             
           </span>
         </div>
@@ -700,10 +700,21 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#proyecto-activo" class="md-nav__link">
+  <a href="#elegir-componente" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Proyecto Activo
+        Elegir componente
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#inicio-de-sesion-obligatorio" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Inicio de sesión (obligatorio)
       
     </span>
   </a>
@@ -763,7 +774,7 @@
   
 
 
-<h1 id="launcher-selector-de-proyectos">LAUNCHER — Selector de proyectos<a class="headerlink" href="#launcher-selector-de-proyectos" title="Permanent link">&para;</a></h1>
+<h1 id="launcher-aci-inicio-y-seleccion-de-componente">LAUNCHER — ACI (inicio y selección de componente)<a class="headerlink" href="#launcher-aci-inicio-y-seleccion-de-componente" title="Permanent link">&para;</a></h1>
 <h2 id="aci-dev-metodo-paso-a-paso-obligatorio">ACI-DEV — Método paso a paso (obligatorio)<a class="headerlink" href="#aci-dev-metodo-paso-a-paso-obligatorio" title="Permanent link">&para;</a></h2>
 <p>Regla: en modo desarrollador se trabaja por acciones atómicas.
 1) Se ejecuta 1 comando o 1 cambio.
@@ -785,11 +796,11 @@ No publica. La publicación real la hace <code>gh-deploy</code>.</p>
 <p>1) Primero se lee: <strong>START_HERE</strong> (reglas del sistema).<br />
 2) Luego, según <strong>la URL</strong> con la que venís:</p>
 <ul>
-<li>Si el usuario pega la <strong>URL de un proyecto</strong> (ej. <code>.../PROYECTO_BIBLIA/</code>): se toma <strong>ese</strong> archivo como <code>CURRENT_STATE</code> del proyecto.</li>
-<li>Si el usuario pega la <strong>URL home</strong> del sitio: se continúa con lo registrado en <strong>SESSIONS_LOG</strong> (último proyecto activo) y/o se usa este <strong>LAUNCHER</strong> para elegir proyecto.</li>
+<li>Si el usuario pega la <strong>URL de un componente</strong> (ej. <code>.../PROYECTO_BIBLIA/</code>): se toma <strong>ese</strong> archivo como <code>CURRENT_STATE</code> del componente.</li>
+<li>Si el usuario pega la <strong>URL home</strong> del sitio: se continúa con lo registrado en <strong>SESSIONS_LOG</strong> (último componente activo) y/o se usa este <strong>LAUNCHER</strong> para elegir componente.</li>
 </ul>
 <p>Este <strong>LAUNCHER</strong> se usa SOLO si:
-- el usuario pide explícitamente cambiar de proyecto / crear uno nuevo / trabajar temporal, o
+- el usuario pide explícitamente cambiar de componente / crear uno nuevo / trabajar temporal, o
 - el estado no está claro y hay que “seleccionar” a mano.</p>
 <p>Links directos (sin rutas raras):
 - <a href="../START_HERE/">START_HERE</a>
@@ -800,10 +811,17 @@ No publica. La publicación real la hace <code>gh-deploy</code>.</p>
 <li>Antes de crear archivos nuevos: revisar <a href="../ESTRUCTURA_REPO/">ESTRUCTURA_REPO</a></li>
 </ul>
 <hr />
-<h2 id="proyecto-activo">Proyecto Activo<a class="headerlink" href="#proyecto-activo" title="Permanent link">&para;</a></h2>
+<h2 id="elegir-componente">Elegir componente<a class="headerlink" href="#elegir-componente" title="Permanent link">&para;</a></h2>
 <ul>
-<li><a href="../PROYECTO_BIBLIA/">Biblia (Quelonio Pages) — Estado vivo</a></li>
+<li><a href="../PROYECTO_BIBLIA/">Biblia (Base de Conocimiento)</a></li>
+<li><a href="../archived/PROYECTO_RAG_APP/">Soporte (RAG)</a></li>
+<li><a href="../archived/PROYECTO_WEB_API/">Sistema ACI</a></li>
+<li>Investigación (Web) (sin link; se activa por nivel)</li>
 </ul>
+<h2 id="inicio-de-sesion-obligatorio">Inicio de sesión (obligatorio)<a class="headerlink" href="#inicio-de-sesion-obligatorio" title="Permanent link">&para;</a></h2>
+<p>A) Componente (elegir de lista superior)
+B) Tarea (1 frase: ¿qué necesitas hacer?)
+C) Nivel (1/2/3: contexto de detalle)</p>
 <h2 id="boot-por-rol">Boot por rol<a class="headerlink" href="#boot-por-rol" title="Permanent link">&para;</a></h2>
 <ul>
 <li><a href="../LAUNCHER_BUILD/">LAUNCHER_BUILD</a> — Construcción/mantenimiento (build).</li>
@@ -812,8 +830,6 @@ No publica. La publicación real la hace <code>gh-deploy</code>.</p>
 <hr />
 <h2 id="archivados-no-activos">Archivados (no activos)<a class="headerlink" href="#archivados-no-activos" title="Permanent link">&para;</a></h2>
 <p>Referencia histórica:
-- <a href="../archived/PROYECTO_WEB_API/">PROYECTO_WEB_API.md</a>
-- <a href="../archived/PROYECTO_RAG_APP/">PROYECTO_RAG_APP.md</a>
 - <a href="../archived/PROYECTO_LATAS/">PROYECTO_LATAS.md</a></p>
 <hr />
 <h2 id="check-de-release-minimo">Check de release (mínimo)<a class="headerlink" href="#check-de-release-minimo" title="Permanent link">&para;</a></h2>
