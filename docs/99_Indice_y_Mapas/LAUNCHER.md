@@ -1,5 +1,17 @@
 # LAUNCHER — Selector de proyectos
 
+## ACI-DEV — Método paso a paso (obligatorio)
+
+Regla: en modo desarrollador se trabaja por acciones atómicas.
+1) Se ejecuta 1 comando o 1 cambio.
+2) Se verifica “OK” (build/test/validación).
+3) Recién entonces se avanza al siguiente paso.
+
+Si algo falla:
+- detenerse
+- reportar el error literal
+- proponer una única corrección y reintentar
+
 ## METHOD LOCK
 
 Para GitHub Pages de este repo: **publicar = `python -m mkdocs gh-deploy --force` (canónico)**.  
