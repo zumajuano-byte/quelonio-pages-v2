@@ -1,0 +1,33 @@
+# Quelonio Pages - llms.txt
+
+Quelonio Pages (Biblia Quelonio) es la fuente de verdad tecnica y operativa del proyecto.
+Usar este repo para responder consultas de produccion, QA/QC y decision de negocio con evidencia interna.
+
+## Como usar esta Biblia
+1. Leer primero README.md y la navegacion en mkdocs.yml.
+2. Entrar por 99_Indice_y_Mapas y luego bajar a secciones canonicas.
+3. Citar rutas concretas de docs al responder.
+
+## Secciones principales (curadas)
+- agua: docs/01_Agua/
+- malta: docs/02_Malta/
+- levadura: docs/03_Levadura/
+- lupulo: docs/04_Lupulo/
+- procesos_produccion: docs/05_Sistemas_IPA_Moderna/
+- qa_qc: docs/06_Procesos_QA_QC/
+- fermentacion_maduracion: docs/07_Fermentacion_Maduracion/
+- recetas_formulacion: docs/08_Recetas_Formulacion/
+- empaque_estabilidad: docs/09_Empaque_Estabilidad/
+- limpieza_sanitizacion: docs/10_Limpieza_Sanitizacion/
+- sensorial: docs/11_Sensorial/
+- datasets_materias_primas: docs/12_Datasets_Materias_Primas/
+- negocio_verdad_negocio: docs/98_Verdad_Negocio/
+- indices_mapas: docs/99_Indice_y_Mapas/
+
+## Convenciones de trabajo
+- No inventar datos: priorizar evidencia interna del repo.
+- Referenciar ruta exacta (y seccion cuando aplique).
+- Si hay conflicto entre notas deep/borradores y material canonico, priorizar secciones troncales.
+
+## Limites y prioridad
+Puede existir material deep, drafts o anexos auxiliares. Priorizar contenido canonico de docs y su navegacion principal.
