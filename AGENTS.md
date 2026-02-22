@@ -36,6 +36,11 @@ Este repo mantiene la Biblia Quelonio como fuente de verdad editorial y operativ
 .\preflight_repo.ps1
 ```
 
+### Bootstrap agente (preflight + llms)
+```powershell
+.\agent_bootstrap.ps1
+```
+
 ### MkDocs serve
 ```powershell
 mkdocs serve
