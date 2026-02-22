@@ -14,6 +14,19 @@ QA_REPORT.md
 suspects_utf8.txt
 .env
 
+# python caches/tests
+tools/__pycache__/
+**/__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# runtime/local artifacts
+data/tmp/
+artifacts/
+session-*.md
+*.log
+
 # --- OpenCode (local) ---
 .opencode/
 opencode.json

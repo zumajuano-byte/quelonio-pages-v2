@@ -8,6 +8,7 @@ Este repo mantiene la Biblia Quelonio como fuente de verdad editorial y operativ
 - No romper enlaces internos ni navegacion (`mkdocs.yml`).
 - No duplicar contenido; preferir consolidar y enlazar.
 - Respetar resultados y criterios de auditorias existentes.
+- No commitear artifacts ni data temporal local.
 - Hacer cambios minimos, deterministas y offline.
 
 ## Metodo PASO (resumen)
